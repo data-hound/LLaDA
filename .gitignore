@@ -1,0 +1,4 @@
+./run_sbatch_preds_tdunn.sh
+./run_sbatch_preds_5000_ada.sh
+./run/sbatch_preds_a6000.sh
+./slurm_logs/*
