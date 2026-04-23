@@ -139,8 +139,9 @@ def generate_step_visualization(current_step: int, current_tokens: List[str],
 
 def main(target_step: int = 64):
     """Main function supporting target step specification"""
-    file_path = "sample_process.txt"
-    final_step = 64
+    # file_path = "sample_process.txt"
+    file_path = "sudoku_sample_process.txt"
+    final_step = 127 #64
     
     history = parse_generation_history(file_path)
     if target_step not in history:
@@ -153,7 +154,8 @@ def main(target_step: int = 64):
         target_step, current_tokens, token_steps, final_step
     )
     
-    example_steps = [0, 16, 32, 48, 64]
+    # example_steps = [0, 16, 32, 48, 64]
+    example_steps = [0, 16, 32, 48, 64, 96]
     example_colors = [generate_background_color(s, final_step) for s in example_steps]
     legend_html = ''.join(
         f'<div style="background-color: {color}; color: black;">Step {s}</div>'
@@ -198,5 +200,7 @@ def main(target_step: int = 64):
 </html>""")
 
 if __name__ == "__main__":
-    for step in range(1, 65):
+    # for step in range(1, 65):
+    #     main(target_step=step)
+    for step in range(1, 129):
         main(target_step=step)

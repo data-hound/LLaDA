@@ -1,0 +1,341 @@
+<html>
+<head>
+    <title>Step 22 Visualization</title>
+    <style>
+        body { 
+            padding: 40px;
+            background: #f8fafc;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .legend {
+            display: flex;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .legend div {
+            padding: 10px;
+            border-radius: 5px;
+            color: white;
+            min-width: 80px;
+            text-align: center;
+        }
+        .token:hover {
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <div style="max-width: 1000px; margin: auto;">
+        <div>
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: #b0cae0">,</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: #7ea7c7">0</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: #7ea7c7">0</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: #9fbed7">,</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: #8fb3cf">,</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: #8fb3cf">,</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: #7ea7c7">0</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: #8fb3cf">6</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: #8fb3cf">,</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: #b0cae0">,</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: #8fb3cf">9</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: #9fbed7">,</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: #7ea7c7">0</span>
+            </div>
+        
+
+            <div style="display: inline-block; border: none !important; margin: 0 !important; padding: 0 !important;">
+                <span style="padding: 6px 8px; margin: 2px; border-radius: 6px; display: inline-block; font-weight: 600; font-size: 16px; font-family: 'Segoe UI', sans-serif; transition: all 0.2s ease; width: 120px; min-width: 120px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; box-sizing: border-box; vertical-align: middle; border: 0 !important; outline: 0 !important; box-shadow: none !important; position: relative; z-index: 1; color: transparent; background: #f8fafc; text-shadow: none">&#8203;</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

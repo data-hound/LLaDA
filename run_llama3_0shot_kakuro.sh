@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+# run_llama3_0shot.sh — Llama-3-8B-Instruct, zero-shot, 20k per difficulty.
+#
+# Overridable env vars:
+#   MODEL          (default: meta-llama/Meta-Llama-3-8B-Instruct)
+#   DEVICE         (default: cuda)
+#   BATCH_SIZE     (default: 32)
+#   N_SAMPLES      (default: 20000)
+#   MAX_NEW_TOKENS (default: 512)
+#   OUTPUT_DIR     (default: results/llama3_0shot)
+
+set -euo pipefail
+
+MODEL="${MODEL:-meta-llama/Meta-Llama-3-8B-Instruct}"
+# MODEL="${MODEL:-unsloth/Llama-3.2-1B-Instruct}"
+DEVICE="${DEVICE:-cuda}"
+# BATCH_SIZE="${BATCH_SIZE:-128}"
+BATCH_SIZE="${BATCH_SIZE:-16}"
+N_SAMPLES="${N_SAMPLES:-10000}"
+# N_SAMPLES="${N_SAMPLES:-64}"
+MAX_NEW_TOKENS="${MAX_NEW_TOKENS:-512}"
+OUTPUT_DIR="${OUTPUT_DIR:-results_kakuro/llama3_0shot}"
+
+echo "=================================================="
+echo "  Llama-3-8B-Instruct — 0-shot Kakuro Eval"
+echo "=================================================="
+echo "  Model          : $MODEL"
+echo "  Device         : $DEVICE"
+echo "  Batch size     : $BATCH_SIZE"
+echo "  N samples      : $N_SAMPLES per difficulty"
+echo "  Max new tokens : $MAX_NEW_TOKENS"
+echo "  Output dir     : $OUTPUT_DIR"
+echo "=================================================="
+
+mkdir -p "$OUTPUT_DIR"
+
+python eval_kakuro_ar.py \
+    --model          "$MODEL" \
+    --device         "$DEVICE" \
+    --difficulty     medium \
+    --n-samples      "$N_SAMPLES" \
+    --batch-size     "$BATCH_SIZE" \
+    --max-new-tokens "$MAX_NEW_TOKENS" \
+    --few-shot       0 \
+    --output-dir     "$OUTPUT_DIR" \
+    --n-success-samples 5 \
+    --n-failure-samples 10 \
+    --seed           42         2>&1 | tee "$OUTPUT_DIR/run_${MODEL##*/}_output.log"
+
+echo ""
+echo "Done. Results saved to $OUTPUT_DIR/"

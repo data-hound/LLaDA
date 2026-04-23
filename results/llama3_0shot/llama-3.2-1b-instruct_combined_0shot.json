@@ -1,0 +1,32 @@
+{
+  "config": {
+    "difficulty": [
+      "medium"
+    ],
+    "n_samples": 10,
+    "no_streaming": false,
+    "seed": 42,
+    "model": "unsloth/Llama-3.2-1B-Instruct",
+    "device": "cuda",
+    "batch_size": 2,
+    "max_new_tokens": 512,
+    "few_shot": 0,
+    "output_dir": "results/llama3_0shot",
+    "n_success_samples": 5,
+    "n_failure_samples": 10
+  },
+  "model_tag": "llama-3.2-1b-instruct",
+  "shot_tag": "0shot",
+  "total_time_s": 26.2,
+  "results": {
+    "medium": {
+      "n_total": 10,
+      "n_parse_fail": 9,
+      "pct_parse_fail": 90.0,
+      "cell_acc": 0.0,
+      "board_acc": 0.0,
+      "row_acc": 0.0,
+      "col_acc": 0.0
+    }
+  }
+}

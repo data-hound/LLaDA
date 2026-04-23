@@ -1,0 +1,28 @@
+{
+  "config": {
+    "difficulty": [
+      "medium"
+    ],
+    "n_samples": 64,
+    "no_streaming": false,
+    "seed": 42,
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "device": "cuda",
+    "batch_size": 16,
+    "max_new_tokens": 512,
+    "few_shot": 0,
+    "output_dir": "results/llama3_0shot",
+    "n_success_samples": 5,
+    "n_failure_samples": 10
+  },
+  "difficulty": "medium",
+  "aggregate": {
+    "n_total": 64,
+    "n_parse_fail": 8,
+    "pct_parse_fail": 12.5,
+    "cell_acc": 0.05680159209553935,
+    "board_acc": 0.0,
+    "row_acc": 0.0,
+    "col_acc": 0.0
+  }
+}

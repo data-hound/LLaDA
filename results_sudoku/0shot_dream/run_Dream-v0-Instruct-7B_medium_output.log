@@ -1,0 +1,146 @@
+/hpc/group/tdunn/as1296/miniconda3/envs/diffusion_lang/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+[eval_sudoku] Loading model: Dream-org/Dream-v0-Instruct-7B
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 77.24it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+──────────────────────────────────────────────────────────────────────
+  Difficulty : MEDIUM    few-shot : 0
+──────────────────────────────────────────────────────────────────────
+  Loading dataset ...
+  [NineGrid] Loading from HuggingFace: beta3/GridCorpus_9M_Sudoku_Puzzles_Enriched (subset=gridcorpus, split=data, streaming=True)
+  Loaded 10,100 [medium] problems.
+  Found existing predictions at results_sudoku/0shot_dream/medium_0shot.per_sample.jsonl, loading for resume...
+  Loaded 4 completed samples
+  Test set (this run): 9,996 problems
+  Total after completion: 10,000 / 10000
+  [medium]:   0%|          | 0/2499 [00:00<?, ?it/s]
+  [medium] n=     4  parse_fail=    0 ( 0.0%)  cell=0.1812  board=0.0000  row=0.0833  col=0.0833
+  [medium]:   0%|          | 1/2499 [01:11<49:17:30, 71.04s/it]
+  [medium] n=     8  parse_fail=    0 ( 0.0%)  cell=0.1483  board=0.0000  row=0.0833  col=0.0556
+  [medium]:   0%|          | 2/2499 [02:22<49:19:14, 71.11s/it]
+  [medium] n=    12  parse_fail=    0 ( 0.0%)  cell=0.1982  board=0.0000  row=0.0833  col=0.0741
+  [medium]:   0%|          | 3/2499 [03:33<49:19:43, 71.15s/it]
+  [medium] n=    16  parse_fail=    0 ( 0.0%)  cell=0.1727  board=0.0000  row=0.0694  col=0.0556
+  [medium]:   0%|          | 4/2499 [04:44<49:20:07, 71.19s/it]
+  [medium] n=    20  parse_fail=    0 ( 0.0%)  cell=0.1838  board=0.0000  row=0.0833  col=0.0667
+  [medium]:   0%|          | 5/2499 [05:55<49:19:54, 71.21s/it]
+  [medium] n=    24  parse_fail=    0 ( 0.0%)  cell=0.1532  board=0.0000  row=0.0694  col=0.0556
+  [medium]:   0%|          | 6/2499 [07:07<49:20:09, 71.24s/it]
+  [medium] n=    28  parse_fail=    0 ( 0.0%)  cell=0.1660  board=0.0000  row=0.0833  col=0.0516
+  [medium]:   0%|          | 7/2499 [08:18<49:19:47, 71.26s/it]
+  [medium] n=    32  parse_fail=    0 ( 0.0%)  cell=0.1816  board=0.0000  row=0.0833  col=0.0556
+  [medium]:   0%|          | 8/2499 [09:29<49:18:48, 71.27s/it]
+  [medium] n=    36  parse_fail=    0 ( 0.0%)  cell=0.1718  board=0.0000  row=0.0772  col=0.0525
+  [medium]:   0%|          | 9/2499 [10:41<49:17:45, 71.27s/it]
+  [medium] n=    40  parse_fail=    0 ( 0.0%)  cell=0.1595  board=0.0000  row=0.0694  col=0.0472
+  [medium]:   0%|          | 10/2499 [11:52<49:16:48, 71.28s/it]
+  [medium] n=    44  parse_fail=    0 ( 0.0%)  cell=0.1505  board=0.0000  row=0.0657  col=0.0455
+  [medium]:   0%|          | 11/2499 [13:03<49:16:01, 71.29s/it]
+  [medium] n=    48  parse_fail=    0 ( 0.0%)  cell=0.1463  board=0.0000  row=0.0625  col=0.0440
+  [medium]:   0%|          | 12/2499 [14:14<49:14:55, 71.29s/it]
+  [medium] n=    52  parse_fail=    0 ( 0.0%)  cell=0.1430  board=0.0000  row=0.0620  col=0.0406
+  [medium]:   1%|          | 13/2499 [15:26<49:13:49, 71.29s/it]
+  [medium] n=    56  parse_fail=    0 ( 0.0%)  cell=0.1328  board=0.0000  row=0.0575  col=0.0377
+  [medium]:   1%|          | 14/2499 [16:37<49:12:21, 71.28s/it]
+  [medium] n=    60  parse_fail=    0 ( 0.0%)  cell=0.1239  board=0.0000  row=0.0537  col=0.0352
+  [medium]:   1%|          | 15/2499 [17:48<49:11:26, 71.29s/it]
+  [medium] n=    64  parse_fail=    0 ( 0.0%)  cell=0.1306  board=0.0000  row=0.0573  col=0.0330
+  [medium]:   1%|          | 16/2499 [19:00<49:10:39, 71.30s/it]
+  [medium] n=    68  parse_fail=    0 ( 0.0%)  cell=0.1229  board=0.0000  row=0.0539  col=0.0310
+  [medium]:   1%|          | 17/2499 [20:11<49:09:56, 71.31s/it]
+  [medium] n=    72  parse_fail=    0 ( 0.0%)  cell=0.1378  board=0.0000  row=0.0602  col=0.0324
+  [medium]:   1%|          | 18/2499 [21:22<49:08:49, 71.31s/it]
+  [medium] n=    76  parse_fail=    0 ( 0.0%)  cell=0.1412  board=0.0000  row=0.0599  col=0.0322
+  [medium]:   1%|          | 19/2499 [22:34<49:07:39, 71.31s/it]
+  [medium] n=    80  parse_fail=    0 ( 0.0%)  cell=0.1374  board=0.0000  row=0.0583  col=0.0306
+  [medium]:   1%|          | 20/2499 [23:45<49:06:06, 71.31s/it]
+  [medium] n=    84  parse_fail=    0 ( 0.0%)  cell=0.1480  board=0.0000  row=0.0635  col=0.0370
+  [medium]:   1%|          | 21/2499 [24:56<49:04:59, 71.31s/it]
+  [medium] n=    88  parse_fail=    0 ( 0.0%)  cell=0.1529  board=0.0000  row=0.0669  col=0.0391
+  [medium]:   1%|          | 22/2499 [26:08<49:03:46, 71.31s/it]
+  [medium] n=    92  parse_fail=    0 ( 0.0%)  cell=0.1606  board=0.0000  row=0.0700  col=0.0423
+  [medium]:   1%|          | 23/2499 [27:19<49:02:22, 71.30s/it]
+  [medium] n=    96  parse_fail=    0 ( 0.0%)  cell=0.1609  board=0.0000  row=0.0694  col=0.0428
+  [medium]:   1%|          | 24/2499 [28:30<49:00:55, 71.30s/it]
+  [medium] n=   100  parse_fail=    0 ( 0.0%)  cell=0.1591  board=0.0000  row=0.0689  col=0.0422
+  [medium]:   1%|          | 25/2499 [29:41<48:59:26, 71.29s/it]
+  [medium] n=   104  parse_fail=    0 ( 0.0%)  cell=0.1563  board=0.0000  row=0.0662  col=0.0406
+  [medium]:   1%|          | 26/2499 [30:53<48:58:12, 71.29s/it]
+  [medium] n=   108  parse_fail=    0 ( 0.0%)  cell=0.1570  board=0.0000  row=0.0658  col=0.0391
+  [medium]:   1%|          | 27/2499 [32:04<48:56:49, 71.28s/it]
+  [medium] n=   112  parse_fail=    0 ( 0.0%)  cell=0.1593  board=0.0000  row=0.0675  col=0.0387
+  [medium]:   1%|          | 28/2499 [33:15<48:55:36, 71.28s/it]
+  [medium] n=   116  parse_fail=    0 ( 0.0%)  cell=0.1538  board=0.0000  row=0.0651  col=0.0374
+  [medium]:   1%|          | 29/2499 [34:27<48:54:57, 71.29s/it]
+  [medium] n=   120  parse_fail=    0 ( 0.0%)  cell=0.1487  board=0.0000  row=0.0630  col=0.0361
+  [medium]:   1%|          | 30/2499 [35:38<48:53:55, 71.30s/it]
+  [medium] n=   124  parse_fail=    0 ( 0.0%)  cell=0.1506  board=0.0000  row=0.0618  col=0.0358
+  [medium]:   1%|          | 31/2499 [36:49<48:52:35, 71.29s/it]
+  [medium] n=   128  parse_fail=    0 ( 0.0%)  cell=0.1461  board=0.0000  row=0.0599  col=0.0347
+  [medium]:   1%|▏         | 32/2499 [38:00<48:51:30, 71.30s/it]
+  [medium] n=   132  parse_fail=    0 ( 0.0%)  cell=0.1417  board=0.0000  row=0.0581  col=0.0337
+  [medium]:   1%|▏         | 33/2499 [39:12<48:50:14, 71.30s/it]
+  [medium] n=   136  parse_fail=    0 ( 0.0%)  cell=0.1502  board=0.0000  row=0.0645  col=0.0368
+  [medium]:   1%|▏         | 34/2499 [40:23<48:49:23, 71.30s/it]
+  [medium] n=   140  parse_fail=    0 ( 0.0%)  cell=0.1577  board=0.0000  row=0.0706  col=0.0389
+  [medium]:   1%|▏         | 35/2499 [41:34<48:48:24, 71.31s/it]
+  [medium] n=   144  parse_fail=    0 ( 0.0%)  cell=0.1533  board=0.0000  row=0.0687  col=0.0378
+  [medium]:   1%|▏         | 36/2499 [42:46<48:47:38, 71.32s/it]
+  [medium] n=   148  parse_fail=    0 ( 0.0%)  cell=0.1533  board=0.0000  row=0.0683  col=0.0368
+  [medium]:   1%|▏         | 37/2499 [43:57<48:46:25, 71.32s/it]
+  [medium] n=   152  parse_fail=    0 ( 0.0%)  cell=0.1517  board=0.0000  row=0.0680  col=0.0358
+  [medium]:   2%|▏         | 38/2499 [45:08<48:45:10, 71.32s/it]
+  [medium] n=   156  parse_fail=    0 ( 0.0%)  cell=0.1560  board=0.0000  row=0.0719  col=0.0377
+  [medium]:   2%|▏         | 39/2499 [46:20<48:44:22, 71.33s/it]
+  [medium] n=   160  parse_fail=    0 ( 0.0%)  cell=0.1564  board=0.0000  row=0.0715  col=0.0368
+  [medium]:   2%|▏         | 40/2499 [47:31<48:43:37, 71.34s/it]
+  [medium] n=   164  parse_fail=    0 ( 0.0%)  cell=0.1552  board=0.0000  row=0.0711  col=0.0366
+  [medium]:   2%|▏         | 41/2499 [48:42<48:42:57, 71.35s/it]
+  [medium] n=   168  parse_fail=    0 ( 0.0%)  cell=0.1517  board=0.0000  row=0.0701  col=0.0357
+  [medium]:   2%|▏         | 42/2499 [49:54<48:41:51, 71.35s/it]
+  [medium] n=   172  parse_fail=    0 ( 0.0%)  cell=0.1539  board=0.0000  row=0.0711  col=0.0368
+  [medium]:   2%|▏         | 43/2499 [51:05<48:41:07, 71.36s/it]
+  [medium] n=   176  parse_fail=    0 ( 0.0%)  cell=0.1525  board=0.0000  row=0.0707  col=0.0360
+  [medium]:   2%|▏         | 44/2499 [52:17<48:39:44, 71.36s/it]
+  [medium] n=   180  parse_fail=    0 ( 0.0%)  cell=0.1601  board=0.0000  row=0.0784  col=0.0414
+  [medium]:   2%|▏         | 45/2499 [53:28<48:38:18, 71.35s/it]
+  [medium] n=   184  parse_fail=    0 ( 0.0%)  cell=0.1588  board=0.0000  row=0.0773  col=0.0405
+  [medium]:   2%|▏         | 46/2499 [54:39<48:36:49, 71.34s/it]
+  [medium] n=   188  parse_fail=    0 ( 0.0%)  cell=0.1568  board=0.0000  row=0.0757  col=0.0396
+  [medium]:   2%|▏         | 47/2499 [55:50<48:35:03, 71.33s/it]
+  [medium] n=   192  parse_fail=    0 ( 0.0%)  cell=0.1556  board=0.0000  row=0.0747  col=0.0388
+  [medium]:   2%|▏         | 48/2499 [57:02<48:33:50, 71.33s/it]
+  [medium] n=   196  parse_fail=    0 ( 0.0%)  cell=0.1556  board=0.0000  row=0.0737  col=0.0385
+  [medium]:   2%|▏         | 49/2499 [58:13<48:32:28, 71.33s/it]
+  [medium] n=   200  parse_fail=    0 ( 0.0%)  cell=0.1554  board=0.0000  row=0.0733  col=0.0378
+  [medium]:   2%|▏         | 50/2499 [59:24<48:30:59, 71.32s/it]
+  [medium] n=   204  parse_fail=    0 ( 0.0%)  cell=0.1562  board=0.0000  row=0.0724  col=0.0381
+  [medium]:   2%|▏         | 51/2499 [1:00:36<48:29:24, 71.31s/it]
+  [medium] n=   208  parse_fail=    0 ( 0.0%)  cell=0.1532  board=0.0000  row=0.0710  col=0.0374
+  [medium]:   2%|▏         | 52/2499 [1:01:47<48:28:16, 71.31s/it]
+  [medium] n=   212  parse_fail=    0 ( 0.0%)  cell=0.1556  board=0.0000  row=0.0702  col=0.0372
+  [medium]:   2%|▏         | 53/2499 [1:02:58<48:26:46, 71.30s/it]
+  [medium] n=   216  parse_fail=    0 ( 0.0%)  cell=0.1527  board=0.0000  row=0.0689  col=0.0365
+  [medium]:   2%|▏         | 54/2499 [1:04:10<48:25:17, 71.30s/it]
+  [medium] n=   220  parse_fail=    0 ( 0.0%)  cell=0.1543  board=0.0000  row=0.0717  col=0.0394
+  [medium]:   2%|▏         | 55/2499 [1:05:21<48:23:41, 71.29s/it]
+  [medium] n=   224  parse_fail=    0 ( 0.0%)  cell=0.1557  board=0.0000  row=0.0724  col=0.0412
+  [medium]:   2%|▏         | 56/2499 [1:06:32<48:22:05, 71.28s/it]
+  [medium] n=   228  parse_fail=    0 ( 0.0%)  cell=0.1557  board=0.0000  row=0.0721  col=0.0409
+  [medium]:   2%|▏         | 57/2499 [1:07:43<48:20:20, 71.26s/it]
+  [medium] n=   232  parse_fail=    0 ( 0.0%)  cell=0.1577  board=0.0000  row=0.0728  col=0.0417
+  [medium]:   2%|▏         | 58/2499 [1:08:55<48:18:56, 71.26s/it]
+  [medium] n=   236  parse_fail=    0 ( 0.0%)  cell=0.1585  board=0.0000  row=0.0734  col=0.0414
+  [medium]:   2%|▏         | 59/2499 [1:10:06<48:17:39, 71.25s/it]
+  [medium] n=   240  parse_fail=    0 ( 0.0%)  cell=0.1575  board=0.0000  row=0.0727  col=0.0407
+  [medium]:   2%|▏         | 60/2499 [1:11:17<48:16:27, 71.25s/it]
+  [medium] n=   244  parse_fail=    0 ( 0.0%)  cell=0.1549  board=0.0000  row=0.0715  col=0.0401
+  [medium]:   2%|▏         | 61/2499 [1:12:28<48:15:16, 71.25s/it]
+  [medium] n=   248  parse_fail=    0 ( 0.0%)  cell=0.1539  board=0.0000  row=0.0708  col=0.0399
+  [medium]:   2%|▏         | 62/2499 [1:13:40<48:14:13, 71.26s/it]
+  [medium] n=   252  parse_fail=    0 ( 0.0%)  cell=0.1534  board=0.0000  row=0.0710  col=0.0397
+  [medium]:   3%|▎         | 63/2499 [1:14:51<48:12:50, 71.25s/it]
+  [medium] n=   256  parse_fail=    0 ( 0.0%)  cell=0.1527  board=0.0000  row=0.0712  col=0.0395
+  [medium]:   3%|▎         | 64/2499 [1:16:02<48:11:52, 71.26s/it]

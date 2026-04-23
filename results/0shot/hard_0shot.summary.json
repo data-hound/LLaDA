@@ -1,0 +1,32 @@
+{
+  "config": {
+    "difficulty": [
+      "easy",
+      "hard"
+    ],
+    "n_samples": 10,
+    "no_streaming": false,
+    "seed": 42,
+    "model": "GSAI-ML/LLaDA-8B-Instruct",
+    "device": "cuda",
+    "mask_id": 126336,
+    "batch_size": 4,
+    "gen_length": 256,
+    "steps": 128,
+    "block_length": 256,
+    "few_shot": 0,
+    "output_dir": "results/0shot",
+    "n_success_samples": 5,
+    "n_failure_samples": 10
+  },
+  "difficulty": "hard",
+  "aggregate": {
+    "n_total": 10,
+    "n_parse_fail": 10,
+    "pct_parse_fail": 100.0,
+    "cell_acc": 0.0,
+    "board_acc": 0.0,
+    "row_acc": 0.0,
+    "col_acc": 0.0
+  }
+}

@@ -1,0 +1,3284 @@
+/hpc/group/tdunn/as1296/miniconda3/envs/diffusion_lang/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+[eval_sudoku_ar] Loading model : meta-llama/Meta-Llama-3-8B-Instruct
+[eval_sudoku_ar] trust_remote_code=False
+[eval_sudoku_ar] pad_token set to eos_token (id=128009)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  1.55it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.57it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  1.62it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  2.33it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:02<00:00,  1.99it/s]
+
+──────────────────────────────────────────────────────────────────────
+  Model      : meta-llama/Meta-Llama-3-8B-Instruct
+  Difficulty : MEDIUM    few-shot : 0
+──────────────────────────────────────────────────────────────────────
+  Loading dataset ...
+  [KakuroGrid] Loading from HuggingFace: Apaxdor/Kakuro_mania (subset=default, split=train, streaming=True)
+  Loaded 10,100 [medium] problems.
+  Test set   : 10,000 problems
+  [medium]:   0%|          | 0/625 [00:00<?, ?it/s]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=    16  parse_fail=    5 (31.2%)  cell=0.0473  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 1/625 [00:51<8:52:01, 51.16s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=    32  parse_fail=    9 (28.1%)  cell=0.0398  board=0.0000  row=0.0000  col=0.0031
+  [medium]:   0%|          | 2/625 [01:42<8:50:06, 51.05s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=    48  parse_fail=   13 (27.1%)  cell=0.0418  board=0.0000  row=0.0000  col=0.0042
+  [medium]:   0%|          | 3/625 [02:33<8:48:40, 51.00s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=    64  parse_fail=   19 (29.7%)  cell=0.0431  board=0.0000  row=0.0000  col=0.0031
+  [medium]:   1%|          | 4/625 [03:23<8:46:47, 50.90s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=    80  parse_fail=   24 (30.0%)  cell=0.0429  board=0.0000  row=0.0000  col=0.0025
+  [medium]:   1%|          | 5/625 [04:14<8:46:44, 50.98s/it]No valid candidates
+No valid candidates
+
+  [medium] n=    96  parse_fail=   26 (27.1%)  cell=0.0465  board=0.0000  row=0.0000  col=0.0021
+  [medium]:   1%|          | 6/625 [05:05<8:45:58, 50.98s/it]
+  [medium] n=   112  parse_fail=   26 (23.2%)  cell=0.0486  board=0.0000  row=0.0009  col=0.0018
+  [medium]:   1%|          | 7/625 [05:56<8:44:21, 50.91s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   128  parse_fail=   30 (23.4%)  cell=0.0485  board=0.0000  row=0.0008  col=0.0016
+  [medium]:   1%|▏         | 8/625 [06:47<8:43:47, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   144  parse_fail=   35 (24.3%)  cell=0.0485  board=0.0000  row=0.0007  col=0.0014
+  [medium]:   1%|▏         | 9/625 [07:39<8:44:18, 51.07s/it]
+  [medium] n=   160  parse_fail=   35 (21.9%)  cell=0.0516  board=0.0000  row=0.0013  col=0.0013
+  [medium]:   2%|▏         | 10/625 [08:29<8:43:00, 51.03s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   176  parse_fail=   39 (22.2%)  cell=0.0517  board=0.0000  row=0.0017  col=0.0011
+  [medium]:   2%|▏         | 11/625 [09:21<8:42:22, 51.05s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   192  parse_fail=   44 (22.9%)  cell=0.0510  board=0.0000  row=0.0016  col=0.0010
+  [medium]:   2%|▏         | 12/625 [10:12<8:41:56, 51.09s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   208  parse_fail=   50 (24.0%)  cell=0.0490  board=0.0000  row=0.0014  col=0.0010
+  [medium]:   2%|▏         | 13/625 [11:03<8:41:21, 51.11s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   224  parse_fail=   54 (24.1%)  cell=0.0496  board=0.0000  row=0.0013  col=0.0009
+  [medium]:   2%|▏         | 14/625 [11:54<8:39:21, 51.00s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   240  parse_fail=   58 (24.2%)  cell=0.0506  board=0.0000  row=0.0017  col=0.0008
+  [medium]:   2%|▏         | 15/625 [12:44<8:37:32, 50.91s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   256  parse_fail=   60 (23.4%)  cell=0.0516  board=0.0000  row=0.0016  col=0.0008
+  [medium]:   3%|▎         | 16/625 [13:35<8:37:11, 50.96s/it]No valid candidates
+
+  [medium] n=   272  parse_fail=   61 (22.4%)  cell=0.0531  board=0.0000  row=0.0015  col=0.0007
+  [medium]:   3%|▎         | 17/625 [14:26<8:34:54, 50.81s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   288  parse_fail=   63 (21.9%)  cell=0.0528  board=0.0000  row=0.0014  col=0.0007
+  [medium]:   3%|▎         | 18/625 [15:17<8:34:06, 50.82s/it]No valid candidates
+
+  [medium] n=   304  parse_fail=   64 (21.1%)  cell=0.0532  board=0.0000  row=0.0016  col=0.0007
+  [medium]:   3%|▎         | 19/625 [16:08<8:34:03, 50.90s/it]No valid candidates
+
+  [medium] n=   320  parse_fail=   65 (20.3%)  cell=0.0527  board=0.0000  row=0.0019  col=0.0006
+  [medium]:   3%|▎         | 20/625 [16:59<8:32:59, 50.88s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   336  parse_fail=   68 (20.2%)  cell=0.0535  board=0.0000  row=0.0018  col=0.0006
+  [medium]:   3%|▎         | 21/625 [17:50<8:32:50, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   352  parse_fail=   73 (20.7%)  cell=0.0527  board=0.0000  row=0.0017  col=0.0006
+  [medium]:   4%|▎         | 22/625 [18:41<8:32:07, 50.96s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   368  parse_fail=   75 (20.4%)  cell=0.0531  board=0.0000  row=0.0016  col=0.0005
+  [medium]:   4%|▎         | 23/625 [19:31<8:29:28, 50.78s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   384  parse_fail=   80 (20.8%)  cell=0.0526  board=0.0000  row=0.0016  col=0.0008
+  [medium]:   4%|▍         | 24/625 [20:22<8:29:22, 50.85s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   400  parse_fail=   84 (21.0%)  cell=0.0524  board=0.0000  row=0.0018  col=0.0008
+  [medium]:   4%|▍         | 25/625 [21:13<8:28:45, 50.88s/it]No valid candidates
+
+  [medium] n=   416  parse_fail=   85 (20.4%)  cell=0.0523  board=0.0000  row=0.0017  col=0.0007
+  [medium]:   4%|▍         | 26/625 [22:04<8:28:02, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   432  parse_fail=   90 (20.8%)  cell=0.0525  board=0.0000  row=0.0016  col=0.0007
+  [medium]:   4%|▍         | 27/625 [22:55<8:28:38, 51.03s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   448  parse_fail=   95 (21.2%)  cell=0.0525  board=0.0000  row=0.0018  col=0.0007
+  [medium]:   4%|▍         | 28/625 [23:46<8:27:37, 51.02s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   464  parse_fail=   97 (20.9%)  cell=0.0539  board=0.0000  row=0.0017  col=0.0006
+  [medium]:   5%|▍         | 29/625 [24:37<8:26:57, 51.04s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   480  parse_fail=  102 (21.2%)  cell=0.0536  board=0.0000  row=0.0017  col=0.0006
+  [medium]:   5%|▍         | 30/625 [25:28<8:26:04, 51.03s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   496  parse_fail=  106 (21.4%)  cell=0.0538  board=0.0000  row=0.0016  col=0.0008
+  [medium]:   5%|▍         | 31/625 [26:19<8:25:21, 51.05s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   512  parse_fail=  108 (21.1%)  cell=0.0539  board=0.0000  row=0.0016  col=0.0008
+  [medium]:   5%|▌         | 32/625 [27:10<8:23:50, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   528  parse_fail=  113 (21.4%)  cell=0.0538  board=0.0000  row=0.0015  col=0.0008
+  [medium]:   5%|▌         | 33/625 [28:02<8:24:28, 51.13s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   544  parse_fail=  116 (21.3%)  cell=0.0542  board=0.0000  row=0.0015  col=0.0007
+  [medium]:   5%|▌         | 34/625 [28:53<8:22:56, 51.06s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   560  parse_fail=  121 (21.6%)  cell=0.0533  board=0.0000  row=0.0014  col=0.0007
+  [medium]:   6%|▌         | 35/625 [29:44<8:21:56, 51.04s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   576  parse_fail=  123 (21.4%)  cell=0.0535  board=0.0000  row=0.0017  col=0.0007
+  [medium]:   6%|▌         | 36/625 [30:35<8:21:29, 51.09s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   592  parse_fail=  126 (21.3%)  cell=0.0534  board=0.0000  row=0.0017  col=0.0007
+  [medium]:   6%|▌         | 37/625 [31:26<8:20:39, 51.09s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   608  parse_fail=  128 (21.1%)  cell=0.0546  board=0.0000  row=0.0020  col=0.0008
+  [medium]:   6%|▌         | 38/625 [32:17<8:18:31, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   624  parse_fail=  132 (21.2%)  cell=0.0544  board=0.0000  row=0.0019  col=0.0010
+  [medium]:   6%|▌         | 39/625 [33:08<8:18:38, 51.06s/it]No valid candidates
+
+  [medium] n=   640  parse_fail=  133 (20.8%)  cell=0.0541  board=0.0000  row=0.0019  col=0.0009
+  [medium]:   6%|▋         | 40/625 [33:59<8:17:20, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   656  parse_fail=  140 (21.3%)  cell=0.0537  board=0.0000  row=0.0018  col=0.0009
+  [medium]:   7%|▋         | 41/625 [34:50<8:16:15, 50.98s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   672  parse_fail=  142 (21.1%)  cell=0.0535  board=0.0000  row=0.0019  col=0.0009
+  [medium]:   7%|▋         | 42/625 [35:40<8:14:42, 50.91s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   688  parse_fail=  144 (20.9%)  cell=0.0536  board=0.0000  row=0.0020  col=0.0009
+  [medium]:   7%|▋         | 43/625 [36:31<8:13:57, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   704  parse_fail=  147 (20.9%)  cell=0.0534  board=0.0000  row=0.0020  col=0.0011
+  [medium]:   7%|▋         | 44/625 [37:23<8:13:51, 51.00s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   720  parse_fail=  151 (21.0%)  cell=0.0532  board=0.0000  row=0.0019  col=0.0011
+  [medium]:   7%|▋         | 45/625 [38:14<8:14:08, 51.12s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   736  parse_fail=  153 (20.8%)  cell=0.0536  board=0.0000  row=0.0019  col=0.0011
+  [medium]:   7%|▋         | 46/625 [39:05<8:13:09, 51.10s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   752  parse_fail=  156 (20.7%)  cell=0.0536  board=0.0000  row=0.0019  col=0.0011
+  [medium]:   8%|▊         | 47/625 [39:56<8:12:32, 51.13s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   768  parse_fail=  159 (20.7%)  cell=0.0536  board=0.0000  row=0.0018  col=0.0010
+  [medium]:   8%|▊         | 48/625 [40:47<8:09:53, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   784  parse_fail=  163 (20.8%)  cell=0.0534  board=0.0000  row=0.0019  col=0.0011
+  [medium]:   8%|▊         | 49/625 [41:38<8:08:44, 50.91s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   800  parse_fail=  166 (20.8%)  cell=0.0536  board=0.0000  row=0.0019  col=0.0011
+  [medium]:   8%|▊         | 50/625 [42:28<8:07:40, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   816  parse_fail=  170 (20.8%)  cell=0.0534  board=0.0000  row=0.0020  col=0.0012
+  [medium]:   8%|▊         | 51/625 [43:20<8:07:46, 50.99s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   832  parse_fail=  174 (20.9%)  cell=0.0535  board=0.0000  row=0.0019  col=0.0013
+  [medium]:   8%|▊         | 52/625 [44:10<8:04:57, 50.78s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   848  parse_fail=  177 (20.9%)  cell=0.0537  board=0.0000  row=0.0019  col=0.0014
+  [medium]:   8%|▊         | 53/625 [45:01<8:04:45, 50.85s/it]No valid candidates
+
+  [medium] n=   864  parse_fail=  178 (20.6%)  cell=0.0536  board=0.0000  row=0.0019  col=0.0014
+  [medium]:   9%|▊         | 54/625 [45:52<8:04:36, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   880  parse_fail=  181 (20.6%)  cell=0.0537  board=0.0000  row=0.0018  col=0.0014
+  [medium]:   9%|▉         | 55/625 [46:43<8:04:45, 51.03s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   896  parse_fail=  184 (20.5%)  cell=0.0540  board=0.0000  row=0.0018  col=0.0013
+  [medium]:   9%|▉         | 56/625 [47:34<8:03:53, 51.03s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   912  parse_fail=  186 (20.4%)  cell=0.0541  board=0.0000  row=0.0018  col=0.0014
+  [medium]:   9%|▉         | 57/625 [48:25<8:03:23, 51.06s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=   928  parse_fail=  191 (20.6%)  cell=0.0538  board=0.0000  row=0.0017  col=0.0014
+  [medium]:   9%|▉         | 58/625 [49:16<8:02:17, 51.04s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   944  parse_fail=  193 (20.4%)  cell=0.0536  board=0.0000  row=0.0017  col=0.0014
+  [medium]:   9%|▉         | 59/625 [50:07<8:01:12, 51.01s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   960  parse_fail=  195 (20.3%)  cell=0.0533  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  10%|▉         | 60/625 [50:58<8:00:04, 50.98s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   976  parse_fail=  197 (20.2%)  cell=0.0534  board=0.0000  row=0.0016  col=0.0013
+  [medium]:  10%|▉         | 61/625 [51:49<7:59:07, 50.97s/it]No valid candidates
+No valid candidates
+
+  [medium] n=   992  parse_fail=  199 (20.1%)  cell=0.0534  board=0.0000  row=0.0016  col=0.0013
+  [medium]:  10%|▉         | 62/625 [52:40<7:58:08, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,008  parse_fail=  203 (20.1%)  cell=0.0530  board=0.0000  row=0.0016  col=0.0013
+  [medium]:  10%|█         | 63/625 [53:31<7:56:44, 50.90s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,024  parse_fail=  206 (20.1%)  cell=0.0531  board=0.0000  row=0.0016  col=0.0013
+  [medium]:  10%|█         | 64/625 [54:22<7:56:16, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,040  parse_fail=  210 (20.2%)  cell=0.0530  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  10%|█         | 65/625 [55:13<7:55:34, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,056  parse_fail=  213 (20.2%)  cell=0.0528  board=0.0000  row=0.0016  col=0.0013
+  [medium]:  11%|█         | 66/625 [56:04<7:54:49, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,072  parse_fail=  218 (20.3%)  cell=0.0528  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  11%|█         | 67/625 [56:55<7:54:18, 51.00s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,088  parse_fail=  221 (20.3%)  cell=0.0527  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  11%|█         | 68/625 [57:46<7:53:41, 51.03s/it]
+  [medium] n= 1,104  parse_fail=  221 (20.0%)  cell=0.0529  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  11%|█         | 69/625 [58:37<7:50:58, 50.82s/it]No valid candidates
+
+  [medium] n= 1,120  parse_fail=  222 (19.8%)  cell=0.0530  board=0.0000  row=0.0018  col=0.0013
+  [medium]:  11%|█         | 70/625 [59:28<7:51:48, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,136  parse_fail=  225 (19.8%)  cell=0.0531  board=0.0000  row=0.0018  col=0.0013
+  [medium]:  11%|█▏        | 71/625 [1:00:19<7:50:25, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,152  parse_fail=  228 (19.8%)  cell=0.0531  board=0.0000  row=0.0018  col=0.0013
+  [medium]:  12%|█▏        | 72/625 [1:01:10<7:49:58, 50.99s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,168  parse_fail=  234 (20.0%)  cell=0.0530  board=0.0000  row=0.0019  col=0.0013
+  [medium]:  12%|█▏        | 73/625 [1:02:01<7:49:38, 51.05s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,184  parse_fail=  238 (20.1%)  cell=0.0530  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  12%|█▏        | 74/625 [1:02:52<7:48:25, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,200  parse_fail=  242 (20.2%)  cell=0.0532  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  12%|█▏        | 75/625 [1:03:43<7:47:06, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,216  parse_fail=  246 (20.2%)  cell=0.0530  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  12%|█▏        | 76/625 [1:04:34<7:47:07, 51.05s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,232  parse_fail=  249 (20.2%)  cell=0.0530  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  12%|█▏        | 77/625 [1:05:25<7:45:54, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,248  parse_fail=  252 (20.2%)  cell=0.0532  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  12%|█▏        | 78/625 [1:06:16<7:45:35, 51.07s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,264  parse_fail=  257 (20.3%)  cell=0.0530  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  13%|█▎        | 79/625 [1:07:07<7:44:33, 51.05s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,280  parse_fail=  260 (20.3%)  cell=0.0529  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  13%|█▎        | 80/625 [1:07:58<7:43:37, 51.04s/it]No valid candidates
+
+  [medium] n= 1,296  parse_fail=  261 (20.1%)  cell=0.0529  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  13%|█▎        | 81/625 [1:08:49<7:42:27, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,312  parse_fail=  264 (20.1%)  cell=0.0527  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  13%|█▎        | 82/625 [1:09:41<7:42:37, 51.12s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,328  parse_fail=  271 (20.4%)  cell=0.0525  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  13%|█▎        | 83/625 [1:10:31<7:41:25, 51.08s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,344  parse_fail=  274 (20.4%)  cell=0.0527  board=0.0000  row=0.0018  col=0.0015
+  [medium]:  13%|█▎        | 84/625 [1:11:22<7:40:12, 51.04s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,360  parse_fail=  278 (20.4%)  cell=0.0527  board=0.0000  row=0.0018  col=0.0015
+  [medium]:  14%|█▎        | 85/625 [1:12:13<7:38:47, 50.98s/it]No valid candidates
+
+  [medium] n= 1,376  parse_fail=  279 (20.3%)  cell=0.0527  board=0.0000  row=0.0017  col=0.0015
+  [medium]:  14%|█▍        | 86/625 [1:13:04<7:37:34, 50.94s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 1,392  parse_fail=  281 (20.2%)  cell=0.0528  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  14%|█▍        | 87/625 [1:13:55<7:35:59, 50.85s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,408  parse_fail=  284 (20.2%)  cell=0.0529  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  14%|█▍        | 88/625 [1:14:46<7:36:04, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,424  parse_fail=  287 (20.2%)  cell=0.0529  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  14%|█▍        | 89/625 [1:15:37<7:35:20, 50.97s/it]
+  [medium] n= 1,440  parse_fail=  287 (19.9%)  cell=0.0528  board=0.0000  row=0.0018  col=0.0015
+  [medium]:  14%|█▍        | 90/625 [1:16:28<7:34:36, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,456  parse_fail=  293 (20.1%)  cell=0.0526  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  15%|█▍        | 91/625 [1:17:19<7:33:34, 50.96s/it]No valid candidates
+
+  [medium] n= 1,472  parse_fail=  294 (20.0%)  cell=0.0526  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  15%|█▍        | 92/625 [1:18:10<7:32:51, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,488  parse_fail=  297 (20.0%)  cell=0.0526  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  15%|█▍        | 93/625 [1:19:01<7:31:34, 50.93s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,504  parse_fail=  301 (20.0%)  cell=0.0524  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  15%|█▌        | 94/625 [1:19:52<7:31:56, 51.07s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,520  parse_fail=  307 (20.2%)  cell=0.0522  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  15%|█▌        | 95/625 [1:20:43<7:30:38, 51.02s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 1,536  parse_fail=  309 (20.1%)  cell=0.0522  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  15%|█▌        | 96/625 [1:21:33<7:26:30, 50.64s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 1,552  parse_fail=  311 (20.0%)  cell=0.0522  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  16%|█▌        | 97/625 [1:22:24<7:26:37, 50.75s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,568  parse_fail=  317 (20.2%)  cell=0.0521  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  16%|█▌        | 98/625 [1:23:15<7:26:29, 50.83s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 1,584  parse_fail=  319 (20.1%)  cell=0.0519  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  16%|█▌        | 99/625 [1:24:06<7:26:05, 50.88s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,600  parse_fail=  323 (20.2%)  cell=0.0517  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  16%|█▌        | 100/625 [1:24:57<7:26:23, 51.02s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,616  parse_fail=  327 (20.2%)  cell=0.0517  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  16%|█▌        | 101/625 [1:25:48<7:25:15, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,632  parse_fail=  331 (20.3%)  cell=0.0516  board=0.0000  row=0.0018  col=0.0015
+  [medium]:  16%|█▋        | 102/625 [1:26:39<7:24:43, 51.02s/it]
+  [medium] n= 1,648  parse_fail=  331 (20.1%)  cell=0.0517  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  16%|█▋        | 103/625 [1:27:29<7:21:54, 50.79s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,664  parse_fail=  335 (20.1%)  cell=0.0517  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  17%|█▋        | 104/625 [1:28:21<7:21:53, 50.89s/it]No valid candidates
+
+  [medium] n= 1,680  parse_fail=  336 (20.0%)  cell=0.0519  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  17%|█▋        | 105/625 [1:29:12<7:21:34, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,696  parse_fail=  341 (20.1%)  cell=0.0518  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  17%|█▋        | 106/625 [1:30:03<7:21:24, 51.03s/it]No valid candidates
+
+  [medium] n= 1,712  parse_fail=  342 (20.0%)  cell=0.0518  board=0.0000  row=0.0019  col=0.0015
+  [medium]:  17%|█▋        | 107/625 [1:30:53<7:19:06, 50.86s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 1,728  parse_fail=  344 (19.9%)  cell=0.0518  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  17%|█▋        | 108/625 [1:31:44<7:19:05, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,744  parse_fail=  347 (19.9%)  cell=0.0517  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  17%|█▋        | 109/625 [1:32:36<7:18:37, 51.00s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,760  parse_fail=  352 (20.0%)  cell=0.0516  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  18%|█▊        | 110/625 [1:33:27<7:17:35, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,776  parse_fail=  356 (20.0%)  cell=0.0517  board=0.0000  row=0.0020  col=0.0014
+  [medium]:  18%|█▊        | 111/625 [1:34:18<7:17:06, 51.02s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,792  parse_fail=  360 (20.1%)  cell=0.0515  board=0.0000  row=0.0020  col=0.0014
+  [medium]:  18%|█▊        | 112/625 [1:35:09<7:17:10, 51.13s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,808  parse_fail=  365 (20.2%)  cell=0.0515  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  18%|█▊        | 113/625 [1:36:00<7:15:57, 51.09s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,824  parse_fail=  369 (20.2%)  cell=0.0513  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  18%|█▊        | 114/625 [1:36:51<7:13:33, 50.91s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,840  parse_fail=  372 (20.2%)  cell=0.0511  board=0.0000  row=0.0020  col=0.0014
+  [medium]:  18%|█▊        | 115/625 [1:37:41<7:12:20, 50.86s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 1,856  parse_fail=  374 (20.2%)  cell=0.0512  board=0.0000  row=0.0020  col=0.0014
+  [medium]:  19%|█▊        | 116/625 [1:38:32<7:11:54, 50.91s/it]No valid candidates
+
+  [medium] n= 1,872  parse_fail=  375 (20.0%)  cell=0.0512  board=0.0000  row=0.0020  col=0.0014
+  [medium]:  19%|█▊        | 117/625 [1:39:23<7:11:23, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,888  parse_fail=  378 (20.0%)  cell=0.0512  board=0.0000  row=0.0020  col=0.0014
+  [medium]:  19%|█▉        | 118/625 [1:40:14<7:10:40, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,904  parse_fail=  381 (20.0%)  cell=0.0514  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  19%|█▉        | 119/625 [1:41:06<7:11:15, 51.14s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 1,920  parse_fail=  383 (19.9%)  cell=0.0515  board=0.0000  row=0.0020  col=0.0015
+  [medium]:  19%|█▉        | 120/625 [1:41:57<7:09:37, 51.04s/it]No valid candidates
+
+  [medium] n= 1,936  parse_fail=  384 (19.8%)  cell=0.0516  board=0.0000  row=0.0020  col=0.0014
+  [medium]:  19%|█▉        | 121/625 [1:42:48<7:08:15, 50.98s/it]
+  [medium] n= 1,952  parse_fail=  384 (19.7%)  cell=0.0516  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  20%|█▉        | 122/625 [1:43:39<7:07:43, 51.02s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,968  parse_fail=  388 (19.7%)  cell=0.0513  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  20%|█▉        | 123/625 [1:44:30<7:07:02, 51.04s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 1,984  parse_fail=  393 (19.8%)  cell=0.0513  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  20%|█▉        | 124/625 [1:45:21<7:06:06, 51.03s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,000  parse_fail=  396 (19.8%)  cell=0.0513  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  20%|██        | 125/625 [1:46:12<7:04:52, 50.99s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,016  parse_fail=  401 (19.9%)  cell=0.0512  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  20%|██        | 126/625 [1:47:03<7:04:29, 51.04s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,032  parse_fail=  408 (20.1%)  cell=0.0510  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  20%|██        | 127/625 [1:47:54<7:03:21, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,048  parse_fail=  413 (20.2%)  cell=0.0510  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  20%|██        | 128/625 [1:48:45<7:02:18, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,064  parse_fail=  416 (20.2%)  cell=0.0511  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  21%|██        | 129/625 [1:49:36<7:02:07, 51.06s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,080  parse_fail=  423 (20.3%)  cell=0.0509  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  21%|██        | 130/625 [1:50:27<7:01:09, 51.05s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,096  parse_fail=  429 (20.5%)  cell=0.0508  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  21%|██        | 131/625 [1:51:18<7:00:26, 51.07s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,112  parse_fail=  432 (20.5%)  cell=0.0508  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  21%|██        | 132/625 [1:52:09<6:59:12, 51.02s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,128  parse_fail=  437 (20.5%)  cell=0.0507  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  21%|██▏       | 133/625 [1:53:00<6:58:31, 51.04s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,144  parse_fail=  441 (20.6%)  cell=0.0507  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  21%|██▏       | 134/625 [1:53:51<6:57:23, 51.00s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,160  parse_fail=  444 (20.6%)  cell=0.0508  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  22%|██▏       | 135/625 [1:54:42<6:56:18, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,176  parse_fail=  451 (20.7%)  cell=0.0507  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  22%|██▏       | 136/625 [1:55:33<6:55:44, 51.01s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 2,192  parse_fail=  453 (20.7%)  cell=0.0508  board=0.0000  row=0.0020  col=0.0014
+  [medium]:  22%|██▏       | 137/625 [1:56:24<6:55:44, 51.12s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,208  parse_fail=  458 (20.7%)  cell=0.0506  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  22%|██▏       | 138/625 [1:57:15<6:54:59, 51.13s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 2,224  parse_fail=  460 (20.7%)  cell=0.0506  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  22%|██▏       | 139/625 [1:58:07<6:54:02, 51.12s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 2,240  parse_fail=  462 (20.6%)  cell=0.0507  board=0.0000  row=0.0020  col=0.0014
+  [medium]:  22%|██▏       | 140/625 [1:58:58<6:52:55, 51.08s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,256  parse_fail=  466 (20.7%)  cell=0.0506  board=0.0000  row=0.0020  col=0.0014
+  [medium]:  23%|██▎       | 141/625 [1:59:48<6:51:28, 51.01s/it]No valid candidates
+
+  [medium] n= 2,272  parse_fail=  467 (20.6%)  cell=0.0506  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  23%|██▎       | 142/625 [2:00:39<6:50:35, 51.00s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,288  parse_fail=  470 (20.5%)  cell=0.0507  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  23%|██▎       | 143/625 [2:01:31<6:50:38, 51.12s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 2,304  parse_fail=  472 (20.5%)  cell=0.0508  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  23%|██▎       | 144/625 [2:02:22<6:49:54, 51.13s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,320  parse_fail=  475 (20.5%)  cell=0.0508  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  23%|██▎       | 145/625 [2:03:13<6:48:56, 51.12s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 2,336  parse_fail=  477 (20.4%)  cell=0.0508  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  23%|██▎       | 146/625 [2:04:04<6:48:27, 51.16s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,352  parse_fail=  480 (20.4%)  cell=0.0508  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  24%|██▎       | 147/625 [2:04:55<6:47:38, 51.17s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,368  parse_fail=  483 (20.4%)  cell=0.0510  board=0.0000  row=0.0019  col=0.0014
+  [medium]:  24%|██▎       | 148/625 [2:05:46<6:46:13, 51.10s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,384  parse_fail=  486 (20.4%)  cell=0.0509  board=0.0000  row=0.0018  col=0.0013
+  [medium]:  24%|██▍       | 149/625 [2:06:37<6:44:00, 50.93s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,400  parse_fail=  492 (20.5%)  cell=0.0509  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  24%|██▍       | 150/625 [2:07:28<6:43:20, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,416  parse_fail=  498 (20.6%)  cell=0.0508  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  24%|██▍       | 151/625 [2:08:19<6:42:29, 50.95s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 2,432  parse_fail=  500 (20.6%)  cell=0.0508  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  24%|██▍       | 152/625 [2:09:10<6:41:24, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,448  parse_fail=  503 (20.5%)  cell=0.0509  board=0.0000  row=0.0018  col=0.0013
+  [medium]:  24%|██▍       | 153/625 [2:10:01<6:40:58, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,464  parse_fail=  508 (20.6%)  cell=0.0508  board=0.0000  row=0.0018  col=0.0013
+  [medium]:  25%|██▍       | 154/625 [2:10:52<6:40:13, 50.98s/it]
+  [medium] n= 2,480  parse_fail=  508 (20.5%)  cell=0.0509  board=0.0000  row=0.0018  col=0.0013
+  [medium]:  25%|██▍       | 155/625 [2:11:43<6:39:52, 51.05s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,496  parse_fail=  513 (20.6%)  cell=0.0508  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  25%|██▍       | 156/625 [2:12:33<6:37:28, 50.85s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,512  parse_fail=  516 (20.5%)  cell=0.0507  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  25%|██▌       | 157/625 [2:13:25<6:37:34, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,528  parse_fail=  519 (20.5%)  cell=0.0508  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  25%|██▌       | 158/625 [2:14:16<6:36:22, 50.93s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,544  parse_fail=  523 (20.6%)  cell=0.0508  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  25%|██▌       | 159/625 [2:15:06<6:35:30, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,560  parse_fail=  528 (20.6%)  cell=0.0507  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  26%|██▌       | 160/625 [2:15:57<6:34:47, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,576  parse_fail=  531 (20.6%)  cell=0.0508  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  26%|██▌       | 161/625 [2:16:49<6:34:30, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,592  parse_fail=  537 (20.7%)  cell=0.0508  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  26%|██▌       | 162/625 [2:17:39<6:33:07, 50.94s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 2,608  parse_fail=  539 (20.7%)  cell=0.0509  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  26%|██▌       | 163/625 [2:18:30<6:32:13, 50.94s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 2,624  parse_fail=  541 (20.6%)  cell=0.0509  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  26%|██▌       | 164/625 [2:19:21<6:31:54, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,640  parse_fail=  545 (20.6%)  cell=0.0508  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  26%|██▋       | 165/625 [2:20:13<6:31:13, 51.03s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,656  parse_fail=  548 (20.6%)  cell=0.0509  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  27%|██▋       | 166/625 [2:21:03<6:29:43, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,672  parse_fail=  551 (20.6%)  cell=0.0508  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  27%|██▋       | 167/625 [2:21:55<6:30:12, 51.12s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,688  parse_fail=  554 (20.6%)  cell=0.0508  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  27%|██▋       | 168/625 [2:22:46<6:28:47, 51.04s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,704  parse_fail=  558 (20.6%)  cell=0.0507  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  27%|██▋       | 169/625 [2:23:37<6:27:38, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,720  parse_fail=  561 (20.6%)  cell=0.0508  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  27%|██▋       | 170/625 [2:24:27<6:25:24, 50.82s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 2,736  parse_fail=  563 (20.6%)  cell=0.0508  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  27%|██▋       | 171/625 [2:25:18<6:24:44, 50.85s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,752  parse_fail=  567 (20.6%)  cell=0.0508  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  28%|██▊       | 172/625 [2:26:09<6:24:22, 50.91s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,768  parse_fail=  571 (20.6%)  cell=0.0507  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  28%|██▊       | 173/625 [2:27:00<6:24:19, 51.02s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 2,784  parse_fail=  573 (20.6%)  cell=0.0507  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  28%|██▊       | 174/625 [2:27:51<6:23:43, 51.05s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,800  parse_fail=  579 (20.7%)  cell=0.0506  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  28%|██▊       | 175/625 [2:28:42<6:22:19, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,816  parse_fail=  585 (20.8%)  cell=0.0506  board=0.0000  row=0.0018  col=0.0013
+  [medium]:  28%|██▊       | 176/625 [2:29:32<6:19:18, 50.69s/it]No valid candidates
+
+  [medium] n= 2,832  parse_fail=  586 (20.7%)  cell=0.0505  board=0.0000  row=0.0018  col=0.0013
+  [medium]:  28%|██▊       | 177/625 [2:30:23<6:18:56, 50.75s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,848  parse_fail=  592 (20.8%)  cell=0.0504  board=0.0000  row=0.0018  col=0.0013
+  [medium]:  28%|██▊       | 178/625 [2:31:14<6:18:29, 50.80s/it]No valid candidates
+
+  [medium] n= 2,864  parse_fail=  593 (20.7%)  cell=0.0506  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  29%|██▊       | 179/625 [2:32:05<6:17:36, 50.80s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,880  parse_fail=  596 (20.7%)  cell=0.0505  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  29%|██▉       | 180/625 [2:32:56<6:17:44, 50.93s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 2,896  parse_fail=  598 (20.6%)  cell=0.0505  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  29%|██▉       | 181/625 [2:33:47<6:17:08, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,912  parse_fail=  602 (20.7%)  cell=0.0504  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  29%|██▉       | 182/625 [2:34:38<6:16:28, 50.99s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,928  parse_fail=  605 (20.7%)  cell=0.0505  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  29%|██▉       | 183/625 [2:35:29<6:15:32, 50.98s/it]No valid candidates
+
+  [medium] n= 2,944  parse_fail=  606 (20.6%)  cell=0.0505  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  29%|██▉       | 184/625 [2:36:20<6:14:25, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,960  parse_fail=  612 (20.7%)  cell=0.0506  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  30%|██▉       | 185/625 [2:37:11<6:13:09, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,976  parse_fail=  616 (20.7%)  cell=0.0505  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  30%|██▉       | 186/625 [2:38:02<6:12:58, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 2,992  parse_fail=  619 (20.7%)  cell=0.0506  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  30%|██▉       | 187/625 [2:38:53<6:12:12, 50.99s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,008  parse_fail=  622 (20.7%)  cell=0.0506  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  30%|███       | 188/625 [2:39:44<6:10:52, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,024  parse_fail=  626 (20.7%)  cell=0.0506  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  30%|███       | 189/625 [2:40:35<6:10:14, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,040  parse_fail=  629 (20.7%)  cell=0.0506  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  30%|███       | 190/625 [2:41:26<6:09:33, 50.97s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 3,056  parse_fail=  631 (20.6%)  cell=0.0505  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  31%|███       | 191/625 [2:42:17<6:08:36, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,072  parse_fail=  635 (20.7%)  cell=0.0505  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  31%|███       | 192/625 [2:43:08<6:08:14, 51.03s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,088  parse_fail=  638 (20.7%)  cell=0.0505  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  31%|███       | 193/625 [2:43:59<6:06:59, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,104  parse_fail=  642 (20.7%)  cell=0.0504  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  31%|███       | 194/625 [2:44:50<6:06:04, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,120  parse_fail=  648 (20.8%)  cell=0.0503  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  31%|███       | 195/625 [2:45:40<6:04:48, 50.90s/it]No valid candidates
+
+  [medium] n= 3,136  parse_fail=  649 (20.7%)  cell=0.0503  board=0.0000  row=0.0018  col=0.0014
+  [medium]:  31%|███▏      | 196/625 [2:46:31<6:04:13, 50.94s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 3,152  parse_fail=  651 (20.7%)  cell=0.0503  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  32%|███▏      | 197/625 [2:47:22<6:03:44, 50.99s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,168  parse_fail=  654 (20.6%)  cell=0.0503  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  32%|███▏      | 198/625 [2:48:14<6:03:05, 51.02s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 3,184  parse_fail=  656 (20.6%)  cell=0.0503  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  32%|███▏      | 199/625 [2:49:04<6:01:39, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,200  parse_fail=  661 (20.7%)  cell=0.0503  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  32%|███▏      | 200/625 [2:49:55<6:00:50, 50.94s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 3,216  parse_fail=  663 (20.6%)  cell=0.0502  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  32%|███▏      | 201/625 [2:50:46<5:59:38, 50.89s/it]No valid candidates
+
+  [medium] n= 3,232  parse_fail=  664 (20.5%)  cell=0.0503  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  32%|███▏      | 202/625 [2:51:37<5:59:27, 50.99s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 3,248  parse_fail=  666 (20.5%)  cell=0.0504  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  32%|███▏      | 203/625 [2:52:28<5:58:18, 50.94s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 3,264  parse_fail=  668 (20.5%)  cell=0.0504  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  33%|███▎      | 204/625 [2:53:19<5:57:23, 50.94s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 3,280  parse_fail=  670 (20.4%)  cell=0.0505  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  33%|███▎      | 205/625 [2:54:10<5:56:29, 50.93s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,296  parse_fail=  676 (20.5%)  cell=0.0504  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  33%|███▎      | 206/625 [2:55:01<5:55:05, 50.85s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,312  parse_fail=  680 (20.5%)  cell=0.0504  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  33%|███▎      | 207/625 [2:55:51<5:54:14, 50.85s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,328  parse_fail=  683 (20.5%)  cell=0.0503  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  33%|███▎      | 208/625 [2:56:42<5:53:42, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,344  parse_fail=  688 (20.6%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  33%|███▎      | 209/625 [2:57:33<5:52:53, 50.90s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,360  parse_fail=  691 (20.6%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  34%|███▎      | 210/625 [2:58:25<5:52:48, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,376  parse_fail=  695 (20.6%)  cell=0.0503  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  34%|███▍      | 211/625 [2:59:16<5:51:41, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,392  parse_fail=  699 (20.6%)  cell=0.0503  board=0.0000  row=0.0017  col=0.0014
+  [medium]:  34%|███▍      | 212/625 [3:00:06<5:50:22, 50.90s/it]No valid candidates
+
+  [medium] n= 3,408  parse_fail=  700 (20.5%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  34%|███▍      | 213/625 [3:00:57<5:49:23, 50.88s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,424  parse_fail=  703 (20.5%)  cell=0.0502  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  34%|███▍      | 214/625 [3:01:48<5:48:58, 50.95s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 3,440  parse_fail=  705 (20.5%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  34%|███▍      | 215/625 [3:02:39<5:48:04, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,456  parse_fail=  708 (20.5%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  35%|███▍      | 216/625 [3:03:29<5:44:46, 50.58s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,472  parse_fail=  711 (20.5%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  35%|███▍      | 217/625 [3:04:20<5:44:25, 50.65s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,488  parse_fail=  715 (20.5%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  35%|███▍      | 218/625 [3:05:11<5:44:07, 50.73s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,504  parse_fail=  718 (20.5%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  35%|███▌      | 219/625 [3:06:01<5:43:17, 50.73s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,520  parse_fail=  722 (20.5%)  cell=0.0505  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  35%|███▌      | 220/625 [3:06:52<5:42:28, 50.74s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,536  parse_fail=  725 (20.5%)  cell=0.0506  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  35%|███▌      | 221/625 [3:07:43<5:41:50, 50.77s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,552  parse_fail=  729 (20.5%)  cell=0.0505  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  36%|███▌      | 222/625 [3:08:34<5:41:50, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,568  parse_fail=  732 (20.5%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  36%|███▌      | 223/625 [3:09:25<5:40:59, 50.90s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,584  parse_fail=  735 (20.5%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  36%|███▌      | 224/625 [3:10:16<5:39:49, 50.85s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 3,600  parse_fail=  737 (20.5%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  36%|███▌      | 225/625 [3:11:06<5:37:30, 50.63s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,616  parse_fail=  740 (20.5%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  36%|███▌      | 226/625 [3:11:57<5:36:54, 50.66s/it]No valid candidates
+
+  [medium] n= 3,632  parse_fail=  741 (20.4%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  36%|███▋      | 227/625 [3:12:48<5:36:36, 50.75s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,648  parse_fail=  746 (20.4%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  36%|███▋      | 228/625 [3:13:39<5:36:28, 50.85s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,664  parse_fail=  751 (20.5%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  37%|███▋      | 229/625 [3:14:29<5:35:33, 50.84s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,680  parse_fail=  755 (20.5%)  cell=0.0502  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  37%|███▋      | 230/625 [3:15:20<5:34:51, 50.86s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 3,696  parse_fail=  757 (20.5%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  37%|███▋      | 231/625 [3:16:11<5:34:08, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,712  parse_fail=  762 (20.5%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  37%|███▋      | 232/625 [3:17:02<5:33:13, 50.87s/it]
+  [medium] n= 3,728  parse_fail=  762 (20.4%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  37%|███▋      | 233/625 [3:17:53<5:32:17, 50.86s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,744  parse_fail=  767 (20.5%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  37%|███▋      | 234/625 [3:18:44<5:31:33, 50.88s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,760  parse_fail=  772 (20.5%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  38%|███▊      | 235/625 [3:19:35<5:31:14, 50.96s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 3,776  parse_fail=  774 (20.5%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  38%|███▊      | 236/625 [3:20:26<5:30:28, 50.97s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 3,792  parse_fail=  776 (20.5%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  38%|███▊      | 237/625 [3:21:17<5:29:22, 50.93s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,808  parse_fail=  779 (20.5%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  38%|███▊      | 238/625 [3:22:08<5:28:21, 50.91s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 3,824  parse_fail=  781 (20.4%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  38%|███▊      | 239/625 [3:22:59<5:27:43, 50.94s/it]No valid candidates
+
+  [medium] n= 3,840  parse_fail=  782 (20.4%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  38%|███▊      | 240/625 [3:23:49<5:25:52, 50.79s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,856  parse_fail=  787 (20.4%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  39%|███▊      | 241/625 [3:24:40<5:25:24, 50.84s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,872  parse_fail=  793 (20.5%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  39%|███▊      | 242/625 [3:25:31<5:24:31, 50.84s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,888  parse_fail=  798 (20.5%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  39%|███▉      | 243/625 [3:26:22<5:23:30, 50.81s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,904  parse_fail=  803 (20.6%)  cell=0.0502  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  39%|███▉      | 244/625 [3:27:12<5:22:31, 50.79s/it]No valid candidates
+
+  [medium] n= 3,920  parse_fail=  804 (20.5%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  39%|███▉      | 245/625 [3:28:03<5:21:55, 50.83s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,936  parse_fail=  807 (20.5%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  39%|███▉      | 246/625 [3:28:53<5:19:31, 50.59s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,952  parse_fail=  811 (20.5%)  cell=0.0505  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  40%|███▉      | 247/625 [3:29:44<5:19:07, 50.65s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 3,968  parse_fail=  816 (20.6%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  40%|███▉      | 248/625 [3:30:35<5:18:35, 50.71s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 3,984  parse_fail=  818 (20.5%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  40%|███▉      | 249/625 [3:31:26<5:18:20, 50.80s/it]No valid candidates
+
+  [medium] n= 4,000  parse_fail=  819 (20.5%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  40%|████      | 250/625 [3:32:17<5:17:33, 50.81s/it]No valid candidates
+
+  [medium] n= 4,016  parse_fail=  820 (20.4%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  40%|████      | 251/625 [3:33:08<5:16:56, 50.84s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,032  parse_fail=  823 (20.4%)  cell=0.0504  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  40%|████      | 252/625 [3:33:58<5:15:44, 50.79s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,048  parse_fail=  828 (20.5%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  40%|████      | 253/625 [3:34:50<5:15:36, 50.91s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,064  parse_fail=  831 (20.4%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  41%|████      | 254/625 [3:35:40<5:14:25, 50.85s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 4,080  parse_fail=  833 (20.4%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  41%|████      | 255/625 [3:36:31<5:13:07, 50.78s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,096  parse_fail=  837 (20.4%)  cell=0.0503  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  41%|████      | 256/625 [3:37:22<5:12:33, 50.82s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,112  parse_fail=  842 (20.5%)  cell=0.0502  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  41%|████      | 257/625 [3:38:13<5:11:34, 50.80s/it]No valid candidates
+
+  [medium] n= 4,128  parse_fail=  843 (20.4%)  cell=0.0502  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  41%|████▏     | 258/625 [3:39:03<5:10:37, 50.78s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,144  parse_fail=  847 (20.4%)  cell=0.0502  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  41%|████▏     | 259/625 [3:39:55<5:11:07, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,160  parse_fail=  850 (20.4%)  cell=0.0502  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  42%|████▏     | 260/625 [3:40:46<5:10:34, 51.05s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,176  parse_fail=  853 (20.4%)  cell=0.0502  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  42%|████▏     | 261/625 [3:41:37<5:09:02, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,192  parse_fail=  856 (20.4%)  cell=0.0502  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  42%|████▏     | 262/625 [3:42:28<5:08:18, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,208  parse_fail=  859 (20.4%)  cell=0.0501  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  42%|████▏     | 263/625 [3:43:19<5:07:15, 50.93s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 4,224  parse_fail=  861 (20.4%)  cell=0.0501  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  42%|████▏     | 264/625 [3:44:09<5:06:04, 50.87s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 4,240  parse_fail=  863 (20.4%)  cell=0.0501  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  42%|████▏     | 265/625 [3:45:00<5:05:36, 50.93s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 4,256  parse_fail=  865 (20.3%)  cell=0.0502  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  43%|████▎     | 266/625 [3:45:51<5:04:28, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,272  parse_fail=  870 (20.4%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  43%|████▎     | 267/625 [3:46:42<5:03:32, 50.87s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,288  parse_fail=  875 (20.4%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  43%|████▎     | 268/625 [3:47:33<5:03:06, 50.94s/it]
+  [medium] n= 4,304  parse_fail=  875 (20.3%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  43%|████▎     | 269/625 [3:48:24<5:02:02, 50.90s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,320  parse_fail=  880 (20.4%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  43%|████▎     | 270/625 [3:49:15<5:01:49, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,336  parse_fail=  884 (20.4%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  43%|████▎     | 271/625 [3:50:06<5:01:06, 51.04s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,352  parse_fail=  887 (20.4%)  cell=0.0500  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  44%|████▎     | 272/625 [3:50:57<5:00:11, 51.02s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,368  parse_fail=  891 (20.4%)  cell=0.0500  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  44%|████▎     | 273/625 [3:51:48<4:59:01, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,384  parse_fail=  894 (20.4%)  cell=0.0500  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  44%|████▍     | 274/625 [3:52:39<4:58:04, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,400  parse_fail=  897 (20.4%)  cell=0.0500  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  44%|████▍     | 275/625 [3:53:30<4:57:38, 51.02s/it]
+  [medium] n= 4,416  parse_fail=  897 (20.3%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  44%|████▍     | 276/625 [3:54:21<4:56:28, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,432  parse_fail=  901 (20.3%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  44%|████▍     | 277/625 [3:55:12<4:55:40, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,448  parse_fail=  904 (20.3%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  44%|████▍     | 278/625 [3:56:03<4:53:57, 50.83s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,464  parse_fail=  908 (20.3%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  45%|████▍     | 279/625 [3:56:54<4:53:16, 50.86s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,480  parse_fail=  915 (20.4%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  45%|████▍     | 280/625 [3:57:45<4:53:17, 51.01s/it]No valid candidates
+
+  [medium] n= 4,496  parse_fail=  916 (20.4%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  45%|████▍     | 281/625 [3:58:35<4:51:03, 50.77s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,512  parse_fail=  919 (20.4%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  45%|████▌     | 282/625 [3:59:26<4:50:38, 50.84s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,528  parse_fail=  923 (20.4%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  45%|████▌     | 283/625 [4:00:17<4:49:56, 50.87s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,544  parse_fail=  927 (20.4%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  45%|████▌     | 284/625 [4:01:08<4:49:01, 50.85s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,560  parse_fail=  930 (20.4%)  cell=0.0498  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  46%|████▌     | 285/625 [4:01:59<4:48:27, 50.90s/it]
+  [medium] n= 4,576  parse_fail=  930 (20.3%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  46%|████▌     | 286/625 [4:02:50<4:47:48, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,592  parse_fail=  933 (20.3%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  46%|████▌     | 287/625 [4:03:41<4:46:56, 50.94s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 4,608  parse_fail=  935 (20.3%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  46%|████▌     | 288/625 [4:04:32<4:46:04, 50.93s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,624  parse_fail=  941 (20.4%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  46%|████▌     | 289/625 [4:05:23<4:45:39, 51.01s/it]
+  [medium] n= 4,640  parse_fail=  941 (20.3%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  46%|████▋     | 290/625 [4:06:14<4:44:27, 50.95s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 4,656  parse_fail=  943 (20.3%)  cell=0.0498  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  47%|████▋     | 291/625 [4:07:05<4:43:51, 50.99s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,672  parse_fail=  947 (20.3%)  cell=0.0498  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  47%|████▋     | 292/625 [4:07:56<4:42:37, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,688  parse_fail=  953 (20.3%)  cell=0.0497  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  47%|████▋     | 293/625 [4:08:47<4:42:14, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,704  parse_fail=  958 (20.4%)  cell=0.0498  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  47%|████▋     | 294/625 [4:09:38<4:41:07, 50.96s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 4,720  parse_fail=  960 (20.3%)  cell=0.0498  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  47%|████▋     | 295/625 [4:10:29<4:40:13, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,736  parse_fail=  964 (20.4%)  cell=0.0498  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  47%|████▋     | 296/625 [4:11:20<4:39:36, 50.99s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 4,752  parse_fail=  966 (20.3%)  cell=0.0498  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  48%|████▊     | 297/625 [4:12:10<4:38:20, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,768  parse_fail=  970 (20.3%)  cell=0.0498  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  48%|████▊     | 298/625 [4:13:01<4:37:22, 50.90s/it]No valid candidates
+
+  [medium] n= 4,784  parse_fail=  971 (20.3%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  48%|████▊     | 299/625 [4:13:52<4:36:45, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,800  parse_fail=  978 (20.4%)  cell=0.0498  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  48%|████▊     | 300/625 [4:14:43<4:36:09, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,816  parse_fail=  983 (20.4%)  cell=0.0498  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  48%|████▊     | 301/625 [4:15:34<4:35:10, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,832  parse_fail=  990 (20.5%)  cell=0.0497  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  48%|████▊     | 302/625 [4:16:25<4:34:31, 51.00s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 4,848  parse_fail=  992 (20.5%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  48%|████▊     | 303/625 [4:17:16<4:32:36, 50.80s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,864  parse_fail=  997 (20.5%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  49%|████▊     | 304/625 [4:18:07<4:32:00, 50.84s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 4,880  parse_fail=  999 (20.5%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  49%|████▉     | 305/625 [4:18:57<4:30:52, 50.79s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 4,896  parse_fail=1,001 (20.4%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  49%|████▉     | 306/625 [4:19:48<4:29:58, 50.78s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,912  parse_fail=1,005 (20.5%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  49%|████▉     | 307/625 [4:20:39<4:29:13, 50.80s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,928  parse_fail=1,009 (20.5%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  49%|████▉     | 308/625 [4:21:30<4:28:42, 50.86s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,944  parse_fail=1,012 (20.5%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  49%|████▉     | 309/625 [4:22:08<4:08:12, 47.13s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,960  parse_fail=1,016 (20.5%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  50%|████▉     | 310/625 [4:23:00<4:14:01, 48.39s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 4,976  parse_fail=1,023 (20.6%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  50%|████▉     | 311/625 [4:23:51<4:17:22, 49.18s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 4,992  parse_fail=1,025 (20.5%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  50%|████▉     | 312/625 [4:24:42<4:19:09, 49.68s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,008  parse_fail=1,031 (20.6%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  50%|█████     | 313/625 [4:25:33<4:20:25, 50.08s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,024  parse_fail=1,038 (20.7%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  50%|█████     | 314/625 [4:26:24<4:21:17, 50.41s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,040  parse_fail=1,042 (20.7%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  50%|█████     | 315/625 [4:27:15<4:21:16, 50.57s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,056  parse_fail=1,045 (20.7%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  51%|█████     | 316/625 [4:28:06<4:21:07, 50.70s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,072  parse_fail=1,050 (20.7%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  51%|█████     | 317/625 [4:28:57<4:20:38, 50.77s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,088  parse_fail=1,054 (20.7%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  51%|█████     | 318/625 [4:29:47<4:19:45, 50.77s/it]No valid candidates
+
+  [medium] n= 5,104  parse_fail=1,055 (20.7%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  51%|█████     | 319/625 [4:30:38<4:19:18, 50.84s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,120  parse_fail=1,058 (20.7%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  51%|█████     | 320/625 [4:31:28<4:17:04, 50.57s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,136  parse_fail=1,061 (20.7%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  51%|█████▏    | 321/625 [4:32:19<4:16:45, 50.68s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,152  parse_fail=1,064 (20.7%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  52%|█████▏    | 322/625 [4:33:10<4:16:35, 50.81s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,168  parse_fail=1,067 (20.6%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  52%|█████▏    | 323/625 [4:34:01<4:15:39, 50.79s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,184  parse_fail=1,070 (20.6%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  52%|█████▏    | 324/625 [4:34:52<4:15:24, 50.91s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 5,200  parse_fail=1,072 (20.6%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  52%|█████▏    | 325/625 [4:35:43<4:14:19, 50.87s/it]No valid candidates
+
+  [medium] n= 5,216  parse_fail=1,073 (20.6%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  52%|█████▏    | 326/625 [4:36:34<4:13:59, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,232  parse_fail=1,076 (20.6%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  52%|█████▏    | 327/625 [4:37:25<4:13:14, 50.99s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 5,248  parse_fail=1,078 (20.5%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  52%|█████▏    | 328/625 [4:38:16<4:12:11, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,264  parse_fail=1,085 (20.6%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  53%|█████▎    | 329/625 [4:39:07<4:11:35, 51.00s/it]No valid candidates
+
+  [medium] n= 5,280  parse_fail=1,086 (20.6%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  53%|█████▎    | 330/625 [4:39:58<4:10:32, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,296  parse_fail=1,092 (20.6%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  53%|█████▎    | 331/625 [4:40:49<4:10:01, 51.03s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,312  parse_fail=1,097 (20.7%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  53%|█████▎    | 332/625 [4:41:41<4:09:36, 51.11s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,328  parse_fail=1,104 (20.7%)  cell=0.0491  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  53%|█████▎    | 333/625 [4:42:32<4:08:27, 51.05s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,344  parse_fail=1,107 (20.7%)  cell=0.0491  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  53%|█████▎    | 334/625 [4:43:22<4:07:10, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,360  parse_fail=1,111 (20.7%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  54%|█████▎    | 335/625 [4:44:13<4:06:15, 50.95s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 5,376  parse_fail=1,113 (20.7%)  cell=0.0491  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  54%|█████▍    | 336/625 [4:45:04<4:05:20, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,392  parse_fail=1,116 (20.7%)  cell=0.0491  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  54%|█████▍    | 337/625 [4:45:55<4:04:13, 50.88s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,408  parse_fail=1,120 (20.7%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  54%|█████▍    | 338/625 [4:46:46<4:03:48, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,424  parse_fail=1,123 (20.7%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  54%|█████▍    | 339/625 [4:47:37<4:02:35, 50.89s/it]No valid candidates
+
+  [medium] n= 5,440  parse_fail=1,124 (20.7%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  54%|█████▍    | 340/625 [4:48:28<4:01:53, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,456  parse_fail=1,127 (20.7%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  55%|█████▍    | 341/625 [4:49:19<4:01:09, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,472  parse_fail=1,130 (20.7%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  55%|█████▍    | 342/625 [4:50:10<4:00:08, 50.91s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,488  parse_fail=1,135 (20.7%)  cell=0.0491  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  55%|█████▍    | 343/625 [4:51:01<3:59:18, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,504  parse_fail=1,139 (20.7%)  cell=0.0491  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  55%|█████▌    | 344/625 [4:51:51<3:58:11, 50.86s/it]No valid candidates
+
+  [medium] n= 5,520  parse_fail=1,140 (20.7%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  55%|█████▌    | 345/625 [4:52:42<3:57:38, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,536  parse_fail=1,143 (20.6%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  55%|█████▌    | 346/625 [4:53:33<3:56:49, 50.93s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,552  parse_fail=1,146 (20.6%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  56%|█████▌    | 347/625 [4:54:24<3:56:01, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,568  parse_fail=1,150 (20.7%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  56%|█████▌    | 348/625 [4:55:15<3:55:01, 50.91s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,584  parse_fail=1,153 (20.6%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  56%|█████▌    | 349/625 [4:56:06<3:54:19, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,600  parse_fail=1,157 (20.7%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  56%|█████▌    | 350/625 [4:56:57<3:53:34, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,616  parse_fail=1,161 (20.7%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  56%|█████▌    | 351/625 [4:57:48<3:53:00, 51.02s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,632  parse_fail=1,166 (20.7%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  56%|█████▋    | 352/625 [4:58:39<3:51:45, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,648  parse_fail=1,169 (20.7%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  56%|█████▋    | 353/625 [4:59:30<3:50:40, 50.89s/it]No valid candidates
+
+  [medium] n= 5,664  parse_fail=1,170 (20.7%)  cell=0.0492  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  57%|█████▋    | 354/625 [5:00:21<3:50:01, 50.93s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,680  parse_fail=1,173 (20.7%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  57%|█████▋    | 355/625 [5:01:12<3:48:56, 50.88s/it]
+  [medium] n= 5,696  parse_fail=1,173 (20.6%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  57%|█████▋    | 356/625 [5:02:02<3:48:02, 50.87s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 5,712  parse_fail=1,175 (20.6%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  57%|█████▋    | 357/625 [5:02:53<3:47:21, 50.90s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,728  parse_fail=1,183 (20.7%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  57%|█████▋    | 358/625 [5:03:44<3:46:38, 50.93s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 5,744  parse_fail=1,185 (20.6%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  57%|█████▋    | 359/625 [5:04:35<3:45:55, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,760  parse_fail=1,188 (20.6%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  58%|█████▊    | 360/625 [5:05:26<3:44:47, 50.90s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,776  parse_fail=1,192 (20.6%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  58%|█████▊    | 361/625 [5:06:17<3:44:06, 50.93s/it]No valid candidates
+
+  [medium] n= 5,792  parse_fail=1,193 (20.6%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  58%|█████▊    | 362/625 [5:07:07<3:42:23, 50.73s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,808  parse_fail=1,198 (20.6%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  58%|█████▊    | 363/625 [5:07:59<3:42:08, 50.87s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,824  parse_fail=1,202 (20.6%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  58%|█████▊    | 364/625 [5:08:49<3:41:06, 50.83s/it]No valid candidates
+
+  [medium] n= 5,840  parse_fail=1,203 (20.6%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  58%|█████▊    | 365/625 [5:09:40<3:40:15, 50.83s/it]
+  [medium] n= 5,856  parse_fail=1,203 (20.5%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0015
+  [medium]:  59%|█████▊    | 366/625 [5:10:30<3:37:59, 50.50s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,872  parse_fail=1,206 (20.5%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  59%|█████▊    | 367/625 [5:11:21<3:37:29, 50.58s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 5,888  parse_fail=1,208 (20.5%)  cell=0.0494  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  59%|█████▉    | 368/625 [5:12:11<3:36:51, 50.63s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,904  parse_fail=1,213 (20.5%)  cell=0.0494  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  59%|█████▉    | 369/625 [5:13:02<3:36:29, 50.74s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,920  parse_fail=1,218 (20.6%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  59%|█████▉    | 370/625 [5:13:53<3:35:44, 50.76s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,936  parse_fail=1,222 (20.6%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  59%|█████▉    | 371/625 [5:14:44<3:35:06, 50.81s/it]No valid candidates
+
+  [medium] n= 5,952  parse_fail=1,223 (20.5%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  60%|█████▉    | 372/625 [5:15:35<3:34:17, 50.82s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,968  parse_fail=1,226 (20.5%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  60%|█████▉    | 373/625 [5:16:26<3:33:35, 50.85s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 5,984  parse_fail=1,231 (20.6%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  60%|█████▉    | 374/625 [5:17:17<3:32:42, 50.85s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,000  parse_fail=1,236 (20.6%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  60%|██████    | 375/625 [5:18:08<3:32:15, 50.94s/it]No valid candidates
+
+  [medium] n= 6,016  parse_fail=1,237 (20.6%)  cell=0.0493  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  60%|██████    | 376/625 [5:18:59<3:31:00, 50.85s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,032  parse_fail=1,239 (20.5%)  cell=0.0494  board=0.0000  row=0.0014  col=0.0014
+  [medium]:  60%|██████    | 377/625 [5:19:50<3:30:22, 50.90s/it]No valid candidates
+
+  [medium] n= 6,048  parse_fail=1,240 (20.5%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  60%|██████    | 378/625 [5:20:40<3:29:28, 50.88s/it]No valid candidates
+
+  [medium] n= 6,064  parse_fail=1,241 (20.5%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  61%|██████    | 379/625 [5:21:31<3:27:52, 50.70s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,080  parse_fail=1,243 (20.4%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  61%|██████    | 380/625 [5:22:22<3:27:12, 50.75s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,096  parse_fail=1,246 (20.4%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  61%|██████    | 381/625 [5:23:13<3:27:05, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,112  parse_fail=1,251 (20.5%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  61%|██████    | 382/625 [5:24:04<3:26:06, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,128  parse_fail=1,255 (20.5%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  61%|██████▏   | 383/625 [5:24:55<3:25:29, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,144  parse_fail=1,259 (20.5%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  61%|██████▏   | 384/625 [5:25:46<3:24:43, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,160  parse_fail=1,263 (20.5%)  cell=0.0492  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  62%|██████▏   | 385/625 [5:26:37<3:23:53, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,176  parse_fail=1,269 (20.5%)  cell=0.0492  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  62%|██████▏   | 386/625 [5:27:28<3:22:46, 50.90s/it]No valid candidates
+
+  [medium] n= 6,192  parse_fail=1,270 (20.5%)  cell=0.0492  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  62%|██████▏   | 387/625 [5:28:19<3:22:15, 50.99s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,208  parse_fail=1,273 (20.5%)  cell=0.0492  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  62%|██████▏   | 388/625 [5:29:10<3:21:36, 51.04s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,224  parse_fail=1,275 (20.5%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  62%|██████▏   | 389/625 [5:30:01<3:20:30, 50.98s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,240  parse_fail=1,277 (20.5%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  62%|██████▏   | 390/625 [5:30:51<3:19:24, 50.91s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,256  parse_fail=1,279 (20.4%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  63%|██████▎   | 391/625 [5:31:42<3:18:28, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,272  parse_fail=1,283 (20.5%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  63%|██████▎   | 392/625 [5:32:33<3:17:27, 50.85s/it]No valid candidates
+
+  [medium] n= 6,288  parse_fail=1,284 (20.4%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  63%|██████▎   | 393/625 [5:33:24<3:16:49, 50.90s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,304  parse_fail=1,287 (20.4%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  63%|██████▎   | 394/625 [5:34:15<3:16:03, 50.93s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,320  parse_fail=1,290 (20.4%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  63%|██████▎   | 395/625 [5:35:06<3:15:18, 50.95s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,336  parse_fail=1,292 (20.4%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  63%|██████▎   | 396/625 [5:35:57<3:14:38, 51.00s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,352  parse_fail=1,296 (20.4%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  64%|██████▎   | 397/625 [5:36:48<3:13:47, 51.00s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,368  parse_fail=1,300 (20.4%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  64%|██████▎   | 398/625 [5:37:39<3:13:03, 51.03s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,384  parse_fail=1,305 (20.4%)  cell=0.0493  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  64%|██████▍   | 399/625 [5:38:30<3:11:59, 50.97s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,400  parse_fail=1,307 (20.4%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  64%|██████▍   | 400/625 [5:39:21<3:11:15, 51.00s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,416  parse_fail=1,309 (20.4%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  64%|██████▍   | 401/625 [5:40:12<3:10:13, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,432  parse_fail=1,313 (20.4%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  64%|██████▍   | 402/625 [5:41:03<3:09:15, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,448  parse_fail=1,316 (20.4%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  64%|██████▍   | 403/625 [5:41:54<3:08:47, 51.03s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,464  parse_fail=1,318 (20.4%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  65%|██████▍   | 404/625 [5:42:45<3:07:55, 51.02s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,480  parse_fail=1,323 (20.4%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  65%|██████▍   | 405/625 [5:43:36<3:06:57, 50.99s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,496  parse_fail=1,325 (20.4%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  65%|██████▍   | 406/625 [5:44:27<3:06:17, 51.04s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,512  parse_fail=1,328 (20.4%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  65%|██████▌   | 407/625 [5:45:18<3:05:17, 51.00s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,528  parse_fail=1,330 (20.4%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  65%|██████▌   | 408/625 [5:46:09<3:04:16, 50.95s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,544  parse_fail=1,332 (20.4%)  cell=0.0494  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  65%|██████▌   | 409/625 [5:47:00<3:03:24, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,560  parse_fail=1,336 (20.4%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  66%|██████▌   | 410/625 [5:47:51<3:02:21, 50.89s/it]No valid candidates
+
+  [medium] n= 6,576  parse_fail=1,337 (20.3%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  66%|██████▌   | 411/625 [5:48:42<3:01:38, 50.93s/it]
+  [medium] n= 6,592  parse_fail=1,337 (20.3%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  66%|██████▌   | 412/625 [5:49:33<3:01:12, 51.05s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,608  parse_fail=1,339 (20.3%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  66%|██████▌   | 413/625 [5:50:23<2:58:44, 50.59s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,624  parse_fail=1,344 (20.3%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  66%|██████▌   | 414/625 [5:51:13<2:58:10, 50.66s/it]
+  [medium] n= 6,640  parse_fail=1,344 (20.2%)  cell=0.0495  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  66%|██████▋   | 415/625 [5:52:04<2:56:50, 50.52s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,656  parse_fail=1,347 (20.2%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  67%|██████▋   | 416/625 [5:52:55<2:56:35, 50.70s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,672  parse_fail=1,350 (20.2%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  67%|██████▋   | 417/625 [5:53:46<2:55:58, 50.76s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,688  parse_fail=1,352 (20.2%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  67%|██████▋   | 418/625 [5:54:37<2:55:37, 50.91s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,704  parse_fail=1,354 (20.2%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  67%|██████▋   | 419/625 [5:55:28<2:54:52, 50.93s/it]No valid candidates
+
+  [medium] n= 6,720  parse_fail=1,355 (20.2%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  67%|██████▋   | 420/625 [5:56:19<2:54:11, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,736  parse_fail=1,359 (20.2%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  67%|██████▋   | 421/625 [5:57:10<2:53:22, 50.99s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,752  parse_fail=1,361 (20.2%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  68%|██████▊   | 422/625 [5:58:01<2:52:32, 51.00s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,768  parse_fail=1,364 (20.2%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  68%|██████▊   | 423/625 [5:58:52<2:51:32, 50.95s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,784  parse_fail=1,366 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  68%|██████▊   | 424/625 [5:59:43<2:50:53, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,800  parse_fail=1,369 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  68%|██████▊   | 425/625 [6:00:34<2:49:46, 50.93s/it]No valid candidates
+
+  [medium] n= 6,816  parse_fail=1,370 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  68%|██████▊   | 426/625 [6:01:24<2:48:44, 50.88s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,832  parse_fail=1,375 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  68%|██████▊   | 427/625 [6:02:15<2:47:46, 50.84s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,848  parse_fail=1,377 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  68%|██████▊   | 428/625 [6:03:06<2:47:16, 50.95s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,864  parse_fail=1,379 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  69%|██████▊   | 429/625 [6:03:57<2:46:28, 50.96s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,880  parse_fail=1,381 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  69%|██████▉   | 430/625 [6:04:49<2:45:49, 51.03s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,896  parse_fail=1,385 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  69%|██████▉   | 431/625 [6:05:40<2:44:56, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,912  parse_fail=1,389 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  69%|██████▉   | 432/625 [6:06:31<2:44:05, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,928  parse_fail=1,393 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  69%|██████▉   | 433/625 [6:07:21<2:43:04, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,944  parse_fail=1,397 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  69%|██████▉   | 434/625 [6:08:12<2:42:13, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,960  parse_fail=1,400 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  70%|██████▉   | 435/625 [6:09:03<2:41:09, 50.89s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 6,976  parse_fail=1,402 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  70%|██████▉   | 436/625 [6:09:54<2:40:33, 50.97s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 6,992  parse_fail=1,406 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  70%|██████▉   | 437/625 [6:10:45<2:39:53, 51.03s/it]
+  [medium] n= 7,008  parse_fail=1,406 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  70%|███████   | 438/625 [6:11:36<2:38:33, 50.87s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,024  parse_fail=1,411 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  70%|███████   | 439/625 [6:12:27<2:37:35, 50.84s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,040  parse_fail=1,413 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  70%|███████   | 440/625 [6:13:17<2:36:35, 50.79s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,056  parse_fail=1,417 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  71%|███████   | 441/625 [6:14:08<2:35:48, 50.81s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,072  parse_fail=1,420 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  71%|███████   | 442/625 [6:14:58<2:34:12, 50.56s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,088  parse_fail=1,424 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  71%|███████   | 443/625 [6:15:49<2:33:45, 50.69s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,104  parse_fail=1,426 (20.1%)  cell=0.0496  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  71%|███████   | 444/625 [6:16:40<2:32:44, 50.63s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,120  parse_fail=1,429 (20.1%)  cell=0.0495  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  71%|███████   | 445/625 [6:17:31<2:32:10, 50.72s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,136  parse_fail=1,434 (20.1%)  cell=0.0495  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  71%|███████▏  | 446/625 [6:18:22<2:31:30, 50.79s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,152  parse_fail=1,436 (20.1%)  cell=0.0495  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  72%|███████▏  | 447/625 [6:19:12<2:30:43, 50.81s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,168  parse_fail=1,438 (20.1%)  cell=0.0495  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  72%|███████▏  | 448/625 [6:20:03<2:30:03, 50.87s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,184  parse_fail=1,441 (20.1%)  cell=0.0496  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  72%|███████▏  | 449/625 [6:20:54<2:29:19, 50.91s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,200  parse_fail=1,443 (20.0%)  cell=0.0496  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  72%|███████▏  | 450/625 [6:21:45<2:28:12, 50.81s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,216  parse_fail=1,447 (20.1%)  cell=0.0496  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  72%|███████▏  | 451/625 [6:22:36<2:27:18, 50.80s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,232  parse_fail=1,451 (20.1%)  cell=0.0497  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  72%|███████▏  | 452/625 [6:23:27<2:26:31, 50.82s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,248  parse_fail=1,456 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  72%|███████▏  | 453/625 [6:24:18<2:25:41, 50.82s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,264  parse_fail=1,460 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  73%|███████▎  | 454/625 [6:25:09<2:25:10, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,280  parse_fail=1,463 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  73%|███████▎  | 455/625 [6:25:59<2:24:08, 50.87s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,296  parse_fail=1,469 (20.1%)  cell=0.0497  board=0.0000  row=0.0016  col=0.0014
+  [medium]:  73%|███████▎  | 456/625 [6:26:50<2:23:24, 50.92s/it]No valid candidates
+
+  [medium] n= 7,312  parse_fail=1,470 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  73%|███████▎  | 457/625 [6:27:41<2:22:34, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,328  parse_fail=1,474 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  73%|███████▎  | 458/625 [6:28:33<2:21:53, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,344  parse_fail=1,477 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  73%|███████▎  | 459/625 [6:29:24<2:21:12, 51.04s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,360  parse_fail=1,481 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  74%|███████▎  | 460/625 [6:30:15<2:20:12, 50.98s/it]No valid candidates
+
+  [medium] n= 7,376  parse_fail=1,482 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  74%|███████▍  | 461/625 [6:31:06<2:19:30, 51.04s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,392  parse_fail=1,485 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0013
+  [medium]:  74%|███████▍  | 462/625 [6:31:56<2:18:25, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,408  parse_fail=1,488 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  74%|███████▍  | 463/625 [6:32:47<2:17:24, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,424  parse_fail=1,493 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  74%|███████▍  | 464/625 [6:33:38<2:16:35, 50.91s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,440  parse_fail=1,498 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  74%|███████▍  | 465/625 [6:34:29<2:15:49, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,456  parse_fail=1,503 (20.2%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  75%|███████▍  | 466/625 [6:35:20<2:14:54, 50.91s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,472  parse_fail=1,506 (20.2%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  75%|███████▍  | 467/625 [6:36:11<2:14:08, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,488  parse_fail=1,510 (20.2%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  75%|███████▍  | 468/625 [6:37:02<2:13:20, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,504  parse_fail=1,513 (20.2%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  75%|███████▌  | 469/625 [6:37:53<2:12:40, 51.03s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,520  parse_fail=1,515 (20.1%)  cell=0.0496  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  75%|███████▌  | 470/625 [6:38:43<2:11:10, 50.78s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,536  parse_fail=1,517 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  75%|███████▌  | 471/625 [6:39:34<2:10:26, 50.82s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,552  parse_fail=1,519 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  76%|███████▌  | 472/625 [6:40:14<2:01:23, 47.61s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,568  parse_fail=1,521 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  76%|███████▌  | 473/625 [6:41:06<2:03:17, 48.67s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,584  parse_fail=1,524 (20.1%)  cell=0.0497  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  76%|███████▌  | 474/625 [6:41:56<2:03:58, 49.26s/it]
+  [medium] n= 7,600  parse_fail=1,524 (20.1%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  76%|███████▌  | 475/625 [6:42:47<2:04:23, 49.76s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,616  parse_fail=1,526 (20.0%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  76%|███████▌  | 476/625 [6:43:38<2:04:34, 50.16s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,632  parse_fail=1,535 (20.1%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  76%|███████▋  | 477/625 [6:44:29<2:04:21, 50.41s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,648  parse_fail=1,537 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  76%|███████▋  | 478/625 [6:45:20<2:03:52, 50.56s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,664  parse_fail=1,539 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  77%|███████▋  | 479/625 [6:46:11<2:03:21, 50.69s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,680  parse_fail=1,544 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0014
+  [medium]:  77%|███████▋  | 480/625 [6:47:02<2:02:35, 50.73s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,696  parse_fail=1,547 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  77%|███████▋  | 481/625 [6:47:53<2:02:01, 50.84s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,712  parse_fail=1,549 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  77%|███████▋  | 482/625 [6:48:44<2:01:14, 50.87s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,728  parse_fail=1,553 (20.1%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  77%|███████▋  | 483/625 [6:49:35<2:00:26, 50.89s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,744  parse_fail=1,555 (20.1%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  77%|███████▋  | 484/625 [6:50:26<1:59:47, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,760  parse_fail=1,558 (20.1%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  78%|███████▊  | 485/625 [6:51:17<1:58:57, 50.98s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 7,776  parse_fail=1,560 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  78%|███████▊  | 486/625 [6:52:08<1:57:55, 50.90s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,792  parse_fail=1,566 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  78%|███████▊  | 487/625 [6:52:59<1:57:02, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,808  parse_fail=1,569 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  78%|███████▊  | 488/625 [6:53:49<1:56:06, 50.85s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,824  parse_fail=1,572 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  78%|███████▊  | 489/625 [6:54:41<1:55:25, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,840  parse_fail=1,577 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  78%|███████▊  | 490/625 [6:55:31<1:54:27, 50.87s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,856  parse_fail=1,584 (20.2%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  79%|███████▊  | 491/625 [6:56:22<1:53:45, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,872  parse_fail=1,588 (20.2%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  79%|███████▊  | 492/625 [6:57:13<1:52:56, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,888  parse_fail=1,592 (20.2%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  79%|███████▉  | 493/625 [6:58:04<1:52:01, 50.92s/it]No valid candidates
+
+  [medium] n= 7,904  parse_fail=1,593 (20.2%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  79%|███████▉  | 494/625 [6:58:55<1:50:58, 50.82s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,920  parse_fail=1,597 (20.2%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  79%|███████▉  | 495/625 [6:59:46<1:50:10, 50.85s/it]No valid candidates
+
+  [medium] n= 7,936  parse_fail=1,598 (20.1%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  79%|███████▉  | 496/625 [7:00:37<1:49:29, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,952  parse_fail=1,601 (20.1%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  80%|███████▉  | 497/625 [7:01:28<1:48:47, 51.00s/it]No valid candidates
+
+  [medium] n= 7,968  parse_fail=1,602 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  80%|███████▉  | 498/625 [7:02:19<1:47:40, 50.87s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 7,984  parse_fail=1,605 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  80%|███████▉  | 499/625 [7:03:09<1:46:51, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,000  parse_fail=1,609 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  80%|████████  | 500/625 [7:04:00<1:46:02, 50.90s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,016  parse_fail=1,612 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  80%|████████  | 501/625 [7:04:51<1:45:12, 50.91s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,032  parse_fail=1,615 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  80%|████████  | 502/625 [7:05:42<1:44:19, 50.89s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 8,048  parse_fail=1,617 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  80%|████████  | 503/625 [7:06:32<1:42:37, 50.47s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,064  parse_fail=1,621 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  81%|████████  | 504/625 [7:07:22<1:41:56, 50.55s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 8,080  parse_fail=1,623 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  81%|████████  | 505/625 [7:08:12<1:40:41, 50.34s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 8,096  parse_fail=1,625 (20.1%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  81%|████████  | 506/625 [7:09:03<1:40:02, 50.44s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 8,112  parse_fail=1,627 (20.1%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  81%|████████  | 507/625 [7:09:54<1:39:26, 50.57s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,128  parse_fail=1,632 (20.1%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  81%|████████▏ | 508/625 [7:10:45<1:38:42, 50.62s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,144  parse_fail=1,637 (20.1%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  81%|████████▏ | 509/625 [7:11:35<1:38:02, 50.71s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,160  parse_fail=1,640 (20.1%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  82%|████████▏ | 510/625 [7:12:26<1:37:18, 50.77s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,176  parse_fail=1,644 (20.1%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  82%|████████▏ | 511/625 [7:13:18<1:36:41, 50.89s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 8,192  parse_fail=1,646 (20.1%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  82%|████████▏ | 512/625 [7:14:08<1:35:49, 50.88s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,208  parse_fail=1,650 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  82%|████████▏ | 513/625 [7:14:59<1:35:02, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,224  parse_fail=1,656 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  82%|████████▏ | 514/625 [7:15:50<1:34:14, 50.94s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,240  parse_fail=1,659 (20.1%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  82%|████████▏ | 515/625 [7:16:41<1:33:11, 50.83s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,256  parse_fail=1,666 (20.2%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  83%|████████▎ | 516/625 [7:17:32<1:32:36, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,272  parse_fail=1,670 (20.2%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  83%|████████▎ | 517/625 [7:18:23<1:31:49, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,288  parse_fail=1,673 (20.2%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  83%|████████▎ | 518/625 [7:19:14<1:30:45, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,304  parse_fail=1,676 (20.2%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  83%|████████▎ | 519/625 [7:20:05<1:29:55, 50.90s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,320  parse_fail=1,679 (20.2%)  cell=0.0499  board=0.0000  row=0.0016  col=0.0015
+  [medium]:  83%|████████▎ | 520/625 [7:20:56<1:29:10, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,336  parse_fail=1,683 (20.2%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  83%|████████▎ | 521/625 [7:21:47<1:28:29, 51.05s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,352  parse_fail=1,690 (20.2%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  84%|████████▎ | 522/625 [7:22:38<1:27:39, 51.06s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,368  parse_fail=1,694 (20.2%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  84%|████████▎ | 523/625 [7:23:29<1:26:41, 50.99s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,384  parse_fail=1,698 (20.3%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  84%|████████▍ | 524/625 [7:24:20<1:25:48, 50.98s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,400  parse_fail=1,701 (20.2%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  84%|████████▍ | 525/625 [7:25:11<1:24:53, 50.93s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,416  parse_fail=1,704 (20.2%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  84%|████████▍ | 526/625 [7:26:02<1:23:59, 50.91s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,432  parse_fail=1,709 (20.3%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  84%|████████▍ | 527/625 [7:26:53<1:23:06, 50.88s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 8,448  parse_fail=1,711 (20.3%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  84%|████████▍ | 528/625 [7:27:44<1:22:26, 50.99s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,464  parse_fail=1,715 (20.3%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  85%|████████▍ | 529/625 [7:28:35<1:21:35, 50.99s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,480  parse_fail=1,719 (20.3%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  85%|████████▍ | 530/625 [7:29:24<1:19:46, 50.39s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,496  parse_fail=1,722 (20.3%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  85%|████████▍ | 531/625 [7:30:15<1:19:09, 50.53s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,512  parse_fail=1,725 (20.3%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  85%|████████▌ | 532/625 [7:31:06<1:18:30, 50.65s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 8,528  parse_fail=1,727 (20.3%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  85%|████████▌ | 533/625 [7:31:57<1:17:47, 50.73s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 8,544  parse_fail=1,729 (20.2%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  85%|████████▌ | 534/625 [7:32:47<1:17:01, 50.78s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 8,560  parse_fail=1,731 (20.2%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  86%|████████▌ | 535/625 [7:33:38<1:16:15, 50.84s/it]No valid candidates
+
+  [medium] n= 8,576  parse_fail=1,732 (20.2%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  86%|████████▌ | 536/625 [7:34:30<1:15:32, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,592  parse_fail=1,736 (20.2%)  cell=0.0498  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  86%|████████▌ | 537/625 [7:35:21<1:14:43, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,608  parse_fail=1,739 (20.2%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  86%|████████▌ | 538/625 [7:36:12<1:13:52, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,624  parse_fail=1,742 (20.2%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  86%|████████▌ | 539/625 [7:37:02<1:12:53, 50.86s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,640  parse_fail=1,745 (20.2%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  86%|████████▋ | 540/625 [7:37:53<1:12:11, 50.96s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 8,656  parse_fail=1,747 (20.2%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  87%|████████▋ | 541/625 [7:38:44<1:11:17, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,672  parse_fail=1,750 (20.2%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  87%|████████▋ | 542/625 [7:39:35<1:10:23, 50.89s/it]No valid candidates
+
+  [medium] n= 8,688  parse_fail=1,751 (20.2%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  87%|████████▋ | 543/625 [7:40:26<1:09:26, 50.81s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,704  parse_fail=1,755 (20.2%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  87%|████████▋ | 544/625 [7:41:17<1:08:38, 50.85s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,720  parse_fail=1,758 (20.2%)  cell=0.0499  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  87%|████████▋ | 545/625 [7:42:07<1:07:45, 50.82s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,736  parse_fail=1,761 (20.2%)  cell=0.0500  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  87%|████████▋ | 546/625 [7:42:58<1:06:56, 50.85s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,752  parse_fail=1,766 (20.2%)  cell=0.0500  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  88%|████████▊ | 547/625 [7:43:49<1:06:07, 50.87s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 8,768  parse_fail=1,768 (20.2%)  cell=0.0500  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  88%|████████▊ | 548/625 [7:44:40<1:05:20, 50.91s/it]
+  [medium] n= 8,784  parse_fail=1,768 (20.1%)  cell=0.0500  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  88%|████████▊ | 549/625 [7:45:31<1:04:31, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,800  parse_fail=1,773 (20.1%)  cell=0.0500  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  88%|████████▊ | 550/625 [7:46:22<1:03:38, 50.91s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 8,816  parse_fail=1,775 (20.1%)  cell=0.0500  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  88%|████████▊ | 551/625 [7:47:13<1:02:48, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,832  parse_fail=1,780 (20.2%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  88%|████████▊ | 552/625 [7:48:04<1:02:04, 51.02s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,848  parse_fail=1,784 (20.2%)  cell=0.0500  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  88%|████████▊ | 553/625 [7:48:55<1:01:13, 51.02s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,864  parse_fail=1,788 (20.2%)  cell=0.0500  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  89%|████████▊ | 554/625 [7:49:46<1:00:20, 50.99s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,880  parse_fail=1,791 (20.2%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  89%|████████▉ | 555/625 [7:50:37<59:24, 50.92s/it]  No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,896  parse_fail=1,796 (20.2%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  89%|████████▉ | 556/625 [7:51:28<58:33, 50.93s/it]No valid candidates
+
+  [medium] n= 8,912  parse_fail=1,797 (20.2%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  89%|████████▉ | 557/625 [7:52:19<57:39, 50.88s/it]No valid candidates
+
+  [medium] n= 8,928  parse_fail=1,798 (20.1%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  89%|████████▉ | 558/625 [7:53:10<56:52, 50.93s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,944  parse_fail=1,802 (20.1%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  89%|████████▉ | 559/625 [7:54:01<55:59, 50.90s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 8,960  parse_fail=1,806 (20.2%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  90%|████████▉ | 560/625 [7:54:51<55:05, 50.86s/it]No valid candidates
+
+  [medium] n= 8,976  parse_fail=1,807 (20.1%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  90%|████████▉ | 561/625 [7:55:42<54:11, 50.80s/it]No valid candidates
+
+  [medium] n= 8,992  parse_fail=1,808 (20.1%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  90%|████████▉ | 562/625 [7:56:33<53:16, 50.74s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,008  parse_fail=1,810 (20.1%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  90%|█████████ | 563/625 [7:57:24<52:34, 50.88s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,024  parse_fail=1,813 (20.1%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  90%|█████████ | 564/625 [7:58:14<51:22, 50.54s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,040  parse_fail=1,815 (20.1%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  90%|█████████ | 565/625 [7:59:05<50:42, 50.71s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,056  parse_fail=1,819 (20.1%)  cell=0.0501  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  91%|█████████ | 566/625 [7:59:56<49:57, 50.80s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,072  parse_fail=1,821 (20.1%)  cell=0.0502  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  91%|█████████ | 567/625 [8:00:46<49:07, 50.82s/it]No valid candidates
+
+  [medium] n= 9,088  parse_fail=1,822 (20.0%)  cell=0.0502  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  91%|█████████ | 568/625 [8:01:37<48:06, 50.64s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,104  parse_fail=1,824 (20.0%)  cell=0.0502  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  91%|█████████ | 569/625 [8:02:28<47:25, 50.81s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,120  parse_fail=1,827 (20.0%)  cell=0.0503  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  91%|█████████ | 570/625 [8:03:19<46:35, 50.82s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,136  parse_fail=1,830 (20.0%)  cell=0.0503  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  91%|█████████▏| 571/625 [8:04:10<45:49, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,152  parse_fail=1,835 (20.1%)  cell=0.0502  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  92%|█████████▏| 572/625 [8:05:01<44:59, 50.93s/it]No valid candidates
+
+  [medium] n= 9,168  parse_fail=1,836 (20.0%)  cell=0.0502  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  92%|█████████▏| 573/625 [8:05:51<43:55, 50.68s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,184  parse_fail=1,840 (20.0%)  cell=0.0502  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  92%|█████████▏| 574/625 [8:06:42<43:07, 50.73s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,200  parse_fail=1,846 (20.1%)  cell=0.0503  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  92%|█████████▏| 575/625 [8:07:33<42:16, 50.74s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,216  parse_fail=1,848 (20.1%)  cell=0.0503  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  92%|█████████▏| 576/625 [8:08:23<41:28, 50.80s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,232  parse_fail=1,851 (20.0%)  cell=0.0503  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  92%|█████████▏| 577/625 [8:09:15<40:48, 51.01s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,248  parse_fail=1,858 (20.1%)  cell=0.0503  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  92%|█████████▏| 578/625 [8:10:06<39:53, 50.93s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,264  parse_fail=1,862 (20.1%)  cell=0.0503  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  93%|█████████▎| 579/625 [8:10:57<39:07, 51.04s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,280  parse_fail=1,864 (20.1%)  cell=0.0503  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  93%|█████████▎| 580/625 [8:11:47<38:08, 50.86s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,296  parse_fail=1,869 (20.1%)  cell=0.0503  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  93%|█████████▎| 581/625 [8:12:38<37:18, 50.87s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,312  parse_fail=1,871 (20.1%)  cell=0.0503  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  93%|█████████▎| 582/625 [8:13:30<36:31, 50.97s/it]No valid candidates
+
+  [medium] n= 9,328  parse_fail=1,872 (20.1%)  cell=0.0504  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  93%|█████████▎| 583/625 [8:14:20<35:34, 50.83s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,344  parse_fail=1,874 (20.1%)  cell=0.0504  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  93%|█████████▎| 584/625 [8:15:11<34:41, 50.78s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,360  parse_fail=1,877 (20.1%)  cell=0.0504  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  94%|█████████▎| 585/625 [8:16:01<33:49, 50.75s/it]No valid candidates
+
+  [medium] n= 9,376  parse_fail=1,878 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  94%|█████████▍| 586/625 [8:16:52<33:01, 50.80s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,392  parse_fail=1,880 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  94%|█████████▍| 587/625 [8:17:43<32:12, 50.84s/it]
+  [medium] n= 9,408  parse_fail=1,880 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  94%|█████████▍| 588/625 [8:18:33<31:13, 50.62s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,424  parse_fail=1,882 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  94%|█████████▍| 589/625 [8:19:25<30:29, 50.82s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,440  parse_fail=1,884 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  94%|█████████▍| 590/625 [8:20:16<29:38, 50.82s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,456  parse_fail=1,887 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  95%|█████████▍| 591/625 [8:21:06<28:49, 50.86s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,472  parse_fail=1,889 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  95%|█████████▍| 592/625 [8:21:57<27:55, 50.78s/it]
+  [medium] n= 9,488  parse_fail=1,889 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  95%|█████████▍| 593/625 [8:22:48<27:04, 50.78s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,504  parse_fail=1,892 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  95%|█████████▌| 594/625 [8:23:39<26:14, 50.80s/it]No valid candidates
+
+  [medium] n= 9,520  parse_fail=1,893 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  95%|█████████▌| 595/625 [8:24:29<25:23, 50.79s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,536  parse_fail=1,896 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  95%|█████████▌| 596/625 [8:25:21<24:36, 50.91s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,552  parse_fail=1,899 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  96%|█████████▌| 597/625 [8:26:11<23:44, 50.86s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,568  parse_fail=1,903 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  96%|█████████▌| 598/625 [8:27:02<22:53, 50.88s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,584  parse_fail=1,908 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  96%|█████████▌| 599/625 [8:27:53<22:01, 50.85s/it]
+  [medium] n= 9,600  parse_fail=1,908 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  96%|█████████▌| 600/625 [8:28:44<21:11, 50.85s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,616  parse_fail=1,914 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  96%|█████████▌| 601/625 [8:29:35<20:23, 50.97s/it]No valid candidates
+
+  [medium] n= 9,632  parse_fail=1,915 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  96%|█████████▋| 602/625 [8:30:26<19:31, 50.95s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,648  parse_fail=1,920 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  96%|█████████▋| 603/625 [8:31:17<18:40, 50.92s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,664  parse_fail=1,925 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  97%|█████████▋| 604/625 [8:32:08<17:48, 50.90s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,680  parse_fail=1,930 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  97%|█████████▋| 605/625 [8:32:58<16:56, 50.83s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,696  parse_fail=1,937 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  97%|█████████▋| 606/625 [8:33:49<16:06, 50.87s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,712  parse_fail=1,942 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  97%|█████████▋| 607/625 [8:34:41<15:18, 51.02s/it]No valid candidates
+
+  [medium] n= 9,728  parse_fail=1,943 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  97%|█████████▋| 608/625 [8:35:32<14:26, 50.96s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,744  parse_fail=1,949 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  97%|█████████▋| 609/625 [8:36:22<13:34, 50.93s/it]No valid candidates
+
+  [medium] n= 9,760  parse_fail=1,950 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  98%|█████████▊| 610/625 [8:37:12<12:37, 50.53s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,776  parse_fail=1,954 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  98%|█████████▊| 611/625 [8:38:03<11:48, 50.63s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,792  parse_fail=1,959 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  98%|█████████▊| 612/625 [8:38:54<10:59, 50.75s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,808  parse_fail=1,963 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  98%|█████████▊| 613/625 [8:39:45<10:11, 50.93s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,824  parse_fail=1,967 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  98%|█████████▊| 614/625 [8:40:36<09:20, 50.95s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,840  parse_fail=1,969 (20.0%)  cell=0.0506  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  98%|█████████▊| 615/625 [8:41:27<08:28, 50.89s/it]No valid candidates
+
+  [medium] n= 9,856  parse_fail=1,970 (20.0%)  cell=0.0506  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  99%|█████████▊| 616/625 [8:42:18<07:37, 50.88s/it]
+  [medium] n= 9,872  parse_fail=1,970 (20.0%)  cell=0.0506  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  99%|█████████▊| 617/625 [8:43:09<06:46, 50.84s/it]No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,888  parse_fail=1,973 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  99%|█████████▉| 618/625 [8:43:59<05:55, 50.84s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,904  parse_fail=1,975 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  99%|█████████▉| 619/625 [8:44:50<05:05, 50.87s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,920  parse_fail=1,977 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  99%|█████████▉| 620/625 [8:45:42<04:14, 50.96s/it]No valid candidates
+
+  [medium] n= 9,936  parse_fail=1,978 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]:  99%|█████████▉| 621/625 [8:46:32<03:23, 50.87s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,952  parse_fail=1,982 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]: 100%|█████████▉| 622/625 [8:47:23<02:32, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n= 9,968  parse_fail=1,989 (20.0%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]: 100%|█████████▉| 623/625 [8:48:14<01:41, 50.91s/it]No valid candidates
+No valid candidates
+
+  [medium] n= 9,984  parse_fail=1,991 (19.9%)  cell=0.0505  board=0.0000  row=0.0015  col=0.0015
+  [medium]: 100%|█████████▉| 624/625 [8:49:05<00:50, 50.89s/it]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=10,000  parse_fail=1,996 (20.0%)  cell=0.0504  board=0.0000  row=0.0015  col=0.0015
+  [medium]: 100%|██████████| 625/625 [8:49:56<00:00, 50.88s/it]  [medium]: 100%|██████████| 625/625 [8:49:56<00:00, 50.87s/it]
+
+  Results -- medium (0shot)
+  Evaluated           :     10,000
+  Parse failures      :      1,996  (20.0%)
+  Cell accuracy       :     0.0504
+  Board accuracy      :     0.0000
+  Row accuracy        :     0.0015
+  Col accuracy        :     0.0015
+  Wall time           :    31796.3s
+
+  Saving to results_kakuro/llama3_0shot/
+    -> results_kakuro/llama3_0shot/meta-llama-3-8b-instruct_medium_0shot.summary.json
+    -> results_kakuro/llama3_0shot/meta-llama-3-8b-instruct_medium_0shot.per_sample.jsonl
+    -> results_kakuro/llama3_0shot/meta-llama-3-8b-instruct_medium_0shot.samples.json
+    -> results_kakuro/llama3_0shot/meta-llama-3-8b-instruct_medium_0shot.samples.txt
+
+======================================================================
+  Combined summary -> results_kakuro/llama3_0shot/meta-llama-3-8b-instruct_combined_0shot.json
+  Total wall time  : 31817.7s
+======================================================================
+

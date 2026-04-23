@@ -1,0 +1,54 @@
+/hpc/group/tdunn/as1296/miniconda3/envs/diffusion_lang/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+[eval_sudoku_ar] Loading model : meta-llama/Meta-Llama-3-8B-Instruct
+[eval_sudoku_ar] trust_remote_code=False
+[eval_sudoku_ar] pad_token set to eos_token (id=128009)
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:00<00:01,  1.56it/s]Loading checkpoint shards:  50%|█████     | 2/4 [00:01<00:01,  1.60it/s]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:01<00:00,  1.63it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.34it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:01<00:00,  2.00it/s]
+
+──────────────────────────────────────────────────────────────────────
+  Model      : meta-llama/Meta-Llama-3-8B-Instruct
+  Difficulty : MEDIUM    few-shot : 0
+──────────────────────────────────────────────────────────────────────
+  Loading dataset ...
+  [KakuroGrid] Loading from HuggingFace: Apaxdor/Kakuro_mania (subset=default, split=train, streaming=True)
+  Loaded 164 [medium] problems.
+  Test set   : 64 problems
+  [medium]:   0%|          | 0/4 [00:00<?, ?it/s]No valid candidates
+No valid candidates
+No valid candidates
+No valid candidates
+
+  [medium] n=    16  parse_fail=    4 (25.0%)  cell=0.0528  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  25%|██▌       | 1/4 [00:50<02:32, 50.94s/it]No valid candidates
+No valid candidates
+
+  [medium] n=    32  parse_fail=    6 (18.8%)  cell=0.0550  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  50%|█████     | 2/4 [01:40<01:40, 50.35s/it]
+  [medium] n=    48  parse_fail=    6 (12.5%)  cell=0.0532  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  75%|███████▌  | 3/4 [02:31<00:50, 50.70s/it]No valid candidates
+No valid candidates
+
+  [medium] n=    64  parse_fail=    8 (12.5%)  cell=0.0568  board=0.0000  row=0.0000  col=0.0000
+  [medium]: 100%|██████████| 4/4 [03:22<00:00, 50.73s/it]  [medium]: 100%|██████████| 4/4 [03:22<00:00, 50.69s/it]
+
+  Results -- medium (0shot)
+  Evaluated           :         64
+  Parse failures      :          8  (12.5%)
+  Cell accuracy       :     0.0568
+  Board accuracy      :     0.0000
+  Row accuracy        :     0.0000
+  Col accuracy        :     0.0000
+  Wall time           :      202.8s
+
+  Saving to results/llama3_0shot/
+    -> results/llama3_0shot/meta-llama-3-8b-instruct_medium_0shot.summary.json
+    -> results/llama3_0shot/meta-llama-3-8b-instruct_medium_0shot.per_sample.jsonl
+    -> results/llama3_0shot/meta-llama-3-8b-instruct_medium_0shot.samples.json
+    -> results/llama3_0shot/meta-llama-3-8b-instruct_medium_0shot.samples.txt
+
+======================================================================
+  Combined summary -> results/llama3_0shot/meta-llama-3-8b-instruct_combined_0shot.json
+  Total wall time  : 205.1s
+======================================================================
+
