@@ -908,7 +908,6 @@ def main() -> None:
         print(f"  {'Wall time':<20}: {elapsed:>10.1f}s")
 
         print(f"\n  Saving to {output_dir}/")
-        out_prefix = output_dir / f"{diff_name}_{shot_tag}"
         save_results(result, out_prefix, args)
 
     # Combined summary across all difficulties

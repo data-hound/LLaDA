@@ -3,7 +3,7 @@
     "difficulty": [
       "medium"
     ],
-    "n_samples": 20,
+    "n_samples": 10000,
     "no_streaming": false,
     "seed": 42,
     "model": "Dream-org/Dream-v0-Instruct-7B",
@@ -19,16 +19,16 @@
     "n_failure_samples": 10
   },
   "shot_tag": "0shot",
-  "total_time_s": 181.8,
+  "total_time_s": 178798.9,
   "results": {
     "medium": {
-      "n_total": 10,
+      "n_total": 9996,
       "n_parse_fail": 0,
       "pct_parse_fail": 0.0,
-      "cell_acc": 0.19879337180447262,
-      "board_acc": 0.0,
-      "row_acc": 0.07777777777777777,
-      "col_acc": 0.1
+      "cell_acc": 0.14111856175440715,
+      "board_acc": 0.0008003201280512205,
+      "row_acc": 0.060546440798541636,
+      "col_acc": 0.0454292828242408
     }
   }
 }

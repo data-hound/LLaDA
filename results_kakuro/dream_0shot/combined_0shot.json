@@ -1,9 +1,10 @@
 {
   "config": {
     "difficulty": [
-      "easy"
+      "medium"
     ],
-    "n_samples": 10,
+    "n_samples": 4000,
+    "starting_samples": 4000,
     "no_streaming": false,
     "seed": 42,
     "model": "Dream-org/Dream-v0-Instruct-7B",
@@ -19,13 +20,13 @@
     "n_failure_samples": 10
   },
   "shot_tag": "0shot",
-  "total_time_s": 298.7,
+  "total_time_s": 66787.0,
   "results": {
-    "easy": {
-      "n_total": 10,
-      "n_parse_fail": 10,
-      "pct_parse_fail": 100.0,
-      "cell_acc": 0.0,
+    "medium": {
+      "n_total": 4000,
+      "n_parse_fail": 3988,
+      "pct_parse_fail": 99.7,
+      "cell_acc": 6.0975609756097564e-06,
       "board_acc": 0.0,
       "row_acc": 0.0,
       "col_acc": 0.0

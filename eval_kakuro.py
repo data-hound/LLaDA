@@ -136,31 +136,73 @@ class PromptBuilder:
 
         rows = ",".join(f"[row{i+1}]" for i in range(problem.rows))
 
-        return (
+        # return (
+        #     f"{few_shot_prefix}"
+        #     "Solve the following Kakuro puzzle.\n\n"
+        #     f"The grid is a {problem.rows}x{problem.cols} list of lists.\n\n"
+        #     "Cell meanings:\n"
+        #     "- 0 = black cell (do not fill)\n"
+        #     "- (A, D) = clue cell where:\n"
+        #     "    A = sum of the ACROSS run (to the right)\n"
+        #     "    D = sum of the DOWN run (below)\n"
+        #     "- Note: Cells can be numbers or tuples\n"
+        #     "- Empty cells to fill are represented by -1 in the puzzle but should be filled with digits 1-9\n\n"
+        #     "KAKURO RULES:\n"
+        #     "- Fill each empty cell (marked with -1) with a digit 1-9\n"
+        #     "- Numbers in each each horizontal run must sum to the across clue, i.e., number A for row ending in tuple (A,D) \n"
+        #     "- Numbers in each each vertical run must sum to the down clue, i.e., number D for column ending in tuple (A,D) \n"
+        #     "- Leave 0s as unfilled\n"
+        #     "- No repeated digits within a run\n\n"
+        #     "IMPORTANT:\n"
+        #     "- Do NOT modify black cells or clue cells\n"
+        #     "- Only fill empty cells\n\n"
+        #     f"Puzzle:\n{puzzle_as_list}\n\n"
+        #     "Return ONLY the fully solved grid as a list of lists.\n"
+        #     "NO explanations, NO extra text.\n\n"
+        #     "SOLUTION STRUCTURE:\n"
+        #     f"[{rows}]\n\n"
+        #     "SOLUTION:\n"
+        # )
+    
+        return(
             f"{few_shot_prefix}"
             "Solve the following Kakuro puzzle.\n\n"
             f"The grid is a {problem.rows}x{problem.cols} list of lists.\n\n"
+
             "Cell meanings:\n"
-            "- 0 = black cell (do not fill)\n"
+            "- 0 = black cell (do not fill or modify)\n"
             "- (A, D) = clue cell where:\n"
-            "    A = sum of the ACROSS run (to the right)\n"
-            "    D = sum of the DOWN run (below)\n"
-            "- Note: Cells can be numbers or tuples\n"
-            "- Empty cells to fill are represented by -1 in the puzzle but should be filled with digits 1-9\n\n"
+            "    A = sum of the ACROSS run (cells immediately to the right)\n"
+            "    D = sum of the DOWN run (cells immediately below)\n"
+            "- If A or D is 0, there is no clue in that direction\n"
+            "- Cells can be integers or tuples\n"
+            "- Empty cells to fill are represented by -1 and must be replaced with digits 1-9\n\n"
+
             "KAKURO RULES:\n"
-            "- Fill each empty cell (marked with -1) with a digit 1-9\n"
-            "- Numbers in each each horizontal run must sum to the across clue, i.e., number A for row ending in tuple (A,D) \n"
-            "- Numbers in each each vertical run must sum to the down clue, i.e., number D for column ending in tuple (A,D) \n"
-            "- Leave 0s as unfilled\n"
-            "- No repeated digits within a run\n\n"
+            "- Fill each empty cell (-1) with a digit from 1 to 9\n"
+            "- An ACROSS run starts immediately to the right of a clue cell and continues until a black cell, another clue cell, or the grid edge\n"
+            "- A DOWN run starts immediately below a clue cell and continues until a black cell, another clue cell, or the grid edge\n"
+            "- The numbers in each ACROSS run must sum to A\n"
+            "- The numbers in each DOWN run must sum to D\n"
+            "- No repeated digits are allowed within a single run\n"
+            "- Leave all 0s and clue cells unchanged\n\n"
+
             "IMPORTANT:\n"
-            "- Do NOT modify black cells or clue cells\n"
-            "- Only fill empty cells\n\n"
+            "- Do NOT modify black cells (0) or clue cells (A, D)\n"
+            "- ONLY fill cells marked with -1\n"
+            "- Ensure the final grid has exactly the same dimensions\n"
+            "- Ensure all across and down constraints are satisfied\n\n"
+
             f"Puzzle:\n{puzzle_as_list}\n\n"
+
             "Return ONLY the fully solved grid as a list of lists.\n"
             "NO explanations, NO extra text.\n\n"
-            "SOLUTION STRUCTURE:\n"
-            f"[{rows}]\n\n"
+
+            "SOLUTION FORMAT:\n"
+            "- Output must be a valid Python list of lists\n"
+            "- Preserve all 0 and (A, D) cells exactly as given\n"
+            "- Replace every -1 with a digit 1-9\n\n"
+
             "SOLUTION:\n"
         )
 
@@ -732,15 +774,19 @@ def evaluate_difficulty(
     n_success_samples: int = 5,
     n_failure_samples: int = 10,
     mask_id: int = MASK_ID_DEFAULT,
+    out_prefix: Path | None = None,
+    starting_samples: int = 0,
 ) -> dict:
     results:   list[dict] = []
     successes: list[dict] = []
     failures:  list[dict] = []
 
-    n_batches = (len(problems) + batch_size - 1) // batch_size
+    # n_batches = (len(problems) + batch_size - 1) // batch_size
+    # Batches accounting for starting samples
+    n_batches = (len(problems) + batch_size - 1 - starting_samples) // batch_size
 
     for batch_idx in tqdm(range(n_batches), desc=f"  [{difficulty_name}]"):
-        batch_problems = problems[batch_idx * batch_size : (batch_idx + 1) * batch_size]
+        batch_problems = problems[starting_samples + batch_idx * batch_size : starting_samples + (batch_idx + 1) * batch_size]
 
         prompt_texts = [
             build_chat_prompt(tokenizer, prob, mode, few_shot_examples)
@@ -807,6 +853,10 @@ def evaluate_difficulty(
             flush=True,
         )
 
+        # Save per sample ids at the end of a batch
+        if out_prefix:
+            save_per_sample({"per_sample": results}, out_prefix)
+
         torch.cuda.empty_cache()
 
     return {
@@ -821,6 +871,16 @@ def evaluate_difficulty(
 # ===============================================================================
 # 7.  Saving
 # ===============================================================================
+
+def save_per_sample(result:dict, out_prefix: Path) -> None:
+    prefix = str(out_prefix)
+    per_sample_path = prefix + ".per_sample.jsonl"
+    with open(per_sample_path, "a") as f:
+        for s in result["per_sample"]:
+            row = {k: v for k, v in s.items() if k != "prompt"}
+            f.write(json.dumps(row, default=str) + "\n")
+
+            f.flush()
 
 def save_results(result: dict, out_prefix: Path, args: argparse.Namespace) -> None:
     prefix = str(out_prefix)
@@ -884,6 +944,8 @@ def parse_args() -> argparse.Namespace:
                    choices=["easy", "medium", "hard"])
     p.add_argument("--n-samples",  type=int, default=10_000,
                    help="Max problems per difficulty (stops streaming early).")
+    p.add_argument("--starting-samples",  type=int, default=0,
+                   help="Specify the start sample for inference. Useful for continued inference.")
     p.add_argument("--no-streaming", action="store_true",
                    help="Download the full dataset instead of streaming. "
                         "Faster if you plan multiple runs.")
@@ -952,7 +1014,7 @@ def main() -> None:
 
         print("  Loading dataset ...")
         dataset      = KakuroGrid(
-            n_samples=args.n_samples + (args.few_shot or 0) + 100,  # load a bit extra for few-shot headroom
+            n_samples=args.starting_samples + args.n_samples + (args.few_shot or 0) + 100,  # load a bit extra for few-shot headroom
             difficulty=diff_filter,
             seed=args.seed,
             streaming=not args.no_streaming,
@@ -968,16 +1030,61 @@ def main() -> None:
             few_shot_ids      = {ex.problem_id for ex in few_shot_examples}
             print(f"  Reserving {len(few_shot_examples)} few-shot examples "
                   f"(excluded from test set).")
+        
+        # --- Continued inference logic ---
+        resume_file = Path(output_dir) / f"{diff_name}_{shot_tag}.per_sample.jsonl"
+
+        completed_ids: set[str] = set()
+
+        if resume_file.exists():
+            print(f"  Found existing predictions at {resume_file}, loading for resume...")
+
+            with open(resume_file, "r") as f:
+                for line in f:
+                    try:
+                        row = json.loads(line)
+                        if "problem_id" in row:
+                            completed_ids.add(str(row["problem_id"]))
+                    except json.JSONDecodeError:
+                        continue  # skip malformed lines
+
+            print(f"  Loaded {len(completed_ids):,} completed samples")
 
         # Subsample test pool
-        test_pool = [p for p in all_problems if p.problem_id not in few_shot_ids]
-        if len(test_pool) > args.n_samples:
-            rng     = np.random.default_rng(args.seed)
-            indices = rng.choice(len(test_pool), size=args.n_samples, replace=False)
-            test_problems = [test_pool[int(i)] for i in sorted(indices)]
+        # test_pool = [p for p in all_problems if p.problem_id not in few_shot_ids]
+        # Filter out already completed + few-shot
+        test_pool = [
+            p for p in all_problems
+            if (p.problem_id not in few_shot_ids) and (p.problem_id not in completed_ids)
+        ]
+        # --- Resample if needed ---
+        n_needed = args.starting_samples + args.n_samples - len(completed_ids)
+
+        if n_needed <= 0:
+            print("  Already have enough completed samples, skipping inference.")
+            test_problems = []
         else:
-            test_problems = test_pool
-        print(f"  Test set   : {len(test_problems):,} problems")
+            if len(test_pool) > n_needed:
+                rng = np.random.default_rng(args.seed)
+                indices = rng.choice(len(test_pool), size=n_needed, replace=False)
+                test_problems = [test_pool[int(i)] for i in sorted(indices)]
+            else:
+                test_problems = test_pool
+        
+        # Original Few Shot filtering logic
+        # if len(test_pool) > args.n_samples:
+        #     rng     = np.random.default_rng(args.seed)
+        #     indices = rng.choice(len(test_pool), size=args.n_samples, replace=False)
+        #     test_problems = [test_pool[int(i)] for i in sorted(indices)]
+        # else:
+        #     test_problems = test_pool
+        # print(f"  Test set   : {len(test_problems):,} problems")
+        
+        print(f"  Test set (this run): {len(test_problems):,} problems")
+        print(f"  Total after completion: {len(completed_ids) + len(test_problems):,} / {args.n_samples}")
+        
+        out_prefix = output_dir / f"{diff_name}_{shot_tag}"
+
 
         t0     = time.time()
         result = evaluate_difficulty(
@@ -994,6 +1101,8 @@ def main() -> None:
             n_success_samples=args.n_success_samples,
             n_failure_samples=args.n_failure_samples,
             mask_id=args.mask_id,
+            out_prefix=out_prefix,
+            starting_samples = args.starting_samples,
         )
         elapsed = time.time() - t0
 
@@ -1010,7 +1119,6 @@ def main() -> None:
         print(f"  {'Wall time':<20}: {elapsed:>10.1f}s")
 
         print(f"\n  Saving to {output_dir}/")
-        out_prefix = output_dir / f"{diff_name}_{shot_tag}"
         save_results(result, out_prefix, args)
 
     # Combined summary across all difficulties

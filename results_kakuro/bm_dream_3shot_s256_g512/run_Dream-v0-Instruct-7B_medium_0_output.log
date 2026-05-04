@@ -1,0 +1,46 @@
+/hpc/group/tdunn/as1296/miniconda3/envs/diffusion_lang/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+[eval_kakuro] Loading model: Dream-org/Dream-v0-Instruct-7B
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 127.84it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+──────────────────────────────────────────────────────────────────────
+  Difficulty : MEDIUM    few-shot : 3
+──────────────────────────────────────────────────────────────────────
+  Loading dataset ...
+  [KakuroGrid] Loading from HuggingFace: Apaxdor/Kakuro_mania (subset=default, split=train, streaming=True)
+  Loaded 107 [medium] problems.
+  Reserving 3 few-shot examples (excluded from test set).
+  Test set (this run): 4 problems
+  Total after completion: 4 / 4
+  [medium]:   0%|          | 0/4 [00:00<?, ?it/s]
+  [medium] n=     1  parse_fail=    1 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  25%|██▌       | 1/4 [02:15<06:45, 135.21s/it]
+  [medium] n=     2  parse_fail=    2 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  50%|█████     | 2/4 [04:30<04:30, 135.30s/it]
+  [medium] n=     3  parse_fail=    3 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  75%|███████▌  | 3/4 [06:45<02:15, 135.20s/it]
+  [medium] n=     4  parse_fail=    4 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]: 100%|██████████| 4/4 [09:00<00:00, 135.11s/it]  [medium]: 100%|██████████| 4/4 [09:00<00:00, 135.15s/it]
+
+  Results -- medium (3shot)
+  Evaluated           :          4
+  Parse failures      :          4  (100.0%)
+  Cell accuracy       :     0.0000
+  Board accuracy      :     0.0000
+  Row accuracy        :     0.0000
+  Col accuracy        :     0.0000
+  Wall time           :      540.6s
+
+  Saving to results_kakuro/bm_dream_3shot_s256_g512/
+    -> results_kakuro/bm_dream_3shot_s256_g512/medium_3shot.summary.json
+    -> results_kakuro/bm_dream_3shot_s256_g512/medium_3shot.per_sample.jsonl
+    -> results_kakuro/bm_dream_3shot_s256_g512/medium_3shot.samples.json
+    -> results_kakuro/bm_dream_3shot_s256_g512/medium_3shot.samples.txt
+
+======================================================================
+  Combined summary -> results_kakuro/bm_dream_3shot_s256_g512/combined_3shot.json
+  Total wall time  : 543.1s
+======================================================================
+

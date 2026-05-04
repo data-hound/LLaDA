@@ -1,0 +1,1037 @@
+/hpc/group/tdunn/as1296/miniconda3/envs/diffusion_lang/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+[eval_kakuro] Loading model: GSAI-ML/LLaDA-8B-Instruct
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 6/6 [00:00<00:00, 178.23it/s]
+
+──────────────────────────────────────────────────────────────────────
+  Difficulty : MEDIUM    few-shot : 0
+──────────────────────────────────────────────────────────────────────
+  Loading dataset ...
+  [KakuroGrid] Loading from HuggingFace: Apaxdor/Kakuro_mania (subset=default, split=train, streaming=True)
+  Loaded 10,100 [medium] problems.
+  Found existing predictions at results_kakuro/llada_0shot/medium_0shot.per_sample.jsonl, loading for resume...
+  Loaded 8 completed samples
+  Test set (this run): 9,992 problems
+  Total after completion: 10,000 / 2000
+  [medium]:   0%|          | 0/498 [00:00<?, ?it/s]
+  [medium] n=     4  parse_fail=    4 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 1/498 [02:25<20:09:09, 145.98s/it]
+  [medium] n=     8  parse_fail=    8 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 2/498 [04:52<20:07:38, 146.09s/it]
+  [medium] n=    12  parse_fail=   12 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 3/498 [07:18<20:05:18, 146.10s/it]
+  [medium] n=    16  parse_fail=   16 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 4/498 [09:43<20:01:40, 145.95s/it]
+  [medium] n=    20  parse_fail=   20 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 5/498 [12:09<19:57:16, 145.71s/it]
+  [medium] n=    24  parse_fail=   24 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 6/498 [14:35<19:55:55, 145.84s/it]
+  [medium] n=    28  parse_fail=   28 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|▏         | 7/498 [17:00<19:50:52, 145.52s/it]
+  [medium] n=    32  parse_fail=   32 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 8/498 [19:25<19:47:00, 145.35s/it]
+  [medium] n=    36  parse_fail=   36 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 9/498 [21:50<19:43:23, 145.20s/it]
+  [medium] n=    40  parse_fail=   40 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 10/498 [24:14<19:39:34, 145.03s/it]
+  [medium] n=    44  parse_fail=   44 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 11/498 [26:41<19:40:42, 145.47s/it]
+  [medium] n=    48  parse_fail=   48 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 12/498 [29:06<19:37:52, 145.42s/it]
+  [medium] n=    52  parse_fail=   52 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 13/498 [31:32<19:36:56, 145.60s/it]
+  [medium] n=    56  parse_fail=   56 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 14/498 [33:57<19:33:42, 145.50s/it]
+  [medium] n=    60  parse_fail=   60 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 15/498 [36:22<19:30:27, 145.40s/it]
+  [medium] n=    64  parse_fail=   64 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 16/498 [38:47<19:26:44, 145.24s/it]
+  [medium] n=    68  parse_fail=   68 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 17/498 [41:12<19:21:53, 144.93s/it]
+  [medium] n=    72  parse_fail=   72 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▎         | 18/498 [43:38<19:24:20, 145.54s/it]
+  [medium] n=    76  parse_fail=   76 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 19/498 [46:03<19:18:49, 145.16s/it]
+  [medium] n=    80  parse_fail=   80 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 20/498 [48:28<19:16:14, 145.13s/it]
+  [medium] n=    84  parse_fail=   84 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 21/498 [50:53<19:13:20, 145.07s/it]
+  [medium] n=    88  parse_fail=   88 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 22/498 [53:17<19:08:46, 144.80s/it]
+  [medium] n=    92  parse_fail=   92 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▍         | 23/498 [55:41<19:05:12, 144.66s/it]
+  [medium] n=    96  parse_fail=   96 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▍         | 24/498 [58:07<19:05:19, 144.98s/it]
+  [medium] n=   100  parse_fail=  100 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▌         | 25/498 [1:00:33<19:06:21, 145.42s/it]
+  [medium] n=   104  parse_fail=  104 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▌         | 26/498 [1:02:59<19:03:19, 145.34s/it]
+  [medium] n=   108  parse_fail=  108 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▌         | 27/498 [1:05:25<19:02:32, 145.55s/it]
+  [medium] n=   112  parse_fail=  112 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   6%|▌         | 28/498 [1:07:50<19:00:03, 145.54s/it]
+  [medium] n=   116  parse_fail=  116 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   6%|▌         | 29/498 [1:10:16<18:58:34, 145.66s/it]
+  [medium] n=   120  parse_fail=  120 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   6%|▌         | 30/498 [1:12:41<18:54:07, 145.40s/it]
+  [medium] n=   124  parse_fail=  124 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   6%|▌         | 31/498 [1:15:07<18:52:33, 145.51s/it]
+  [medium] n=   128  parse_fail=  128 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   6%|▋         | 32/498 [1:17:30<18:45:12, 144.88s/it]
+  [medium] n=   132  parse_fail=  132 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   7%|▋         | 33/498 [1:19:54<18:41:08, 144.66s/it]
+  [medium] n=   136  parse_fail=  136 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   7%|▋         | 34/498 [1:22:19<18:39:33, 144.77s/it]
+  [medium] n=   140  parse_fail=  140 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   7%|▋         | 35/498 [1:24:45<18:40:36, 145.22s/it]
+  [medium] n=   144  parse_fail=  144 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   7%|▋         | 36/498 [1:27:10<18:36:13, 144.96s/it]
+  [medium] n=   148  parse_fail=  148 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   7%|▋         | 37/498 [1:29:35<18:34:40, 145.08s/it]
+  [medium] n=   152  parse_fail=  152 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   8%|▊         | 38/498 [1:32:00<18:32:35, 145.12s/it]
+  [medium] n=   156  parse_fail=  156 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   8%|▊         | 39/498 [1:34:26<18:30:24, 145.15s/it]
+  [medium] n=   160  parse_fail=  160 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   8%|▊         | 40/498 [1:36:51<18:29:12, 145.31s/it]
+  [medium] n=   164  parse_fail=  164 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   8%|▊         | 41/498 [1:39:16<18:25:49, 145.19s/it]
+  [medium] n=   168  parse_fail=  168 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   8%|▊         | 42/498 [1:41:40<18:21:05, 144.88s/it]
+  [medium] n=   172  parse_fail=  172 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   9%|▊         | 43/498 [1:44:09<18:27:12, 146.01s/it]
+  [medium] n=   176  parse_fail=  176 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   9%|▉         | 44/498 [1:46:34<18:21:31, 145.58s/it]
+  [medium] n=   180  parse_fail=  180 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   9%|▉         | 45/498 [1:48:59<18:18:23, 145.48s/it]
+  [medium] n=   184  parse_fail=  184 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   9%|▉         | 46/498 [1:51:24<18:15:29, 145.42s/it]
+  [medium] n=   188  parse_fail=  188 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   9%|▉         | 47/498 [1:53:51<18:15:48, 145.78s/it]
+  [medium] n=   192  parse_fail=  192 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  10%|▉         | 48/498 [1:56:18<18:16:34, 146.21s/it]
+  [medium] n=   196  parse_fail=  196 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  10%|▉         | 49/498 [1:58:44<18:12:52, 146.04s/it]
+  [medium] n=   200  parse_fail=  200 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  10%|█         | 50/498 [2:01:08<18:07:31, 145.65s/it]
+  [medium] n=   204  parse_fail=  204 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  10%|█         | 51/498 [2:03:35<18:07:48, 146.01s/it]
+  [medium] n=   208  parse_fail=  208 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  10%|█         | 52/498 [2:06:02<18:06:02, 146.10s/it]
+  [medium] n=   212  parse_fail=  212 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  11%|█         | 53/498 [2:08:28<18:05:30, 146.36s/it]
+  [medium] n=   216  parse_fail=  216 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  11%|█         | 54/498 [2:10:54<18:00:58, 146.08s/it]
+  [medium] n=   220  parse_fail=  220 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  11%|█         | 55/498 [2:13:19<17:57:26, 145.93s/it]
+  [medium] n=   224  parse_fail=  224 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  11%|█         | 56/498 [2:15:44<17:50:55, 145.38s/it]
+  [medium] n=   228  parse_fail=  228 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  11%|█▏        | 57/498 [2:18:08<17:47:00, 145.17s/it]
+  [medium] n=   232  parse_fail=  232 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  12%|█▏        | 58/498 [2:20:33<17:43:30, 145.02s/it]
+  [medium] n=   236  parse_fail=  236 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  12%|█▏        | 59/498 [2:22:57<17:39:51, 144.85s/it]
+  [medium] n=   240  parse_fail=  240 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  12%|█▏        | 60/498 [2:25:23<17:39:18, 145.11s/it]
+  [medium] n=   244  parse_fail=  244 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  12%|█▏        | 61/498 [2:27:49<17:39:06, 145.42s/it]
+  [medium] n=   248  parse_fail=  248 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  12%|█▏        | 62/498 [2:30:16<17:40:34, 145.95s/it]
+  [medium] n=   252  parse_fail=  252 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  13%|█▎        | 63/498 [2:32:44<17:41:08, 146.36s/it]
+  [medium] n=   256  parse_fail=  256 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  13%|█▎        | 64/498 [2:35:10<17:38:02, 146.27s/it]
+  [medium] n=   260  parse_fail=  260 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  13%|█▎        | 65/498 [2:37:37<17:37:15, 146.50s/it]
+  [medium] n=   264  parse_fail=  264 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  13%|█▎        | 66/498 [2:40:02<17:31:51, 146.09s/it]
+  [medium] n=   268  parse_fail=  268 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  13%|█▎        | 67/498 [2:42:31<17:35:39, 146.96s/it]
+  [medium] n=   272  parse_fail=  272 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  14%|█▎        | 68/498 [2:44:58<17:32:15, 146.83s/it]
+  [medium] n=   276  parse_fail=  276 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  14%|█▍        | 69/498 [2:47:24<17:28:39, 146.67s/it]
+  [medium] n=   280  parse_fail=  280 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  14%|█▍        | 70/498 [2:49:49<17:22:03, 146.08s/it]
+  [medium] n=   284  parse_fail=  284 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  14%|█▍        | 71/498 [2:52:14<17:17:48, 145.83s/it]
+  [medium] n=   288  parse_fail=  288 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  14%|█▍        | 72/498 [2:54:41<17:17:33, 146.14s/it]
+  [medium] n=   292  parse_fail=  292 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  15%|█▍        | 73/498 [2:57:07<17:16:12, 146.29s/it]
+  [medium] n=   296  parse_fail=  296 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  15%|█▍        | 74/498 [2:59:34<17:14:40, 146.42s/it]
+  [medium] n=   300  parse_fail=  300 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  15%|█▌        | 75/498 [3:01:59<17:08:29, 145.89s/it]
+  [medium] n=   304  parse_fail=  304 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  15%|█▌        | 76/498 [3:04:22<17:01:34, 145.25s/it]
+  [medium] n=   308  parse_fail=  308 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  15%|█▌        | 77/498 [3:06:50<17:03:16, 145.83s/it]
+  [medium] n=   312  parse_fail=  312 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  16%|█▌        | 78/498 [3:09:16<17:02:19, 146.05s/it]
+  [medium] n=   316  parse_fail=  316 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  16%|█▌        | 79/498 [3:11:44<17:03:52, 146.62s/it]
+  [medium] n=   320  parse_fail=  320 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  16%|█▌        | 80/498 [3:14:10<17:00:37, 146.50s/it]
+  [medium] n=   324  parse_fail=  324 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  16%|█▋        | 81/498 [3:16:35<16:53:29, 145.83s/it]
+  [medium] n=   328  parse_fail=  328 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  16%|█▋        | 82/498 [3:19:00<16:51:15, 145.85s/it]
+  [medium] n=   332  parse_fail=  332 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  17%|█▋        | 83/498 [3:21:29<16:54:42, 146.70s/it]
+  [medium] n=   336  parse_fail=  336 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  17%|█▋        | 84/498 [3:23:55<16:50:19, 146.42s/it]
+  [medium] n=   340  parse_fail=  340 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  17%|█▋        | 85/498 [3:26:20<16:45:09, 146.03s/it]
+  [medium] n=   344  parse_fail=  344 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  17%|█▋        | 86/498 [3:28:46<16:41:45, 145.89s/it]
+  [medium] n=   348  parse_fail=  348 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  17%|█▋        | 87/498 [3:31:11<16:38:25, 145.76s/it]
+  [medium] n=   352  parse_fail=  352 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  18%|█▊        | 88/498 [3:33:37<16:36:07, 145.77s/it]
+  [medium] n=   356  parse_fail=  356 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  18%|█▊        | 89/498 [3:36:03<16:34:33, 145.90s/it]
+  [medium] n=   360  parse_fail=  360 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  18%|█▊        | 90/498 [3:38:28<16:29:55, 145.58s/it]
+  [medium] n=   364  parse_fail=  364 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  18%|█▊        | 91/498 [3:40:53<16:26:58, 145.50s/it]
+  [medium] n=   368  parse_fail=  368 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  18%|█▊        | 92/498 [3:43:20<16:27:22, 145.92s/it]
+  [medium] n=   372  parse_fail=  372 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  19%|█▊        | 93/498 [3:45:44<16:21:52, 145.46s/it]
+  [medium] n=   376  parse_fail=  376 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  19%|█▉        | 94/498 [3:48:12<16:22:36, 145.93s/it]
+  [medium] n=   380  parse_fail=  380 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  19%|█▉        | 95/498 [3:50:38<16:20:37, 146.00s/it]
+  [medium] n=   384  parse_fail=  384 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  19%|█▉        | 96/498 [3:53:02<16:15:27, 145.59s/it]
+  [medium] n=   388  parse_fail=  388 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  19%|█▉        | 97/498 [3:55:29<16:15:31, 145.96s/it]
+  [medium] n=   392  parse_fail=  392 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  20%|█▉        | 98/498 [3:57:54<16:11:33, 145.73s/it]
+  [medium] n=   396  parse_fail=  396 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  20%|█▉        | 99/498 [4:00:20<16:08:34, 145.65s/it]
+  [medium] n=   400  parse_fail=  400 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  20%|██        | 100/498 [4:02:45<16:04:29, 145.40s/it]
+  [medium] n=   404  parse_fail=  404 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  20%|██        | 101/498 [4:05:10<16:02:08, 145.41s/it]
+  [medium] n=   408  parse_fail=  408 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  20%|██        | 102/498 [4:07:36<16:00:24, 145.52s/it]
+  [medium] n=   412  parse_fail=  412 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  21%|██        | 103/498 [4:10:00<15:55:06, 145.08s/it]
+  [medium] n=   416  parse_fail=  416 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  21%|██        | 104/498 [4:12:25<15:52:59, 145.13s/it]
+  [medium] n=   420  parse_fail=  420 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  21%|██        | 105/498 [4:14:51<15:52:22, 145.40s/it]
+  [medium] n=   424  parse_fail=  424 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  21%|██▏       | 106/498 [4:17:17<15:51:05, 145.57s/it]
+  [medium] n=   428  parse_fail=  428 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  21%|██▏       | 107/498 [4:19:43<15:49:20, 145.68s/it]
+  [medium] n=   432  parse_fail=  432 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  22%|██▏       | 108/498 [4:22:10<15:49:52, 146.13s/it]
+  [medium] n=   436  parse_fail=  436 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  22%|██▏       | 109/498 [4:24:37<15:48:36, 146.31s/it]
+  [medium] n=   440  parse_fail=  440 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  22%|██▏       | 110/498 [4:27:04<15:47:19, 146.49s/it]
+  [medium] n=   444  parse_fail=  444 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  22%|██▏       | 111/498 [4:29:30<15:44:27, 146.43s/it]
+  [medium] n=   448  parse_fail=  448 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  22%|██▏       | 112/498 [4:31:54<15:37:16, 145.69s/it]
+  [medium] n=   452  parse_fail=  452 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  23%|██▎       | 113/498 [4:34:21<15:37:33, 146.11s/it]
+  [medium] n=   456  parse_fail=  456 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  23%|██▎       | 114/498 [4:36:47<15:34:47, 146.06s/it]
+  [medium] n=   460  parse_fail=  460 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  23%|██▎       | 115/498 [4:39:12<15:30:52, 145.83s/it]
+  [medium] n=   464  parse_fail=  464 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  23%|██▎       | 116/498 [4:41:38<15:27:38, 145.70s/it]
+  [medium] n=   468  parse_fail=  468 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  23%|██▎       | 117/498 [4:44:04<15:26:20, 145.88s/it]
+  [medium] n=   472  parse_fail=  472 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  24%|██▎       | 118/498 [4:46:31<15:24:47, 146.02s/it]
+  [medium] n=   476  parse_fail=  476 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  24%|██▍       | 119/498 [4:48:57<15:23:07, 146.14s/it]
+  [medium] n=   480  parse_fail=  480 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  24%|██▍       | 120/498 [4:51:24<15:21:48, 146.32s/it]
+  [medium] n=   484  parse_fail=  484 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  24%|██▍       | 121/498 [4:53:48<15:16:03, 145.79s/it]
+  [medium] n=   488  parse_fail=  488 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  24%|██▍       | 122/498 [4:56:13<15:11:21, 145.43s/it]
+  [medium] n=   492  parse_fail=  492 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  25%|██▍       | 123/498 [4:58:38<15:08:22, 145.34s/it]
+  [medium] n=   496  parse_fail=  496 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  25%|██▍       | 124/498 [5:01:03<15:04:36, 145.12s/it]
+  [medium] n=   500  parse_fail=  500 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  25%|██▌       | 125/498 [5:03:27<15:01:06, 144.95s/it]
+  [medium] n=   504  parse_fail=  504 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  25%|██▌       | 126/498 [5:05:54<15:02:08, 145.51s/it]
+  [medium] n=   508  parse_fail=  508 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  26%|██▌       | 127/498 [5:08:20<15:00:23, 145.62s/it]
+  [medium] n=   512  parse_fail=  512 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  26%|██▌       | 128/498 [5:10:45<14:57:23, 145.52s/it]
+  [medium] n=   516  parse_fail=  516 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  26%|██▌       | 129/498 [5:13:10<14:53:21, 145.26s/it]
+  [medium] n=   520  parse_fail=  520 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  26%|██▌       | 130/498 [5:15:37<14:54:12, 145.80s/it]
+  [medium] n=   524  parse_fail=  524 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  26%|██▋       | 131/498 [5:18:03<14:52:33, 145.92s/it]
+  [medium] n=   528  parse_fail=  528 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  27%|██▋       | 132/498 [5:20:30<14:51:39, 146.17s/it]
+  [medium] n=   532  parse_fail=  532 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  27%|██▋       | 133/498 [5:22:55<14:47:39, 145.92s/it]
+  [medium] n=   536  parse_fail=  536 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  27%|██▋       | 134/498 [5:25:20<14:42:50, 145.52s/it]
+  [medium] n=   540  parse_fail=  540 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  27%|██▋       | 135/498 [5:27:45<14:40:01, 145.46s/it]
+  [medium] n=   544  parse_fail=  544 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  27%|██▋       | 136/498 [5:30:10<14:37:18, 145.41s/it]
+  [medium] n=   548  parse_fail=  548 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  28%|██▊       | 137/498 [5:32:36<14:36:02, 145.60s/it]
+  [medium] n=   552  parse_fail=  552 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  28%|██▊       | 138/498 [5:35:05<14:39:27, 146.58s/it]
+  [medium] n=   556  parse_fail=  556 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  28%|██▊       | 139/498 [5:37:30<14:33:17, 145.95s/it]
+  [medium] n=   560  parse_fail=  560 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  28%|██▊       | 140/498 [5:39:54<14:28:34, 145.57s/it]
+  [medium] n=   564  parse_fail=  564 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  28%|██▊       | 141/498 [5:42:20<14:26:04, 145.56s/it]
+  [medium] n=   568  parse_fail=  568 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  29%|██▊       | 142/498 [5:44:45<14:22:40, 145.40s/it]
+  [medium] n=   572  parse_fail=  572 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  29%|██▊       | 143/498 [5:47:10<14:20:16, 145.40s/it]
+  [medium] n=   576  parse_fail=  576 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  29%|██▉       | 144/498 [5:49:39<14:23:55, 146.43s/it]
+  [medium] n=   580  parse_fail=  580 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  29%|██▉       | 145/498 [5:52:04<14:18:37, 145.94s/it]
+  [medium] n=   584  parse_fail=  584 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  29%|██▉       | 146/498 [5:54:29<14:14:58, 145.73s/it]
+  [medium] n=   588  parse_fail=  588 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  30%|██▉       | 147/498 [5:56:56<14:13:55, 145.97s/it]
+  [medium] n=   592  parse_fail=  592 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  30%|██▉       | 148/498 [5:59:22<14:12:48, 146.20s/it]
+  [medium] n=   596  parse_fail=  596 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  30%|██▉       | 149/498 [6:01:48<14:09:09, 145.99s/it]
+  [medium] n=   600  parse_fail=  600 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  30%|███       | 150/498 [6:04:14<14:06:31, 145.95s/it]
+  [medium] n=   604  parse_fail=  604 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  30%|███       | 151/498 [6:06:40<14:05:18, 146.16s/it]
+  [medium] n=   608  parse_fail=  608 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  31%|███       | 152/498 [6:09:07<14:02:42, 146.13s/it]
+  [medium] n=   612  parse_fail=  612 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  31%|███       | 153/498 [6:11:30<13:55:54, 145.38s/it]
+  [medium] n=   616  parse_fail=  616 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  31%|███       | 154/498 [6:13:55<13:52:29, 145.20s/it]
+  [medium] n=   620  parse_fail=  620 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  31%|███       | 155/498 [6:16:19<13:48:07, 144.86s/it]
+  [medium] n=   624  parse_fail=  624 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  31%|███▏      | 156/498 [6:18:44<13:46:29, 145.00s/it]
+  [medium] n=   628  parse_fail=  628 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  32%|███▏      | 157/498 [6:21:10<13:45:36, 145.27s/it]
+  [medium] n=   632  parse_fail=  632 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  32%|███▏      | 158/498 [6:23:35<13:42:50, 145.21s/it]
+  [medium] n=   636  parse_fail=  636 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  32%|███▏      | 159/498 [6:26:01<13:42:03, 145.50s/it]
+  [medium] n=   640  parse_fail=  640 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  32%|███▏      | 160/498 [6:28:27<13:40:20, 145.62s/it]
+  [medium] n=   644  parse_fail=  644 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  32%|███▏      | 161/498 [6:30:53<13:37:59, 145.64s/it]
+  [medium] n=   648  parse_fail=  648 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  33%|███▎      | 162/498 [6:33:17<13:32:50, 145.15s/it]
+  [medium] n=   652  parse_fail=  652 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  33%|███▎      | 163/498 [6:35:44<13:32:49, 145.58s/it]
+  [medium] n=   656  parse_fail=  656 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  33%|███▎      | 164/498 [6:38:09<13:30:32, 145.61s/it]
+  [medium] n=   660  parse_fail=  660 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  33%|███▎      | 165/498 [6:40:36<13:29:33, 145.87s/it]
+  [medium] n=   664  parse_fail=  664 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  33%|███▎      | 166/498 [6:43:00<13:24:55, 145.47s/it]
+  [medium] n=   668  parse_fail=  668 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  34%|███▎      | 167/498 [6:45:26<13:23:02, 145.57s/it]
+  [medium] n=   672  parse_fail=  672 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  34%|███▎      | 168/498 [6:47:53<13:22:08, 145.84s/it]
+  [medium] n=   676  parse_fail=  676 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  34%|███▍      | 169/498 [6:50:17<13:17:46, 145.49s/it]
+  [medium] n=   680  parse_fail=  680 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  34%|███▍      | 170/498 [6:52:42<13:13:47, 145.21s/it]
+  [medium] n=   684  parse_fail=  684 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  34%|███▍      | 171/498 [6:55:07<13:12:03, 145.33s/it]
+  [medium] n=   688  parse_fail=  688 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  35%|███▍      | 172/498 [6:57:34<13:11:01, 145.59s/it]
+  [medium] n=   692  parse_fail=  692 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  35%|███▍      | 173/498 [6:59:59<13:08:22, 145.55s/it]
+  [medium] n=   696  parse_fail=  696 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  35%|███▍      | 174/498 [7:02:24<13:04:32, 145.29s/it]
+  [medium] n=   700  parse_fail=  700 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  35%|███▌      | 175/498 [7:04:51<13:05:03, 145.83s/it]
+  [medium] n=   704  parse_fail=  704 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  35%|███▌      | 176/498 [7:07:16<13:01:58, 145.71s/it]
+  [medium] n=   708  parse_fail=  708 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  36%|███▌      | 177/498 [7:09:42<12:59:20, 145.67s/it]
+  [medium] n=   712  parse_fail=  712 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  36%|███▌      | 178/498 [7:12:06<12:53:54, 145.11s/it]
+  [medium] n=   716  parse_fail=  716 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  36%|███▌      | 179/498 [7:14:30<12:51:02, 145.02s/it]
+  [medium] n=   720  parse_fail=  720 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  36%|███▌      | 180/498 [7:16:57<12:50:41, 145.41s/it]
+  [medium] n=   724  parse_fail=  724 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  36%|███▋      | 181/498 [7:19:21<12:46:25, 145.06s/it]
+  [medium] n=   728  parse_fail=  728 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  37%|███▋      | 182/498 [7:21:45<12:42:55, 144.86s/it]
+  [medium] n=   732  parse_fail=  732 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  37%|███▋      | 183/498 [7:24:11<12:41:28, 145.04s/it]
+  [medium] n=   736  parse_fail=  736 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  37%|███▋      | 184/498 [7:26:36<12:39:42, 145.17s/it]
+  [medium] n=   740  parse_fail=  740 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  37%|███▋      | 185/498 [7:29:03<12:39:37, 145.61s/it]
+  [medium] n=   744  parse_fail=  744 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  37%|███▋      | 186/498 [7:31:28<12:36:17, 145.44s/it]
+  [medium] n=   748  parse_fail=  748 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  38%|███▊      | 187/498 [7:33:54<12:33:54, 145.45s/it]
+  [medium] n=   752  parse_fail=  752 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  38%|███▊      | 188/498 [7:36:18<12:30:39, 145.29s/it]
+  [medium] n=   756  parse_fail=  756 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  38%|███▊      | 189/498 [7:38:44<12:29:07, 145.46s/it]
+  [medium] n=   760  parse_fail=  760 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  38%|███▊      | 190/498 [7:41:10<12:27:41, 145.65s/it]
+  [medium] n=   764  parse_fail=  764 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  38%|███▊      | 191/498 [7:43:36<12:25:39, 145.73s/it]
+  [medium] n=   768  parse_fail=  768 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  39%|███▊      | 192/498 [7:46:01<12:21:38, 145.42s/it]
+  [medium] n=   772  parse_fail=  772 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  39%|███▉      | 193/498 [7:48:28<12:21:23, 145.85s/it]
+  [medium] n=   776  parse_fail=  776 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  39%|███▉      | 194/498 [7:50:55<12:20:51, 146.22s/it]
+  [medium] n=   780  parse_fail=  780 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  39%|███▉      | 195/498 [7:53:21<12:18:17, 146.20s/it]
+  [medium] n=   784  parse_fail=  784 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  39%|███▉      | 196/498 [7:55:47<12:15:32, 146.13s/it]
+  [medium] n=   788  parse_fail=  788 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  40%|███▉      | 197/498 [7:58:12<12:11:01, 145.72s/it]
+  [medium] n=   792  parse_fail=  792 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  40%|███▉      | 198/498 [8:00:36<12:06:40, 145.34s/it]
+  [medium] n=   796  parse_fail=  795 (99.9%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  40%|███▉      | 199/498 [8:03:02<12:05:28, 145.58s/it]
+  [medium] n=   800  parse_fail=  799 (99.9%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  40%|████      | 200/498 [8:05:29<12:04:16, 145.83s/it]
+  [medium] n=   804  parse_fail=  803 (99.9%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  40%|████      | 201/498 [8:07:55<12:02:21, 145.93s/it]
+  [medium] n=   808  parse_fail=  807 (99.9%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  41%|████      | 202/498 [8:10:22<12:00:49, 146.11s/it]
+  [medium] n=   812  parse_fail=  811 (99.9%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  41%|████      | 203/498 [8:12:46<11:56:39, 145.76s/it]
+  [medium] n=   816  parse_fail=  815 (99.9%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  41%|████      | 204/498 [8:15:12<11:53:20, 145.58s/it]
+  [medium] n=   820  parse_fail=  819 (99.9%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  41%|████      | 205/498 [8:17:38<11:52:27, 145.90s/it]
+  [medium] n=   824  parse_fail=  822 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  41%|████▏     | 206/498 [8:20:05<11:51:33, 146.21s/it]
+  [medium] n=   828  parse_fail=  826 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  42%|████▏     | 207/498 [8:22:30<11:46:51, 145.74s/it]
+  [medium] n=   832  parse_fail=  830 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  42%|████▏     | 208/498 [8:24:55<11:43:46, 145.61s/it]
+  [medium] n=   836  parse_fail=  834 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  42%|████▏     | 209/498 [8:27:21<11:41:48, 145.70s/it]
+  [medium] n=   840  parse_fail=  838 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  42%|████▏     | 210/498 [8:29:48<11:41:46, 146.20s/it]
+  [medium] n=   844  parse_fail=  842 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  42%|████▏     | 211/498 [8:32:14<11:38:04, 145.94s/it]
+  [medium] n=   848  parse_fail=  846 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  43%|████▎     | 212/498 [8:34:40<11:36:35, 146.14s/it]Decoding response using json failed for candidate [[1, 1, 1, 8, 8, 8, 8, 5, 6], [1, 1, 1, 1, 5, 5, 9, 9, 9], [8, 8, 9, 9, 3, 3, 7, 7, 5], [4, 7, 6, 6, 3, 3, 5, _], [2, 2, 2, 2, 7, 8, 6, 3], [2, 2, 9, 9, 9, 9, 5, 3, 3], [2, 3, 5, 5, 6, 6, 5, 5], [1, 1, 1, 1, 1, 1, 1, 1], [2, 2, 2, 4, 3, 3, 3, 8, 5], [3, 3, 2, 2, 2, 4, 4, 4]]
+
+  [medium] n=   852  parse_fail=  850 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  43%|████▎     | 213/498 [8:37:06<11:33:40, 146.04s/it]
+  [medium] n=   856  parse_fail=  854 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  43%|████▎     | 214/498 [8:39:32<11:30:42, 145.93s/it]
+  [medium] n=   860  parse_fail=  858 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  43%|████▎     | 215/498 [8:42:00<11:31:08, 146.53s/it]
+  [medium] n=   864  parse_fail=  862 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  43%|████▎     | 216/498 [8:44:26<11:28:03, 146.40s/it]
+  [medium] n=   868  parse_fail=  866 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  44%|████▎     | 217/498 [8:46:52<11:25:20, 146.34s/it]
+  [medium] n=   872  parse_fail=  870 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  44%|████▍     | 218/498 [8:49:17<11:20:51, 145.90s/it]
+  [medium] n=   876  parse_fail=  874 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  44%|████▍     | 219/498 [8:51:44<11:19:21, 146.10s/it]
+  [medium] n=   880  parse_fail=  878 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  44%|████▍     | 220/498 [8:54:08<11:14:47, 145.64s/it]
+  [medium] n=   884  parse_fail=  882 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  44%|████▍     | 221/498 [8:56:34<11:12:56, 145.76s/it]
+  [medium] n=   888  parse_fail=  886 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  45%|████▍     | 222/498 [8:58:59<11:09:13, 145.48s/it]
+  [medium] n=   892  parse_fail=  890 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  45%|████▍     | 223/498 [9:01:24<11:06:48, 145.48s/it]
+  [medium] n=   896  parse_fail=  894 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  45%|████▍     | 224/498 [9:03:50<11:03:59, 145.40s/it]
+  [medium] n=   900  parse_fail=  898 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  45%|████▌     | 225/498 [9:06:16<11:02:46, 145.67s/it]
+  [medium] n=   904  parse_fail=  902 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  45%|████▌     | 226/498 [9:08:40<10:58:26, 145.25s/it]
+  [medium] n=   908  parse_fail=  906 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  46%|████▌     | 227/498 [9:11:04<10:54:07, 144.82s/it]
+  [medium] n=   912  parse_fail=  910 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  46%|████▌     | 228/498 [9:13:29<10:51:52, 144.86s/it]Decoding response using json failed for candidate [[0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [1, 0, 0, 7, 0, 8, 9, 4, 6], [2, 3, 1, 0, 0, 6, 0, 0, 0], [3, 0, 0, 6, 0, 4, 0, 4, 8], [mobilePhonePhone], [2, 4, 1, 0, 0, 0, 0, 6, 3], [0, 0, 0, 0, 0, 5, 3, 0, 0], [6, 0, 7, 0, 0, 0, 0, 0, 0], [7, 7, 4, 5, 1, 3, 2, 6, 0], [0, 0, 0, 0, 0, 0, 6, 0, 0, 0]]
+
+  [medium] n=   916  parse_fail=  914 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  46%|████▌     | 229/498 [9:15:54<10:49:09, 144.80s/it]
+  [medium] n=   920  parse_fail=  918 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  46%|████▌     | 230/498 [9:18:18<10:46:42, 144.78s/it]
+  [medium] n=   924  parse_fail=  922 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  46%|████▋     | 231/498 [9:20:44<10:45:32, 145.07s/it]
+  [medium] n=   928  parse_fail=  926 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  47%|████▋     | 232/498 [9:23:11<10:45:58, 145.71s/it]
+  [medium] n=   932  parse_fail=  930 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  47%|████▋     | 233/498 [9:25:36<10:42:35, 145.49s/it]
+  [medium] n=   936  parse_fail=  934 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  47%|████▋     | 234/498 [9:28:00<10:38:25, 145.10s/it]
+  [medium] n=   940  parse_fail=  938 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  47%|████▋     | 235/498 [9:30:25<10:34:54, 144.85s/it]
+  [medium] n=   944  parse_fail=  942 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  47%|████▋     | 236/498 [9:32:51<10:34:11, 145.24s/it]
+  [medium] n=   948  parse_fail=  946 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  48%|████▊     | 237/498 [9:35:17<10:32:40, 145.44s/it]
+  [medium] n=   952  parse_fail=  950 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  48%|████▊     | 238/498 [9:37:42<10:30:22, 145.47s/it]
+  [medium] n=   956  parse_fail=  954 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  48%|████▊     | 239/498 [9:40:08<10:27:56, 145.47s/it]
+  [medium] n=   960  parse_fail=  958 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  48%|████▊     | 240/498 [9:42:32<10:24:29, 145.23s/it]
+  [medium] n=   964  parse_fail=  962 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  48%|████▊     | 241/498 [9:44:56<10:20:14, 144.80s/it]
+  [medium] n=   968  parse_fail=  966 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  49%|████▊     | 242/498 [9:47:21<10:17:57, 144.84s/it]
+  [medium] n=   972  parse_fail=  970 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  49%|████▉     | 243/498 [9:49:46<10:15:31, 144.83s/it]
+  [medium] n=   976  parse_fail=  974 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  49%|████▉     | 244/498 [9:52:12<10:14:15, 145.10s/it]
+  [medium] n=   980  parse_fail=  978 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  49%|████▉     | 245/498 [9:54:39<10:14:16, 145.68s/it]
+  [medium] n=   984  parse_fail=  981 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  49%|████▉     | 246/498 [9:57:04<10:11:36, 145.62s/it]
+  [medium] n=   988  parse_fail=  985 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  50%|████▉     | 247/498 [9:59:29<10:07:54, 145.32s/it]
+  [medium] n=   992  parse_fail=  989 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  50%|████▉     | 248/498 [10:01:55<10:06:13, 145.50s/it]
+  [medium] n=   996  parse_fail=  993 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  50%|█████     | 249/498 [10:04:20<10:03:43, 145.48s/it]
+  [medium] n= 1,000  parse_fail=  997 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  50%|█████     | 250/498 [10:06:46<10:01:06, 145.43s/it]
+  [medium] n= 1,004  parse_fail=1,001 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  50%|█████     | 251/498 [10:09:13<10:01:41, 146.16s/it]
+  [medium] n= 1,008  parse_fail=1,005 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  51%|█████     | 252/498 [10:11:37<9:56:33, 145.50s/it] 
+  [medium] n= 1,012  parse_fail=1,009 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  51%|█████     | 253/498 [10:14:03<9:54:47, 145.66s/it]
+  [medium] n= 1,016  parse_fail=1,013 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  51%|█████     | 254/498 [10:16:28<9:50:59, 145.32s/it]
+  [medium] n= 1,020  parse_fail=1,017 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  51%|█████     | 255/498 [10:18:54<9:50:00, 145.68s/it]
+  [medium] n= 1,024  parse_fail=1,021 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  51%|█████▏    | 256/498 [10:21:20<9:47:11, 145.59s/it]
+  [medium] n= 1,028  parse_fail=1,025 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  52%|█████▏    | 257/498 [10:23:45<9:43:55, 145.38s/it]
+  [medium] n= 1,032  parse_fail=1,029 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  52%|█████▏    | 258/498 [10:26:10<9:41:50, 145.46s/it]
+  [medium] n= 1,036  parse_fail=1,033 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  52%|█████▏    | 259/498 [10:28:36<9:39:51, 145.57s/it]
+  [medium] n= 1,040  parse_fail=1,037 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  52%|█████▏    | 260/498 [10:31:02<9:38:03, 145.73s/it]
+  [medium] n= 1,044  parse_fail=1,041 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  52%|█████▏    | 261/498 [10:33:28<9:35:04, 145.59s/it]
+  [medium] n= 1,048  parse_fail=1,045 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  53%|█████▎    | 262/498 [10:35:54<9:33:54, 145.91s/it]
+  [medium] n= 1,052  parse_fail=1,049 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  53%|█████▎    | 263/498 [10:38:20<9:30:51, 145.75s/it]
+  [medium] n= 1,056  parse_fail=1,053 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  53%|█████▎    | 264/498 [10:40:44<9:26:56, 145.37s/it]
+  [medium] n= 1,060  parse_fail=1,057 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  53%|█████▎    | 265/498 [10:43:09<9:23:43, 145.17s/it]
+  [medium] n= 1,064  parse_fail=1,061 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  53%|█████▎    | 266/498 [10:45:34<9:21:24, 145.19s/it]
+  [medium] n= 1,068  parse_fail=1,065 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  54%|█████▎    | 267/498 [10:48:00<9:20:01, 145.46s/it]
+  [medium] n= 1,072  parse_fail=1,069 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  54%|█████▍    | 268/498 [10:50:25<9:16:52, 145.27s/it]
+  [medium] n= 1,076  parse_fail=1,073 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  54%|█████▍    | 269/498 [10:52:52<9:16:11, 145.73s/it]
+  [medium] n= 1,080  parse_fail=1,077 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  54%|█████▍    | 270/498 [10:55:18<9:14:41, 145.97s/it]
+  [medium] n= 1,084  parse_fail=1,081 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  54%|█████▍    | 271/498 [10:57:44<9:11:39, 145.81s/it]
+  [medium] n= 1,088  parse_fail=1,085 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  55%|█████▍    | 272/498 [11:00:09<9:08:40, 145.67s/it]
+  [medium] n= 1,092  parse_fail=1,089 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  55%|█████▍    | 273/498 [11:02:35<9:06:19, 145.69s/it]
+  [medium] n= 1,096  parse_fail=1,093 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  55%|█████▌    | 274/498 [11:04:59<9:02:13, 145.24s/it]
+  [medium] n= 1,100  parse_fail=1,097 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  55%|█████▌    | 275/498 [11:07:28<9:03:55, 146.35s/it]
+  [medium] n= 1,104  parse_fail=1,101 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  55%|█████▌    | 276/498 [11:09:54<9:01:07, 146.25s/it]
+  [medium] n= 1,108  parse_fail=1,105 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  56%|█████▌    | 277/498 [11:12:19<8:57:05, 145.82s/it]
+  [medium] n= 1,112  parse_fail=1,109 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  56%|█████▌    | 278/498 [11:14:44<8:53:58, 145.63s/it]
+  [medium] n= 1,116  parse_fail=1,113 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  56%|█████▌    | 279/498 [11:17:10<8:51:53, 145.72s/it]
+  [medium] n= 1,120  parse_fail=1,117 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  56%|█████▌    | 280/498 [11:19:35<8:48:45, 145.53s/it]
+  [medium] n= 1,124  parse_fail=1,121 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  56%|█████▋    | 281/498 [11:22:00<8:45:18, 145.25s/it]
+  [medium] n= 1,128  parse_fail=1,125 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  57%|█████▋    | 282/498 [11:24:24<8:42:29, 145.14s/it]
+  [medium] n= 1,132  parse_fail=1,129 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  57%|█████▋    | 283/498 [11:26:50<8:40:44, 145.32s/it]
+  [medium] n= 1,136  parse_fail=1,133 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  57%|█████▋    | 284/498 [11:29:14<8:37:11, 145.01s/it]
+  [medium] n= 1,140  parse_fail=1,137 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  57%|█████▋    | 285/498 [11:31:39<8:34:38, 144.97s/it]
+  [medium] n= 1,144  parse_fail=1,141 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  57%|█████▋    | 286/498 [11:34:04<8:32:07, 144.94s/it]
+  [medium] n= 1,148  parse_fail=1,145 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  58%|█████▊    | 287/498 [11:36:31<8:31:25, 145.43s/it]
+  [medium] n= 1,152  parse_fail=1,149 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  58%|█████▊    | 288/498 [11:38:55<8:28:13, 145.21s/it]
+  [medium] n= 1,156  parse_fail=1,153 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  58%|█████▊    | 289/498 [11:41:21<8:26:28, 145.40s/it]
+  [medium] n= 1,160  parse_fail=1,157 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  58%|█████▊    | 290/498 [11:43:47<8:23:54, 145.36s/it]
+  [medium] n= 1,164  parse_fail=1,161 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  58%|█████▊    | 291/498 [11:46:12<8:21:52, 145.47s/it]
+  [medium] n= 1,168  parse_fail=1,165 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  59%|█████▊    | 292/498 [11:48:38<8:19:44, 145.56s/it]
+  [medium] n= 1,172  parse_fail=1,169 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  59%|█████▉    | 293/498 [11:51:04<8:17:31, 145.62s/it]
+  [medium] n= 1,176  parse_fail=1,173 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  59%|█████▉    | 294/498 [11:53:29<8:14:37, 145.48s/it]
+  [medium] n= 1,180  parse_fail=1,176 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  59%|█████▉    | 295/498 [11:55:54<8:12:08, 145.46s/it]
+  [medium] n= 1,184  parse_fail=1,180 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  59%|█████▉    | 296/498 [11:58:20<8:09:28, 145.39s/it]
+  [medium] n= 1,188  parse_fail=1,184 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  60%|█████▉    | 297/498 [12:00:44<8:06:05, 145.10s/it]
+  [medium] n= 1,192  parse_fail=1,188 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  60%|█████▉    | 298/498 [12:03:09<8:03:23, 145.02s/it]
+  [medium] n= 1,196  parse_fail=1,192 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  60%|██████    | 299/498 [12:05:35<8:01:47, 145.26s/it]
+  [medium] n= 1,200  parse_fail=1,196 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  60%|██████    | 300/498 [12:08:00<7:59:52, 145.42s/it]
+  [medium] n= 1,204  parse_fail=1,200 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  60%|██████    | 301/498 [12:10:26<7:57:47, 145.52s/it]
+  [medium] n= 1,208  parse_fail=1,204 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  61%|██████    | 302/498 [12:12:53<7:56:42, 145.93s/it]
+  [medium] n= 1,212  parse_fail=1,208 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  61%|██████    | 303/498 [12:15:19<7:54:16, 145.93s/it]
+  [medium] n= 1,216  parse_fail=1,212 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  61%|██████    | 304/498 [12:17:44<7:50:51, 145.63s/it]
+  [medium] n= 1,220  parse_fail=1,216 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  61%|██████    | 305/498 [12:20:09<7:48:08, 145.54s/it]
+  [medium] n= 1,224  parse_fail=1,220 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  61%|██████▏   | 306/498 [12:22:37<7:47:56, 146.23s/it]
+  [medium] n= 1,228  parse_fail=1,223 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  62%|██████▏   | 307/498 [12:25:04<7:45:58, 146.38s/it]
+  [medium] n= 1,232  parse_fail=1,227 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  62%|██████▏   | 308/498 [12:27:29<7:41:53, 145.86s/it]
+  [medium] n= 1,236  parse_fail=1,231 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  62%|██████▏   | 309/498 [12:29:52<7:37:30, 145.24s/it]
+  [medium] n= 1,240  parse_fail=1,235 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  62%|██████▏   | 310/498 [12:32:18<7:35:12, 145.28s/it]
+  [medium] n= 1,244  parse_fail=1,239 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  62%|██████▏   | 311/498 [12:34:43<7:33:05, 145.38s/it]
+  [medium] n= 1,248  parse_fail=1,243 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  63%|██████▎   | 312/498 [12:37:09<7:30:38, 145.37s/it]
+  [medium] n= 1,252  parse_fail=1,247 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  63%|██████▎   | 313/498 [12:39:34<7:28:18, 145.40s/it]
+  [medium] n= 1,256  parse_fail=1,251 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  63%|██████▎   | 314/498 [12:42:03<7:29:17, 146.51s/it]
+  [medium] n= 1,260  parse_fail=1,255 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  63%|██████▎   | 315/498 [12:44:30<7:26:39, 146.44s/it]
+  [medium] n= 1,264  parse_fail=1,259 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  63%|██████▎   | 316/498 [12:46:54<7:22:40, 145.94s/it]
+  [medium] n= 1,268  parse_fail=1,263 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  64%|██████▎   | 317/498 [12:49:18<7:18:28, 145.35s/it]
+  [medium] n= 1,272  parse_fail=1,267 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  64%|██████▍   | 318/498 [12:51:43<7:15:37, 145.21s/it]
+  [medium] n= 1,276  parse_fail=1,271 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  64%|██████▍   | 319/498 [12:54:08<7:13:18, 145.24s/it]
+  [medium] n= 1,280  parse_fail=1,275 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  64%|██████▍   | 320/498 [12:56:33<7:10:10, 145.00s/it]
+  [medium] n= 1,284  parse_fail=1,279 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  64%|██████▍   | 321/498 [12:58:56<7:06:28, 144.57s/it]
+  [medium] n= 1,288  parse_fail=1,283 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  65%|██████▍   | 322/498 [13:01:22<7:04:31, 144.73s/it]
+  [medium] n= 1,292  parse_fail=1,287 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  65%|██████▍   | 323/498 [13:03:47<7:02:38, 144.91s/it]
+  [medium] n= 1,296  parse_fail=1,291 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  65%|██████▌   | 324/498 [13:06:14<7:02:01, 145.52s/it]
+  [medium] n= 1,300  parse_fail=1,295 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  65%|██████▌   | 325/498 [13:08:43<7:02:28, 146.52s/it]
+  [medium] n= 1,304  parse_fail=1,299 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  65%|██████▌   | 326/498 [13:11:09<6:59:31, 146.35s/it]
+  [medium] n= 1,308  parse_fail=1,303 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  66%|██████▌   | 327/498 [13:13:33<6:55:20, 145.73s/it]
+  [medium] n= 1,312  parse_fail=1,307 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  66%|██████▌   | 328/498 [13:15:58<6:52:08, 145.46s/it]
+  [medium] n= 1,316  parse_fail=1,311 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  66%|██████▌   | 329/498 [13:18:24<6:50:45, 145.83s/it]
+  [medium] n= 1,320  parse_fail=1,315 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  66%|██████▋   | 330/498 [13:20:49<6:47:28, 145.52s/it]
+  [medium] n= 1,324  parse_fail=1,319 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  66%|██████▋   | 331/498 [13:23:14<6:44:14, 145.24s/it]
+  [medium] n= 1,328  parse_fail=1,323 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  67%|██████▋   | 332/498 [13:25:41<6:43:07, 145.71s/it]
+  [medium] n= 1,332  parse_fail=1,327 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  67%|██████▋   | 333/498 [13:28:08<6:41:43, 146.08s/it]
+  [medium] n= 1,336  parse_fail=1,331 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  67%|██████▋   | 334/498 [13:30:32<6:37:40, 145.49s/it]
+  [medium] n= 1,340  parse_fail=1,335 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  67%|██████▋   | 335/498 [13:32:57<6:34:55, 145.37s/it]
+  [medium] n= 1,344  parse_fail=1,339 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  67%|██████▋   | 336/498 [13:35:21<6:31:50, 145.13s/it]
+  [medium] n= 1,348  parse_fail=1,343 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  68%|██████▊   | 337/498 [13:37:45<6:28:38, 144.84s/it]
+  [medium] n= 1,352  parse_fail=1,347 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  68%|██████▊   | 338/498 [13:40:11<6:26:59, 145.12s/it]
+  [medium] n= 1,356  parse_fail=1,351 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  68%|██████▊   | 339/498 [13:42:36<6:24:34, 145.13s/it]
+  [medium] n= 1,360  parse_fail=1,355 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  68%|██████▊   | 340/498 [13:45:02<6:22:52, 145.39s/it]
+  [medium] n= 1,364  parse_fail=1,359 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  68%|██████▊   | 341/498 [13:47:27<6:19:30, 145.04s/it]
+  [medium] n= 1,368  parse_fail=1,363 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  69%|██████▊   | 342/498 [13:49:53<6:17:50, 145.32s/it]
+  [medium] n= 1,372  parse_fail=1,367 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  69%|██████▉   | 343/498 [13:52:19<6:16:03, 145.57s/it]
+  [medium] n= 1,376  parse_fail=1,371 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  69%|██████▉   | 344/498 [13:54:44<6:13:40, 145.59s/it]
+  [medium] n= 1,380  parse_fail=1,375 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  69%|██████▉   | 345/498 [13:57:10<6:11:35, 145.72s/it]
+  [medium] n= 1,384  parse_fail=1,379 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  69%|██████▉   | 346/498 [13:59:35<6:08:26, 145.44s/it]
+  [medium] n= 1,388  parse_fail=1,383 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  70%|██████▉   | 347/498 [14:02:01<6:05:59, 145.43s/it]
+  [medium] n= 1,392  parse_fail=1,387 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  70%|██████▉   | 348/498 [14:04:27<6:03:58, 145.59s/it]
+  [medium] n= 1,396  parse_fail=1,391 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  70%|███████   | 349/498 [14:06:52<6:01:13, 145.46s/it]
+  [medium] n= 1,400  parse_fail=1,395 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  70%|███████   | 350/498 [14:09:16<5:57:54, 145.10s/it]
+  [medium] n= 1,404  parse_fail=1,399 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  70%|███████   | 351/498 [14:11:43<5:57:04, 145.75s/it]
+  [medium] n= 1,408  parse_fail=1,403 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  71%|███████   | 352/498 [14:14:10<5:55:06, 145.93s/it]
+  [medium] n= 1,412  parse_fail=1,407 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  71%|███████   | 353/498 [14:16:34<5:51:27, 145.43s/it]
+  [medium] n= 1,416  parse_fail=1,411 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  71%|███████   | 354/498 [14:18:59<5:48:31, 145.22s/it]
+  [medium] n= 1,420  parse_fail=1,415 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  71%|███████▏  | 355/498 [14:21:24<5:45:54, 145.13s/it]
+  [medium] n= 1,424  parse_fail=1,419 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  71%|███████▏  | 356/498 [14:23:47<5:42:15, 144.61s/it]
+  [medium] n= 1,428  parse_fail=1,423 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  72%|███████▏  | 357/498 [14:26:13<5:40:33, 144.92s/it]
+  [medium] n= 1,432  parse_fail=1,427 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  72%|███████▏  | 358/498 [14:28:38<5:38:22, 145.02s/it]
+  [medium] n= 1,436  parse_fail=1,431 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  72%|███████▏  | 359/498 [14:31:03<5:35:48, 144.95s/it]
+  [medium] n= 1,440  parse_fail=1,435 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  72%|███████▏  | 360/498 [14:33:28<5:33:41, 145.08s/it]
+  [medium] n= 1,444  parse_fail=1,439 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  72%|███████▏  | 361/498 [14:35:54<5:32:06, 145.45s/it]
+  [medium] n= 1,448  parse_fail=1,443 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  73%|███████▎  | 362/498 [14:38:19<5:28:58, 145.13s/it]
+  [medium] n= 1,452  parse_fail=1,447 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  73%|███████▎  | 363/498 [14:40:45<5:27:09, 145.41s/it]
+  [medium] n= 1,456  parse_fail=1,451 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  73%|███████▎  | 364/498 [14:43:10<5:24:56, 145.50s/it]
+  [medium] n= 1,460  parse_fail=1,455 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  73%|███████▎  | 365/498 [14:45:37<5:23:25, 145.90s/it]
+  [medium] n= 1,464  parse_fail=1,459 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  73%|███████▎  | 366/498 [14:48:03<5:20:39, 145.75s/it]
+  [medium] n= 1,468  parse_fail=1,463 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  74%|███████▎  | 367/498 [14:50:27<5:17:17, 145.32s/it]
+  [medium] n= 1,472  parse_fail=1,467 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  74%|███████▍  | 368/498 [14:52:53<5:15:00, 145.39s/it]
+  [medium] n= 1,476  parse_fail=1,471 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  74%|███████▍  | 369/498 [14:55:18<5:12:53, 145.53s/it]
+  [medium] n= 1,480  parse_fail=1,475 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  74%|███████▍  | 370/498 [14:57:43<5:09:59, 145.31s/it]
+  [medium] n= 1,484  parse_fail=1,479 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  74%|███████▍  | 371/498 [15:00:08<5:07:33, 145.30s/it]
+  [medium] n= 1,488  parse_fail=1,483 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  75%|███████▍  | 372/498 [15:02:34<5:05:22, 145.42s/it]
+  [medium] n= 1,492  parse_fail=1,487 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  75%|███████▍  | 373/498 [15:05:01<5:03:36, 145.73s/it]
+  [medium] n= 1,496  parse_fail=1,491 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  75%|███████▌  | 374/498 [15:07:26<5:00:56, 145.62s/it]
+  [medium] n= 1,500  parse_fail=1,495 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  75%|███████▌  | 375/498 [15:09:52<4:58:50, 145.78s/it]
+  [medium] n= 1,504  parse_fail=1,499 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  76%|███████▌  | 376/498 [15:12:17<4:55:48, 145.48s/it]
+  [medium] n= 1,508  parse_fail=1,503 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  76%|███████▌  | 377/498 [15:14:42<4:53:08, 145.36s/it]
+  [medium] n= 1,512  parse_fail=1,507 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  76%|███████▌  | 378/498 [15:17:08<4:51:08, 145.57s/it]
+  [medium] n= 1,516  parse_fail=1,511 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  76%|███████▌  | 379/498 [15:19:35<4:49:21, 145.89s/it]
+  [medium] n= 1,520  parse_fail=1,515 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  76%|███████▋  | 380/498 [15:22:03<4:48:33, 146.72s/it]
+  [medium] n= 1,524  parse_fail=1,519 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  77%|███████▋  | 381/498 [15:24:29<4:45:20, 146.33s/it]
+  [medium] n= 1,528  parse_fail=1,523 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  77%|███████▋  | 382/498 [15:26:54<4:42:19, 146.03s/it]
+  [medium] n= 1,532  parse_fail=1,527 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  77%|███████▋  | 383/498 [15:29:20<4:39:52, 146.02s/it]
+  [medium] n= 1,536  parse_fail=1,531 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  77%|███████▋  | 384/498 [15:31:46<4:37:15, 145.93s/it]
+  [medium] n= 1,540  parse_fail=1,535 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  77%|███████▋  | 385/498 [15:34:12<4:34:43, 145.87s/it]
+  [medium] n= 1,544  parse_fail=1,539 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  78%|███████▊  | 386/498 [15:36:36<4:31:22, 145.38s/it]
+  [medium] n= 1,548  parse_fail=1,543 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  78%|███████▊  | 387/498 [15:39:01<4:29:02, 145.43s/it]
+  [medium] n= 1,552  parse_fail=1,547 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  78%|███████▊  | 388/498 [15:41:25<4:25:51, 145.01s/it]
+  [medium] n= 1,556  parse_fail=1,551 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  78%|███████▊  | 389/498 [15:43:52<4:24:06, 145.38s/it]
+  [medium] n= 1,560  parse_fail=1,555 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  78%|███████▊  | 390/498 [15:46:18<4:22:17, 145.72s/it]
+  [medium] n= 1,564  parse_fail=1,559 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  79%|███████▊  | 391/498 [15:48:43<4:19:32, 145.54s/it]
+  [medium] n= 1,568  parse_fail=1,563 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  79%|███████▊  | 392/498 [15:51:08<4:16:35, 145.24s/it]
+  [medium] n= 1,572  parse_fail=1,567 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  79%|███████▉  | 393/498 [15:53:33<4:14:11, 145.25s/it]
+  [medium] n= 1,576  parse_fail=1,571 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  79%|███████▉  | 394/498 [15:55:59<4:11:58, 145.37s/it]
+  [medium] n= 1,580  parse_fail=1,575 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  79%|███████▉  | 395/498 [15:58:24<4:09:37, 145.41s/it]
+  [medium] n= 1,584  parse_fail=1,579 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  80%|███████▉  | 396/498 [16:00:49<4:06:52, 145.22s/it]
+  [medium] n= 1,588  parse_fail=1,583 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  80%|███████▉  | 397/498 [16:03:15<4:04:48, 145.43s/it]
+  [medium] n= 1,592  parse_fail=1,587 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  80%|███████▉  | 398/498 [16:05:39<4:01:36, 144.96s/it]
+  [medium] n= 1,596  parse_fail=1,591 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  80%|████████  | 399/498 [16:08:05<3:59:42, 145.28s/it]
+  [medium] n= 1,600  parse_fail=1,595 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  80%|████████  | 400/498 [16:10:30<3:57:14, 145.25s/it]
+  [medium] n= 1,604  parse_fail=1,599 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  81%|████████  | 401/498 [16:12:55<3:54:46, 145.22s/it]
+  [medium] n= 1,608  parse_fail=1,603 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  81%|████████  | 402/498 [16:15:19<3:51:47, 144.87s/it]
+  [medium] n= 1,612  parse_fail=1,607 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  81%|████████  | 403/498 [16:17:46<3:50:06, 145.33s/it]
+  [medium] n= 1,616  parse_fail=1,611 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  81%|████████  | 404/498 [16:20:14<3:48:53, 146.11s/it]
+  [medium] n= 1,620  parse_fail=1,615 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  81%|████████▏ | 405/498 [16:22:40<3:46:51, 146.36s/it]
+  [medium] n= 1,624  parse_fail=1,619 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  82%|████████▏ | 406/498 [16:25:07<3:44:18, 146.29s/it]
+  [medium] n= 1,628  parse_fail=1,623 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  82%|████████▏ | 407/498 [16:27:32<3:41:28, 146.02s/it]
+  [medium] n= 1,632  parse_fail=1,627 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  82%|████████▏ | 408/498 [16:29:59<3:39:33, 146.37s/it]
+  [medium] n= 1,636  parse_fail=1,631 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  82%|████████▏ | 409/498 [16:32:26<3:37:06, 146.37s/it]
+  [medium] n= 1,640  parse_fail=1,635 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  82%|████████▏ | 410/498 [16:34:51<3:34:18, 146.12s/it]
+  [medium] n= 1,644  parse_fail=1,639 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  83%|████████▎ | 411/498 [16:37:17<3:31:49, 146.09s/it]
+  [medium] n= 1,648  parse_fail=1,643 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  83%|████████▎ | 412/498 [16:39:42<3:28:42, 145.61s/it]
+  [medium] n= 1,652  parse_fail=1,647 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  83%|████████▎ | 413/498 [16:42:08<3:26:38, 145.87s/it]
+  [medium] n= 1,656  parse_fail=1,651 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  83%|████████▎ | 414/498 [16:44:34<3:24:22, 145.98s/it]
+  [medium] n= 1,660  parse_fail=1,655 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  83%|████████▎ | 415/498 [16:46:59<3:21:35, 145.73s/it]
+  [medium] n= 1,664  parse_fail=1,659 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  84%|████████▎ | 416/498 [16:49:24<3:18:41, 145.39s/it]
+  [medium] n= 1,668  parse_fail=1,663 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  84%|████████▎ | 417/498 [16:51:49<3:16:03, 145.22s/it]
+  [medium] n= 1,672  parse_fail=1,667 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  84%|████████▍ | 418/498 [16:54:14<3:13:25, 145.07s/it]
+  [medium] n= 1,676  parse_fail=1,671 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  84%|████████▍ | 419/498 [16:56:41<3:11:51, 145.72s/it]
+  [medium] n= 1,680  parse_fail=1,675 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  84%|████████▍ | 420/498 [16:59:06<3:09:19, 145.63s/it]
+  [medium] n= 1,684  parse_fail=1,679 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  85%|████████▍ | 421/498 [17:01:31<3:06:43, 145.50s/it]
+  [medium] n= 1,688  parse_fail=1,682 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  85%|████████▍ | 422/498 [17:03:57<3:04:13, 145.44s/it]
+  [medium] n= 1,692  parse_fail=1,686 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  85%|████████▍ | 423/498 [17:06:22<3:01:44, 145.40s/it]
+  [medium] n= 1,696  parse_fail=1,690 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  85%|████████▌ | 424/498 [17:08:48<2:59:35, 145.61s/it]
+  [medium] n= 1,700  parse_fail=1,694 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  85%|████████▌ | 425/498 [17:11:14<2:57:05, 145.56s/it]
+  [medium] n= 1,704  parse_fail=1,698 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  86%|████████▌ | 426/498 [17:13:42<2:55:30, 146.26s/it]
+  [medium] n= 1,708  parse_fail=1,702 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  86%|████████▌ | 427/498 [17:16:06<2:52:32, 145.81s/it]
+  [medium] n= 1,712  parse_fail=1,706 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  86%|████████▌ | 428/498 [17:18:33<2:50:16, 145.95s/it]
+  [medium] n= 1,716  parse_fail=1,710 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  86%|████████▌ | 429/498 [17:20:59<2:48:02, 146.12s/it]
+  [medium] n= 1,720  parse_fail=1,714 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  86%|████████▋ | 430/498 [17:23:25<2:45:34, 146.10s/it]
+  [medium] n= 1,724  parse_fail=1,718 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  87%|████████▋ | 431/498 [17:25:52<2:43:18, 146.24s/it]
+  [medium] n= 1,728  parse_fail=1,722 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  87%|████████▋ | 432/498 [17:28:18<2:40:45, 146.15s/it]
+  [medium] n= 1,732  parse_fail=1,726 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  87%|████████▋ | 433/498 [17:30:43<2:38:05, 145.93s/it]
+  [medium] n= 1,736  parse_fail=1,730 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  87%|████████▋ | 434/498 [17:33:09<2:35:41, 145.96s/it]
+  [medium] n= 1,740  parse_fail=1,734 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  87%|████████▋ | 435/498 [17:35:35<2:33:05, 145.81s/it]
+  [medium] n= 1,744  parse_fail=1,738 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  88%|████████▊ | 436/498 [17:37:59<2:30:15, 145.40s/it]
+  [medium] n= 1,748  parse_fail=1,742 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  88%|████████▊ | 437/498 [17:40:24<2:27:42, 145.29s/it]
+  [medium] n= 1,752  parse_fail=1,746 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  88%|████████▊ | 438/498 [17:42:49<2:25:10, 145.17s/it]
+  [medium] n= 1,756  parse_fail=1,750 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  88%|████████▊ | 439/498 [17:45:14<2:22:37, 145.04s/it]
+  [medium] n= 1,760  parse_fail=1,754 (99.7%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  88%|████████▊ | 440/498 [17:47:38<2:20:07, 144.96s/it]Decoding response using json failed for candidate [[1, 2, 3, 4, 5, 6, 7, 8, 9, 0], [0, 0, 0, 0, 0, 9, 0, 5, 0], [9, 0, 0, 0, 5, 7, 9, 0, 0], [mobilePhoneNumber], [9, 0, 0, 5, 6, 7, 9, 0, 1], [4, 3, 0, 8, 7, 0, 7, 1, 5], [3, 9, 3, 0, 0, 0, 8, 0, 0], [0, 0, 0, 0, 5, 0, 0, 8, 3], [6, 0, 0, 8, 9, 1, 7, 6, 0], [4, 0, 0, 0, 0, 0, 0, 6, 3, 0]]
+
+  [medium] n= 1,764  parse_fail=1,757 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  89%|████████▊ | 441/498 [17:50:04<2:17:59, 145.25s/it]
+  [medium] n= 1,768  parse_fail=1,761 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  89%|████████▉ | 442/498 [17:52:29<2:15:32, 145.22s/it]
+  [medium] n= 1,772  parse_fail=1,765 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  89%|████████▉ | 443/498 [17:54:56<2:13:21, 145.49s/it]
+  [medium] n= 1,776  parse_fail=1,769 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  89%|████████▉ | 444/498 [17:57:21<2:10:54, 145.45s/it]
+  [medium] n= 1,780  parse_fail=1,773 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  89%|████████▉ | 445/498 [17:59:47<2:08:38, 145.63s/it]
+  [medium] n= 1,784  parse_fail=1,777 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  90%|████████▉ | 446/498 [18:02:12<2:05:56, 145.33s/it]
+  [medium] n= 1,788  parse_fail=1,781 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  90%|████████▉ | 447/498 [18:04:37<2:03:25, 145.21s/it]
+  [medium] n= 1,792  parse_fail=1,785 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  90%|████████▉ | 448/498 [18:07:01<2:00:52, 145.04s/it]
+  [medium] n= 1,796  parse_fail=1,789 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  90%|█████████ | 449/498 [18:09:28<1:58:45, 145.42s/it]
+  [medium] n= 1,800  parse_fail=1,793 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  90%|█████████ | 450/498 [18:11:56<1:57:02, 146.31s/it]
+  [medium] n= 1,804  parse_fail=1,797 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  91%|█████████ | 451/498 [18:14:21<1:54:20, 145.97s/it]
+  [medium] n= 1,808  parse_fail=1,801 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  91%|█████████ | 452/498 [18:16:47<1:51:55, 146.00s/it]
+  [medium] n= 1,812  parse_fail=1,805 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  91%|█████████ | 453/498 [18:19:13<1:49:28, 145.97s/it]
+  [medium] n= 1,816  parse_fail=1,809 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  91%|█████████ | 454/498 [18:21:40<1:47:20, 146.37s/it]
+  [medium] n= 1,820  parse_fail=1,813 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  91%|█████████▏| 455/498 [18:24:07<1:44:58, 146.48s/it]
+  [medium] n= 1,824  parse_fail=1,817 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  92%|█████████▏| 456/498 [18:26:32<1:42:10, 145.96s/it]
+  [medium] n= 1,828  parse_fail=1,821 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  92%|█████████▏| 457/498 [18:28:57<1:39:34, 145.71s/it]
+  [medium] n= 1,832  parse_fail=1,825 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  92%|█████████▏| 458/498 [18:31:22<1:37:05, 145.63s/it]
+  [medium] n= 1,836  parse_fail=1,829 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  92%|█████████▏| 459/498 [18:33:46<1:34:17, 145.07s/it]
+  [medium] n= 1,840  parse_fail=1,833 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  92%|█████████▏| 460/498 [18:36:12<1:31:58, 145.22s/it]
+  [medium] n= 1,844  parse_fail=1,837 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  93%|█████████▎| 461/498 [18:38:37<1:29:38, 145.36s/it]
+  [medium] n= 1,848  parse_fail=1,841 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  93%|█████████▎| 462/498 [18:41:03<1:27:19, 145.53s/it]
+  [medium] n= 1,852  parse_fail=1,845 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  93%|█████████▎| 463/498 [18:43:29<1:24:52, 145.51s/it]
+  [medium] n= 1,856  parse_fail=1,849 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  93%|█████████▎| 464/498 [18:45:54<1:22:23, 145.40s/it]
+  [medium] n= 1,860  parse_fail=1,853 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  93%|█████████▎| 465/498 [18:48:20<1:20:06, 145.66s/it]
+  [medium] n= 1,864  parse_fail=1,857 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  94%|█████████▎| 466/498 [18:50:46<1:17:38, 145.57s/it]
+  [medium] n= 1,868  parse_fail=1,861 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  94%|█████████▍| 467/498 [18:53:12<1:15:22, 145.88s/it]
+  [medium] n= 1,872  parse_fail=1,865 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  94%|█████████▍| 468/498 [18:55:37<1:12:42, 145.43s/it]
+  [medium] n= 1,876  parse_fail=1,869 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  94%|█████████▍| 469/498 [18:58:02<1:10:19, 145.51s/it]
+  [medium] n= 1,880  parse_fail=1,873 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  94%|█████████▍| 470/498 [19:00:28<1:07:53, 145.47s/it]
+  [medium] n= 1,884  parse_fail=1,877 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  95%|█████████▍| 471/498 [19:02:55<1:05:39, 145.92s/it]
+  [medium] n= 1,888  parse_fail=1,881 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  95%|█████████▍| 472/498 [19:05:21<1:03:14, 145.93s/it]
+  [medium] n= 1,892  parse_fail=1,885 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  95%|█████████▍| 473/498 [19:07:47<1:00:49, 145.98s/it]
+  [medium] n= 1,896  parse_fail=1,889 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  95%|█████████▌| 474/498 [19:10:12<58:15, 145.64s/it]  
+  [medium] n= 1,900  parse_fail=1,893 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  95%|█████████▌| 475/498 [19:12:37<55:45, 145.47s/it]
+  [medium] n= 1,904  parse_fail=1,897 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  96%|█████████▌| 476/498 [19:15:03<53:27, 145.79s/it]
+  [medium] n= 1,908  parse_fail=1,901 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  96%|█████████▌| 477/498 [19:17:29<51:00, 145.75s/it]
+  [medium] n= 1,912  parse_fail=1,905 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  96%|█████████▌| 478/498 [19:19:55<48:37, 145.89s/it]
+  [medium] n= 1,916  parse_fail=1,909 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  96%|█████████▌| 479/498 [19:22:21<46:11, 145.86s/it]
+  [medium] n= 1,920  parse_fail=1,913 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  96%|█████████▋| 480/498 [19:24:45<43:36, 145.37s/it]
+  [medium] n= 1,924  parse_fail=1,917 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  97%|█████████▋| 481/498 [19:27:11<41:14, 145.54s/it]
+  [medium] n= 1,928  parse_fail=1,921 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  97%|█████████▋| 482/498 [19:29:35<38:43, 145.20s/it]
+  [medium] n= 1,932  parse_fail=1,925 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  97%|█████████▋| 483/498 [19:32:00<36:16, 145.13s/it]
+  [medium] n= 1,936  parse_fail=1,929 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  97%|█████████▋| 484/498 [19:34:26<33:55, 145.37s/it]
+  [medium] n= 1,940  parse_fail=1,933 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  97%|█████████▋| 485/498 [19:36:51<31:26, 145.08s/it]
+  [medium] n= 1,944  parse_fail=1,937 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  98%|█████████▊| 486/498 [19:39:17<29:06, 145.52s/it]
+  [medium] n= 1,948  parse_fail=1,941 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  98%|█████████▊| 487/498 [19:41:43<26:42, 145.71s/it]
+  [medium] n= 1,952  parse_fail=1,945 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  98%|█████████▊| 488/498 [19:44:09<24:17, 145.78s/it]
+  [medium] n= 1,956  parse_fail=1,949 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  98%|█████████▊| 489/498 [19:46:33<21:47, 145.23s/it]
+  [medium] n= 1,960  parse_fail=1,953 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  98%|█████████▊| 490/498 [19:48:59<19:23, 145.45s/it]
+  [medium] n= 1,964  parse_fail=1,957 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  99%|█████████▊| 491/498 [19:51:25<16:59, 145.67s/it]
+  [medium] n= 1,968  parse_fail=1,961 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  99%|█████████▉| 492/498 [19:53:50<14:32, 145.47s/it]
+  [medium] n= 1,972  parse_fail=1,965 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  99%|█████████▉| 493/498 [19:56:16<12:06, 145.40s/it]
+  [medium] n= 1,976  parse_fail=1,969 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  99%|█████████▉| 494/498 [19:58:42<09:42, 145.55s/it]
+  [medium] n= 1,980  parse_fail=1,973 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  99%|█████████▉| 495/498 [20:01:08<07:17, 145.82s/it]
+  [medium] n= 1,984  parse_fail=1,977 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]: 100%|█████████▉| 496/498 [20:03:35<04:52, 146.05s/it]
+  [medium] n= 1,988  parse_fail=1,981 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]: 100%|█████████▉| 497/498 [20:06:00<02:25, 145.88s/it]
+  [medium] n= 1,992  parse_fail=1,985 (99.6%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]: 100%|██████████| 498/498 [20:08:26<00:00, 146.01s/it]  [medium]: 100%|██████████| 498/498 [20:08:26<00:00, 145.60s/it]
+
+  Results -- medium (0shot)
+  Evaluated           :      1,992
+  Parse failures      :      1,985  (99.6%)
+  Cell accuracy       :     0.0000
+  Board accuracy      :     0.0000
+  Row accuracy        :     0.0000
+  Col accuracy        :     0.0000
+  Wall time           :    72506.8s
+
+  Saving to results_kakuro/llada_0shot/
+    -> results_kakuro/llada_0shot/medium_0shot.summary.json
+    -> results_kakuro/llada_0shot/medium_0shot.per_sample.jsonl
+    -> results_kakuro/llada_0shot/medium_0shot.samples.json
+    -> results_kakuro/llada_0shot/medium_0shot.samples.txt
+
+======================================================================
+  Combined summary -> results_kakuro/llada_0shot/combined_0shot.json
+  Total wall time  : 72525.0s
+======================================================================
+

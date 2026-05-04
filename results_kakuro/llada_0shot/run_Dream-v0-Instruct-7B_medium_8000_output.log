@@ -1,0 +1,22 @@
+/hpc/group/tdunn/as1296/miniconda3/envs/diffusion_lang/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+[eval_kakuro] Loading model: Dream-org/Dream-v0-Instruct-7B
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 132.79it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+──────────────────────────────────────────────────────────────────────
+  Difficulty : MEDIUM    few-shot : 0
+──────────────────────────────────────────────────────────────────────
+  Loading dataset ...
+  [KakuroGrid] Loading from HuggingFace: Apaxdor/Kakuro_mania (subset=default, split=train, streaming=True)
+  Loaded 10,100 [medium] problems.
+  Found existing predictions at results_kakuro/llada_0shot/medium_0shot.per_sample.jsonl, loading for resume...
+  Loaded 16 completed samples
+  Test set (this run): 9,984 problems
+  Total after completion: 10,000 / 2000
+  [medium]:   0%|          | 0/496 [00:00<?, ?it/s]
+  [medium] n=     4  parse_fail=    4 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 1/496 [01:07<9:20:23, 67.93s/it]
+  [medium] n=     8  parse_fail=    8 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 2/496 [02:15<9:19:56, 68.01s/it]

@@ -1,0 +1,2014 @@
+/hpc/group/tdunn/as1296/miniconda3/envs/diffusion_lang/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+[eval_sudoku] Loading model: Dream-org/Dream-v0-Instruct-7B
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 136.36it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+──────────────────────────────────────────────────────────────────────
+  Difficulty : HARD    few-shot : 3
+──────────────────────────────────────────────────────────────────────
+  Loading dataset ...
+  [NineGrid] Loading from HuggingFace: beta3/GridCorpus_9M_Sudoku_Puzzles_Enriched (subset=gridcorpus, split=data, streaming=True)
+  Loaded 4,103 [hard] problems.
+  Reserving 3 few-shot examples (excluded from test set).
+  Found existing predictions at results_sudoku/0shot_dream/hard_3shot.per_sample.jsonl, loading for resume...
+  Loaded 54 completed samples
+  Test set (this run): 3,946 problems
+  Total after completion: 4,000 / 4000
+  [hard]:   0%|          | 0/987 [00:00<?, ?it/s]
+  [hard] n=     4  parse_fail=    0 ( 0.0%)  cell=0.2673  board=0.0000  row=0.0833  col=0.0833
+  [hard]:   0%|          | 1/987 [02:19<38:19:44, 139.94s/it]
+  [hard] n=     8  parse_fail=    0 ( 0.0%)  cell=0.3691  board=0.0000  row=0.1250  col=0.1111
+  [hard]:   0%|          | 2/987 [04:40<38:19:27, 140.07s/it]
+  [hard] n=    12  parse_fail=    0 ( 0.0%)  cell=0.3630  board=0.0000  row=0.1389  col=0.0833
+  [hard]:   0%|          | 3/987 [07:00<38:17:55, 140.12s/it]
+  [hard] n=    16  parse_fail=    0 ( 0.0%)  cell=0.3337  board=0.0000  row=0.1111  col=0.0694
+  [hard]:   0%|          | 4/987 [09:20<38:17:47, 140.25s/it]
+  [hard] n=    20  parse_fail=    0 ( 0.0%)  cell=0.2833  board=0.0000  row=0.0889  col=0.0556
+  [hard]:   1%|          | 5/987 [11:41<38:16:18, 140.30s/it]
+  [hard] n=    24  parse_fail=    0 ( 0.0%)  cell=0.2802  board=0.0000  row=0.0787  col=0.0509
+  [hard]:   1%|          | 6/987 [14:01<38:15:06, 140.37s/it]
+  [hard] n=    28  parse_fail=    0 ( 0.0%)  cell=0.2939  board=0.0000  row=0.0873  col=0.0595
+  [hard]:   1%|          | 7/987 [16:22<38:13:50, 140.44s/it]
+  [hard] n=    32  parse_fail=    0 ( 0.0%)  cell=0.2728  board=0.0000  row=0.0799  col=0.0521
+  [hard]:   1%|          | 8/987 [18:42<38:11:05, 140.41s/it]
+  [hard] n=    36  parse_fail=    0 ( 0.0%)  cell=0.2701  board=0.0000  row=0.0802  col=0.0556
+  [hard]:   1%|          | 9/987 [21:02<38:08:19, 140.39s/it]
+  [hard] n=    40  parse_fail=    0 ( 0.0%)  cell=0.2718  board=0.0000  row=0.0778  col=0.0528
+  [hard]:   1%|          | 10/987 [23:23<38:05:02, 140.33s/it]
+  [hard] n=    44  parse_fail=    0 ( 0.0%)  cell=0.2719  board=0.0000  row=0.0783  col=0.0530
+  [hard]:   1%|          | 11/987 [25:43<38:02:08, 140.30s/it]
+  [hard] n=    48  parse_fail=    0 ( 0.0%)  cell=0.2725  board=0.0000  row=0.0810  col=0.0509
+  [hard]:   1%|          | 12/987 [28:03<37:58:24, 140.21s/it]
+  [hard] n=    52  parse_fail=    0 ( 0.0%)  cell=0.2669  board=0.0000  row=0.0833  col=0.0491
+  [hard]:   1%|▏         | 13/987 [30:23<37:56:54, 140.26s/it]
+  [hard] n=    56  parse_fail=    0 ( 0.0%)  cell=0.2532  board=0.0000  row=0.0774  col=0.0456
+  [hard]:   1%|▏         | 14/987 [32:44<37:54:50, 140.28s/it]
+  [hard] n=    60  parse_fail=    0 ( 0.0%)  cell=0.2575  board=0.0000  row=0.0759  col=0.0444
+  [hard]:   2%|▏         | 15/987 [35:04<37:52:34, 140.28s/it]
+  [hard] n=    64  parse_fail=    0 ( 0.0%)  cell=0.2523  board=0.0000  row=0.0712  col=0.0434
+  [hard]:   2%|▏         | 16/987 [37:24<37:50:24, 140.29s/it]
+  [hard] n=    68  parse_fail=    0 ( 0.0%)  cell=0.2449  board=0.0000  row=0.0686  col=0.0425
+  [hard]:   2%|▏         | 17/987 [39:45<37:49:00, 140.35s/it]
+  [hard] n=    72  parse_fail=    0 ( 0.0%)  cell=0.2482  board=0.0000  row=0.0664  col=0.0448
+  [hard]:   2%|▏         | 18/987 [42:05<37:47:14, 140.39s/it]
+  [hard] n=    76  parse_fail=    0 ( 0.0%)  cell=0.2510  board=0.0000  row=0.0658  col=0.0453
+  [hard]:   2%|▏         | 19/987 [44:26<37:45:00, 140.39s/it]
+  [hard] n=    80  parse_fail=    0 ( 0.0%)  cell=0.2505  board=0.0000  row=0.0694  col=0.0431
+  [hard]:   2%|▏         | 20/987 [46:46<37:42:47, 140.40s/it]
+  [hard] n=    84  parse_fail=    0 ( 0.0%)  cell=0.2452  board=0.0000  row=0.0661  col=0.0423
+  [hard]:   2%|▏         | 21/987 [49:06<37:39:49, 140.36s/it]
+  [hard] n=    88  parse_fail=    0 ( 0.0%)  cell=0.2547  board=0.0000  row=0.0720  col=0.0480
+  [hard]:   2%|▏         | 22/987 [51:26<37:35:54, 140.26s/it]
+  [hard] n=    92  parse_fail=    0 ( 0.0%)  cell=0.2587  board=0.0000  row=0.0761  col=0.0495
+  [hard]:   2%|▏         | 23/987 [53:46<37:32:13, 140.18s/it]
+  [hard] n=    96  parse_fail=    0 ( 0.0%)  cell=0.2513  board=0.0000  row=0.0729  col=0.0475
+  [hard]:   2%|▏         | 24/987 [56:06<37:28:54, 140.12s/it]
+  [hard] n=   100  parse_fail=    0 ( 0.0%)  cell=0.2458  board=0.0000  row=0.0722  col=0.0456
+  [hard]:   3%|▎         | 25/987 [58:26<37:25:40, 140.06s/it]
+  [hard] n=   104  parse_fail=    0 ( 0.0%)  cell=0.2388  board=0.0000  row=0.0705  col=0.0438
+  [hard]:   3%|▎         | 26/987 [1:00:46<37:22:44, 140.03s/it]
+  [hard] n=   108  parse_fail=    0 ( 0.0%)  cell=0.2382  board=0.0000  row=0.0679  col=0.0422
+  [hard]:   3%|▎         | 27/987 [1:03:06<37:21:25, 140.09s/it]
+  [hard] n=   112  parse_fail=    0 ( 0.0%)  cell=0.2368  board=0.0000  row=0.0675  col=0.0407
+  [hard]:   3%|▎         | 28/987 [1:05:27<37:20:31, 140.18s/it]
+  [hard] n=   116  parse_fail=    0 ( 0.0%)  cell=0.2344  board=0.0000  row=0.0661  col=0.0402
+  [hard]:   3%|▎         | 29/987 [1:07:47<37:20:14, 140.31s/it]
+  [hard] n=   120  parse_fail=    0 ( 0.0%)  cell=0.2326  board=0.0000  row=0.0648  col=0.0398
+  [hard]:   3%|▎         | 30/987 [1:10:08<37:19:16, 140.39s/it]
+  [hard] n=   124  parse_fail=    0 ( 0.0%)  cell=0.2251  board=0.0000  row=0.0627  col=0.0385
+  [hard]:   3%|▎         | 31/987 [1:12:28<37:17:36, 140.44s/it]
+  [hard] n=   128  parse_fail=    0 ( 0.0%)  cell=0.2215  board=0.0000  row=0.0608  col=0.0373
+  [hard]:   3%|▎         | 32/987 [1:14:49<37:14:55, 140.41s/it]
+  [hard] n=   132  parse_fail=    0 ( 0.0%)  cell=0.2196  board=0.0000  row=0.0589  col=0.0370
+  [hard]:   3%|▎         | 33/987 [1:17:09<37:11:53, 140.37s/it]
+  [hard] n=   136  parse_fail=    0 ( 0.0%)  cell=0.2249  board=0.0000  row=0.0588  col=0.0368
+  [hard]:   3%|▎         | 34/987 [1:19:29<37:09:19, 140.36s/it]
+  [hard] n=   140  parse_fail=    0 ( 0.0%)  cell=0.2265  board=0.0000  row=0.0587  col=0.0373
+  [hard]:   4%|▎         | 35/987 [1:21:50<37:06:03, 140.30s/it]
+  [hard] n=   144  parse_fail=    0 ( 0.0%)  cell=0.2261  board=0.0000  row=0.0579  col=0.0378
+  [hard]:   4%|▎         | 36/987 [1:24:10<37:03:21, 140.27s/it]
+  [hard] n=   148  parse_fail=    0 ( 0.0%)  cell=0.2267  board=0.0000  row=0.0571  col=0.0375
+  [hard]:   4%|▎         | 37/987 [1:26:30<36:59:35, 140.18s/it]
+  [hard] n=   152  parse_fail=    0 ( 0.0%)  cell=0.2291  board=0.0000  row=0.0592  col=0.0373
+  [hard]:   4%|▍         | 38/987 [1:28:50<36:56:15, 140.12s/it]
+  [hard] n=   156  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0577  col=0.0363
+  [hard]:   4%|▍         | 39/987 [1:31:10<36:53:32, 140.10s/it]
+  [hard] n=   160  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0576  col=0.0368
+  [hard]:   4%|▍         | 40/987 [1:33:30<36:51:08, 140.09s/it]
+  [hard] n=   164  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0589  col=0.0379
+  [hard]:   4%|▍         | 41/987 [1:35:50<36:50:07, 140.18s/it]
+  [hard] n=   168  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0615  col=0.0397
+  [hard]:   4%|▍         | 42/987 [1:38:11<36:49:10, 140.27s/it]
+  [hard] n=   172  parse_fail=    0 ( 0.0%)  cell=0.2326  board=0.0000  row=0.0620  col=0.0413
+  [hard]:   4%|▍         | 43/987 [1:40:31<36:47:41, 140.32s/it]
+  [hard] n=   176  parse_fail=    0 ( 0.0%)  cell=0.2331  board=0.0000  row=0.0625  col=0.0429
+  [hard]:   4%|▍         | 44/987 [1:42:52<36:46:11, 140.37s/it]
+  [hard] n=   180  parse_fail=    0 ( 0.0%)  cell=0.2350  board=0.0000  row=0.0617  col=0.0426
+  [hard]:   5%|▍         | 45/987 [1:45:12<36:42:56, 140.32s/it]
+  [hard] n=   184  parse_fail=    0 ( 0.0%)  cell=0.2384  board=0.0000  row=0.0634  col=0.0441
+  [hard]:   5%|▍         | 46/987 [1:47:32<36:39:37, 140.25s/it]
+  [hard] n=   188  parse_fail=    0 ( 0.0%)  cell=0.2387  board=0.0000  row=0.0644  col=0.0443
+  [hard]:   5%|▍         | 47/987 [1:49:52<36:36:14, 140.19s/it]
+  [hard] n=   192  parse_fail=    0 ( 0.0%)  cell=0.2383  board=0.0000  row=0.0642  col=0.0446
+  [hard]:   5%|▍         | 48/987 [1:52:12<36:33:17, 140.15s/it]
+  [hard] n=   196  parse_fail=    0 ( 0.0%)  cell=0.2357  board=0.0000  row=0.0629  col=0.0448
+  [hard]:   5%|▍         | 49/987 [1:54:32<36:30:49, 140.14s/it]
+  [hard] n=   200  parse_fail=    0 ( 0.0%)  cell=0.2342  board=0.0000  row=0.0622  col=0.0439
+  [hard]:   5%|▌         | 50/987 [1:56:52<36:28:49, 140.16s/it]
+  [hard] n=   204  parse_fail=    0 ( 0.0%)  cell=0.2348  board=0.0000  row=0.0626  col=0.0436
+  [hard]:   5%|▌         | 51/987 [1:59:13<36:27:01, 140.19s/it]
+  [hard] n=   208  parse_fail=    0 ( 0.0%)  cell=0.2351  board=0.0000  row=0.0620  col=0.0433
+  [hard]:   5%|▌         | 52/987 [2:01:33<36:26:35, 140.32s/it]
+  [hard] n=   212  parse_fail=    0 ( 0.0%)  cell=0.2354  board=0.0000  row=0.0634  col=0.0435
+  [hard]:   5%|▌         | 53/987 [2:03:54<36:25:53, 140.42s/it]
+  [hard] n=   216  parse_fail=    0 ( 0.0%)  cell=0.2369  board=0.0000  row=0.0633  col=0.0442
+  [hard]:   5%|▌         | 54/987 [2:06:15<36:25:38, 140.56s/it]
+  [hard] n=   220  parse_fail=    0 ( 0.0%)  cell=0.2363  board=0.0000  row=0.0626  col=0.0449
+  [hard]:   6%|▌         | 55/987 [2:08:36<36:25:10, 140.68s/it]
+  [hard] n=   224  parse_fail=    0 ( 0.0%)  cell=0.2351  board=0.0000  row=0.0625  col=0.0451
+  [hard]:   6%|▌         | 56/987 [2:10:56<36:23:15, 140.70s/it]
+  [hard] n=   228  parse_fail=    0 ( 0.0%)  cell=0.2338  board=0.0000  row=0.0619  col=0.0448
+  [hard]:   6%|▌         | 57/987 [2:13:17<36:19:35, 140.62s/it]
+  [hard] n=   232  parse_fail=    0 ( 0.0%)  cell=0.2356  board=0.0000  row=0.0642  col=0.0450
+  [hard]:   6%|▌         | 58/987 [2:15:37<36:16:24, 140.56s/it]
+  [hard] n=   236  parse_fail=    0 ( 0.0%)  cell=0.2355  board=0.0000  row=0.0636  col=0.0452
+  [hard]:   6%|▌         | 59/987 [2:17:58<36:12:41, 140.48s/it]
+  [hard] n=   240  parse_fail=    0 ( 0.0%)  cell=0.2358  board=0.0000  row=0.0634  col=0.0449
+  [hard]:   6%|▌         | 60/987 [2:20:18<36:08:57, 140.39s/it]
+  [hard] n=   244  parse_fail=    0 ( 0.0%)  cell=0.2357  board=0.0000  row=0.0628  col=0.0455
+  [hard]:   6%|▌         | 61/987 [2:22:38<36:07:09, 140.42s/it]
+  [hard] n=   248  parse_fail=    0 ( 0.0%)  cell=0.2364  board=0.0000  row=0.0632  col=0.0461
+  [hard]:   6%|▋         | 62/987 [2:24:59<36:05:18, 140.45s/it]
+  [hard] n=   252  parse_fail=    0 ( 0.0%)  cell=0.2351  board=0.0000  row=0.0626  col=0.0454
+  [hard]:   6%|▋         | 63/987 [2:27:20<36:04:24, 140.55s/it]
+  [hard] n=   256  parse_fail=    0 ( 0.0%)  cell=0.2382  board=0.0000  row=0.0629  col=0.0464
+  [hard]:   6%|▋         | 64/987 [2:29:40<36:02:58, 140.61s/it]
+  [hard] n=   260  parse_fail=    0 ( 0.0%)  cell=0.2374  board=0.0000  row=0.0628  col=0.0462
+  [hard]:   7%|▋         | 65/987 [2:32:01<36:00:10, 140.58s/it]
+  [hard] n=   264  parse_fail=    0 ( 0.0%)  cell=0.2348  board=0.0000  row=0.0623  col=0.0455
+  [hard]:   7%|▋         | 66/987 [2:34:21<35:57:06, 140.53s/it]
+  [hard] n=   268  parse_fail=    0 ( 0.0%)  cell=0.2358  board=0.0000  row=0.0622  col=0.0456
+  [hard]:   7%|▋         | 67/987 [2:36:42<35:54:02, 140.48s/it]
+  [hard] n=   272  parse_fail=    0 ( 0.0%)  cell=0.2348  board=0.0000  row=0.0613  col=0.0453
+  [hard]:   7%|▋         | 68/987 [2:39:03<35:56:18, 140.78s/it]
+  [hard] n=   276  parse_fail=    0 ( 0.0%)  cell=0.2351  board=0.0000  row=0.0608  col=0.0451
+  [hard]:   7%|▋         | 69/987 [2:41:23<35:50:30, 140.56s/it]
+  [hard] n=   280  parse_fail=    0 ( 0.0%)  cell=0.2344  board=0.0000  row=0.0603  col=0.0456
+  [hard]:   7%|▋         | 70/987 [2:43:43<35:46:17, 140.43s/it]
+  [hard] n=   284  parse_fail=    0 ( 0.0%)  cell=0.2337  board=0.0000  row=0.0599  col=0.0454
+  [hard]:   7%|▋         | 71/987 [2:46:03<35:42:16, 140.32s/it]
+  [hard] n=   288  parse_fail=    0 ( 0.0%)  cell=0.2358  board=0.0000  row=0.0598  col=0.0455
+  [hard]:   7%|▋         | 72/987 [2:48:24<35:39:27, 140.29s/it]
+  [hard] n=   292  parse_fail=    0 ( 0.0%)  cell=0.2343  board=0.0000  row=0.0590  col=0.0449
+  [hard]:   7%|▋         | 73/987 [2:50:44<35:37:00, 140.28s/it]
+  [hard] n=   296  parse_fail=    0 ( 0.0%)  cell=0.2372  board=0.0000  row=0.0593  col=0.0462
+  [hard]:   7%|▋         | 74/987 [2:53:04<35:35:16, 140.32s/it]
+  [hard] n=   300  parse_fail=    0 ( 0.0%)  cell=0.2372  board=0.0000  row=0.0596  col=0.0463
+  [hard]:   8%|▊         | 75/987 [2:55:25<35:34:15, 140.41s/it]
+  [hard] n=   304  parse_fail=    0 ( 0.0%)  cell=0.2340  board=0.0000  row=0.0588  col=0.0457
+  [hard]:   8%|▊         | 76/987 [2:57:46<35:33:48, 140.54s/it]
+  [hard] n=   308  parse_fail=    0 ( 0.0%)  cell=0.2330  board=0.0000  row=0.0581  col=0.0455
+  [hard]:   8%|▊         | 77/987 [3:00:06<35:31:06, 140.51s/it]
+  [hard] n=   312  parse_fail=    0 ( 0.0%)  cell=0.2324  board=0.0000  row=0.0573  col=0.0449
+  [hard]:   8%|▊         | 78/987 [3:02:27<35:28:28, 140.49s/it]
+  [hard] n=   316  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0566  col=0.0450
+  [hard]:   8%|▊         | 79/987 [3:04:47<35:24:53, 140.41s/it]
+  [hard] n=   320  parse_fail=    0 ( 0.0%)  cell=0.2302  board=0.0000  row=0.0559  col=0.0444
+  [hard]:   8%|▊         | 80/987 [3:07:07<35:21:38, 140.35s/it]
+  [hard] n=   324  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0559  col=0.0449
+  [hard]:   8%|▊         | 81/987 [3:09:27<35:19:24, 140.36s/it]
+  [hard] n=   328  parse_fail=    0 ( 0.0%)  cell=0.2331  board=0.0000  row=0.0559  col=0.0447
+  [hard]:   8%|▊         | 82/987 [3:11:47<35:15:58, 140.29s/it]
+  [hard] n=   332  parse_fail=    0 ( 0.0%)  cell=0.2347  board=0.0000  row=0.0566  col=0.0445
+  [hard]:   8%|▊         | 83/987 [3:14:08<35:13:51, 140.30s/it]
+  [hard] n=   336  parse_fail=    0 ( 0.0%)  cell=0.2354  board=0.0000  row=0.0569  col=0.0443
+  [hard]:   9%|▊         | 84/987 [3:16:28<35:11:20, 140.29s/it]
+  [hard] n=   340  parse_fail=    0 ( 0.0%)  cell=0.2362  board=0.0000  row=0.0575  col=0.0441
+  [hard]:   9%|▊         | 85/987 [3:18:48<35:08:03, 140.23s/it]
+  [hard] n=   344  parse_fail=    0 ( 0.0%)  cell=0.2353  board=0.0000  row=0.0568  col=0.0439
+  [hard]:   9%|▊         | 86/987 [3:21:08<35:04:58, 140.18s/it]
+  [hard] n=   348  parse_fail=    0 ( 0.0%)  cell=0.2359  board=0.0000  row=0.0572  col=0.0441
+  [hard]:   9%|▉         | 87/987 [3:23:28<35:02:26, 140.16s/it]
+  [hard] n=   352  parse_fail=    0 ( 0.0%)  cell=0.2353  board=0.0000  row=0.0568  col=0.0436
+  [hard]:   9%|▉         | 88/987 [3:25:49<35:00:10, 140.17s/it]
+  [hard] n=   356  parse_fail=    0 ( 0.0%)  cell=0.2343  board=0.0000  row=0.0571  col=0.0431
+  [hard]:   9%|▉         | 89/987 [3:28:09<34:58:07, 140.19s/it]
+  [hard] n=   360  parse_fail=    0 ( 0.0%)  cell=0.2344  board=0.0000  row=0.0568  col=0.0429
+  [hard]:   9%|▉         | 90/987 [3:30:29<34:56:28, 140.23s/it]
+  [hard] n=   364  parse_fail=    0 ( 0.0%)  cell=0.2347  board=0.0000  row=0.0562  col=0.0430
+  [hard]:   9%|▉         | 91/987 [3:32:50<34:55:44, 140.34s/it]
+  [hard] n=   368  parse_fail=    0 ( 0.0%)  cell=0.2356  board=0.0000  row=0.0559  col=0.0438
+  [hard]:   9%|▉         | 92/987 [3:35:10<34:53:36, 140.35s/it]
+  [hard] n=   372  parse_fail=    0 ( 0.0%)  cell=0.2364  board=0.0000  row=0.0559  col=0.0442
+  [hard]:   9%|▉         | 93/987 [3:37:30<34:51:11, 140.35s/it]
+  [hard] n=   376  parse_fail=    0 ( 0.0%)  cell=0.2356  board=0.0000  row=0.0559  col=0.0437
+  [hard]:  10%|▉         | 94/987 [3:39:51<34:48:18, 140.31s/it]
+  [hard] n=   380  parse_fail=    0 ( 0.0%)  cell=0.2360  board=0.0000  row=0.0558  col=0.0439
+  [hard]:  10%|▉         | 95/987 [3:42:11<34:45:48, 140.30s/it]
+  [hard] n=   384  parse_fail=    0 ( 0.0%)  cell=0.2356  board=0.0000  row=0.0561  col=0.0434
+  [hard]:  10%|▉         | 96/987 [3:44:31<34:43:39, 140.31s/it]
+  [hard] n=   388  parse_fail=    0 ( 0.0%)  cell=0.2361  board=0.0000  row=0.0564  col=0.0438
+  [hard]:  10%|▉         | 97/987 [3:46:52<34:41:32, 140.33s/it]
+  [hard] n=   392  parse_fail=    0 ( 0.0%)  cell=0.2355  board=0.0000  row=0.0561  col=0.0437
+  [hard]:  10%|▉         | 98/987 [3:49:12<34:38:47, 140.30s/it]
+  [hard] n=   396  parse_fail=    0 ( 0.0%)  cell=0.2364  board=0.0000  row=0.0564  col=0.0443
+  [hard]:  10%|█         | 99/987 [3:51:32<34:36:28, 140.30s/it]
+  [hard] n=   400  parse_fail=    0 ( 0.0%)  cell=0.2367  board=0.0000  row=0.0567  col=0.0442
+  [hard]:  10%|█         | 100/987 [3:53:53<34:34:57, 140.36s/it]
+  [hard] n=   404  parse_fail=    0 ( 0.0%)  cell=0.2380  board=0.0000  row=0.0575  col=0.0446
+  [hard]:  10%|█         | 101/987 [3:56:13<34:32:50, 140.37s/it]
+  [hard] n=   408  parse_fail=    0 ( 0.0%)  cell=0.2388  board=0.0000  row=0.0569  col=0.0444
+  [hard]:  10%|█         | 102/987 [3:58:33<34:30:33, 140.38s/it]
+  [hard] n=   412  parse_fail=    0 ( 0.0%)  cell=0.2393  board=0.0000  row=0.0572  col=0.0456
+  [hard]:  10%|█         | 103/987 [4:00:54<34:29:11, 140.44s/it]
+  [hard] n=   416  parse_fail=    0 ( 0.0%)  cell=0.2385  board=0.0000  row=0.0572  col=0.0451
+  [hard]:  11%|█         | 104/987 [4:03:14<34:26:24, 140.41s/it]
+  [hard] n=   420  parse_fail=    0 ( 0.0%)  cell=0.2378  board=0.0000  row=0.0571  col=0.0447
+  [hard]:  11%|█         | 105/987 [4:05:35<34:23:16, 140.36s/it]
+  [hard] n=   424  parse_fail=    0 ( 0.0%)  cell=0.2359  board=0.0000  row=0.0569  col=0.0443
+  [hard]:  11%|█         | 106/987 [4:07:55<34:20:06, 140.30s/it]
+  [hard] n=   428  parse_fail=    0 ( 0.0%)  cell=0.2337  board=0.0000  row=0.0563  col=0.0439
+  [hard]:  11%|█         | 107/987 [4:10:15<34:17:18, 140.27s/it]
+  [hard] n=   432  parse_fail=    0 ( 0.0%)  cell=0.2350  board=0.0000  row=0.0563  col=0.0437
+  [hard]:  11%|█         | 108/987 [4:12:35<34:14:13, 140.22s/it]
+  [hard] n=   436  parse_fail=    0 ( 0.0%)  cell=0.2330  board=0.0000  row=0.0558  col=0.0433
+  [hard]:  11%|█         | 109/987 [4:14:55<34:10:24, 140.12s/it]
+  [hard] n=   440  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0553  col=0.0429
+  [hard]:  11%|█         | 110/987 [4:17:15<34:07:30, 140.08s/it]
+  [hard] n=   444  parse_fail=    0 ( 0.0%)  cell=0.2326  board=0.0000  row=0.0553  col=0.0428
+  [hard]:  11%|█         | 111/987 [4:19:35<34:05:02, 140.07s/it]
+  [hard] n=   448  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0551  col=0.0429
+  [hard]:  11%|█▏        | 112/987 [4:21:55<34:03:18, 140.11s/it]
+  [hard] n=   452  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0551  col=0.0433
+  [hard]:  11%|█▏        | 113/987 [4:24:15<34:01:08, 140.12s/it]
+  [hard] n=   456  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0546  col=0.0429
+  [hard]:  12%|█▏        | 114/987 [4:26:36<33:59:26, 140.17s/it]
+  [hard] n=   460  parse_fail=    0 ( 0.0%)  cell=0.2303  board=0.0000  row=0.0546  col=0.0430
+  [hard]:  12%|█▏        | 115/987 [4:28:56<33:57:45, 140.21s/it]
+  [hard] n=   464  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0553  col=0.0438
+  [hard]:  12%|█▏        | 116/987 [4:31:16<33:56:08, 140.26s/it]
+  [hard] n=   468  parse_fail=    0 ( 0.0%)  cell=0.2294  board=0.0000  row=0.0548  col=0.0434
+  [hard]:  12%|█▏        | 117/987 [4:33:37<33:53:38, 140.25s/it]
+  [hard] n=   472  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0558  col=0.0438
+  [hard]:  12%|█▏        | 118/987 [4:35:57<33:50:59, 140.23s/it]
+  [hard] n=   476  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0563  col=0.0439
+  [hard]:  12%|█▏        | 119/987 [4:38:17<33:48:16, 140.20s/it]
+  [hard] n=   480  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0567  col=0.0440
+  [hard]:  12%|█▏        | 120/987 [4:40:37<33:45:18, 140.16s/it]
+  [hard] n=   484  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0567  col=0.0436
+  [hard]:  12%|█▏        | 121/987 [4:42:57<33:43:01, 140.16s/it]
+  [hard] n=   488  parse_fail=    0 ( 0.0%)  cell=0.2299  board=0.0000  row=0.0562  col=0.0435
+  [hard]:  12%|█▏        | 122/987 [4:45:17<33:41:23, 140.21s/it]
+  [hard] n=   492  parse_fail=    0 ( 0.0%)  cell=0.2301  board=0.0000  row=0.0558  col=0.0434
+  [hard]:  12%|█▏        | 123/987 [4:47:38<33:39:13, 140.22s/it]
+  [hard] n=   496  parse_fail=    0 ( 0.0%)  cell=0.2301  board=0.0000  row=0.0556  col=0.0435
+  [hard]:  13%|█▎        | 124/987 [4:49:58<33:36:51, 140.22s/it]
+  [hard] n=   500  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0562  col=0.0433
+  [hard]:  13%|█▎        | 125/987 [4:52:18<33:35:18, 140.28s/it]
+  [hard] n=   504  parse_fail=    0 ( 0.0%)  cell=0.2296  board=0.0000  row=0.0558  col=0.0430
+  [hard]:  13%|█▎        | 126/987 [4:54:39<33:32:34, 140.25s/it]
+  [hard] n=   508  parse_fail=    0 ( 0.0%)  cell=0.2298  board=0.0000  row=0.0566  col=0.0437
+  [hard]:  13%|█▎        | 127/987 [4:56:59<33:30:11, 140.25s/it]
+  [hard] n=   512  parse_fail=    0 ( 0.0%)  cell=0.2286  board=0.0000  row=0.0566  col=0.0436
+  [hard]:  13%|█▎        | 128/987 [4:59:19<33:27:28, 140.22s/it]
+  [hard] n=   516  parse_fail=    0 ( 0.0%)  cell=0.2292  board=0.0000  row=0.0568  col=0.0441
+  [hard]:  13%|█▎        | 129/987 [5:01:39<33:24:44, 140.19s/it]
+  [hard] n=   520  parse_fail=    0 ( 0.0%)  cell=0.2285  board=0.0000  row=0.0566  col=0.0438
+  [hard]:  13%|█▎        | 130/987 [5:03:59<33:21:39, 140.14s/it]
+  [hard] n=   524  parse_fail=    0 ( 0.0%)  cell=0.2278  board=0.0000  row=0.0564  col=0.0437
+  [hard]:  13%|█▎        | 131/987 [5:06:19<33:18:47, 140.10s/it]
+  [hard] n=   528  parse_fail=    0 ( 0.0%)  cell=0.2270  board=0.0000  row=0.0560  col=0.0434
+  [hard]:  13%|█▎        | 132/987 [5:08:39<33:16:20, 140.09s/it]
+  [hard] n=   532  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0560  col=0.0434
+  [hard]:  13%|█▎        | 133/987 [5:10:59<33:13:36, 140.07s/it]
+  [hard] n=   536  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0560  col=0.0435
+  [hard]:  14%|█▎        | 134/987 [5:13:19<33:11:24, 140.08s/it]
+  [hard] n=   540  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0558  col=0.0434
+  [hard]:  14%|█▎        | 135/987 [5:15:40<33:10:03, 140.14s/it]
+  [hard] n=   544  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0556  col=0.0433
+  [hard]:  14%|█▍        | 136/987 [5:18:00<33:08:48, 140.22s/it]
+  [hard] n=   548  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0556  col=0.0432
+  [hard]:  14%|█▍        | 137/987 [5:20:20<33:06:59, 140.26s/it]
+  [hard] n=   552  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0552  col=0.0433
+  [hard]:  14%|█▍        | 138/987 [5:22:40<33:04:17, 140.23s/it]
+  [hard] n=   556  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0554  col=0.0430
+  [hard]:  14%|█▍        | 139/987 [5:25:01<33:01:53, 140.23s/it]
+  [hard] n=   560  parse_fail=    0 ( 0.0%)  cell=0.2268  board=0.0000  row=0.0550  col=0.0431
+  [hard]:  14%|█▍        | 140/987 [5:27:21<32:59:24, 140.22s/it]
+  [hard] n=   564  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0552  col=0.0431
+  [hard]:  14%|█▍        | 141/987 [5:29:41<32:57:55, 140.28s/it]
+  [hard] n=   568  parse_fail=    0 ( 0.0%)  cell=0.2283  board=0.0000  row=0.0554  col=0.0436
+  [hard]:  14%|█▍        | 142/987 [5:32:02<32:55:42, 140.29s/it]
+  [hard] n=   572  parse_fail=    0 ( 0.0%)  cell=0.2282  board=0.0000  row=0.0552  col=0.0433
+  [hard]:  14%|█▍        | 143/987 [5:34:22<32:52:30, 140.23s/it]
+  [hard] n=   576  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0550  col=0.0430
+  [hard]:  15%|█▍        | 144/987 [5:36:42<32:50:17, 140.23s/it]
+  [hard] n=   580  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0554  col=0.0433
+  [hard]:  15%|█▍        | 145/987 [5:39:02<32:48:17, 140.26s/it]
+  [hard] n=   584  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0550  col=0.0430
+  [hard]:  15%|█▍        | 146/987 [5:41:23<32:46:31, 140.30s/it]
+  [hard] n=   588  parse_fail=    0 ( 0.0%)  cell=0.2262  board=0.0000  row=0.0546  col=0.0427
+  [hard]:  15%|█▍        | 147/987 [5:43:43<32:44:40, 140.33s/it]
+  [hard] n=   592  parse_fail=    0 ( 0.0%)  cell=0.2270  board=0.0000  row=0.0552  col=0.0434
+  [hard]:  15%|█▍        | 148/987 [5:46:04<32:42:53, 140.37s/it]
+  [hard] n=   596  parse_fail=    0 ( 0.0%)  cell=0.2267  board=0.0000  row=0.0552  col=0.0433
+  [hard]:  15%|█▌        | 149/987 [5:48:24<32:41:35, 140.45s/it]
+  [hard] n=   600  parse_fail=    0 ( 0.0%)  cell=0.2263  board=0.0000  row=0.0552  col=0.0433
+  [hard]:  15%|█▌        | 150/987 [5:50:45<32:39:14, 140.45s/it]
+  [hard] n=   604  parse_fail=    0 ( 0.0%)  cell=0.2266  board=0.0000  row=0.0552  col=0.0434
+  [hard]:  15%|█▌        | 151/987 [5:53:05<32:36:51, 140.44s/it]
+  [hard] n=   608  parse_fail=    0 ( 0.0%)  cell=0.2269  board=0.0000  row=0.0554  col=0.0433
+  [hard]:  15%|█▌        | 152/987 [5:55:25<32:34:19, 140.43s/it]
+  [hard] n=   612  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0550  col=0.0432
+  [hard]:  16%|█▌        | 153/987 [5:57:46<32:32:14, 140.45s/it]
+  [hard] n=   616  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0552  col=0.0433
+  [hard]:  16%|█▌        | 154/987 [6:00:09<32:42:54, 141.39s/it]
+  [hard] n=   620  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0548  col=0.0432
+  [hard]:  16%|█▌        | 155/987 [6:02:30<32:35:01, 140.99s/it]
+  [hard] n=   624  parse_fail=    0 ( 0.0%)  cell=0.2261  board=0.0000  row=0.0545  col=0.0431
+  [hard]:  16%|█▌        | 156/987 [6:04:50<32:28:42, 140.70s/it]
+  [hard] n=   628  parse_fail=    0 ( 0.0%)  cell=0.2260  board=0.0000  row=0.0543  col=0.0428
+  [hard]:  16%|█▌        | 157/987 [6:07:10<32:23:56, 140.53s/it]
+  [hard] n=   632  parse_fail=    0 ( 0.0%)  cell=0.2269  board=0.0000  row=0.0549  col=0.0432
+  [hard]:  16%|█▌        | 158/987 [6:09:30<32:19:40, 140.39s/it]
+  [hard] n=   636  parse_fail=    0 ( 0.0%)  cell=0.2262  board=0.0000  row=0.0547  col=0.0432
+  [hard]:  16%|█▌        | 159/987 [6:11:50<32:16:22, 140.32s/it]
+  [hard] n=   640  parse_fail=    0 ( 0.0%)  cell=0.2260  board=0.0000  row=0.0550  col=0.0434
+  [hard]:  16%|█▌        | 160/987 [6:14:11<32:16:48, 140.52s/it]
+  [hard] n=   644  parse_fail=    0 ( 0.0%)  cell=0.2264  board=0.0000  row=0.0549  col=0.0431
+  [hard]:  16%|█▋        | 161/987 [6:16:31<32:13:30, 140.45s/it]
+  [hard] n=   648  parse_fail=    0 ( 0.0%)  cell=0.2259  board=0.0000  row=0.0549  col=0.0432
+  [hard]:  16%|█▋        | 162/987 [6:18:51<32:10:13, 140.38s/it]
+  [hard] n=   652  parse_fail=    0 ( 0.0%)  cell=0.2257  board=0.0000  row=0.0550  col=0.0431
+  [hard]:  17%|█▋        | 163/987 [6:21:11<32:06:25, 140.27s/it]
+  [hard] n=   656  parse_fail=    0 ( 0.0%)  cell=0.2259  board=0.0000  row=0.0550  col=0.0434
+  [hard]:  17%|█▋        | 164/987 [6:23:31<32:03:08, 140.20s/it]
+  [hard] n=   660  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0559  col=0.0438
+  [hard]:  17%|█▋        | 165/987 [6:25:52<32:00:21, 140.17s/it]
+  [hard] n=   664  parse_fail=    0 ( 0.0%)  cell=0.2266  board=0.0000  row=0.0556  col=0.0437
+  [hard]:  17%|█▋        | 166/987 [6:28:12<31:57:48, 140.16s/it]
+  [hard] n=   668  parse_fail=    0 ( 0.0%)  cell=0.2262  board=0.0000  row=0.0554  col=0.0436
+  [hard]:  17%|█▋        | 167/987 [6:30:32<31:55:22, 140.15s/it]
+  [hard] n=   672  parse_fail=    0 ( 0.0%)  cell=0.2254  board=0.0000  row=0.0552  col=0.0433
+  [hard]:  17%|█▋        | 168/987 [6:32:52<31:53:47, 140.20s/it]
+  [hard] n=   676  parse_fail=    0 ( 0.0%)  cell=0.2250  board=0.0000  row=0.0549  col=0.0434
+  [hard]:  17%|█▋        | 169/987 [6:35:12<31:51:31, 140.21s/it]
+  [hard] n=   680  parse_fail=    0 ( 0.0%)  cell=0.2249  board=0.0000  row=0.0549  col=0.0435
+  [hard]:  17%|█▋        | 170/987 [6:37:33<31:49:51, 140.26s/it]
+  [hard] n=   684  parse_fail=    0 ( 0.0%)  cell=0.2247  board=0.0000  row=0.0549  col=0.0434
+  [hard]:  17%|█▋        | 171/987 [6:39:53<31:47:24, 140.25s/it]
+  [hard] n=   688  parse_fail=    0 ( 0.0%)  cell=0.2234  board=0.0000  row=0.0546  col=0.0431
+  [hard]:  17%|█▋        | 172/987 [6:42:13<31:44:32, 140.21s/it]
+  [hard] n=   692  parse_fail=    0 ( 0.0%)  cell=0.2226  board=0.0000  row=0.0544  col=0.0429
+  [hard]:  18%|█▊        | 173/987 [6:44:33<31:41:28, 140.16s/it]
+  [hard] n=   696  parse_fail=    0 ( 0.0%)  cell=0.2222  board=0.0000  row=0.0543  col=0.0431
+  [hard]:  18%|█▊        | 174/987 [6:46:53<31:39:03, 140.15s/it]
+  [hard] n=   700  parse_fail=    0 ( 0.0%)  cell=0.2229  board=0.0000  row=0.0544  col=0.0430
+  [hard]:  18%|█▊        | 175/987 [6:49:13<31:36:37, 140.14s/it]
+  [hard] n=   704  parse_fail=    0 ( 0.0%)  cell=0.2226  board=0.0000  row=0.0546  col=0.0428
+  [hard]:  18%|█▊        | 176/987 [6:51:34<31:34:49, 140.18s/it]
+  [hard] n=   708  parse_fail=    0 ( 0.0%)  cell=0.2232  board=0.0000  row=0.0548  col=0.0430
+  [hard]:  18%|█▊        | 177/987 [6:53:54<31:32:04, 140.15s/it]
+  [hard] n=   712  parse_fail=    0 ( 0.0%)  cell=0.2242  board=0.0000  row=0.0546  col=0.0429
+  [hard]:  18%|█▊        | 178/987 [6:56:14<31:29:17, 140.12s/it]
+  [hard] n=   716  parse_fail=    0 ( 0.0%)  cell=0.2250  board=0.0000  row=0.0548  col=0.0428
+  [hard]:  18%|█▊        | 179/987 [6:58:34<31:26:43, 140.10s/it]
+  [hard] n=   720  parse_fail=    0 ( 0.0%)  cell=0.2262  board=0.0000  row=0.0549  col=0.0431
+  [hard]:  18%|█▊        | 180/987 [7:00:54<31:24:13, 140.09s/it]
+  [hard] n=   724  parse_fail=    0 ( 0.0%)  cell=0.2263  board=0.0000  row=0.0548  col=0.0431
+  [hard]:  18%|█▊        | 181/987 [7:03:14<31:21:59, 140.10s/it]
+  [hard] n=   728  parse_fail=    0 ( 0.0%)  cell=0.2264  board=0.0000  row=0.0553  col=0.0430
+  [hard]:  18%|█▊        | 182/987 [7:05:34<31:19:14, 140.07s/it]
+  [hard] n=   732  parse_fail=    0 ( 0.0%)  cell=0.2256  board=0.0000  row=0.0549  col=0.0430
+  [hard]:  19%|█▊        | 183/987 [7:07:54<31:16:42, 140.05s/it]
+  [hard] n=   736  parse_fail=    0 ( 0.0%)  cell=0.2265  board=0.0000  row=0.0554  col=0.0433
+  [hard]:  19%|█▊        | 184/987 [7:10:14<31:14:03, 140.03s/it]
+  [hard] n=   740  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0560  col=0.0432
+  [hard]:  19%|█▊        | 185/987 [7:12:34<31:12:05, 140.06s/it]
+  [hard] n=   744  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0559  col=0.0430
+  [hard]:  19%|█▉        | 186/987 [7:14:54<31:10:33, 140.12s/it]
+  [hard] n=   748  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0563  col=0.0431
+  [hard]:  19%|█▉        | 187/987 [7:17:15<31:08:26, 140.13s/it]
+  [hard] n=   752  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0561  col=0.0430
+  [hard]:  19%|█▉        | 188/987 [7:19:35<31:06:22, 140.15s/it]
+  [hard] n=   756  parse_fail=    0 ( 0.0%)  cell=0.2269  board=0.0000  row=0.0560  col=0.0429
+  [hard]:  19%|█▉        | 189/987 [7:21:55<31:03:27, 140.11s/it]
+  [hard] n=   760  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0563  col=0.0428
+  [hard]:  19%|█▉        | 190/987 [7:24:15<31:00:55, 140.09s/it]
+  [hard] n=   764  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0563  col=0.0428
+  [hard]:  19%|█▉        | 191/987 [7:26:35<30:58:02, 140.05s/it]
+  [hard] n=   768  parse_fail=    0 ( 0.0%)  cell=0.2283  board=0.0000  row=0.0566  col=0.0428
+  [hard]:  19%|█▉        | 192/987 [7:28:55<30:55:14, 140.02s/it]
+  [hard] n=   772  parse_fail=    0 ( 0.0%)  cell=0.2285  board=0.0000  row=0.0566  col=0.0429
+  [hard]:  20%|█▉        | 193/987 [7:31:15<30:52:57, 140.02s/it]
+  [hard] n=   776  parse_fail=    0 ( 0.0%)  cell=0.2297  board=0.0000  row=0.0580  col=0.0438
+  [hard]:  20%|█▉        | 194/987 [7:33:35<30:50:04, 139.98s/it]
+  [hard] n=   780  parse_fail=    0 ( 0.0%)  cell=0.2293  board=0.0000  row=0.0577  col=0.0437
+  [hard]:  20%|█▉        | 195/987 [7:35:55<30:47:28, 139.96s/it]
+  [hard] n=   784  parse_fail=    0 ( 0.0%)  cell=0.2298  board=0.0000  row=0.0577  col=0.0438
+  [hard]:  20%|█▉        | 196/987 [7:38:14<30:44:53, 139.94s/it]
+  [hard] n=   788  parse_fail=    0 ( 0.0%)  cell=0.2301  board=0.0000  row=0.0577  col=0.0437
+  [hard]:  20%|█▉        | 197/987 [7:40:34<30:42:46, 139.96s/it]
+  [hard] n=   792  parse_fail=    0 ( 0.0%)  cell=0.2296  board=0.0000  row=0.0574  col=0.0435
+  [hard]:  20%|██        | 198/987 [7:42:55<30:40:49, 139.99s/it]
+  [hard] n=   796  parse_fail=    0 ( 0.0%)  cell=0.2297  board=0.0000  row=0.0572  col=0.0433
+  [hard]:  20%|██        | 199/987 [7:45:15<30:39:16, 140.05s/it]
+  [hard] n=   800  parse_fail=    0 ( 0.0%)  cell=0.2301  board=0.0000  row=0.0572  col=0.0433
+  [hard]:  20%|██        | 200/987 [7:47:35<30:37:07, 140.06s/it]
+  [hard] n=   804  parse_fail=    0 ( 0.0%)  cell=0.2296  board=0.0000  row=0.0572  col=0.0433
+  [hard]:  20%|██        | 201/987 [7:49:55<30:34:51, 140.07s/it]
+  [hard] n=   808  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0580  col=0.0435
+  [hard]:  20%|██        | 202/987 [7:52:15<30:32:37, 140.07s/it]
+  [hard] n=   812  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0580  col=0.0435
+  [hard]:  21%|██        | 203/987 [7:54:35<30:30:11, 140.07s/it]
+  [hard] n=   816  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0583  col=0.0441
+  [hard]:  21%|██        | 204/987 [7:56:55<30:27:12, 140.02s/it]
+  [hard] n=   820  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0580  col=0.0442
+  [hard]:  21%|██        | 205/987 [7:59:15<30:24:25, 139.98s/it]
+  [hard] n=   824  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0580  col=0.0441
+  [hard]:  21%|██        | 206/987 [8:01:35<30:22:16, 140.00s/it]
+  [hard] n=   828  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0581  col=0.0441
+  [hard]:  21%|██        | 207/987 [8:03:55<30:19:54, 139.99s/it]
+  [hard] n=   832  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0578  col=0.0441
+  [hard]:  21%|██        | 208/987 [8:06:15<30:17:50, 140.01s/it]
+  [hard] n=   836  parse_fail=    0 ( 0.0%)  cell=0.2325  board=0.0000  row=0.0582  col=0.0444
+  [hard]:  21%|██        | 209/987 [8:08:35<30:16:13, 140.07s/it]
+  [hard] n=   840  parse_fail=    0 ( 0.0%)  cell=0.2319  board=0.0000  row=0.0583  col=0.0442
+  [hard]:  21%|██▏       | 210/987 [8:10:55<30:13:40, 140.05s/it]
+  [hard] n=   844  parse_fail=    0 ( 0.0%)  cell=0.2326  board=0.0000  row=0.0585  col=0.0442
+  [hard]:  21%|██▏       | 211/987 [8:13:15<30:11:01, 140.03s/it]
+  [hard] n=   848  parse_fail=    0 ( 0.0%)  cell=0.2334  board=0.0000  row=0.0587  col=0.0445
+  [hard]:  21%|██▏       | 212/987 [8:15:35<30:08:35, 140.02s/it]
+  [hard] n=   852  parse_fail=    0 ( 0.0%)  cell=0.2331  board=0.0000  row=0.0584  col=0.0443
+  [hard]:  22%|██▏       | 213/987 [8:17:55<30:05:53, 139.99s/it]
+  [hard] n=   856  parse_fail=    0 ( 0.0%)  cell=0.2329  board=0.0000  row=0.0582  col=0.0444
+  [hard]:  22%|██▏       | 214/987 [8:20:15<30:03:26, 139.98s/it]
+  [hard] n=   860  parse_fail=    0 ( 0.0%)  cell=0.2334  board=0.0000  row=0.0581  col=0.0444
+  [hard]:  22%|██▏       | 215/987 [8:22:35<30:00:50, 139.96s/it]
+  [hard] n=   864  parse_fail=    0 ( 0.0%)  cell=0.2326  board=0.0000  row=0.0579  col=0.0442
+  [hard]:  22%|██▏       | 216/987 [8:24:55<29:58:16, 139.94s/it]
+  [hard] n=   868  parse_fail=    0 ( 0.0%)  cell=0.2330  board=0.0000  row=0.0584  col=0.0447
+  [hard]:  22%|██▏       | 217/987 [8:27:15<29:56:22, 139.98s/it]
+  [hard] n=   872  parse_fail=    0 ( 0.0%)  cell=0.2328  board=0.0000  row=0.0582  col=0.0445
+  [hard]:  22%|██▏       | 218/987 [8:29:35<29:54:10, 139.99s/it]
+  [hard] n=   876  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0580  col=0.0443
+  [hard]:  22%|██▏       | 219/987 [8:31:55<29:51:30, 139.96s/it]
+  [hard] n=   880  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0578  col=0.0441
+  [hard]:  22%|██▏       | 220/987 [8:34:15<29:49:15, 139.97s/it]
+  [hard] n=   884  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0576  col=0.0442
+  [hard]:  22%|██▏       | 221/987 [8:36:35<29:46:56, 139.97s/it]
+  [hard] n=   888  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0578  col=0.0442
+  [hard]:  22%|██▏       | 222/987 [8:38:55<29:44:55, 139.99s/it]
+  [hard] n=   892  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0577  col=0.0445
+  [hard]:  23%|██▎       | 223/987 [8:41:15<29:42:26, 139.98s/it]
+  [hard] n=   896  parse_fail=    0 ( 0.0%)  cell=0.2326  board=0.0000  row=0.0579  col=0.0448
+  [hard]:  23%|██▎       | 224/987 [8:43:35<29:40:04, 139.98s/it]
+  [hard] n=   900  parse_fail=    0 ( 0.0%)  cell=0.2337  board=0.0000  row=0.0581  col=0.0452
+  [hard]:  23%|██▎       | 225/987 [8:45:55<29:37:57, 140.00s/it]
+  [hard] n=   904  parse_fail=    0 ( 0.0%)  cell=0.2347  board=0.0000  row=0.0584  col=0.0460
+  [hard]:  23%|██▎       | 226/987 [8:48:15<29:36:03, 140.03s/it]
+  [hard] n=   908  parse_fail=    0 ( 0.0%)  cell=0.2346  board=0.0000  row=0.0586  col=0.0458
+  [hard]:  23%|██▎       | 227/987 [8:50:35<29:34:05, 140.06s/it]
+  [hard] n=   912  parse_fail=    0 ( 0.0%)  cell=0.2344  board=0.0000  row=0.0585  col=0.0458
+  [hard]:  23%|██▎       | 228/987 [8:52:55<29:31:31, 140.04s/it]
+  [hard] n=   916  parse_fail=    0 ( 0.0%)  cell=0.2343  board=0.0000  row=0.0583  col=0.0456
+  [hard]:  23%|██▎       | 229/987 [8:55:15<29:29:12, 140.04s/it]
+  [hard] n=   920  parse_fail=    0 ( 0.0%)  cell=0.2338  board=0.0000  row=0.0583  col=0.0454
+  [hard]:  23%|██▎       | 230/987 [8:57:35<29:26:38, 140.02s/it]
+  [hard] n=   924  parse_fail=    0 ( 0.0%)  cell=0.2340  board=0.0000  row=0.0584  col=0.0455
+  [hard]:  23%|██▎       | 231/987 [8:59:55<29:24:30, 140.04s/it]
+  [hard] n=   928  parse_fail=    0 ( 0.0%)  cell=0.2344  board=0.0000  row=0.0587  col=0.0456
+  [hard]:  24%|██▎       | 232/987 [9:02:15<29:22:05, 140.03s/it]
+  [hard] n=   932  parse_fail=    0 ( 0.0%)  cell=0.2342  board=0.0000  row=0.0587  col=0.0457
+  [hard]:  24%|██▎       | 233/987 [9:04:35<29:20:36, 140.10s/it]
+  [hard] n=   936  parse_fail=    0 ( 0.0%)  cell=0.2341  board=0.0000  row=0.0585  col=0.0455
+  [hard]:  24%|██▎       | 234/987 [9:06:56<29:19:02, 140.16s/it]
+  [hard] n=   940  parse_fail=    0 ( 0.0%)  cell=0.2331  board=0.0000  row=0.0583  col=0.0453
+  [hard]:  24%|██▍       | 235/987 [9:09:16<29:17:15, 140.21s/it]
+  [hard] n=   944  parse_fail=    0 ( 0.0%)  cell=0.2327  board=0.0000  row=0.0580  col=0.0452
+  [hard]:  24%|██▍       | 236/987 [9:11:36<29:14:42, 140.19s/it]
+  [hard] n=   948  parse_fail=    0 ( 0.0%)  cell=0.2330  board=0.0000  row=0.0581  col=0.0451
+  [hard]:  24%|██▍       | 237/987 [9:13:56<29:11:51, 140.15s/it]
+  [hard] n=   952  parse_fail=    0 ( 0.0%)  cell=0.2332  board=0.0000  row=0.0582  col=0.0451
+  [hard]:  24%|██▍       | 238/987 [9:16:16<29:09:17, 140.13s/it]
+  [hard] n=   956  parse_fail=    0 ( 0.0%)  cell=0.2335  board=0.0000  row=0.0582  col=0.0450
+  [hard]:  24%|██▍       | 239/987 [9:18:36<29:06:29, 140.09s/it]
+  [hard] n=   960  parse_fail=    0 ( 0.0%)  cell=0.2336  board=0.0000  row=0.0582  col=0.0448
+  [hard]:  24%|██▍       | 240/987 [9:20:56<29:03:53, 140.07s/it]
+  [hard] n=   964  parse_fail=    0 ( 0.0%)  cell=0.2342  board=0.0000  row=0.0586  col=0.0452
+  [hard]:  24%|██▍       | 241/987 [9:23:16<29:01:14, 140.05s/it]
+  [hard] n=   968  parse_fail=    0 ( 0.0%)  cell=0.2347  board=0.0000  row=0.0590  col=0.0451
+  [hard]:  25%|██▍       | 242/987 [9:25:36<28:58:34, 140.02s/it]
+  [hard] n=   972  parse_fail=    0 ( 0.0%)  cell=0.2343  board=0.0000  row=0.0589  col=0.0450
+  [hard]:  25%|██▍       | 243/987 [9:27:56<28:56:13, 140.02s/it]
+  [hard] n=   976  parse_fail=    0 ( 0.0%)  cell=0.2348  board=0.0000  row=0.0589  col=0.0450
+  [hard]:  25%|██▍       | 244/987 [9:30:16<28:53:57, 140.02s/it]
+  [hard] n=   980  parse_fail=    0 ( 0.0%)  cell=0.2352  board=0.0000  row=0.0591  col=0.0450
+  [hard]:  25%|██▍       | 245/987 [9:32:36<28:51:45, 140.03s/it]
+  [hard] n=   984  parse_fail=    0 ( 0.0%)  cell=0.2355  board=0.0000  row=0.0594  col=0.0452
+  [hard]:  25%|██▍       | 246/987 [9:34:56<28:49:06, 140.01s/it]
+  [hard] n=   988  parse_fail=    0 ( 0.0%)  cell=0.2359  board=0.0000  row=0.0595  col=0.0452
+  [hard]:  25%|██▌       | 247/987 [9:37:16<28:46:57, 140.02s/it]
+  [hard] n=   992  parse_fail=    0 ( 0.0%)  cell=0.2357  board=0.0000  row=0.0596  col=0.0453
+  [hard]:  25%|██▌       | 248/987 [9:39:37<28:45:11, 140.07s/it]
+  [hard] n=   996  parse_fail=    0 ( 0.0%)  cell=0.2356  board=0.0000  row=0.0597  col=0.0451
+  [hard]:  25%|██▌       | 249/987 [9:41:57<28:43:07, 140.09s/it]
+  [hard] n= 1,000  parse_fail=    0 ( 0.0%)  cell=0.2352  board=0.0000  row=0.0596  col=0.0450
+  [hard]:  25%|██▌       | 250/987 [9:44:17<28:40:29, 140.07s/it]
+  [hard] n= 1,004  parse_fail=    0 ( 0.0%)  cell=0.2354  board=0.0000  row=0.0598  col=0.0449
+  [hard]:  25%|██▌       | 251/987 [9:46:37<28:37:53, 140.05s/it]
+  [hard] n= 1,008  parse_fail=    0 ( 0.0%)  cell=0.2354  board=0.0000  row=0.0596  col=0.0448
+  [hard]:  26%|██▌       | 252/987 [9:48:57<28:35:22, 140.03s/it]
+  [hard] n= 1,012  parse_fail=    0 ( 0.0%)  cell=0.2351  board=0.0000  row=0.0594  col=0.0448
+  [hard]:  26%|██▌       | 253/987 [9:51:17<28:33:03, 140.03s/it]
+  [hard] n= 1,016  parse_fail=    0 ( 0.0%)  cell=0.2349  board=0.0000  row=0.0594  col=0.0449
+  [hard]:  26%|██▌       | 254/987 [9:53:37<28:30:50, 140.04s/it]
+  [hard] n= 1,020  parse_fail=    0 ( 0.0%)  cell=0.2350  board=0.0000  row=0.0592  col=0.0450
+  [hard]:  26%|██▌       | 255/987 [9:55:57<28:28:48, 140.07s/it]
+  [hard] n= 1,024  parse_fail=    0 ( 0.0%)  cell=0.2347  board=0.0000  row=0.0589  col=0.0449
+  [hard]:  26%|██▌       | 256/987 [9:58:17<28:26:10, 140.04s/it]
+  [hard] n= 1,028  parse_fail=    0 ( 0.0%)  cell=0.2342  board=0.0000  row=0.0588  col=0.0447
+  [hard]:  26%|██▌       | 257/987 [10:00:37<28:23:44, 140.03s/it]
+  [hard] n= 1,032  parse_fail=    0 ( 0.0%)  cell=0.2344  board=0.0000  row=0.0589  col=0.0451
+  [hard]:  26%|██▌       | 258/987 [10:02:57<28:21:25, 140.03s/it]
+  [hard] n= 1,036  parse_fail=    0 ( 0.0%)  cell=0.2338  board=0.0000  row=0.0589  col=0.0452
+  [hard]:  26%|██▌       | 259/987 [10:05:17<28:19:14, 140.05s/it]
+  [hard] n= 1,040  parse_fail=    0 ( 0.0%)  cell=0.2341  board=0.0000  row=0.0587  col=0.0451
+  [hard]:  26%|██▋       | 260/987 [10:07:37<28:17:31, 140.10s/it]
+  [hard] n= 1,044  parse_fail=    0 ( 0.0%)  cell=0.2335  board=0.0000  row=0.0584  col=0.0449
+  [hard]:  26%|██▋       | 261/987 [10:09:57<28:14:53, 140.07s/it]
+  [hard] n= 1,048  parse_fail=    0 ( 0.0%)  cell=0.2330  board=0.0000  row=0.0583  col=0.0448
+  [hard]:  27%|██▋       | 262/987 [10:12:17<28:12:20, 140.06s/it]
+  [hard] n= 1,052  parse_fail=    0 ( 0.0%)  cell=0.2329  board=0.0000  row=0.0582  col=0.0447
+  [hard]:  27%|██▋       | 263/987 [10:14:37<28:10:05, 140.06s/it]
+  [hard] n= 1,056  parse_fail=    0 ( 0.0%)  cell=0.2333  board=0.0000  row=0.0584  col=0.0447
+  [hard]:  27%|██▋       | 264/987 [10:16:57<28:07:44, 140.06s/it]
+  [hard] n= 1,060  parse_fail=    0 ( 0.0%)  cell=0.2327  board=0.0000  row=0.0582  col=0.0447
+  [hard]:  27%|██▋       | 265/987 [10:19:18<28:05:41, 140.08s/it]
+  [hard] n= 1,064  parse_fail=    0 ( 0.0%)  cell=0.2324  board=0.0000  row=0.0580  col=0.0445
+  [hard]:  27%|██▋       | 266/987 [10:21:38<28:03:39, 140.11s/it]
+  [hard] n= 1,068  parse_fail=    0 ( 0.0%)  cell=0.2327  board=0.0000  row=0.0582  col=0.0446
+  [hard]:  27%|██▋       | 267/987 [10:23:58<28:00:59, 140.08s/it]
+  [hard] n= 1,072  parse_fail=    0 ( 0.0%)  cell=0.2331  board=0.0000  row=0.0585  col=0.0448
+  [hard]:  27%|██▋       | 268/987 [10:26:18<27:58:33, 140.07s/it]
+  [hard] n= 1,076  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0582  col=0.0446
+  [hard]:  27%|██▋       | 269/987 [10:28:38<27:56:09, 140.07s/it]
+  [hard] n= 1,080  parse_fail=    0 ( 0.0%)  cell=0.2329  board=0.0000  row=0.0584  col=0.0448
+  [hard]:  27%|██▋       | 270/987 [10:30:58<27:53:47, 140.07s/it]
+  [hard] n= 1,084  parse_fail=    0 ( 0.0%)  cell=0.2330  board=0.0000  row=0.0585  col=0.0448
+  [hard]:  27%|██▋       | 271/987 [10:33:18<27:51:46, 140.09s/it]
+  [hard] n= 1,088  parse_fail=    0 ( 0.0%)  cell=0.2334  board=0.0000  row=0.0587  col=0.0449
+  [hard]:  28%|██▊       | 272/987 [10:35:38<27:49:13, 140.07s/it]
+  [hard] n= 1,092  parse_fail=    0 ( 0.0%)  cell=0.2339  board=0.0000  row=0.0589  col=0.0451
+  [hard]:  28%|██▊       | 273/987 [10:37:58<27:46:32, 140.04s/it]
+  [hard] n= 1,096  parse_fail=    0 ( 0.0%)  cell=0.2333  board=0.0000  row=0.0587  col=0.0449
+  [hard]:  28%|██▊       | 274/987 [10:40:18<27:43:49, 140.01s/it]
+  [hard] n= 1,100  parse_fail=    0 ( 0.0%)  cell=0.2333  board=0.0000  row=0.0587  col=0.0448
+  [hard]:  28%|██▊       | 275/987 [10:42:38<27:41:28, 140.01s/it]
+  [hard] n= 1,104  parse_fail=    0 ( 0.0%)  cell=0.2327  board=0.0000  row=0.0585  col=0.0447
+  [hard]:  28%|██▊       | 276/987 [10:44:58<27:38:49, 139.98s/it]
+  [hard] n= 1,108  parse_fail=    0 ( 0.0%)  cell=0.2325  board=0.0000  row=0.0584  col=0.0445
+  [hard]:  28%|██▊       | 277/987 [10:47:18<27:36:23, 139.98s/it]
+  [hard] n= 1,112  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0584  col=0.0445
+  [hard]:  28%|██▊       | 278/987 [10:49:38<27:34:24, 140.01s/it]
+  [hard] n= 1,116  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0581  col=0.0444
+  [hard]:  28%|██▊       | 279/987 [10:51:58<27:32:06, 140.01s/it]
+  [hard] n= 1,120  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0579  col=0.0442
+  [hard]:  28%|██▊       | 280/987 [10:54:18<27:29:39, 140.00s/it]
+  [hard] n= 1,124  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0578  col=0.0441
+  [hard]:  28%|██▊       | 281/987 [10:56:38<27:27:35, 140.02s/it]
+  [hard] n= 1,128  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0581  col=0.0444
+  [hard]:  29%|██▊       | 282/987 [10:58:58<27:24:57, 140.00s/it]
+  [hard] n= 1,132  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0583  col=0.0446
+  [hard]:  29%|██▊       | 283/987 [11:01:18<27:22:34, 139.99s/it]
+  [hard] n= 1,136  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0581  col=0.0444
+  [hard]:  29%|██▉       | 284/987 [11:03:38<27:20:45, 140.04s/it]
+  [hard] n= 1,140  parse_fail=    0 ( 0.0%)  cell=0.2302  board=0.0000  row=0.0580  col=0.0442
+  [hard]:  29%|██▉       | 285/987 [11:05:58<27:18:26, 140.04s/it]
+  [hard] n= 1,144  parse_fail=    0 ( 0.0%)  cell=0.2301  board=0.0000  row=0.0578  col=0.0442
+  [hard]:  29%|██▉       | 286/987 [11:08:18<27:16:17, 140.05s/it]
+  [hard] n= 1,148  parse_fail=    0 ( 0.0%)  cell=0.2299  board=0.0000  row=0.0578  col=0.0442
+  [hard]:  29%|██▉       | 287/987 [11:10:38<27:14:10, 140.07s/it]
+  [hard] n= 1,152  parse_fail=    0 ( 0.0%)  cell=0.2302  board=0.0000  row=0.0578  col=0.0444
+  [hard]:  29%|██▉       | 288/987 [11:12:59<27:12:21, 140.12s/it]
+  [hard] n= 1,156  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0580  col=0.0444
+  [hard]:  29%|██▉       | 289/987 [11:15:19<27:09:35, 140.08s/it]
+  [hard] n= 1,160  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0580  col=0.0446
+  [hard]:  29%|██▉       | 290/987 [11:17:39<27:07:21, 140.09s/it]
+  [hard] n= 1,164  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0581  col=0.0448
+  [hard]:  29%|██▉       | 291/987 [11:19:59<27:04:47, 140.07s/it]
+  [hard] n= 1,168  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0580  col=0.0447
+  [hard]:  30%|██▉       | 292/987 [11:22:19<27:02:40, 140.09s/it]
+  [hard] n= 1,172  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0581  col=0.0449
+  [hard]:  30%|██▉       | 293/987 [11:24:39<27:00:01, 140.06s/it]
+  [hard] n= 1,176  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0580  col=0.0449
+  [hard]:  30%|██▉       | 294/987 [11:26:59<26:57:08, 140.01s/it]
+  [hard] n= 1,180  parse_fail=    0 ( 0.0%)  cell=0.2304  board=0.0000  row=0.0580  col=0.0447
+  [hard]:  30%|██▉       | 295/987 [11:29:19<26:54:40, 140.00s/it]
+  [hard] n= 1,184  parse_fail=    0 ( 0.0%)  cell=0.2302  board=0.0000  row=0.0579  col=0.0448
+  [hard]:  30%|██▉       | 296/987 [11:31:39<26:51:58, 139.97s/it]
+  [hard] n= 1,188  parse_fail=    0 ( 0.0%)  cell=0.2304  board=0.0000  row=0.0578  col=0.0448
+  [hard]:  30%|███       | 297/987 [11:33:58<26:49:19, 139.94s/it]
+  [hard] n= 1,192  parse_fail=    0 ( 0.0%)  cell=0.2299  board=0.0000  row=0.0576  col=0.0446
+  [hard]:  30%|███       | 298/987 [11:36:18<26:46:50, 139.93s/it]
+  [hard] n= 1,196  parse_fail=    0 ( 0.0%)  cell=0.2299  board=0.0000  row=0.0575  col=0.0450
+  [hard]:  30%|███       | 299/987 [11:38:38<26:44:41, 139.94s/it]
+  [hard] n= 1,200  parse_fail=    0 ( 0.0%)  cell=0.2302  board=0.0000  row=0.0575  col=0.0450
+  [hard]:  30%|███       | 300/987 [11:40:58<26:42:27, 139.95s/it]
+  [hard] n= 1,204  parse_fail=    0 ( 0.0%)  cell=0.2302  board=0.0000  row=0.0574  col=0.0449
+  [hard]:  30%|███       | 301/987 [11:43:18<26:40:20, 139.97s/it]
+  [hard] n= 1,208  parse_fail=    0 ( 0.0%)  cell=0.2296  board=0.0000  row=0.0572  col=0.0449
+  [hard]:  31%|███       | 302/987 [11:45:38<26:38:01, 139.97s/it]
+  [hard] n= 1,212  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0570  col=0.0448
+  [hard]:  31%|███       | 303/987 [11:47:58<26:36:02, 140.00s/it]
+  [hard] n= 1,216  parse_fail=    0 ( 0.0%)  cell=0.2293  board=0.0000  row=0.0569  col=0.0448
+  [hard]:  31%|███       | 304/987 [11:50:18<26:33:36, 140.00s/it]
+  [hard] n= 1,220  parse_fail=    0 ( 0.0%)  cell=0.2292  board=0.0000  row=0.0568  col=0.0447
+  [hard]:  31%|███       | 305/987 [11:52:38<26:31:30, 140.02s/it]
+  [hard] n= 1,224  parse_fail=    0 ( 0.0%)  cell=0.2294  board=0.0000  row=0.0568  col=0.0448
+  [hard]:  31%|███       | 306/987 [11:54:58<26:29:05, 140.01s/it]
+  [hard] n= 1,228  parse_fail=    0 ( 0.0%)  cell=0.2297  board=0.0000  row=0.0570  col=0.0447
+  [hard]:  31%|███       | 307/987 [11:57:19<26:27:13, 140.05s/it]
+  [hard] n= 1,232  parse_fail=    0 ( 0.0%)  cell=0.2300  board=0.0000  row=0.0572  col=0.0450
+  [hard]:  31%|███       | 308/987 [11:59:39<26:24:40, 140.03s/it]
+  [hard] n= 1,236  parse_fail=    0 ( 0.0%)  cell=0.2300  board=0.0000  row=0.0571  col=0.0450
+  [hard]:  31%|███▏      | 309/987 [12:01:59<26:22:19, 140.03s/it]
+  [hard] n= 1,240  parse_fail=    0 ( 0.0%)  cell=0.2294  board=0.0000  row=0.0569  col=0.0449
+  [hard]:  31%|███▏      | 310/987 [12:04:19<26:20:36, 140.08s/it]
+  [hard] n= 1,244  parse_fail=    0 ( 0.0%)  cell=0.2293  board=0.0000  row=0.0568  col=0.0447
+  [hard]:  32%|███▏      | 311/987 [12:06:39<26:18:15, 140.08s/it]
+  [hard] n= 1,248  parse_fail=    0 ( 0.0%)  cell=0.2291  board=0.0000  row=0.0567  col=0.0446
+  [hard]:  32%|███▏      | 312/987 [12:08:59<26:16:09, 140.10s/it]
+  [hard] n= 1,252  parse_fail=    0 ( 0.0%)  cell=0.2292  board=0.0000  row=0.0566  col=0.0447
+  [hard]:  32%|███▏      | 313/987 [12:11:19<26:13:27, 140.07s/it]
+  [hard] n= 1,256  parse_fail=    0 ( 0.0%)  cell=0.2296  board=0.0000  row=0.0568  col=0.0448
+  [hard]:  32%|███▏      | 314/987 [12:13:39<26:10:52, 140.05s/it]
+  [hard] n= 1,260  parse_fail=    0 ( 0.0%)  cell=0.2296  board=0.0000  row=0.0567  col=0.0449
+  [hard]:  32%|███▏      | 315/987 [12:15:59<26:08:29, 140.04s/it]
+  [hard] n= 1,264  parse_fail=    0 ( 0.0%)  cell=0.2298  board=0.0000  row=0.0568  col=0.0449
+  [hard]:  32%|███▏      | 316/987 [12:18:19<26:05:36, 139.99s/it]
+  [hard] n= 1,268  parse_fail=    0 ( 0.0%)  cell=0.2300  board=0.0000  row=0.0571  col=0.0450
+  [hard]:  32%|███▏      | 317/987 [12:20:39<26:03:04, 139.98s/it]
+  [hard] n= 1,272  parse_fail=    0 ( 0.0%)  cell=0.2303  board=0.0000  row=0.0572  col=0.0452
+  [hard]:  32%|███▏      | 318/987 [12:22:59<26:00:52, 139.99s/it]
+  [hard] n= 1,276  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0575  col=0.0455
+  [hard]:  32%|███▏      | 319/987 [12:25:19<25:58:27, 139.98s/it]
+  [hard] n= 1,280  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0575  col=0.0455
+  [hard]:  32%|███▏      | 320/987 [12:27:39<25:56:01, 139.97s/it]
+  [hard] n= 1,284  parse_fail=    0 ( 0.0%)  cell=0.2304  board=0.0000  row=0.0574  col=0.0453
+  [hard]:  33%|███▎      | 321/987 [12:29:59<25:53:50, 139.99s/it]
+  [hard] n= 1,288  parse_fail=    0 ( 0.0%)  cell=0.2303  board=0.0000  row=0.0573  col=0.0452
+  [hard]:  33%|███▎      | 322/987 [12:32:19<25:51:24, 139.98s/it]
+  [hard] n= 1,292  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0574  col=0.0451
+  [hard]:  33%|███▎      | 323/987 [12:34:39<25:49:08, 139.98s/it]
+  [hard] n= 1,296  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0574  col=0.0450
+  [hard]:  33%|███▎      | 324/987 [12:36:59<25:47:02, 140.00s/it]
+  [hard] n= 1,300  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0574  col=0.0450
+  [hard]:  33%|███▎      | 325/987 [12:39:19<25:44:27, 139.98s/it]
+  [hard] n= 1,304  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0573  col=0.0450
+  [hard]:  33%|███▎      | 326/987 [12:41:39<25:42:10, 139.99s/it]
+  [hard] n= 1,308  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0573  col=0.0449
+  [hard]:  33%|███▎      | 327/987 [12:43:59<25:39:35, 139.96s/it]
+  [hard] n= 1,312  parse_fail=    0 ( 0.0%)  cell=0.2301  board=0.0000  row=0.0571  col=0.0448
+  [hard]:  33%|███▎      | 328/987 [12:46:19<25:37:21, 139.97s/it]
+  [hard] n= 1,316  parse_fail=    0 ( 0.0%)  cell=0.2302  board=0.0000  row=0.0571  col=0.0448
+  [hard]:  33%|███▎      | 329/987 [12:48:39<25:35:29, 140.01s/it]
+  [hard] n= 1,320  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0572  col=0.0454
+  [hard]:  33%|███▎      | 330/987 [12:50:59<25:33:14, 140.02s/it]
+  [hard] n= 1,324  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0572  col=0.0453
+  [hard]:  34%|███▎      | 331/987 [12:53:19<25:31:08, 140.04s/it]
+  [hard] n= 1,328  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0574  col=0.0455
+  [hard]:  34%|███▎      | 332/987 [12:55:39<25:29:26, 140.10s/it]
+  [hard] n= 1,332  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0575  col=0.0456
+  [hard]:  34%|███▎      | 333/987 [12:57:59<25:27:45, 140.16s/it]
+  [hard] n= 1,336  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0574  col=0.0456
+  [hard]:  34%|███▍      | 334/987 [13:00:20<25:25:23, 140.16s/it]
+  [hard] n= 1,340  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0574  col=0.0454
+  [hard]:  34%|███▍      | 335/987 [13:02:40<25:23:02, 140.16s/it]
+  [hard] n= 1,344  parse_fail=    0 ( 0.0%)  cell=0.2319  board=0.0000  row=0.0576  col=0.0457
+  [hard]:  34%|███▍      | 336/987 [13:05:00<25:20:06, 140.10s/it]
+  [hard] n= 1,348  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0576  col=0.0457
+  [hard]:  34%|███▍      | 337/987 [13:07:20<25:17:01, 140.03s/it]
+  [hard] n= 1,352  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0576  col=0.0458
+  [hard]:  34%|███▍      | 338/987 [13:09:39<25:14:14, 139.99s/it]
+  [hard] n= 1,356  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0577  col=0.0457
+  [hard]:  34%|███▍      | 339/987 [13:11:59<25:11:39, 139.97s/it]
+  [hard] n= 1,360  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0577  col=0.0457
+  [hard]:  34%|███▍      | 340/987 [13:14:19<25:09:07, 139.95s/it]
+  [hard] n= 1,364  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0577  col=0.0456
+  [hard]:  35%|███▍      | 341/987 [13:16:39<25:06:38, 139.94s/it]
+  [hard] n= 1,368  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0576  col=0.0456
+  [hard]:  35%|███▍      | 342/987 [13:18:59<25:04:24, 139.95s/it]
+  [hard] n= 1,372  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0576  col=0.0455
+  [hard]:  35%|███▍      | 343/987 [13:21:19<25:02:22, 139.97s/it]
+  [hard] n= 1,376  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0576  col=0.0455
+  [hard]:  35%|███▍      | 344/987 [13:23:39<25:00:08, 139.98s/it]
+  [hard] n= 1,380  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0578  col=0.0454
+  [hard]:  35%|███▍      | 345/987 [13:25:59<24:58:21, 140.03s/it]
+  [hard] n= 1,384  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0578  col=0.0454
+  [hard]:  35%|███▌      | 346/987 [13:28:19<24:56:21, 140.06s/it]
+  [hard] n= 1,388  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0576  col=0.0452
+  [hard]:  35%|███▌      | 347/987 [13:30:40<24:55:30, 140.20s/it]
+  [hard] n= 1,392  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0576  col=0.0452
+  [hard]:  35%|███▌      | 348/987 [13:33:00<24:53:37, 140.25s/it]
+  [hard] n= 1,396  parse_fail=    0 ( 0.0%)  cell=0.2301  board=0.0000  row=0.0574  col=0.0450
+  [hard]:  35%|███▌      | 349/987 [13:35:21<24:52:22, 140.35s/it]
+  [hard] n= 1,400  parse_fail=    0 ( 0.0%)  cell=0.2298  board=0.0000  row=0.0573  col=0.0449
+  [hard]:  35%|███▌      | 350/987 [13:37:41<24:50:34, 140.40s/it]
+  [hard] n= 1,404  parse_fail=    0 ( 0.0%)  cell=0.2299  board=0.0000  row=0.0574  col=0.0448
+  [hard]:  36%|███▌      | 351/987 [13:40:02<24:48:18, 140.41s/it]
+  [hard] n= 1,408  parse_fail=    0 ( 0.0%)  cell=0.2302  board=0.0000  row=0.0574  col=0.0449
+  [hard]:  36%|███▌      | 352/987 [13:42:22<24:45:58, 140.41s/it]
+  [hard] n= 1,412  parse_fail=    0 ( 0.0%)  cell=0.2303  board=0.0000  row=0.0574  col=0.0450
+  [hard]:  36%|███▌      | 353/987 [13:44:42<24:43:07, 140.36s/it]
+  [hard] n= 1,416  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0574  col=0.0449
+  [hard]:  36%|███▌      | 354/987 [13:47:03<24:40:19, 140.31s/it]
+  [hard] n= 1,420  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0574  col=0.0449
+  [hard]:  36%|███▌      | 355/987 [13:49:23<24:37:27, 140.27s/it]
+  [hard] n= 1,424  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0574  col=0.0450
+  [hard]:  36%|███▌      | 356/987 [13:51:43<24:34:47, 140.23s/it]
+  [hard] n= 1,428  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0573  col=0.0450
+  [hard]:  36%|███▌      | 357/987 [13:54:03<24:31:57, 140.19s/it]
+  [hard] n= 1,432  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0573  col=0.0449
+  [hard]:  36%|███▋      | 358/987 [13:56:24<24:31:13, 140.34s/it]
+  [hard] n= 1,436  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0573  col=0.0449
+  [hard]:  36%|███▋      | 359/987 [13:58:44<24:29:02, 140.35s/it]
+  [hard] n= 1,440  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0571  col=0.0448
+  [hard]:  36%|███▋      | 360/987 [14:01:04<24:26:16, 140.31s/it]
+  [hard] n= 1,444  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0569  col=0.0449
+  [hard]:  37%|███▋      | 361/987 [14:03:25<24:24:21, 140.35s/it]
+  [hard] n= 1,448  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0570  col=0.0450
+  [hard]:  37%|███▋      | 362/987 [14:05:45<24:22:01, 140.35s/it]
+  [hard] n= 1,452  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0571  col=0.0451
+  [hard]:  37%|███▋      | 363/987 [14:08:06<24:19:40, 140.35s/it]
+  [hard] n= 1,456  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0572  col=0.0455
+  [hard]:  37%|███▋      | 364/987 [14:10:26<24:17:10, 140.34s/it]
+  [hard] n= 1,460  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0571  col=0.0454
+  [hard]:  37%|███▋      | 365/987 [14:12:46<24:14:48, 140.33s/it]
+  [hard] n= 1,464  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0571  col=0.0455
+  [hard]:  37%|███▋      | 366/987 [14:15:07<24:13:03, 140.39s/it]
+  [hard] n= 1,468  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0570  col=0.0453
+  [hard]:  37%|███▋      | 367/987 [14:17:27<24:10:31, 140.37s/it]
+  [hard] n= 1,472  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0571  col=0.0454
+  [hard]:  37%|███▋      | 368/987 [14:19:47<24:07:41, 140.32s/it]
+  [hard] n= 1,476  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0573  col=0.0453
+  [hard]:  37%|███▋      | 369/987 [14:22:07<24:04:16, 140.22s/it]
+  [hard] n= 1,480  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0572  col=0.0453
+  [hard]:  37%|███▋      | 370/987 [14:24:27<24:01:25, 140.17s/it]
+  [hard] n= 1,484  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0572  col=0.0452
+  [hard]:  38%|███▊      | 371/987 [14:26:47<23:58:39, 140.13s/it]
+  [hard] n= 1,488  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0573  col=0.0453
+  [hard]:  38%|███▊      | 372/987 [14:29:07<23:56:06, 140.11s/it]
+  [hard] n= 1,492  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0573  col=0.0452
+  [hard]:  38%|███▊      | 373/987 [14:31:27<23:53:30, 140.08s/it]
+  [hard] n= 1,496  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0572  col=0.0451
+  [hard]:  38%|███▊      | 374/987 [14:33:47<23:51:12, 140.09s/it]
+  [hard] n= 1,500  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0573  col=0.0450
+  [hard]:  38%|███▊      | 375/987 [14:36:08<23:48:43, 140.07s/it]
+  [hard] n= 1,504  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0573  col=0.0452
+  [hard]:  38%|███▊      | 376/987 [14:38:28<23:46:39, 140.10s/it]
+  [hard] n= 1,508  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0572  col=0.0453
+  [hard]:  38%|███▊      | 377/987 [14:40:48<23:44:44, 140.14s/it]
+  [hard] n= 1,512  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0571  col=0.0453
+  [hard]:  38%|███▊      | 378/987 [14:43:08<23:43:08, 140.21s/it]
+  [hard] n= 1,516  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0572  col=0.0453
+  [hard]:  38%|███▊      | 379/987 [14:45:28<23:40:41, 140.20s/it]
+  [hard] n= 1,520  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0572  col=0.0452
+  [hard]:  39%|███▊      | 380/987 [14:47:49<23:38:39, 140.23s/it]
+  [hard] n= 1,524  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0570  col=0.0452
+  [hard]:  39%|███▊      | 381/987 [14:50:09<23:36:15, 140.22s/it]
+  [hard] n= 1,528  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0569  col=0.0451
+  [hard]:  39%|███▊      | 382/987 [14:52:29<23:33:42, 140.20s/it]
+  [hard] n= 1,532  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0569  col=0.0450
+  [hard]:  39%|███▉      | 383/987 [14:54:49<23:31:43, 140.24s/it]
+  [hard] n= 1,536  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0569  col=0.0448
+  [hard]:  39%|███▉      | 384/987 [14:57:09<23:28:42, 140.17s/it]
+  [hard] n= 1,540  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0569  col=0.0449
+  [hard]:  39%|███▉      | 385/987 [14:59:29<23:25:44, 140.11s/it]
+  [hard] n= 1,544  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0569  col=0.0450
+  [hard]:  39%|███▉      | 386/987 [15:01:50<23:23:29, 140.12s/it]
+  [hard] n= 1,548  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0571  col=0.0453
+  [hard]:  39%|███▉      | 387/987 [15:04:10<23:21:05, 140.11s/it]
+  [hard] n= 1,552  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0571  col=0.0453
+  [hard]:  39%|███▉      | 388/987 [15:06:30<23:19:08, 140.15s/it]
+  [hard] n= 1,556  parse_fail=    0 ( 0.0%)  cell=0.2319  board=0.0000  row=0.0573  col=0.0455
+  [hard]:  39%|███▉      | 389/987 [15:08:50<23:17:15, 140.19s/it]
+  [hard] n= 1,560  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0573  col=0.0454
+  [hard]:  40%|███▉      | 390/987 [15:11:10<23:14:27, 140.15s/it]
+  [hard] n= 1,564  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0572  col=0.0455
+  [hard]:  40%|███▉      | 391/987 [15:13:30<23:12:06, 140.14s/it]
+  [hard] n= 1,568  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0570  col=0.0454
+  [hard]:  40%|███▉      | 392/987 [15:15:51<23:09:43, 140.14s/it]
+  [hard] n= 1,572  parse_fail=    0 ( 0.0%)  cell=0.2323  board=0.0000  row=0.0574  col=0.0456
+  [hard]:  40%|███▉      | 393/987 [15:18:11<23:07:45, 140.18s/it]
+  [hard] n= 1,576  parse_fail=    0 ( 0.0%)  cell=0.2326  board=0.0000  row=0.0575  col=0.0456
+  [hard]:  40%|███▉      | 394/987 [15:20:31<23:05:31, 140.19s/it]
+  [hard] n= 1,580  parse_fail=    0 ( 0.0%)  cell=0.2325  board=0.0000  row=0.0575  col=0.0455
+  [hard]:  40%|████      | 395/987 [15:22:51<23:03:07, 140.18s/it]
+  [hard] n= 1,584  parse_fail=    0 ( 0.0%)  cell=0.2327  board=0.0000  row=0.0576  col=0.0455
+  [hard]:  40%|████      | 396/987 [15:25:11<23:00:36, 140.16s/it]
+  [hard] n= 1,588  parse_fail=    0 ( 0.0%)  cell=0.2331  board=0.0000  row=0.0579  col=0.0457
+  [hard]:  40%|████      | 397/987 [15:27:31<22:58:03, 140.14s/it]
+  [hard] n= 1,592  parse_fail=    0 ( 0.0%)  cell=0.2332  board=0.0000  row=0.0579  col=0.0459
+  [hard]:  40%|████      | 398/987 [15:29:51<22:55:22, 140.11s/it]
+  [hard] n= 1,596  parse_fail=    0 ( 0.0%)  cell=0.2331  board=0.0000  row=0.0579  col=0.0460
+  [hard]:  40%|████      | 399/987 [15:32:12<22:53:18, 140.13s/it]
+  [hard] n= 1,600  parse_fail=    0 ( 0.0%)  cell=0.2328  board=0.0000  row=0.0578  col=0.0460
+  [hard]:  41%|████      | 400/987 [15:34:32<22:51:01, 140.14s/it]
+  [hard] n= 1,604  parse_fail=    0 ( 0.0%)  cell=0.2324  board=0.0000  row=0.0577  col=0.0459
+  [hard]:  41%|████      | 401/987 [15:36:52<22:48:55, 140.16s/it]
+  [hard] n= 1,608  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0576  col=0.0458
+  [hard]:  41%|████      | 402/987 [15:39:12<22:46:12, 140.12s/it]
+  [hard] n= 1,612  parse_fail=    0 ( 0.0%)  cell=0.2319  board=0.0000  row=0.0576  col=0.0457
+  [hard]:  41%|████      | 403/987 [15:41:32<22:43:11, 140.05s/it]
+  [hard] n= 1,616  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0575  col=0.0457
+  [hard]:  41%|████      | 404/987 [15:43:52<22:40:38, 140.03s/it]
+  [hard] n= 1,620  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0575  col=0.0457
+  [hard]:  41%|████      | 405/987 [15:46:12<22:37:51, 139.98s/it]
+  [hard] n= 1,624  parse_fail=    0 ( 0.0%)  cell=0.2323  board=0.0000  row=0.0577  col=0.0460
+  [hard]:  41%|████      | 406/987 [15:48:32<22:35:20, 139.97s/it]
+  [hard] n= 1,628  parse_fail=    0 ( 0.0%)  cell=0.2324  board=0.0000  row=0.0576  col=0.0461
+  [hard]:  41%|████      | 407/987 [15:50:52<22:33:08, 139.98s/it]
+  [hard] n= 1,632  parse_fail=    0 ( 0.0%)  cell=0.2326  board=0.0000  row=0.0580  col=0.0460
+  [hard]:  41%|████▏     | 408/987 [15:53:12<22:30:48, 139.98s/it]
+  [hard] n= 1,636  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0579  col=0.0459
+  [hard]:  41%|████▏     | 409/987 [15:55:32<22:28:35, 139.99s/it]
+  [hard] n= 1,640  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0580  col=0.0459
+  [hard]:  42%|████▏     | 410/987 [15:57:52<22:26:56, 140.06s/it]
+  [hard] n= 1,644  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0580  col=0.0460
+  [hard]:  42%|████▏     | 411/987 [16:00:12<22:25:00, 140.10s/it]
+  [hard] n= 1,648  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0581  col=0.0458
+  [hard]:  42%|████▏     | 412/987 [16:02:32<22:23:16, 140.17s/it]
+  [hard] n= 1,652  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0580  col=0.0459
+  [hard]:  42%|████▏     | 413/987 [16:04:53<22:21:18, 140.21s/it]
+  [hard] n= 1,656  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0580  col=0.0460
+  [hard]:  42%|████▏     | 414/987 [16:07:13<22:18:24, 140.15s/it]
+  [hard] n= 1,660  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0579  col=0.0460
+  [hard]:  42%|████▏     | 415/987 [16:09:33<22:15:41, 140.11s/it]
+  [hard] n= 1,664  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0580  col=0.0460
+  [hard]:  42%|████▏     | 416/987 [16:11:53<22:13:17, 140.10s/it]
+  [hard] n= 1,668  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0578  col=0.0460
+  [hard]:  42%|████▏     | 417/987 [16:14:13<22:10:59, 140.11s/it]
+  [hard] n= 1,672  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0579  col=0.0461
+  [hard]:  42%|████▏     | 418/987 [16:16:33<22:09:20, 140.18s/it]
+  [hard] n= 1,676  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0578  col=0.0460
+  [hard]:  42%|████▏     | 419/987 [16:18:53<22:07:02, 140.18s/it]
+  [hard] n= 1,680  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0578  col=0.0459
+  [hard]:  43%|████▎     | 420/987 [16:21:14<22:05:05, 140.22s/it]
+  [hard] n= 1,684  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0581  col=0.0461
+  [hard]:  43%|████▎     | 421/987 [16:23:34<22:02:57, 140.24s/it]
+  [hard] n= 1,688  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0579  col=0.0460
+  [hard]:  43%|████▎     | 422/987 [16:25:54<22:00:39, 140.25s/it]
+  [hard] n= 1,692  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0580  col=0.0462
+  [hard]:  43%|████▎     | 423/987 [16:28:15<21:58:14, 140.24s/it]
+  [hard] n= 1,696  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0579  col=0.0462
+  [hard]:  43%|████▎     | 424/987 [16:30:35<21:56:17, 140.28s/it]
+  [hard] n= 1,700  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0580  col=0.0462
+  [hard]:  43%|████▎     | 425/987 [16:32:55<21:54:10, 140.30s/it]
+  [hard] n= 1,704  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0578  col=0.0461
+  [hard]:  43%|████▎     | 426/987 [16:35:16<21:52:13, 140.34s/it]
+  [hard] n= 1,708  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0578  col=0.0460
+  [hard]:  43%|████▎     | 427/987 [16:37:36<21:49:29, 140.30s/it]
+  [hard] n= 1,712  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0579  col=0.0460
+  [hard]:  43%|████▎     | 428/987 [16:39:56<21:47:30, 140.34s/it]
+  [hard] n= 1,716  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0578  col=0.0458
+  [hard]:  43%|████▎     | 429/987 [16:42:17<21:45:01, 140.33s/it]
+  [hard] n= 1,720  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0581  col=0.0460
+  [hard]:  44%|████▎     | 430/987 [16:44:37<21:42:01, 140.25s/it]
+  [hard] n= 1,724  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0582  col=0.0460
+  [hard]:  44%|████▎     | 431/987 [16:46:57<21:39:25, 140.23s/it]
+  [hard] n= 1,728  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0581  col=0.0458
+  [hard]:  44%|████▍     | 432/987 [16:49:17<21:36:25, 140.15s/it]
+  [hard] n= 1,732  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0581  col=0.0459
+  [hard]:  44%|████▍     | 433/987 [16:51:37<21:33:29, 140.09s/it]
+  [hard] n= 1,736  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0581  col=0.0458
+  [hard]:  44%|████▍     | 434/987 [16:53:57<21:30:48, 140.05s/it]
+  [hard] n= 1,740  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0580  col=0.0457
+  [hard]:  44%|████▍     | 435/987 [16:56:17<21:28:05, 140.01s/it]
+  [hard] n= 1,744  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0581  col=0.0461
+  [hard]:  44%|████▍     | 436/987 [16:58:37<21:25:40, 140.00s/it]
+  [hard] n= 1,748  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0581  col=0.0461
+  [hard]:  44%|████▍     | 437/987 [17:00:57<21:24:05, 140.08s/it]
+  [hard] n= 1,752  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0582  col=0.0462
+  [hard]:  44%|████▍     | 438/987 [17:03:17<21:22:48, 140.20s/it]
+  [hard] n= 1,756  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0581  col=0.0461
+  [hard]:  44%|████▍     | 439/987 [17:05:38<21:20:52, 140.24s/it]
+  [hard] n= 1,760  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0582  col=0.0461
+  [hard]:  45%|████▍     | 440/987 [17:07:58<21:18:35, 140.25s/it]
+  [hard] n= 1,764  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0583  col=0.0462
+  [hard]:  45%|████▍     | 441/987 [17:10:18<21:15:55, 140.21s/it]
+  [hard] n= 1,768  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0584  col=0.0462
+  [hard]:  45%|████▍     | 442/987 [17:12:38<21:13:36, 140.21s/it]
+  [hard] n= 1,772  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0584  col=0.0461
+  [hard]:  45%|████▍     | 443/987 [17:14:58<21:10:48, 140.16s/it]
+  [hard] n= 1,776  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0583  col=0.0462
+  [hard]:  45%|████▍     | 444/987 [17:17:18<21:08:14, 140.14s/it]
+  [hard] n= 1,780  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0583  col=0.0462
+  [hard]:  45%|████▌     | 445/987 [17:19:38<21:05:33, 140.10s/it]
+  [hard] n= 1,784  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0582  col=0.0461
+  [hard]:  45%|████▌     | 446/987 [17:21:59<21:02:59, 140.07s/it]
+  [hard] n= 1,788  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0583  col=0.0461
+  [hard]:  45%|████▌     | 447/987 [17:24:19<21:00:47, 140.09s/it]
+  [hard] n= 1,792  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0583  col=0.0461
+  [hard]:  45%|████▌     | 448/987 [17:26:39<20:58:28, 140.09s/it]
+  [hard] n= 1,796  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0583  col=0.0461
+  [hard]:  45%|████▌     | 449/987 [17:28:59<20:55:42, 140.04s/it]
+  [hard] n= 1,800  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0583  col=0.0462
+  [hard]:  46%|████▌     | 450/987 [17:31:19<20:53:15, 140.03s/it]
+  [hard] n= 1,804  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0582  col=0.0461
+  [hard]:  46%|████▌     | 451/987 [17:33:39<20:51:16, 140.07s/it]
+  [hard] n= 1,808  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0583  col=0.0460
+  [hard]:  46%|████▌     | 452/987 [17:35:59<20:48:44, 140.05s/it]
+  [hard] n= 1,812  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0583  col=0.0460
+  [hard]:  46%|████▌     | 453/987 [17:38:19<20:46:26, 140.05s/it]
+  [hard] n= 1,816  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0582  col=0.0461
+  [hard]:  46%|████▌     | 454/987 [17:40:39<20:43:58, 140.03s/it]
+  [hard] n= 1,820  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0586  col=0.0464
+  [hard]:  46%|████▌     | 455/987 [17:42:59<20:41:22, 140.00s/it]
+  [hard] n= 1,824  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0585  col=0.0463
+  [hard]:  46%|████▌     | 456/987 [17:45:19<20:38:38, 139.96s/it]
+  [hard] n= 1,828  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0585  col=0.0463
+  [hard]:  46%|████▋     | 457/987 [17:47:38<20:35:50, 139.91s/it]
+  [hard] n= 1,832  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0585  col=0.0464
+  [hard]:  46%|████▋     | 458/987 [17:49:58<20:33:30, 139.91s/it]
+  [hard] n= 1,836  parse_fail=    0 ( 0.0%)  cell=0.2319  board=0.0000  row=0.0585  col=0.0464
+  [hard]:  47%|████▋     | 459/987 [17:52:18<20:31:10, 139.91s/it]
+  [hard] n= 1,840  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0587  col=0.0463
+  [hard]:  47%|████▋     | 460/987 [17:54:38<20:29:03, 139.93s/it]
+  [hard] n= 1,844  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0587  col=0.0463
+  [hard]:  47%|████▋     | 461/987 [17:56:58<20:26:35, 139.91s/it]
+  [hard] n= 1,848  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0588  col=0.0463
+  [hard]:  47%|████▋     | 462/987 [17:59:18<20:24:28, 139.94s/it]
+  [hard] n= 1,852  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0587  col=0.0463
+  [hard]:  47%|████▋     | 463/987 [18:01:38<20:21:51, 139.91s/it]
+  [hard] n= 1,856  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0587  col=0.0462
+  [hard]:  47%|████▋     | 464/987 [18:03:58<20:20:04, 139.97s/it]
+  [hard] n= 1,860  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0586  col=0.0462
+  [hard]:  47%|████▋     | 465/987 [18:06:18<20:17:39, 139.96s/it]
+  [hard] n= 1,864  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0585  col=0.0461
+  [hard]:  47%|████▋     | 466/987 [18:08:38<20:15:34, 139.99s/it]
+  [hard] n= 1,868  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0585  col=0.0460
+  [hard]:  47%|████▋     | 467/987 [18:10:58<20:13:45, 140.05s/it]
+  [hard] n= 1,872  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0585  col=0.0459
+  [hard]:  47%|████▋     | 468/987 [18:13:18<20:11:21, 140.04s/it]
+  [hard] n= 1,876  parse_fail=    0 ( 0.0%)  cell=0.2324  board=0.0000  row=0.0585  col=0.0461
+  [hard]:  48%|████▊     | 469/987 [18:15:38<20:09:04, 140.05s/it]
+  [hard] n= 1,880  parse_fail=    0 ( 0.0%)  cell=0.2323  board=0.0000  row=0.0585  col=0.0461
+  [hard]:  48%|████▊     | 470/987 [18:17:58<20:06:44, 140.05s/it]
+  [hard] n= 1,884  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0584  col=0.0460
+  [hard]:  48%|████▊     | 471/987 [18:20:18<20:04:19, 140.04s/it]
+  [hard] n= 1,888  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0588  col=0.0463
+  [hard]:  48%|████▊     | 472/987 [18:22:38<20:01:47, 140.01s/it]
+  [hard] n= 1,892  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0588  col=0.0462
+  [hard]:  48%|████▊     | 473/987 [18:24:58<19:59:20, 140.00s/it]
+  [hard] n= 1,896  parse_fail=    0 ( 0.0%)  cell=0.2323  board=0.0000  row=0.0588  col=0.0462
+  [hard]:  48%|████▊     | 474/987 [18:27:18<19:56:48, 139.98s/it]
+  [hard] n= 1,900  parse_fail=    0 ( 0.0%)  cell=0.2325  board=0.0000  row=0.0591  col=0.0464
+  [hard]:  48%|████▊     | 475/987 [18:29:38<19:54:26, 139.97s/it]
+  [hard] n= 1,904  parse_fail=    0 ( 0.0%)  cell=0.2323  board=0.0000  row=0.0590  col=0.0463
+  [hard]:  48%|████▊     | 476/987 [18:31:58<19:52:04, 139.97s/it]
+  [hard] n= 1,908  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0590  col=0.0462
+  [hard]:  48%|████▊     | 477/987 [18:34:18<19:49:40, 139.96s/it]
+  [hard] n= 1,912  parse_fail=    0 ( 0.0%)  cell=0.2319  board=0.0000  row=0.0590  col=0.0461
+  [hard]:  48%|████▊     | 478/987 [18:36:38<19:47:16, 139.95s/it]
+  [hard] n= 1,916  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0592  col=0.0463
+  [hard]:  49%|████▊     | 479/987 [18:38:58<19:44:56, 139.95s/it]
+  [hard] n= 1,920  parse_fail=    0 ( 0.0%)  cell=0.2323  board=0.0000  row=0.0591  col=0.0464
+  [hard]:  49%|████▊     | 480/987 [18:41:18<19:42:18, 139.92s/it]
+  [hard] n= 1,924  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0590  col=0.0463
+  [hard]:  49%|████▊     | 481/987 [18:43:38<19:39:57, 139.92s/it]
+  [hard] n= 1,928  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0589  col=0.0463
+  [hard]:  49%|████▉     | 482/987 [18:45:58<19:37:25, 139.89s/it]
+  [hard] n= 1,932  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0592  col=0.0465
+  [hard]:  49%|████▉     | 483/987 [18:48:17<19:35:02, 139.89s/it]
+  [hard] n= 1,936  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0592  col=0.0465
+  [hard]:  49%|████▉     | 484/987 [18:50:37<19:32:37, 139.87s/it]
+  [hard] n= 1,940  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0591  col=0.0464
+  [hard]:  49%|████▉     | 485/987 [18:52:57<19:30:17, 139.88s/it]
+  [hard] n= 1,944  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0592  col=0.0465
+  [hard]:  49%|████▉     | 486/987 [18:55:17<19:28:13, 139.91s/it]
+  [hard] n= 1,948  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0591  col=0.0465
+  [hard]:  49%|████▉     | 487/987 [18:57:37<19:26:09, 139.94s/it]
+  [hard] n= 1,952  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0590  col=0.0465
+  [hard]:  49%|████▉     | 488/987 [18:59:57<19:24:08, 139.98s/it]
+  [hard] n= 1,956  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0590  col=0.0464
+  [hard]:  50%|████▉     | 489/987 [19:02:17<19:21:40, 139.96s/it]
+  [hard] n= 1,960  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0588  col=0.0464
+  [hard]:  50%|████▉     | 490/987 [19:04:37<19:19:31, 139.98s/it]
+  [hard] n= 1,964  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0588  col=0.0463
+  [hard]:  50%|████▉     | 491/987 [19:06:57<19:17:29, 140.02s/it]
+  [hard] n= 1,968  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0587  col=0.0462
+  [hard]:  50%|████▉     | 492/987 [19:09:17<19:15:18, 140.04s/it]
+  [hard] n= 1,972  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0588  col=0.0464
+  [hard]:  50%|████▉     | 493/987 [19:11:38<19:13:27, 140.10s/it]
+  [hard] n= 1,976  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0588  col=0.0465
+  [hard]:  50%|█████     | 494/987 [19:13:58<19:11:35, 140.15s/it]
+  [hard] n= 1,980  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0590  col=0.0466
+  [hard]:  50%|█████     | 495/987 [19:16:18<19:09:07, 140.14s/it]
+  [hard] n= 1,984  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0590  col=0.0468
+  [hard]:  50%|█████     | 496/987 [19:18:38<19:06:35, 140.11s/it]
+  [hard] n= 1,988  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0590  col=0.0468
+  [hard]:  50%|█████     | 497/987 [19:20:58<19:03:59, 140.08s/it]
+  [hard] n= 1,992  parse_fail=    0 ( 0.0%)  cell=0.2319  board=0.0000  row=0.0590  col=0.0469
+  [hard]:  50%|█████     | 498/987 [19:23:18<19:01:43, 140.09s/it]
+  [hard] n= 1,996  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0588  col=0.0468
+  [hard]:  51%|█████     | 499/987 [19:25:38<18:59:01, 140.04s/it]
+  [hard] n= 2,000  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0589  col=0.0469
+  [hard]:  51%|█████     | 500/987 [19:27:58<18:56:43, 140.05s/it]
+  [hard] n= 2,004  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0590  col=0.0471
+  [hard]:  51%|█████     | 501/987 [19:30:18<18:54:17, 140.04s/it]
+  [hard] n= 2,008  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0589  col=0.0470
+  [hard]:  51%|█████     | 502/987 [19:32:38<18:51:55, 140.03s/it]
+  [hard] n= 2,012  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0589  col=0.0471
+  [hard]:  51%|█████     | 503/987 [19:34:58<18:49:52, 140.07s/it]
+  [hard] n= 2,016  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0588  col=0.0470
+  [hard]:  51%|█████     | 504/987 [19:37:18<18:47:25, 140.05s/it]
+  [hard] n= 2,020  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0589  col=0.0470
+  [hard]:  51%|█████     | 505/987 [19:39:38<18:44:38, 140.00s/it]
+  [hard] n= 2,024  parse_fail=    0 ( 0.0%)  cell=0.2319  board=0.0000  row=0.0590  col=0.0470
+  [hard]:  51%|█████▏    | 506/987 [19:41:58<18:42:14, 139.99s/it]
+  [hard] n= 2,028  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0588  col=0.0469
+  [hard]:  51%|█████▏    | 507/987 [19:44:18<18:39:43, 139.97s/it]
+  [hard] n= 2,032  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0589  col=0.0470
+  [hard]:  51%|█████▏    | 508/987 [19:46:38<18:37:27, 139.97s/it]
+  [hard] n= 2,036  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0589  col=0.0470
+  [hard]:  52%|█████▏    | 509/987 [19:48:58<18:35:23, 140.01s/it]
+  [hard] n= 2,040  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0590  col=0.0470
+  [hard]:  52%|█████▏    | 510/987 [19:51:18<18:33:17, 140.04s/it]
+  [hard] n= 2,044  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0589  col=0.0471
+  [hard]:  52%|█████▏    | 511/987 [19:53:38<18:30:49, 140.02s/it]
+  [hard] n= 2,048  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0588  col=0.0470
+  [hard]:  52%|█████▏    | 512/987 [19:55:58<18:28:37, 140.04s/it]
+  [hard] n= 2,052  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0588  col=0.0471
+  [hard]:  52%|█████▏    | 513/987 [19:58:18<18:26:17, 140.04s/it]
+  [hard] n= 2,056  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0588  col=0.0471
+  [hard]:  52%|█████▏    | 514/987 [20:00:38<18:24:03, 140.05s/it]
+  [hard] n= 2,060  parse_fail=    0 ( 0.0%)  cell=0.2319  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  52%|█████▏    | 515/987 [20:02:59<18:21:41, 140.05s/it]
+  [hard] n= 2,064  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0586  col=0.0470
+  [hard]:  52%|█████▏    | 516/987 [20:05:19<18:19:16, 140.04s/it]
+  [hard] n= 2,068  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0585  col=0.0471
+  [hard]:  52%|█████▏    | 517/987 [20:07:38<18:16:42, 140.01s/it]
+  [hard] n= 2,072  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0585  col=0.0470
+  [hard]:  52%|█████▏    | 518/987 [20:09:59<18:14:37, 140.04s/it]
+  [hard] n= 2,076  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0586  col=0.0472
+  [hard]:  53%|█████▎    | 519/987 [20:12:19<18:12:17, 140.04s/it]
+  [hard] n= 2,080  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0586  col=0.0472
+  [hard]:  53%|█████▎    | 520/987 [20:14:39<18:09:49, 140.02s/it]
+  [hard] n= 2,084  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0586  col=0.0471
+  [hard]:  53%|█████▎    | 521/987 [20:16:59<18:07:35, 140.03s/it]
+  [hard] n= 2,088  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0586  col=0.0472
+  [hard]:  53%|█████▎    | 522/987 [20:19:19<18:05:43, 140.09s/it]
+  [hard] n= 2,092  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0588  col=0.0472
+  [hard]:  53%|█████▎    | 523/987 [20:21:39<18:03:06, 140.06s/it]
+  [hard] n= 2,096  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  53%|█████▎    | 524/987 [20:23:59<18:00:29, 140.02s/it]
+  [hard] n= 2,100  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  53%|█████▎    | 525/987 [20:26:19<17:58:11, 140.03s/it]
+  [hard] n= 2,104  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  53%|█████▎    | 526/987 [20:28:39<17:55:40, 140.00s/it]
+  [hard] n= 2,108  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0586  col=0.0470
+  [hard]:  53%|█████▎    | 527/987 [20:30:59<17:53:21, 140.00s/it]
+  [hard] n= 2,112  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  53%|█████▎    | 528/987 [20:33:19<17:51:16, 140.04s/it]
+  [hard] n= 2,116  parse_fail=    0 ( 0.0%)  cell=0.2319  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  54%|█████▎    | 529/987 [20:35:39<17:49:02, 140.05s/it]
+  [hard] n= 2,120  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0586  col=0.0469
+  [hard]:  54%|█████▎    | 530/987 [20:37:59<17:46:34, 140.03s/it]
+  [hard] n= 2,124  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0586  col=0.0469
+  [hard]:  54%|█████▍    | 531/987 [20:40:19<17:44:22, 140.05s/it]
+  [hard] n= 2,128  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0586  col=0.0469
+  [hard]:  54%|█████▍    | 532/987 [20:42:39<17:41:56, 140.04s/it]
+  [hard] n= 2,132  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0586  col=0.0471
+  [hard]:  54%|█████▍    | 533/987 [20:44:59<17:39:28, 140.02s/it]
+  [hard] n= 2,136  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0585  col=0.0470
+  [hard]:  54%|█████▍    | 534/987 [20:47:19<17:37:19, 140.04s/it]
+  [hard] n= 2,140  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0587  col=0.0472
+  [hard]:  54%|█████▍    | 535/987 [20:49:39<17:34:53, 140.03s/it]
+  [hard] n= 2,144  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  54%|█████▍    | 536/987 [20:51:59<17:32:43, 140.05s/it]
+  [hard] n= 2,148  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  54%|█████▍    | 537/987 [20:54:19<17:30:22, 140.05s/it]
+  [hard] n= 2,152  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0586  col=0.0471
+  [hard]:  55%|█████▍    | 538/987 [20:56:39<17:28:03, 140.05s/it]
+  [hard] n= 2,156  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0585  col=0.0472
+  [hard]:  55%|█████▍    | 539/987 [20:59:00<17:25:59, 140.09s/it]
+  [hard] n= 2,160  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0586  col=0.0471
+  [hard]:  55%|█████▍    | 540/987 [21:01:20<17:23:54, 140.12s/it]
+  [hard] n= 2,164  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0586  col=0.0473
+  [hard]:  55%|█████▍    | 541/987 [21:03:40<17:21:27, 140.11s/it]
+  [hard] n= 2,168  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0586  col=0.0473
+  [hard]:  55%|█████▍    | 542/987 [21:06:00<17:18:56, 140.08s/it]
+  [hard] n= 2,172  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0586  col=0.0473
+  [hard]:  55%|█████▌    | 543/987 [21:08:20<17:16:26, 140.06s/it]
+  [hard] n= 2,176  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0586  col=0.0474
+  [hard]:  55%|█████▌    | 544/987 [21:10:40<17:14:00, 140.05s/it]
+  [hard] n= 2,180  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0585  col=0.0474
+  [hard]:  55%|█████▌    | 545/987 [21:13:00<17:11:57, 140.09s/it]
+  [hard] n= 2,184  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0584  col=0.0473
+  [hard]:  55%|█████▌    | 546/987 [21:15:20<17:09:33, 140.08s/it]
+  [hard] n= 2,188  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0583  col=0.0472
+  [hard]:  55%|█████▌    | 547/987 [21:17:40<17:07:07, 140.06s/it]
+  [hard] n= 2,192  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0582  col=0.0471
+  [hard]:  56%|█████▌    | 548/987 [21:20:00<17:04:47, 140.06s/it]
+  [hard] n= 2,196  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0582  col=0.0471
+  [hard]:  56%|█████▌    | 549/987 [21:22:20<17:02:26, 140.06s/it]
+  [hard] n= 2,200  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0582  col=0.0470
+  [hard]:  56%|█████▌    | 550/987 [21:24:40<17:00:06, 140.06s/it]
+  [hard] n= 2,204  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0583  col=0.0470
+  [hard]:  56%|█████▌    | 551/987 [21:27:00<16:57:32, 140.03s/it]
+  [hard] n= 2,208  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0584  col=0.0470
+  [hard]:  56%|█████▌    | 552/987 [21:29:20<16:55:11, 140.03s/it]
+  [hard] n= 2,212  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0583  col=0.0470
+  [hard]:  56%|█████▌    | 553/987 [21:31:40<16:53:17, 140.09s/it]
+  [hard] n= 2,216  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0584  col=0.0471
+  [hard]:  56%|█████▌    | 554/987 [21:34:00<16:50:48, 140.07s/it]
+  [hard] n= 2,220  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0583  col=0.0470
+  [hard]:  56%|█████▌    | 555/987 [21:36:21<16:48:22, 140.05s/it]
+  [hard] n= 2,224  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0584  col=0.0470
+  [hard]:  56%|█████▋    | 556/987 [21:38:40<16:45:50, 140.02s/it]
+  [hard] n= 2,228  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0584  col=0.0470
+  [hard]:  56%|█████▋    | 557/987 [21:41:00<16:43:13, 139.98s/it]
+  [hard] n= 2,232  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0587  col=0.0472
+  [hard]:  57%|█████▋    | 558/987 [21:43:20<16:40:33, 139.94s/it]
+  [hard] n= 2,236  parse_fail=    0 ( 0.0%)  cell=0.2319  board=0.0000  row=0.0586  col=0.0472
+  [hard]:  57%|█████▋    | 559/987 [21:45:40<16:37:59, 139.91s/it]
+  [hard] n= 2,240  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0586  col=0.0473
+  [hard]:  57%|█████▋    | 560/987 [21:48:00<16:35:30, 139.88s/it]
+  [hard] n= 2,244  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0586  col=0.0472
+  [hard]:  57%|█████▋    | 561/987 [21:50:20<16:33:21, 139.91s/it]
+  [hard] n= 2,248  parse_fail=    0 ( 0.0%)  cell=0.2319  board=0.0000  row=0.0587  col=0.0473
+  [hard]:  57%|█████▋    | 562/987 [21:52:40<16:31:13, 139.94s/it]
+  [hard] n= 2,252  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0586  col=0.0473
+  [hard]:  57%|█████▋    | 563/987 [21:55:00<16:29:32, 140.03s/it]
+  [hard] n= 2,256  parse_fail=    0 ( 0.0%)  cell=0.2319  board=0.0000  row=0.0586  col=0.0473
+  [hard]:  57%|█████▋    | 564/987 [21:57:21<16:28:07, 140.16s/it]
+  [hard] n= 2,260  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0586  col=0.0472
+  [hard]:  57%|█████▋    | 565/987 [21:59:41<16:26:23, 140.25s/it]
+  [hard] n= 2,264  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0585  col=0.0473
+  [hard]:  57%|█████▋    | 566/987 [22:02:02<16:24:51, 140.36s/it]
+  [hard] n= 2,268  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0586  col=0.0474
+  [hard]:  57%|█████▋    | 567/987 [22:04:22<16:23:19, 140.48s/it]
+  [hard] n= 2,272  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0585  col=0.0473
+  [hard]:  58%|█████▊    | 568/987 [22:06:43<16:20:43, 140.44s/it]
+  [hard] n= 2,276  parse_fail=    0 ( 0.0%)  cell=0.2323  board=0.0000  row=0.0587  col=0.0474
+  [hard]:  58%|█████▊    | 569/987 [22:09:03<16:17:50, 140.36s/it]
+  [hard] n= 2,280  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0586  col=0.0473
+  [hard]:  58%|█████▊    | 570/987 [22:11:23<16:15:11, 140.32s/it]
+  [hard] n= 2,284  parse_fail=    0 ( 0.0%)  cell=0.2320  board=0.0000  row=0.0586  col=0.0473
+  [hard]:  58%|█████▊    | 571/987 [22:13:43<16:12:00, 140.19s/it]
+  [hard] n= 2,288  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0586  col=0.0473
+  [hard]:  58%|█████▊    | 572/987 [22:16:03<16:08:53, 140.08s/it]
+  [hard] n= 2,292  parse_fail=    0 ( 0.0%)  cell=0.2321  board=0.0000  row=0.0586  col=0.0473
+  [hard]:  58%|█████▊    | 573/987 [22:18:23<16:06:16, 140.04s/it]
+  [hard] n= 2,296  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0586  col=0.0473
+  [hard]:  58%|█████▊    | 574/987 [22:20:43<16:03:30, 139.98s/it]
+  [hard] n= 2,300  parse_fail=    0 ( 0.0%)  cell=0.2323  board=0.0000  row=0.0586  col=0.0473
+  [hard]:  58%|█████▊    | 575/987 [22:23:02<16:00:50, 139.93s/it]
+  [hard] n= 2,304  parse_fail=    0 ( 0.0%)  cell=0.2322  board=0.0000  row=0.0585  col=0.0472
+  [hard]:  58%|█████▊    | 576/987 [22:25:22<15:58:24, 139.91s/it]
+  [hard] n= 2,308  parse_fail=    0 ( 0.0%)  cell=0.2318  board=0.0000  row=0.0584  col=0.0471
+  [hard]:  58%|█████▊    | 577/987 [22:27:42<15:56:21, 139.96s/it]
+  [hard] n= 2,312  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0583  col=0.0470
+  [hard]:  59%|█████▊    | 578/987 [22:30:02<15:54:05, 139.96s/it]
+  [hard] n= 2,316  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0582  col=0.0471
+  [hard]:  59%|█████▊    | 579/987 [22:32:22<15:51:49, 139.97s/it]
+  [hard] n= 2,320  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0583  col=0.0471
+  [hard]:  59%|█████▉    | 580/987 [22:34:43<15:49:56, 140.04s/it]
+  [hard] n= 2,324  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0583  col=0.0472
+  [hard]:  59%|█████▉    | 581/987 [22:37:03<15:48:47, 140.22s/it]
+  [hard] n= 2,328  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0582  col=0.0471
+  [hard]:  59%|█████▉    | 582/987 [22:39:24<15:47:06, 140.31s/it]
+  [hard] n= 2,332  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0582  col=0.0473
+  [hard]:  59%|█████▉    | 583/987 [22:41:44<15:45:17, 140.39s/it]
+  [hard] n= 2,336  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0582  col=0.0472
+  [hard]:  59%|█████▉    | 584/987 [22:44:04<15:42:33, 140.33s/it]
+  [hard] n= 2,340  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0581  col=0.0472
+  [hard]:  59%|█████▉    | 585/987 [22:46:25<15:39:46, 140.27s/it]
+  [hard] n= 2,344  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0582  col=0.0471
+  [hard]:  59%|█████▉    | 586/987 [22:48:45<15:37:09, 140.22s/it]
+  [hard] n= 2,348  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0583  col=0.0473
+  [hard]:  59%|█████▉    | 587/987 [22:51:05<15:34:23, 140.16s/it]
+  [hard] n= 2,352  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0586  col=0.0475
+  [hard]:  60%|█████▉    | 588/987 [22:53:25<15:31:34, 140.09s/it]
+  [hard] n= 2,356  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0585  col=0.0474
+  [hard]:  60%|█████▉    | 589/987 [22:55:45<15:29:23, 140.11s/it]
+  [hard] n= 2,360  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0584  col=0.0474
+  [hard]:  60%|█████▉    | 590/987 [22:58:05<15:26:49, 140.07s/it]
+  [hard] n= 2,364  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0584  col=0.0474
+  [hard]:  60%|█████▉    | 591/987 [23:00:25<15:24:25, 140.06s/it]
+  [hard] n= 2,368  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0583  col=0.0473
+  [hard]:  60%|█████▉    | 592/987 [23:02:45<15:21:55, 140.04s/it]
+  [hard] n= 2,372  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0582  col=0.0473
+  [hard]:  60%|██████    | 593/987 [23:05:05<15:19:53, 140.08s/it]
+  [hard] n= 2,376  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0583  col=0.0472
+  [hard]:  60%|██████    | 594/987 [23:07:25<15:18:00, 140.15s/it]
+  [hard] n= 2,380  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0582  col=0.0472
+  [hard]:  60%|██████    | 595/987 [23:09:46<15:15:57, 140.20s/it]
+  [hard] n= 2,384  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0586  col=0.0474
+  [hard]:  60%|██████    | 596/987 [23:12:06<15:13:18, 140.15s/it]
+  [hard] n= 2,388  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0586  col=0.0474
+  [hard]:  60%|██████    | 597/987 [23:14:26<15:10:56, 140.14s/it]
+  [hard] n= 2,392  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0585  col=0.0474
+  [hard]:  61%|██████    | 598/987 [23:16:46<15:08:18, 140.10s/it]
+  [hard] n= 2,396  parse_fail=    0 ( 0.0%)  cell=0.2304  board=0.0000  row=0.0585  col=0.0473
+  [hard]:  61%|██████    | 599/987 [23:19:06<15:05:48, 140.07s/it]
+  [hard] n= 2,400  parse_fail=    0 ( 0.0%)  cell=0.2302  board=0.0000  row=0.0584  col=0.0473
+  [hard]:  61%|██████    | 600/987 [23:21:26<15:03:32, 140.08s/it]
+  [hard] n= 2,404  parse_fail=    0 ( 0.0%)  cell=0.2302  board=0.0000  row=0.0584  col=0.0473
+  [hard]:  61%|██████    | 601/987 [23:23:46<15:01:10, 140.08s/it]
+  [hard] n= 2,408  parse_fail=    0 ( 0.0%)  cell=0.2301  board=0.0000  row=0.0584  col=0.0472
+  [hard]:  61%|██████    | 602/987 [23:26:06<14:58:43, 140.06s/it]
+  [hard] n= 2,412  parse_fail=    0 ( 0.0%)  cell=0.2300  board=0.0000  row=0.0584  col=0.0472
+  [hard]:  61%|██████    | 603/987 [23:28:26<14:56:14, 140.04s/it]
+  [hard] n= 2,416  parse_fail=    0 ( 0.0%)  cell=0.2303  board=0.0000  row=0.0585  col=0.0472
+  [hard]:  61%|██████    | 604/987 [23:30:46<14:53:47, 140.02s/it]
+  [hard] n= 2,420  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0587  col=0.0473
+  [hard]:  61%|██████▏   | 605/987 [23:33:06<14:51:07, 139.97s/it]
+  [hard] n= 2,424  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0588  col=0.0474
+  [hard]:  61%|██████▏   | 606/987 [23:35:26<14:48:45, 139.96s/it]
+  [hard] n= 2,428  parse_fail=    0 ( 0.0%)  cell=0.2303  board=0.0000  row=0.0588  col=0.0474
+  [hard]:  61%|██████▏   | 607/987 [23:37:46<14:46:06, 139.91s/it]
+  [hard] n= 2,432  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0588  col=0.0474
+  [hard]:  62%|██████▏   | 608/987 [23:40:06<14:44:01, 139.95s/it]
+  [hard] n= 2,436  parse_fail=    0 ( 0.0%)  cell=0.2304  board=0.0000  row=0.0587  col=0.0473
+  [hard]:  62%|██████▏   | 609/987 [23:42:26<14:42:09, 140.03s/it]
+  [hard] n= 2,440  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0589  col=0.0473
+  [hard]:  62%|██████▏   | 610/987 [23:44:46<14:40:01, 140.06s/it]
+  [hard] n= 2,444  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0590  col=0.0473
+  [hard]:  62%|██████▏   | 611/987 [23:47:06<14:37:58, 140.10s/it]
+  [hard] n= 2,448  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0591  col=0.0474
+  [hard]:  62%|██████▏   | 612/987 [23:49:26<14:35:38, 140.10s/it]
+  [hard] n= 2,452  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0591  col=0.0474
+  [hard]:  62%|██████▏   | 613/987 [23:51:46<14:33:13, 140.09s/it]
+  [hard] n= 2,456  parse_fail=    0 ( 0.0%)  cell=0.2303  board=0.0000  row=0.0590  col=0.0473
+  [hard]:  62%|██████▏   | 614/987 [23:54:06<14:30:54, 140.09s/it]
+  [hard] n= 2,460  parse_fail=    0 ( 0.0%)  cell=0.2304  board=0.0000  row=0.0591  col=0.0474
+  [hard]:  62%|██████▏   | 615/987 [23:56:26<14:28:20, 140.06s/it]
+  [hard] n= 2,464  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0591  col=0.0474
+  [hard]:  62%|██████▏   | 616/987 [23:58:46<14:26:03, 140.06s/it]
+  [hard] n= 2,468  parse_fail=    0 ( 0.0%)  cell=0.2302  board=0.0000  row=0.0591  col=0.0474
+  [hard]:  63%|██████▎   | 617/987 [24:01:06<14:23:26, 140.02s/it]
+  [hard] n= 2,472  parse_fail=    0 ( 0.0%)  cell=0.2301  board=0.0000  row=0.0591  col=0.0473
+  [hard]:  63%|██████▎   | 618/987 [24:03:26<14:21:00, 140.00s/it]
+  [hard] n= 2,476  parse_fail=    0 ( 0.0%)  cell=0.2302  board=0.0000  row=0.0590  col=0.0472
+  [hard]:  63%|██████▎   | 619/987 [24:05:46<14:18:56, 140.04s/it]
+  [hard] n= 2,480  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0591  col=0.0472
+  [hard]:  63%|██████▎   | 620/987 [24:08:07<14:16:53, 140.09s/it]
+  [hard] n= 2,484  parse_fail=    0 ( 0.0%)  cell=0.2303  board=0.0000  row=0.0590  col=0.0472
+  [hard]:  63%|██████▎   | 621/987 [24:10:27<14:14:40, 140.11s/it]
+  [hard] n= 2,488  parse_fail=    0 ( 0.0%)  cell=0.2304  board=0.0000  row=0.0590  col=0.0472
+  [hard]:  63%|██████▎   | 622/987 [24:12:47<14:12:25, 140.12s/it]
+  [hard] n= 2,492  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0593  col=0.0474
+  [hard]:  63%|██████▎   | 623/987 [24:15:07<14:10:14, 140.15s/it]
+  [hard] n= 2,496  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0593  col=0.0474
+  [hard]:  63%|██████▎   | 624/987 [24:17:27<14:08:04, 140.18s/it]
+  [hard] n= 2,500  parse_fail=    0 ( 0.0%)  cell=0.2304  board=0.0000  row=0.0592  col=0.0473
+  [hard]:  63%|██████▎   | 625/987 [24:19:48<14:06:15, 140.26s/it]
+  [hard] n= 2,504  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0593  col=0.0474
+  [hard]:  63%|██████▎   | 626/987 [24:22:08<14:03:45, 140.24s/it]
+  [hard] n= 2,508  parse_fail=    0 ( 0.0%)  cell=0.2303  board=0.0000  row=0.0592  col=0.0474
+  [hard]:  64%|██████▎   | 627/987 [24:24:28<14:01:29, 140.25s/it]
+  [hard] n= 2,512  parse_fail=    0 ( 0.0%)  cell=0.2303  board=0.0000  row=0.0591  col=0.0473
+  [hard]:  64%|██████▎   | 628/987 [24:26:49<13:59:12, 140.26s/it]
+  [hard] n= 2,516  parse_fail=    0 ( 0.0%)  cell=0.2303  board=0.0000  row=0.0591  col=0.0473
+  [hard]:  64%|██████▎   | 629/987 [24:29:09<13:56:58, 140.28s/it]
+  [hard] n= 2,520  parse_fail=    0 ( 0.0%)  cell=0.2304  board=0.0000  row=0.0592  col=0.0473
+  [hard]:  64%|██████▍   | 630/987 [24:31:29<13:54:45, 140.29s/it]
+  [hard] n= 2,524  parse_fail=    0 ( 0.0%)  cell=0.2303  board=0.0000  row=0.0592  col=0.0472
+  [hard]:  64%|██████▍   | 631/987 [24:33:50<13:52:21, 140.29s/it]
+  [hard] n= 2,528  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0593  col=0.0474
+  [hard]:  64%|██████▍   | 632/987 [24:36:10<13:50:04, 140.29s/it]
+  [hard] n= 2,532  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0593  col=0.0474
+  [hard]:  64%|██████▍   | 633/987 [24:38:30<13:47:37, 140.28s/it]
+  [hard] n= 2,536  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0595  col=0.0475
+  [hard]:  64%|██████▍   | 634/987 [24:40:51<13:45:41, 140.35s/it]
+  [hard] n= 2,540  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0596  col=0.0474
+  [hard]:  64%|██████▍   | 635/987 [24:43:11<13:43:24, 140.35s/it]
+  [hard] n= 2,544  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0596  col=0.0474
+  [hard]:  64%|██████▍   | 636/987 [24:45:31<13:41:08, 140.37s/it]
+  [hard] n= 2,548  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0596  col=0.0475
+  [hard]:  65%|██████▍   | 637/987 [24:47:52<13:38:49, 140.37s/it]
+  [hard] n= 2,552  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0596  col=0.0475
+  [hard]:  65%|██████▍   | 638/987 [24:50:12<13:36:02, 140.29s/it]
+  [hard] n= 2,556  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0596  col=0.0475
+  [hard]:  65%|██████▍   | 639/987 [24:52:32<13:33:25, 140.25s/it]
+  [hard] n= 2,560  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0597  col=0.0474
+  [hard]:  65%|██████▍   | 640/987 [24:54:52<13:31:02, 140.24s/it]
+  [hard] n= 2,564  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0597  col=0.0474
+  [hard]:  65%|██████▍   | 641/987 [24:57:12<13:28:34, 140.22s/it]
+  [hard] n= 2,568  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0596  col=0.0473
+  [hard]:  65%|██████▌   | 642/987 [24:59:32<13:26:04, 140.19s/it]
+  [hard] n= 2,572  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0595  col=0.0473
+  [hard]:  65%|██████▌   | 643/987 [25:01:53<13:23:40, 140.17s/it]
+  [hard] n= 2,576  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0597  col=0.0474
+  [hard]:  65%|██████▌   | 644/987 [25:04:13<13:21:26, 140.19s/it]
+  [hard] n= 2,580  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0596  col=0.0473
+  [hard]:  65%|██████▌   | 645/987 [25:06:33<13:19:20, 140.23s/it]
+  [hard] n= 2,584  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0596  col=0.0473
+  [hard]:  65%|██████▌   | 646/987 [25:08:53<13:16:42, 140.18s/it]
+  [hard] n= 2,588  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0595  col=0.0473
+  [hard]:  66%|██████▌   | 647/987 [25:11:13<13:14:17, 140.17s/it]
+  [hard] n= 2,592  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0595  col=0.0472
+  [hard]:  66%|██████▌   | 648/987 [25:13:34<13:11:53, 140.16s/it]
+  [hard] n= 2,596  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0595  col=0.0471
+  [hard]:  66%|██████▌   | 649/987 [25:15:54<13:09:37, 140.17s/it]
+  [hard] n= 2,600  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0594  col=0.0471
+  [hard]:  66%|██████▌   | 650/987 [25:18:14<13:07:14, 140.16s/it]
+  [hard] n= 2,604  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0594  col=0.0471
+  [hard]:  66%|██████▌   | 651/987 [25:20:34<13:04:53, 140.16s/it]
+  [hard] n= 2,608  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0593  col=0.0471
+  [hard]:  66%|██████▌   | 652/987 [25:22:54<13:02:36, 140.17s/it]
+  [hard] n= 2,612  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0593  col=0.0470
+  [hard]:  66%|██████▌   | 653/987 [25:25:14<13:00:07, 140.14s/it]
+  [hard] n= 2,616  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0593  col=0.0470
+  [hard]:  66%|██████▋   | 654/987 [25:27:34<12:57:34, 140.10s/it]
+  [hard] n= 2,620  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0594  col=0.0469
+  [hard]:  66%|██████▋   | 655/987 [25:29:54<12:55:15, 140.11s/it]
+  [hard] n= 2,624  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0594  col=0.0470
+  [hard]:  66%|██████▋   | 656/987 [25:32:14<12:52:51, 140.10s/it]
+  [hard] n= 2,628  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0593  col=0.0469
+  [hard]:  67%|██████▋   | 657/987 [25:34:35<12:50:34, 140.10s/it]
+  [hard] n= 2,632  parse_fail=    0 ( 0.0%)  cell=0.2311  board=0.0000  row=0.0594  col=0.0470
+  [hard]:  67%|██████▋   | 658/987 [25:36:55<12:48:26, 140.14s/it]
+  [hard] n= 2,636  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0595  col=0.0471
+  [hard]:  67%|██████▋   | 659/987 [25:39:15<12:46:09, 140.15s/it]
+  [hard] n= 2,640  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0594  col=0.0471
+  [hard]:  67%|██████▋   | 660/987 [25:41:35<12:44:01, 140.19s/it]
+  [hard] n= 2,644  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0593  col=0.0470
+  [hard]:  67%|██████▋   | 661/987 [25:43:56<12:41:58, 140.24s/it]
+  [hard] n= 2,648  parse_fail=    0 ( 0.0%)  cell=0.2314  board=0.0000  row=0.0595  col=0.0471
+  [hard]:  67%|██████▋   | 662/987 [25:46:16<12:39:42, 140.26s/it]
+  [hard] n= 2,652  parse_fail=    0 ( 0.0%)  cell=0.2316  board=0.0000  row=0.0595  col=0.0472
+  [hard]:  67%|██████▋   | 663/987 [25:48:36<12:37:14, 140.23s/it]
+  [hard] n= 2,656  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0595  col=0.0472
+  [hard]:  67%|██████▋   | 664/987 [25:50:56<12:34:45, 140.20s/it]
+  [hard] n= 2,660  parse_fail=    0 ( 0.0%)  cell=0.2317  board=0.0000  row=0.0595  col=0.0472
+  [hard]:  67%|██████▋   | 665/987 [25:53:16<12:32:23, 140.20s/it]
+  [hard] n= 2,664  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0594  col=0.0471
+  [hard]:  67%|██████▋   | 666/987 [25:55:37<12:29:58, 140.18s/it]
+  [hard] n= 2,668  parse_fail=    0 ( 0.0%)  cell=0.2315  board=0.0000  row=0.0594  col=0.0471
+  [hard]:  68%|██████▊   | 667/987 [25:57:57<12:27:37, 140.18s/it]
+  [hard] n= 2,672  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0593  col=0.0471
+  [hard]:  68%|██████▊   | 668/987 [26:00:17<12:25:15, 140.17s/it]
+  [hard] n= 2,676  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0593  col=0.0472
+  [hard]:  68%|██████▊   | 669/987 [26:02:37<12:22:52, 140.17s/it]
+  [hard] n= 2,680  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0592  col=0.0472
+  [hard]:  68%|██████▊   | 670/987 [26:04:57<12:20:24, 140.14s/it]
+  [hard] n= 2,684  parse_fail=    0 ( 0.0%)  cell=0.2313  board=0.0000  row=0.0592  col=0.0472
+  [hard]:  68%|██████▊   | 671/987 [26:07:17<12:17:42, 140.07s/it]
+  [hard] n= 2,688  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0591  col=0.0472
+  [hard]:  68%|██████▊   | 672/987 [26:09:37<12:15:19, 140.06s/it]
+  [hard] n= 2,692  parse_fail=    0 ( 0.0%)  cell=0.2312  board=0.0000  row=0.0591  col=0.0472
+  [hard]:  68%|██████▊   | 673/987 [26:11:57<12:12:58, 140.06s/it]
+  [hard] n= 2,696  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0591  col=0.0471
+  [hard]:  68%|██████▊   | 674/987 [26:14:17<12:10:40, 140.07s/it]
+  [hard] n= 2,700  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0590  col=0.0470
+  [hard]:  68%|██████▊   | 675/987 [26:16:37<12:08:32, 140.10s/it]
+  [hard] n= 2,704  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0589  col=0.0470
+  [hard]:  68%|██████▊   | 676/987 [26:18:57<12:06:11, 140.10s/it]
+  [hard] n= 2,708  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0589  col=0.0470
+  [hard]:  69%|██████▊   | 677/987 [26:21:18<12:03:56, 140.12s/it]
+  [hard] n= 2,712  parse_fail=    0 ( 0.0%)  cell=0.2302  board=0.0000  row=0.0588  col=0.0469
+  [hard]:  69%|██████▊   | 678/987 [26:23:38<12:01:48, 140.16s/it]
+  [hard] n= 2,716  parse_fail=    0 ( 0.0%)  cell=0.2304  board=0.0000  row=0.0588  col=0.0470
+  [hard]:  69%|██████▉   | 679/987 [26:25:58<11:59:28, 140.16s/it]
+  [hard] n= 2,720  parse_fail=    0 ( 0.0%)  cell=0.2303  board=0.0000  row=0.0588  col=0.0469
+  [hard]:  69%|██████▉   | 680/987 [26:28:18<11:57:05, 140.15s/it]
+  [hard] n= 2,724  parse_fail=    0 ( 0.0%)  cell=0.2304  board=0.0000  row=0.0589  col=0.0469
+  [hard]:  69%|██████▉   | 681/987 [26:30:38<11:54:55, 140.18s/it]
+  [hard] n= 2,728  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0593  col=0.0469
+  [hard]:  69%|██████▉   | 682/987 [26:32:59<11:52:45, 140.22s/it]
+  [hard] n= 2,732  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0593  col=0.0469
+  [hard]:  69%|██████▉   | 683/987 [26:35:19<11:50:44, 140.28s/it]
+  [hard] n= 2,736  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0592  col=0.0468
+  [hard]:  69%|██████▉   | 684/987 [26:37:39<11:48:24, 140.28s/it]
+  [hard] n= 2,740  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0593  col=0.0468
+  [hard]:  69%|██████▉   | 685/987 [26:40:00<11:45:58, 140.26s/it]
+  [hard] n= 2,744  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0592  col=0.0469
+  [hard]:  70%|██████▉   | 686/987 [26:42:20<11:43:36, 140.25s/it]
+  [hard] n= 2,748  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0592  col=0.0469
+  [hard]:  70%|██████▉   | 687/987 [26:44:40<11:41:16, 140.25s/it]
+  [hard] n= 2,752  parse_fail=    0 ( 0.0%)  cell=0.2309  board=0.0000  row=0.0592  col=0.0470
+  [hard]:  70%|██████▉   | 688/987 [26:47:00<11:38:40, 140.20s/it]
+  [hard] n= 2,756  parse_fail=    0 ( 0.0%)  cell=0.2310  board=0.0000  row=0.0592  col=0.0469
+  [hard]:  70%|██████▉   | 689/987 [26:49:20<11:36:11, 140.17s/it]
+  [hard] n= 2,760  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0591  col=0.0469
+  [hard]:  70%|██████▉   | 690/987 [26:51:40<11:33:50, 140.17s/it]
+  [hard] n= 2,764  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0591  col=0.0468
+  [hard]:  70%|███████   | 691/987 [26:54:01<11:31:20, 140.14s/it]
+  [hard] n= 2,768  parse_fail=    0 ( 0.0%)  cell=0.2306  board=0.0000  row=0.0590  col=0.0468
+  [hard]:  70%|███████   | 692/987 [26:56:21<11:28:47, 140.09s/it]
+  [hard] n= 2,772  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0589  col=0.0467
+  [hard]:  70%|███████   | 693/987 [26:58:41<11:26:23, 140.08s/it]
+  [hard] n= 2,776  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0590  col=0.0468
+  [hard]:  70%|███████   | 694/987 [27:01:00<11:23:46, 140.02s/it]
+  [hard] n= 2,780  parse_fail=    0 ( 0.0%)  cell=0.2308  board=0.0000  row=0.0590  col=0.0468
+  [hard]:  70%|███████   | 695/987 [27:03:20<11:21:17, 139.99s/it]
+  [hard] n= 2,784  parse_fail=    0 ( 0.0%)  cell=0.2307  board=0.0000  row=0.0589  col=0.0468
+  [hard]:  71%|███████   | 696/987 [27:05:40<11:18:55, 139.98s/it]
+  [hard] n= 2,788  parse_fail=    0 ( 0.0%)  cell=0.2305  board=0.0000  row=0.0589  col=0.0467
+  [hard]:  71%|███████   | 697/987 [27:08:00<11:16:38, 139.99s/it]
+  [hard] n= 2,792  parse_fail=    0 ( 0.0%)  cell=0.2303  board=0.0000  row=0.0588  col=0.0468
+  [hard]:  71%|███████   | 698/987 [27:10:20<11:14:22, 140.01s/it]
+  [hard] n= 2,796  parse_fail=    0 ( 0.0%)  cell=0.2300  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  71%|███████   | 699/987 [27:12:40<11:12:01, 140.00s/it]
+  [hard] n= 2,800  parse_fail=    0 ( 0.0%)  cell=0.2300  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  71%|███████   | 700/987 [27:15:01<11:09:48, 140.03s/it]
+  [hard] n= 2,804  parse_fail=    0 ( 0.0%)  cell=0.2300  board=0.0000  row=0.0587  col=0.0468
+  [hard]:  71%|███████   | 701/987 [27:17:21<11:07:57, 140.13s/it]
+  [hard] n= 2,808  parse_fail=    0 ( 0.0%)  cell=0.2301  board=0.0000  row=0.0588  col=0.0469
+  [hard]:  71%|███████   | 702/987 [27:19:41<11:05:32, 140.11s/it]
+  [hard] n= 2,812  parse_fail=    0 ( 0.0%)  cell=0.2300  board=0.0000  row=0.0588  col=0.0469
+  [hard]:  71%|███████   | 703/987 [27:22:01<11:03:14, 140.12s/it]
+  [hard] n= 2,816  parse_fail=    0 ( 0.0%)  cell=0.2298  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  71%|███████▏  | 704/987 [27:24:21<11:00:56, 140.13s/it]
+  [hard] n= 2,820  parse_fail=    0 ( 0.0%)  cell=0.2296  board=0.0000  row=0.0586  col=0.0469
+  [hard]:  71%|███████▏  | 705/987 [27:26:41<10:58:44, 140.16s/it]
+  [hard] n= 2,824  parse_fail=    0 ( 0.0%)  cell=0.2294  board=0.0000  row=0.0585  col=0.0469
+  [hard]:  72%|███████▏  | 706/987 [27:29:02<10:56:19, 140.14s/it]
+  [hard] n= 2,828  parse_fail=    0 ( 0.0%)  cell=0.2293  board=0.0000  row=0.0585  col=0.0469
+  [hard]:  72%|███████▏  | 707/987 [27:31:22<10:54:09, 140.18s/it]
+  [hard] n= 2,832  parse_fail=    0 ( 0.0%)  cell=0.2293  board=0.0000  row=0.0585  col=0.0469
+  [hard]:  72%|███████▏  | 708/987 [27:33:42<10:51:49, 140.18s/it]
+  [hard] n= 2,836  parse_fail=    0 ( 0.0%)  cell=0.2294  board=0.0000  row=0.0585  col=0.0470
+  [hard]:  72%|███████▏  | 709/987 [27:36:02<10:49:36, 140.20s/it]
+  [hard] n= 2,840  parse_fail=    0 ( 0.0%)  cell=0.2296  board=0.0000  row=0.0586  col=0.0471
+  [hard]:  72%|███████▏  | 710/987 [27:38:23<10:47:34, 140.27s/it]
+  [hard] n= 2,844  parse_fail=    0 ( 0.0%)  cell=0.2296  board=0.0000  row=0.0586  col=0.0471
+  [hard]:  72%|███████▏  | 711/987 [27:40:43<10:44:55, 140.20s/it]
+  [hard] n= 2,848  parse_fail=    0 ( 0.0%)  cell=0.2297  board=0.0000  row=0.0586  col=0.0471
+  [hard]:  72%|███████▏  | 712/987 [27:43:03<10:42:17, 140.14s/it]
+  [hard] n= 2,852  parse_fail=    0 ( 0.0%)  cell=0.2296  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  72%|███████▏  | 713/987 [27:45:23<10:39:46, 140.10s/it]
+  [hard] n= 2,856  parse_fail=    0 ( 0.0%)  cell=0.2296  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  72%|███████▏  | 714/987 [27:47:43<10:37:18, 140.07s/it]
+  [hard] n= 2,860  parse_fail=    0 ( 0.0%)  cell=0.2297  board=0.0000  row=0.0586  col=0.0471
+  [hard]:  72%|███████▏  | 715/987 [27:50:03<10:35:09, 140.11s/it]
+  [hard] n= 2,864  parse_fail=    0 ( 0.0%)  cell=0.2299  board=0.0000  row=0.0588  col=0.0472
+  [hard]:  73%|███████▎  | 716/987 [27:52:23<10:32:48, 140.10s/it]
+  [hard] n= 2,868  parse_fail=    0 ( 0.0%)  cell=0.2300  board=0.0000  row=0.0588  col=0.0471
+  [hard]:  73%|███████▎  | 717/987 [27:54:43<10:30:42, 140.16s/it]
+  [hard] n= 2,872  parse_fail=    0 ( 0.0%)  cell=0.2299  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  73%|███████▎  | 718/987 [27:57:04<10:29:08, 140.33s/it]
+  [hard] n= 2,876  parse_fail=    0 ( 0.0%)  cell=0.2301  board=0.0000  row=0.0588  col=0.0473
+  [hard]:  73%|███████▎  | 719/987 [27:59:25<10:27:04, 140.39s/it]
+  [hard] n= 2,880  parse_fail=    0 ( 0.0%)  cell=0.2298  board=0.0000  row=0.0587  col=0.0472
+  [hard]:  73%|███████▎  | 720/987 [28:01:45<10:25:01, 140.46s/it]
+  [hard] n= 2,884  parse_fail=    0 ( 0.0%)  cell=0.2297  board=0.0000  row=0.0588  col=0.0472
+  [hard]:  73%|███████▎  | 721/987 [28:04:06<10:22:37, 140.44s/it]
+  [hard] n= 2,888  parse_fail=    0 ( 0.0%)  cell=0.2297  board=0.0000  row=0.0588  col=0.0472
+  [hard]:  73%|███████▎  | 722/987 [28:06:26<10:20:15, 140.43s/it]
+  [hard] n= 2,892  parse_fail=    0 ( 0.0%)  cell=0.2298  board=0.0000  row=0.0588  col=0.0472
+  [hard]:  73%|███████▎  | 723/987 [28:08:46<10:17:38, 140.37s/it]
+  [hard] n= 2,896  parse_fail=    0 ( 0.0%)  cell=0.2295  board=0.0000  row=0.0587  col=0.0472
+  [hard]:  73%|███████▎  | 724/987 [28:11:06<10:15:08, 140.34s/it]
+  [hard] n= 2,900  parse_fail=    0 ( 0.0%)  cell=0.2294  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  73%|███████▎  | 725/987 [28:13:27<10:12:46, 140.33s/it]
+  [hard] n= 2,904  parse_fail=    0 ( 0.0%)  cell=0.2295  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  74%|███████▎  | 726/987 [28:15:47<10:10:14, 140.29s/it]
+  [hard] n= 2,908  parse_fail=    0 ( 0.0%)  cell=0.2294  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  74%|███████▎  | 727/987 [28:18:07<10:07:52, 140.28s/it]
+  [hard] n= 2,912  parse_fail=    0 ( 0.0%)  cell=0.2292  board=0.0000  row=0.0586  col=0.0469
+  [hard]:  74%|███████▍  | 728/987 [28:20:28<10:05:46, 140.34s/it]
+  [hard] n= 2,916  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0586  col=0.0469
+  [hard]:  74%|███████▍  | 729/987 [28:22:48<10:03:27, 140.34s/it]
+  [hard] n= 2,920  parse_fail=    0 ( 0.0%)  cell=0.2289  board=0.0000  row=0.0585  col=0.0468
+  [hard]:  74%|███████▍  | 730/987 [28:25:08<10:01:14, 140.37s/it]
+  [hard] n= 2,924  parse_fail=    0 ( 0.0%)  cell=0.2287  board=0.0000  row=0.0585  col=0.0467
+  [hard]:  74%|███████▍  | 731/987 [28:27:29<9:58:57, 140.38s/it] 
+  [hard] n= 2,928  parse_fail=    0 ( 0.0%)  cell=0.2288  board=0.0000  row=0.0586  col=0.0468
+  [hard]:  74%|███████▍  | 732/987 [28:29:49<9:56:19, 140.31s/it]
+  [hard] n= 2,932  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0586  col=0.0468
+  [hard]:  74%|███████▍  | 733/987 [28:32:09<9:53:36, 140.22s/it]
+  [hard] n= 2,936  parse_fail=    0 ( 0.0%)  cell=0.2291  board=0.0000  row=0.0586  col=0.0468
+  [hard]:  74%|███████▍  | 734/987 [28:34:29<9:51:04, 140.17s/it]
+  [hard] n= 2,940  parse_fail=    0 ( 0.0%)  cell=0.2291  board=0.0000  row=0.0586  col=0.0467
+  [hard]:  74%|███████▍  | 735/987 [28:36:49<9:48:41, 140.16s/it]
+  [hard] n= 2,944  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0586  col=0.0467
+  [hard]:  75%|███████▍  | 736/987 [28:39:09<9:46:11, 140.12s/it]
+  [hard] n= 2,948  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0586  col=0.0467
+  [hard]:  75%|███████▍  | 737/987 [28:41:29<9:43:45, 140.10s/it]
+  [hard] n= 2,952  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  75%|███████▍  | 738/987 [28:43:50<9:41:34, 140.14s/it]
+  [hard] n= 2,956  parse_fail=    0 ( 0.0%)  cell=0.2289  board=0.0000  row=0.0586  col=0.0466
+  [hard]:  75%|███████▍  | 739/987 [28:46:10<9:39:36, 140.23s/it]
+  [hard] n= 2,960  parse_fail=    0 ( 0.0%)  cell=0.2288  board=0.0000  row=0.0586  col=0.0467
+  [hard]:  75%|███████▍  | 740/987 [28:48:31<9:37:37, 140.31s/it]
+  [hard] n= 2,964  parse_fail=    0 ( 0.0%)  cell=0.2288  board=0.0000  row=0.0586  col=0.0466
+  [hard]:  75%|███████▌  | 741/987 [28:50:51<9:35:27, 140.36s/it]
+  [hard] n= 2,968  parse_fail=    0 ( 0.0%)  cell=0.2289  board=0.0000  row=0.0586  col=0.0466
+  [hard]:  75%|███████▌  | 742/987 [28:53:11<9:33:01, 140.33s/it]
+  [hard] n= 2,972  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0587  col=0.0466
+  [hard]:  75%|███████▌  | 743/987 [28:55:31<9:30:26, 140.27s/it]
+  [hard] n= 2,976  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  75%|███████▌  | 744/987 [28:57:52<9:28:04, 140.26s/it]
+  [hard] n= 2,980  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0587  col=0.0466
+  [hard]:  75%|███████▌  | 745/987 [29:00:12<9:25:28, 140.20s/it]
+  [hard] n= 2,984  parse_fail=    0 ( 0.0%)  cell=0.2289  board=0.0000  row=0.0586  col=0.0466
+  [hard]:  76%|███████▌  | 746/987 [29:02:32<9:22:59, 140.16s/it]
+  [hard] n= 2,988  parse_fail=    0 ( 0.0%)  cell=0.2291  board=0.0000  row=0.0586  col=0.0467
+  [hard]:  76%|███████▌  | 747/987 [29:04:52<9:20:32, 140.14s/it]
+  [hard] n= 2,992  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0586  col=0.0467
+  [hard]:  76%|███████▌  | 748/987 [29:07:12<9:18:11, 140.13s/it]
+  [hard] n= 2,996  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0586  col=0.0467
+  [hard]:  76%|███████▌  | 749/987 [29:09:32<9:15:51, 140.13s/it]
+  [hard] n= 3,000  parse_fail=    0 ( 0.0%)  cell=0.2289  board=0.0000  row=0.0586  col=0.0466
+  [hard]:  76%|███████▌  | 750/987 [29:11:52<9:13:43, 140.18s/it]
+  [hard] n= 3,004  parse_fail=    0 ( 0.0%)  cell=0.2288  board=0.0000  row=0.0586  col=0.0467
+  [hard]:  76%|███████▌  | 751/987 [29:14:13<9:11:43, 140.27s/it]
+  [hard] n= 3,008  parse_fail=    0 ( 0.0%)  cell=0.2287  board=0.0000  row=0.0586  col=0.0467
+  [hard]:  76%|███████▌  | 752/987 [29:16:33<9:09:12, 140.22s/it]
+  [hard] n= 3,012  parse_fail=    0 ( 0.0%)  cell=0.2287  board=0.0000  row=0.0585  col=0.0467
+  [hard]:  76%|███████▋  | 753/987 [29:18:53<9:06:45, 140.20s/it]
+  [hard] n= 3,016  parse_fail=    0 ( 0.0%)  cell=0.2288  board=0.0000  row=0.0585  col=0.0468
+  [hard]:  76%|███████▋  | 754/987 [29:21:13<9:04:34, 140.24s/it]
+  [hard] n= 3,020  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0585  col=0.0467
+  [hard]:  76%|███████▋  | 755/987 [29:23:34<9:02:21, 140.27s/it]
+  [hard] n= 3,024  parse_fail=    0 ( 0.0%)  cell=0.2289  board=0.0000  row=0.0585  col=0.0467
+  [hard]:  77%|███████▋  | 756/987 [29:25:54<9:00:06, 140.29s/it]
+  [hard] n= 3,028  parse_fail=    0 ( 0.0%)  cell=0.2287  board=0.0000  row=0.0584  col=0.0466
+  [hard]:  77%|███████▋  | 757/987 [29:28:15<8:57:55, 140.33s/it]
+  [hard] n= 3,032  parse_fail=    0 ( 0.0%)  cell=0.2286  board=0.0000  row=0.0584  col=0.0466
+  [hard]:  77%|███████▋  | 758/987 [29:30:35<8:55:41, 140.36s/it]
+  [hard] n= 3,036  parse_fail=    0 ( 0.0%)  cell=0.2286  board=0.0000  row=0.0584  col=0.0466
+  [hard]:  77%|███████▋  | 759/987 [29:32:55<8:53:25, 140.38s/it]
+  [hard] n= 3,040  parse_fail=    0 ( 0.0%)  cell=0.2288  board=0.0000  row=0.0584  col=0.0466
+  [hard]:  77%|███████▋  | 760/987 [29:35:16<8:51:06, 140.38s/it]
+  [hard] n= 3,044  parse_fail=    0 ( 0.0%)  cell=0.2291  board=0.0000  row=0.0586  col=0.0467
+  [hard]:  77%|███████▋  | 761/987 [29:37:36<8:48:43, 140.37s/it]
+  [hard] n= 3,048  parse_fail=    0 ( 0.0%)  cell=0.2291  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  77%|███████▋  | 762/987 [29:39:57<8:46:40, 140.45s/it]
+  [hard] n= 3,052  parse_fail=    0 ( 0.0%)  cell=0.2291  board=0.0000  row=0.0588  col=0.0467
+  [hard]:  77%|███████▋  | 763/987 [29:42:17<8:44:34, 140.51s/it]
+  [hard] n= 3,056  parse_fail=    0 ( 0.0%)  cell=0.2291  board=0.0000  row=0.0588  col=0.0467
+  [hard]:  77%|███████▋  | 764/987 [29:44:38<8:42:08, 140.49s/it]
+  [hard] n= 3,060  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  78%|███████▊  | 765/987 [29:46:58<8:39:38, 140.44s/it]
+  [hard] n= 3,064  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  78%|███████▊  | 766/987 [29:49:18<8:37:01, 140.37s/it]
+  [hard] n= 3,068  parse_fail=    0 ( 0.0%)  cell=0.2288  board=0.0000  row=0.0586  col=0.0466
+  [hard]:  78%|███████▊  | 767/987 [29:51:39<8:34:26, 140.30s/it]
+  [hard] n= 3,072  parse_fail=    0 ( 0.0%)  cell=0.2289  board=0.0000  row=0.0586  col=0.0467
+  [hard]:  78%|███████▊  | 768/987 [29:53:59<8:32:07, 140.31s/it]
+  [hard] n= 3,076  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  78%|███████▊  | 769/987 [29:56:19<8:29:36, 140.26s/it]
+  [hard] n= 3,080  parse_fail=    0 ( 0.0%)  cell=0.2289  board=0.0000  row=0.0587  col=0.0466
+  [hard]:  78%|███████▊  | 770/987 [29:58:39<8:27:08, 140.22s/it]
+  [hard] n= 3,084  parse_fail=    0 ( 0.0%)  cell=0.2289  board=0.0000  row=0.0587  col=0.0466
+  [hard]:  78%|███████▊  | 771/987 [30:00:59<8:24:57, 140.26s/it]
+  [hard] n= 3,088  parse_fail=    0 ( 0.0%)  cell=0.2288  board=0.0000  row=0.0587  col=0.0466
+  [hard]:  78%|███████▊  | 772/987 [30:03:20<8:22:43, 140.30s/it]
+  [hard] n= 3,092  parse_fail=    0 ( 0.0%)  cell=0.2288  board=0.0000  row=0.0586  col=0.0466
+  [hard]:  78%|███████▊  | 773/987 [30:05:40<8:20:26, 140.31s/it]
+  [hard] n= 3,096  parse_fail=    0 ( 0.0%)  cell=0.2291  board=0.0000  row=0.0588  col=0.0467
+  [hard]:  78%|███████▊  | 774/987 [30:08:01<8:18:11, 140.33s/it]
+  [hard] n= 3,100  parse_fail=    0 ( 0.0%)  cell=0.2291  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  79%|███████▊  | 775/987 [30:10:21<8:15:39, 140.28s/it]
+  [hard] n= 3,104  parse_fail=    0 ( 0.0%)  cell=0.2288  board=0.0000  row=0.0587  col=0.0466
+  [hard]:  79%|███████▊  | 776/987 [30:12:41<8:13:25, 140.31s/it]
+  [hard] n= 3,108  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0588  col=0.0467
+  [hard]:  79%|███████▊  | 777/987 [30:15:01<8:10:51, 140.25s/it]
+  [hard] n= 3,112  parse_fail=    0 ( 0.0%)  cell=0.2292  board=0.0000  row=0.0590  col=0.0468
+  [hard]:  79%|███████▉  | 778/987 [30:17:21<8:08:19, 140.19s/it]
+  [hard] n= 3,116  parse_fail=    0 ( 0.0%)  cell=0.2291  board=0.0000  row=0.0590  col=0.0467
+  [hard]:  79%|███████▉  | 779/987 [30:19:41<8:05:57, 140.18s/it]
+  [hard] n= 3,120  parse_fail=    0 ( 0.0%)  cell=0.2290  board=0.0000  row=0.0589  col=0.0467
+  [hard]:  79%|███████▉  | 780/987 [30:22:02<8:03:39, 140.19s/it]
+  [hard] n= 3,124  parse_fail=    0 ( 0.0%)  cell=0.2289  board=0.0000  row=0.0589  col=0.0467
+  [hard]:  79%|███████▉  | 781/987 [30:24:22<8:01:32, 140.25s/it]
+  [hard] n= 3,128  parse_fail=    0 ( 0.0%)  cell=0.2287  board=0.0000  row=0.0589  col=0.0467
+  [hard]:  79%|███████▉  | 782/987 [30:26:43<7:59:25, 140.32s/it]
+  [hard] n= 3,132  parse_fail=    0 ( 0.0%)  cell=0.2286  board=0.0000  row=0.0588  col=0.0467
+  [hard]:  79%|███████▉  | 783/987 [30:29:03<7:57:17, 140.38s/it]
+  [hard] n= 3,136  parse_fail=    0 ( 0.0%)  cell=0.2286  board=0.0000  row=0.0588  col=0.0467
+  [hard]:  79%|███████▉  | 784/987 [30:31:24<7:55:03, 140.41s/it]
+  [hard] n= 3,140  parse_fail=    0 ( 0.0%)  cell=0.2285  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  80%|███████▉  | 785/987 [30:33:44<7:52:38, 140.39s/it]
+  [hard] n= 3,144  parse_fail=    0 ( 0.0%)  cell=0.2285  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  80%|███████▉  | 786/987 [30:36:04<7:50:28, 140.44s/it]
+  [hard] n= 3,148  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  80%|███████▉  | 787/987 [30:38:25<7:48:04, 140.42s/it]
+  [hard] n= 3,152  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0586  col=0.0467
+  [hard]:  80%|███████▉  | 788/987 [30:40:45<7:45:37, 140.39s/it]
+  [hard] n= 3,156  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  80%|███████▉  | 789/987 [30:43:05<7:43:05, 140.33s/it]
+  [hard] n= 3,160  parse_fail=    0 ( 0.0%)  cell=0.2283  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  80%|████████  | 790/987 [30:45:26<7:40:40, 140.31s/it]
+  [hard] n= 3,164  parse_fail=    0 ( 0.0%)  cell=0.2283  board=0.0000  row=0.0586  col=0.0466
+  [hard]:  80%|████████  | 791/987 [30:47:46<7:38:15, 140.28s/it]
+  [hard] n= 3,168  parse_fail=    0 ( 0.0%)  cell=0.2283  board=0.0000  row=0.0587  col=0.0467
+  [hard]:  80%|████████  | 792/987 [30:50:06<7:36:03, 140.33s/it]
+  [hard] n= 3,172  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0588  col=0.0467
+  [hard]:  80%|████████  | 793/987 [30:52:27<7:33:45, 140.34s/it]
+  [hard] n= 3,176  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0588  col=0.0467
+  [hard]:  80%|████████  | 794/987 [30:54:47<7:31:23, 140.33s/it]
+  [hard] n= 3,180  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0589  col=0.0468
+  [hard]:  81%|████████  | 795/987 [30:57:07<7:29:05, 140.34s/it]
+  [hard] n= 3,184  parse_fail=    0 ( 0.0%)  cell=0.2285  board=0.0000  row=0.0589  col=0.0468
+  [hard]:  81%|████████  | 796/987 [30:59:28<7:26:44, 140.34s/it]
+  [hard] n= 3,188  parse_fail=    0 ( 0.0%)  cell=0.2286  board=0.0000  row=0.0588  col=0.0468
+  [hard]:  81%|████████  | 797/987 [31:01:48<7:24:25, 140.34s/it]
+  [hard] n= 3,192  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0587  col=0.0468
+  [hard]:  81%|████████  | 798/987 [31:04:09<7:22:20, 140.42s/it]
+  [hard] n= 3,196  parse_fail=    0 ( 0.0%)  cell=0.2287  board=0.0000  row=0.0588  col=0.0470
+  [hard]:  81%|████████  | 799/987 [31:06:29<7:20:00, 140.43s/it]
+  [hard] n= 3,200  parse_fail=    0 ( 0.0%)  cell=0.2285  board=0.0000  row=0.0587  col=0.0469
+  [hard]:  81%|████████  | 800/987 [31:08:49<7:17:39, 140.43s/it]
+  [hard] n= 3,204  parse_fail=    0 ( 0.0%)  cell=0.2285  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  81%|████████  | 801/987 [31:11:10<7:15:11, 140.38s/it]
+  [hard] n= 3,208  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  81%|████████▏ | 802/987 [31:13:30<7:12:43, 140.34s/it]
+  [hard] n= 3,212  parse_fail=    0 ( 0.0%)  cell=0.2285  board=0.0000  row=0.0587  col=0.0469
+  [hard]:  81%|████████▏ | 803/987 [31:15:50<7:10:20, 140.33s/it]
+  [hard] n= 3,216  parse_fail=    0 ( 0.0%)  cell=0.2285  board=0.0000  row=0.0587  col=0.0469
+  [hard]:  81%|████████▏ | 804/987 [31:18:10<7:07:54, 140.30s/it]
+  [hard] n= 3,220  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0587  col=0.0469
+  [hard]:  82%|████████▏ | 805/987 [31:20:31<7:05:41, 140.34s/it]
+  [hard] n= 3,224  parse_fail=    0 ( 0.0%)  cell=0.2283  board=0.0000  row=0.0586  col=0.0469
+  [hard]:  82%|████████▏ | 806/987 [31:22:51<7:03:31, 140.39s/it]
+  [hard] n= 3,228  parse_fail=    0 ( 0.0%)  cell=0.2283  board=0.0000  row=0.0586  col=0.0468
+  [hard]:  82%|████████▏ | 807/987 [31:25:12<7:01:12, 140.40s/it]
+  [hard] n= 3,232  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0586  col=0.0469
+  [hard]:  82%|████████▏ | 808/987 [31:27:32<6:59:03, 140.46s/it]
+  [hard] n= 3,236  parse_fail=    0 ( 0.0%)  cell=0.2283  board=0.0000  row=0.0586  col=0.0469
+  [hard]:  82%|████████▏ | 809/987 [31:29:53<6:56:31, 140.40s/it]
+  [hard] n= 3,240  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0587  col=0.0469
+  [hard]:  82%|████████▏ | 810/987 [31:32:13<6:53:52, 140.30s/it]
+  [hard] n= 3,244  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0588  col=0.0470
+  [hard]:  82%|████████▏ | 811/987 [31:34:33<6:51:17, 140.21s/it]
+  [hard] n= 3,248  parse_fail=    0 ( 0.0%)  cell=0.2285  board=0.0000  row=0.0588  col=0.0470
+  [hard]:  82%|████████▏ | 812/987 [31:36:53<6:48:48, 140.16s/it]
+  [hard] n= 3,252  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  82%|████████▏ | 813/987 [31:39:13<6:46:22, 140.13s/it]
+  [hard] n= 3,256  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  82%|████████▏ | 814/987 [31:41:33<6:44:07, 140.16s/it]
+  [hard] n= 3,260  parse_fail=    0 ( 0.0%)  cell=0.2283  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  83%|████████▎ | 815/987 [31:43:54<6:42:02, 140.24s/it]
+  [hard] n= 3,264  parse_fail=    0 ( 0.0%)  cell=0.2283  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  83%|████████▎ | 816/987 [31:46:14<6:40:05, 140.38s/it]
+  [hard] n= 3,268  parse_fail=    0 ( 0.0%)  cell=0.2284  board=0.0000  row=0.0588  col=0.0470
+  [hard]:  83%|████████▎ | 817/987 [31:48:35<6:38:03, 140.49s/it]
+  [hard] n= 3,272  parse_fail=    0 ( 0.0%)  cell=0.2283  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  83%|████████▎ | 818/987 [31:50:56<6:35:50, 140.53s/it]
+  [hard] n= 3,276  parse_fail=    0 ( 0.0%)  cell=0.2282  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  83%|████████▎ | 819/987 [31:53:16<6:33:23, 140.50s/it]
+  [hard] n= 3,280  parse_fail=    0 ( 0.0%)  cell=0.2280  board=0.0000  row=0.0587  col=0.0469
+  [hard]:  83%|████████▎ | 820/987 [31:55:36<6:30:46, 140.40s/it]
+  [hard] n= 3,284  parse_fail=    0 ( 0.0%)  cell=0.2280  board=0.0000  row=0.0587  col=0.0469
+  [hard]:  83%|████████▎ | 821/987 [31:57:56<6:28:10, 140.30s/it]
+  [hard] n= 3,288  parse_fail=    0 ( 0.0%)  cell=0.2279  board=0.0000  row=0.0586  col=0.0469
+  [hard]:  83%|████████▎ | 822/987 [32:00:16<6:25:41, 140.25s/it]
+  [hard] n= 3,292  parse_fail=    0 ( 0.0%)  cell=0.2280  board=0.0000  row=0.0586  col=0.0469
+  [hard]:  83%|████████▎ | 823/987 [32:02:37<6:23:14, 140.21s/it]
+  [hard] n= 3,296  parse_fail=    0 ( 0.0%)  cell=0.2279  board=0.0000  row=0.0586  col=0.0468
+  [hard]:  83%|████████▎ | 824/987 [32:04:57<6:20:46, 140.16s/it]
+  [hard] n= 3,300  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0585  col=0.0468
+  [hard]:  84%|████████▎ | 825/987 [32:07:17<6:18:23, 140.14s/it]
+  [hard] n= 3,304  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0585  col=0.0468
+  [hard]:  84%|████████▎ | 826/987 [32:09:37<6:16:10, 140.19s/it]
+  [hard] n= 3,308  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0584  col=0.0467
+  [hard]:  84%|████████▍ | 827/987 [32:11:57<6:13:52, 140.20s/it]
+  [hard] n= 3,312  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0585  col=0.0468
+  [hard]:  84%|████████▍ | 828/987 [32:14:18<6:11:42, 140.26s/it]
+  [hard] n= 3,316  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0585  col=0.0467
+  [hard]:  84%|████████▍ | 829/987 [32:16:38<6:09:16, 140.23s/it]
+  [hard] n= 3,320  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0584  col=0.0468
+  [hard]:  84%|████████▍ | 830/987 [32:18:58<6:06:52, 140.21s/it]
+  [hard] n= 3,324  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0584  col=0.0467
+  [hard]:  84%|████████▍ | 831/987 [32:21:18<6:04:31, 140.20s/it]
+  [hard] n= 3,328  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0584  col=0.0467
+  [hard]:  84%|████████▍ | 832/987 [32:23:38<6:02:18, 140.25s/it]
+  [hard] n= 3,332  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0584  col=0.0468
+  [hard]:  84%|████████▍ | 833/987 [32:25:59<6:00:07, 140.31s/it]
+  [hard] n= 3,336  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0584  col=0.0467
+  [hard]:  84%|████████▍ | 834/987 [32:28:19<5:57:50, 140.33s/it]
+  [hard] n= 3,340  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0583  col=0.0467
+  [hard]:  85%|████████▍ | 835/987 [32:30:40<5:55:31, 140.34s/it]
+  [hard] n= 3,344  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0583  col=0.0466
+  [hard]:  85%|████████▍ | 836/987 [32:33:00<5:53:10, 140.33s/it]
+  [hard] n= 3,348  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0583  col=0.0466
+  [hard]:  85%|████████▍ | 837/987 [32:35:20<5:50:51, 140.35s/it]
+  [hard] n= 3,352  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0584  col=0.0467
+  [hard]:  85%|████████▍ | 838/987 [32:37:41<5:48:36, 140.38s/it]
+  [hard] n= 3,356  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0584  col=0.0468
+  [hard]:  85%|████████▌ | 839/987 [32:40:01<5:46:16, 140.38s/it]
+  [hard] n= 3,360  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0584  col=0.0468
+  [hard]:  85%|████████▌ | 840/987 [32:42:22<5:44:04, 140.44s/it]
+  [hard] n= 3,364  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0583  col=0.0467
+  [hard]:  85%|████████▌ | 841/987 [32:44:42<5:41:42, 140.42s/it]
+  [hard] n= 3,368  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0583  col=0.0467
+  [hard]:  85%|████████▌ | 842/987 [32:47:03<5:39:18, 140.40s/it]
+  [hard] n= 3,372  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0583  col=0.0467
+  [hard]:  85%|████████▌ | 843/987 [32:49:23<5:37:00, 140.42s/it]
+  [hard] n= 3,376  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0583  col=0.0467
+  [hard]:  86%|████████▌ | 844/987 [32:51:44<5:34:54, 140.52s/it]
+  [hard] n= 3,380  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0583  col=0.0467
+  [hard]:  86%|████████▌ | 845/987 [32:54:04<5:32:21, 140.43s/it]
+  [hard] n= 3,384  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0583  col=0.0468
+  [hard]:  86%|████████▌ | 846/987 [32:56:25<5:30:07, 140.48s/it]
+  [hard] n= 3,388  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0582  col=0.0467
+  [hard]:  86%|████████▌ | 847/987 [32:58:45<5:27:39, 140.43s/it]
+  [hard] n= 3,392  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0583  col=0.0467
+  [hard]:  86%|████████▌ | 848/987 [33:01:05<5:25:23, 140.45s/it]
+  [hard] n= 3,396  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0583  col=0.0467
+  [hard]:  86%|████████▌ | 849/987 [33:03:26<5:23:01, 140.44s/it]
+  [hard] n= 3,400  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0582  col=0.0466
+  [hard]:  86%|████████▌ | 850/987 [33:05:46<5:20:41, 140.45s/it]
+  [hard] n= 3,404  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0581  col=0.0466
+  [hard]:  86%|████████▌ | 851/987 [33:08:07<5:18:22, 140.46s/it]
+  [hard] n= 3,408  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0581  col=0.0466
+  [hard]:  86%|████████▋ | 852/987 [33:10:27<5:16:03, 140.47s/it]
+  [hard] n= 3,412  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0581  col=0.0466
+  [hard]:  86%|████████▋ | 853/987 [33:12:48<5:13:39, 140.44s/it]
+  [hard] n= 3,416  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0581  col=0.0465
+  [hard]:  87%|████████▋ | 854/987 [33:15:08<5:11:13, 140.41s/it]
+  [hard] n= 3,420  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0580  col=0.0465
+  [hard]:  87%|████████▋ | 855/987 [33:17:28<5:08:50, 140.39s/it]
+  [hard] n= 3,424  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0580  col=0.0465
+  [hard]:  87%|████████▋ | 856/987 [33:19:49<5:06:32, 140.40s/it]
+  [hard] n= 3,428  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0580  col=0.0465
+  [hard]:  87%|████████▋ | 857/987 [33:22:09<5:04:17, 140.44s/it]
+  [hard] n= 3,432  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0580  col=0.0465
+  [hard]:  87%|████████▋ | 858/987 [33:24:30<5:02:02, 140.48s/it]
+  [hard] n= 3,436  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0581  col=0.0466
+  [hard]:  87%|████████▋ | 859/987 [33:26:50<4:59:39, 140.46s/it]
+  [hard] n= 3,440  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0582  col=0.0465
+  [hard]:  87%|████████▋ | 860/987 [33:29:11<4:57:20, 140.48s/it]
+  [hard] n= 3,444  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0582  col=0.0465
+  [hard]:  87%|████████▋ | 861/987 [33:31:31<4:54:58, 140.46s/it]
+  [hard] n= 3,448  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0582  col=0.0465
+  [hard]:  87%|████████▋ | 862/987 [33:33:52<4:52:39, 140.47s/it]
+  [hard] n= 3,452  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0582  col=0.0465
+  [hard]:  87%|████████▋ | 863/987 [33:36:12<4:50:18, 140.47s/it]
+  [hard] n= 3,456  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0581  col=0.0465
+  [hard]:  88%|████████▊ | 864/987 [33:38:33<4:48:03, 140.52s/it]
+  [hard] n= 3,460  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0582  col=0.0465
+  [hard]:  88%|████████▊ | 865/987 [33:40:53<4:45:40, 140.49s/it]
+  [hard] n= 3,464  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0582  col=0.0465
+  [hard]:  88%|████████▊ | 866/987 [33:43:14<4:43:16, 140.46s/it]
+  [hard] n= 3,468  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0581  col=0.0466
+  [hard]:  88%|████████▊ | 867/987 [33:45:34<4:41:00, 140.50s/it]
+  [hard] n= 3,472  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0581  col=0.0466
+  [hard]:  88%|████████▊ | 868/987 [33:47:55<4:38:38, 140.49s/it]
+  [hard] n= 3,476  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0582  col=0.0467
+  [hard]:  88%|████████▊ | 869/987 [33:50:15<4:36:11, 140.44s/it]
+  [hard] n= 3,480  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0581  col=0.0467
+  [hard]:  88%|████████▊ | 870/987 [33:52:35<4:33:49, 140.42s/it]
+  [hard] n= 3,484  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0581  col=0.0466
+  [hard]:  88%|████████▊ | 871/987 [33:54:56<4:31:32, 140.45s/it]
+  [hard] n= 3,488  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0581  col=0.0467
+  [hard]:  88%|████████▊ | 872/987 [33:57:16<4:29:16, 140.49s/it]
+  [hard] n= 3,492  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0581  col=0.0466
+  [hard]:  88%|████████▊ | 873/987 [33:59:37<4:26:57, 140.50s/it]
+  [hard] n= 3,496  parse_fail=    0 ( 0.0%)  cell=0.2269  board=0.0000  row=0.0580  col=0.0466
+  [hard]:  89%|████████▊ | 874/987 [34:01:58<4:24:37, 140.51s/it]
+  [hard] n= 3,500  parse_fail=    0 ( 0.0%)  cell=0.2268  board=0.0000  row=0.0580  col=0.0465
+  [hard]:  89%|████████▊ | 875/987 [34:04:18<4:22:20, 140.54s/it]
+  [hard] n= 3,504  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0581  col=0.0466
+  [hard]:  89%|████████▉ | 876/987 [34:06:38<4:19:54, 140.49s/it]
+  [hard] n= 3,508  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0582  col=0.0467
+  [hard]:  89%|████████▉ | 877/987 [34:08:59<4:17:33, 140.49s/it]
+  [hard] n= 3,512  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0582  col=0.0467
+  [hard]:  89%|████████▉ | 878/987 [34:11:20<4:15:16, 140.51s/it]
+  [hard] n= 3,516  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0582  col=0.0467
+  [hard]:  89%|████████▉ | 879/987 [34:13:40<4:12:49, 140.46s/it]
+  [hard] n= 3,520  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0581  col=0.0466
+  [hard]:  89%|████████▉ | 880/987 [34:16:00<4:10:29, 140.46s/it]
+  [hard] n= 3,524  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0583  col=0.0466
+  [hard]:  89%|████████▉ | 881/987 [34:18:21<4:08:07, 140.45s/it]
+  [hard] n= 3,528  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0582  col=0.0466
+  [hard]:  89%|████████▉ | 882/987 [34:20:41<4:05:53, 140.51s/it]
+  [hard] n= 3,532  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0582  col=0.0466
+  [hard]:  89%|████████▉ | 883/987 [34:23:02<4:03:38, 140.56s/it]
+  [hard] n= 3,536  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0582  col=0.0466
+  [hard]:  90%|████████▉ | 884/987 [34:25:23<4:01:21, 140.59s/it]
+  [hard] n= 3,540  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0582  col=0.0465
+  [hard]:  90%|████████▉ | 885/987 [34:27:44<3:59:06, 140.66s/it]
+  [hard] n= 3,544  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0584  col=0.0466
+  [hard]:  90%|████████▉ | 886/987 [34:30:04<3:56:43, 140.63s/it]
+  [hard] n= 3,548  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0584  col=0.0466
+  [hard]:  90%|████████▉ | 887/987 [34:32:25<3:54:19, 140.60s/it]
+  [hard] n= 3,552  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0584  col=0.0466
+  [hard]:  90%|████████▉ | 888/987 [34:34:45<3:51:51, 140.52s/it]
+  [hard] n= 3,556  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0584  col=0.0466
+  [hard]:  90%|█████████ | 889/987 [34:37:05<3:49:24, 140.45s/it]
+  [hard] n= 3,560  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0584  col=0.0466
+  [hard]:  90%|█████████ | 890/987 [34:39:26<3:46:57, 140.39s/it]
+  [hard] n= 3,564  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0584  col=0.0466
+  [hard]:  90%|█████████ | 891/987 [34:41:46<3:44:26, 140.28s/it]
+  [hard] n= 3,568  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0585  col=0.0467
+  [hard]:  90%|█████████ | 892/987 [34:44:06<3:42:05, 140.27s/it]
+  [hard] n= 3,572  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0585  col=0.0468
+  [hard]:  90%|█████████ | 893/987 [34:46:26<3:39:48, 140.30s/it]
+  [hard] n= 3,576  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0586  col=0.0468
+  [hard]:  91%|█████████ | 894/987 [34:48:47<3:37:30, 140.33s/it]
+  [hard] n= 3,580  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0586  col=0.0468
+  [hard]:  91%|█████████ | 895/987 [34:51:07<3:35:16, 140.40s/it]
+  [hard] n= 3,584  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0586  col=0.0468
+  [hard]:  91%|█████████ | 896/987 [34:53:28<3:32:58, 140.43s/it]
+  [hard] n= 3,588  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0587  col=0.0469
+  [hard]:  91%|█████████ | 897/987 [34:55:48<3:30:41, 140.46s/it]
+  [hard] n= 3,592  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0586  col=0.0468
+  [hard]:  91%|█████████ | 898/987 [34:58:08<3:28:15, 140.40s/it]
+  [hard] n= 3,596  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0586  col=0.0468
+  [hard]:  91%|█████████ | 899/987 [35:00:29<3:25:54, 140.39s/it]
+  [hard] n= 3,600  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0585  col=0.0468
+  [hard]:  91%|█████████ | 900/987 [35:02:49<3:23:28, 140.32s/it]
+  [hard] n= 3,604  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0586  col=0.0468
+  [hard]:  91%|█████████▏| 901/987 [35:05:09<3:21:05, 140.29s/it]
+  [hard] n= 3,608  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0586  col=0.0468
+  [hard]:  91%|█████████▏| 902/987 [35:07:29<3:18:42, 140.26s/it]
+  [hard] n= 3,612  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0585  col=0.0468
+  [hard]:  91%|█████████▏| 903/987 [35:09:50<3:16:19, 140.23s/it]
+  [hard] n= 3,616  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0585  col=0.0468
+  [hard]:  92%|█████████▏| 904/987 [35:12:10<3:14:03, 140.29s/it]
+  [hard] n= 3,620  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0586  col=0.0468
+  [hard]:  92%|█████████▏| 905/987 [35:14:31<3:11:51, 140.38s/it]
+  [hard] n= 3,624  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0586  col=0.0468
+  [hard]:  92%|█████████▏| 906/987 [35:16:51<3:09:35, 140.44s/it]
+  [hard] n= 3,628  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0586  col=0.0469
+  [hard]:  92%|█████████▏| 907/987 [35:19:12<3:07:17, 140.47s/it]
+  [hard] n= 3,632  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0586  col=0.0469
+  [hard]:  92%|█████████▏| 908/987 [35:21:32<3:04:49, 140.38s/it]
+  [hard] n= 3,636  parse_fail=    0 ( 0.0%)  cell=0.2279  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  92%|█████████▏| 909/987 [35:23:52<3:02:26, 140.34s/it]
+  [hard] n= 3,640  parse_fail=    0 ( 0.0%)  cell=0.2279  board=0.0000  row=0.0588  col=0.0470
+  [hard]:  92%|█████████▏| 910/987 [35:26:12<3:00:00, 140.27s/it]
+  [hard] n= 3,644  parse_fail=    0 ( 0.0%)  cell=0.2278  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  92%|█████████▏| 911/987 [35:28:32<2:57:37, 140.23s/it]
+  [hard] n= 3,648  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  92%|█████████▏| 912/987 [35:30:53<2:55:15, 140.21s/it]
+  [hard] n= 3,652  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  93%|█████████▎| 913/987 [35:33:13<2:53:02, 140.30s/it]
+  [hard] n= 3,656  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0586  col=0.0469
+  [hard]:  93%|█████████▎| 914/987 [35:35:33<2:50:43, 140.32s/it]
+  [hard] n= 3,660  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  93%|█████████▎| 915/987 [35:37:54<2:48:27, 140.39s/it]
+  [hard] n= 3,664  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  93%|█████████▎| 916/987 [35:40:14<2:46:07, 140.39s/it]
+  [hard] n= 3,668  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  93%|█████████▎| 917/987 [35:42:35<2:43:47, 140.40s/it]
+  [hard] n= 3,672  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  93%|█████████▎| 918/987 [35:44:55<2:41:24, 140.35s/it]
+  [hard] n= 3,676  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  93%|█████████▎| 919/987 [35:47:15<2:39:00, 140.30s/it]
+  [hard] n= 3,680  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0587  col=0.0470
+  [hard]:  93%|█████████▎| 920/987 [35:49:35<2:36:37, 140.26s/it]
+  [hard] n= 3,684  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0587  col=0.0471
+  [hard]:  93%|█████████▎| 921/987 [35:51:56<2:34:17, 140.27s/it]
+  [hard] n= 3,688  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0587  col=0.0472
+  [hard]:  93%|█████████▎| 922/987 [35:54:16<2:32:00, 140.32s/it]
+  [hard] n= 3,692  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0587  col=0.0472
+  [hard]:  94%|█████████▎| 923/987 [35:56:37<2:29:50, 140.47s/it]
+  [hard] n= 3,696  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0587  col=0.0473
+  [hard]:  94%|█████████▎| 924/987 [35:58:58<2:27:36, 140.58s/it]
+  [hard] n= 3,700  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0586  col=0.0472
+  [hard]:  94%|█████████▎| 925/987 [36:01:18<2:25:17, 140.60s/it]
+  [hard] n= 3,704  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0586  col=0.0472
+  [hard]:  94%|█████████▍| 926/987 [36:03:39<2:22:55, 140.59s/it]
+  [hard] n= 3,708  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0586  col=0.0471
+  [hard]:  94%|█████████▍| 927/987 [36:05:59<2:20:29, 140.49s/it]
+  [hard] n= 3,712  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0587  col=0.0472
+  [hard]:  94%|█████████▍| 928/987 [36:08:19<2:18:04, 140.41s/it]
+  [hard] n= 3,716  parse_fail=    0 ( 0.0%)  cell=0.2278  board=0.0000  row=0.0587  col=0.0473
+  [hard]:  94%|█████████▍| 929/987 [36:10:40<2:15:39, 140.34s/it]
+  [hard] n= 3,720  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0587  col=0.0473
+  [hard]:  94%|█████████▍| 930/987 [36:13:00<2:13:16, 140.28s/it]
+  [hard] n= 3,724  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0587  col=0.0473
+  [hard]:  94%|█████████▍| 931/987 [36:15:20<2:10:57, 140.31s/it]
+  [hard] n= 3,728  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0587  col=0.0472
+  [hard]:  94%|█████████▍| 932/987 [36:17:41<2:08:40, 140.37s/it]
+  [hard] n= 3,732  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0587  col=0.0472
+  [hard]:  95%|█████████▍| 933/987 [36:20:01<2:06:24, 140.46s/it]
+  [hard] n= 3,736  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0586  col=0.0471
+  [hard]:  95%|█████████▍| 934/987 [36:22:22<2:04:05, 140.49s/it]
+  [hard] n= 3,740  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0586  col=0.0471
+  [hard]:  95%|█████████▍| 935/987 [36:24:42<2:01:46, 140.51s/it]
+  [hard] n= 3,744  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0586  col=0.0471
+  [hard]:  95%|█████████▍| 936/987 [36:27:03<1:59:25, 140.50s/it]
+  [hard] n= 3,748  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0585  col=0.0470
+  [hard]:  95%|█████████▍| 937/987 [36:29:23<1:57:03, 140.47s/it]
+  [hard] n= 3,752  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0585  col=0.0470
+  [hard]:  95%|█████████▌| 938/987 [36:31:43<1:54:37, 140.37s/it]
+  [hard] n= 3,756  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0585  col=0.0470
+  [hard]:  95%|█████████▌| 939/987 [36:34:03<1:52:13, 140.27s/it]
+  [hard] n= 3,760  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0585  col=0.0470
+  [hard]:  95%|█████████▌| 940/987 [36:36:23<1:49:48, 140.17s/it]
+  [hard] n= 3,764  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0585  col=0.0470
+  [hard]:  95%|█████████▌| 941/987 [36:38:44<1:47:27, 140.15s/it]
+  [hard] n= 3,768  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0584  col=0.0470
+  [hard]:  95%|█████████▌| 942/987 [36:41:04<1:45:07, 140.16s/it]
+  [hard] n= 3,772  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0584  col=0.0470
+  [hard]:  96%|█████████▌| 943/987 [36:43:24<1:42:49, 140.22s/it]
+  [hard] n= 3,776  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0585  col=0.0471
+  [hard]:  96%|█████████▌| 944/987 [36:45:44<1:40:32, 140.28s/it]
+  [hard] n= 3,780  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0586  col=0.0471
+  [hard]:  96%|█████████▌| 945/987 [36:48:05<1:38:13, 140.32s/it]
+  [hard] n= 3,784  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0585  col=0.0471
+  [hard]:  96%|█████████▌| 946/987 [36:50:25<1:35:51, 140.29s/it]
+  [hard] n= 3,788  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0585  col=0.0470
+  [hard]:  96%|█████████▌| 947/987 [36:52:45<1:33:30, 140.26s/it]
+  [hard] n= 3,792  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0585  col=0.0471
+  [hard]:  96%|█████████▌| 948/987 [36:55:05<1:31:06, 140.17s/it]
+  [hard] n= 3,796  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0585  col=0.0470
+  [hard]:  96%|█████████▌| 949/987 [36:57:25<1:28:43, 140.08s/it]
+  [hard] n= 3,800  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0584  col=0.0470
+  [hard]:  96%|█████████▋| 950/987 [36:59:45<1:26:21, 140.04s/it]
+  [hard] n= 3,804  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0584  col=0.0470
+  [hard]:  96%|█████████▋| 951/987 [37:02:05<1:24:00, 140.03s/it]
+  [hard] n= 3,808  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0584  col=0.0470
+  [hard]:  96%|█████████▋| 952/987 [37:04:25<1:21:42, 140.06s/it]
+  [hard] n= 3,812  parse_fail=    0 ( 0.0%)  cell=0.2278  board=0.0000  row=0.0585  col=0.0471
+  [hard]:  97%|█████████▋| 953/987 [37:06:45<1:19:22, 140.06s/it]
+  [hard] n= 3,816  parse_fail=    0 ( 0.0%)  cell=0.2278  board=0.0000  row=0.0585  col=0.0471
+  [hard]:  97%|█████████▋| 954/987 [37:09:05<1:17:02, 140.07s/it]
+  [hard] n= 3,820  parse_fail=    0 ( 0.0%)  cell=0.2279  board=0.0000  row=0.0584  col=0.0471
+  [hard]:  97%|█████████▋| 955/987 [37:11:26<1:14:43, 140.11s/it]
+  [hard] n= 3,824  parse_fail=    0 ( 0.0%)  cell=0.2278  board=0.0000  row=0.0583  col=0.0471
+  [hard]:  97%|█████████▋| 956/987 [37:13:46<1:12:24, 140.14s/it]
+  [hard] n= 3,828  parse_fail=    0 ( 0.0%)  cell=0.2278  board=0.0000  row=0.0583  col=0.0471
+  [hard]:  97%|█████████▋| 957/987 [37:16:06<1:10:03, 140.11s/it]
+  [hard] n= 3,832  parse_fail=    0 ( 0.0%)  cell=0.2278  board=0.0000  row=0.0583  col=0.0471
+  [hard]:  97%|█████████▋| 958/987 [37:18:26<1:07:42, 140.09s/it]
+  [hard] n= 3,836  parse_fail=    0 ( 0.0%)  cell=0.2278  board=0.0000  row=0.0583  col=0.0471
+  [hard]:  97%|█████████▋| 959/987 [37:20:46<1:05:21, 140.07s/it]
+  [hard] n= 3,840  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0583  col=0.0470
+  [hard]:  97%|█████████▋| 960/987 [37:23:06<1:03:01, 140.06s/it]
+  [hard] n= 3,844  parse_fail=    0 ( 0.0%)  cell=0.2277  board=0.0000  row=0.0582  col=0.0470
+  [hard]:  97%|█████████▋| 961/987 [37:25:26<1:00:41, 140.07s/it]
+  [hard] n= 3,848  parse_fail=    0 ( 0.0%)  cell=0.2276  board=0.0000  row=0.0582  col=0.0470
+  [hard]:  97%|█████████▋| 962/987 [37:27:46<58:22, 140.09s/it]  
+  [hard] n= 3,852  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0582  col=0.0470
+  [hard]:  98%|█████████▊| 963/987 [37:30:06<56:03, 140.13s/it]
+  [hard] n= 3,856  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0582  col=0.0469
+  [hard]:  98%|█████████▊| 964/987 [37:32:27<53:44, 140.18s/it]
+  [hard] n= 3,860  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0582  col=0.0469
+  [hard]:  98%|█████████▊| 965/987 [37:34:47<51:25, 140.26s/it]
+  [hard] n= 3,864  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0581  col=0.0469
+  [hard]:  98%|█████████▊| 966/987 [37:37:08<49:06, 140.32s/it]
+  [hard] n= 3,868  parse_fail=    0 ( 0.0%)  cell=0.2274  board=0.0000  row=0.0582  col=0.0470
+  [hard]:  98%|█████████▊| 967/987 [37:39:28<46:46, 140.31s/it]
+  [hard] n= 3,872  parse_fail=    0 ( 0.0%)  cell=0.2275  board=0.0000  row=0.0583  col=0.0469
+  [hard]:  98%|█████████▊| 968/987 [37:41:48<44:25, 140.29s/it]
+  [hard] n= 3,876  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0582  col=0.0469
+  [hard]:  98%|█████████▊| 969/987 [37:44:08<42:03, 140.22s/it]
+  [hard] n= 3,880  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0582  col=0.0468
+  [hard]:  98%|█████████▊| 970/987 [37:46:28<39:42, 140.16s/it]
+  [hard] n= 3,884  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0581  col=0.0468
+  [hard]:  98%|█████████▊| 971/987 [37:48:48<37:21, 140.10s/it]
+  [hard] n= 3,888  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0582  col=0.0468
+  [hard]:  98%|█████████▊| 972/987 [37:51:08<35:00, 140.05s/it]
+  [hard] n= 3,892  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0582  col=0.0468
+  [hard]:  99%|█████████▊| 973/987 [37:53:28<32:40, 140.03s/it]
+  [hard] n= 3,896  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0582  col=0.0468
+  [hard]:  99%|█████████▊| 974/987 [37:55:48<30:20, 140.03s/it]
+  [hard] n= 3,900  parse_fail=    0 ( 0.0%)  cell=0.2273  board=0.0000  row=0.0582  col=0.0468
+  [hard]:  99%|█████████▉| 975/987 [37:58:08<28:00, 140.03s/it]
+  [hard] n= 3,904  parse_fail=    0 ( 0.0%)  cell=0.2272  board=0.0000  row=0.0581  col=0.0467
+  [hard]:  99%|█████████▉| 976/987 [38:00:28<25:40, 140.02s/it]
+  [hard] n= 3,908  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0582  col=0.0467
+  [hard]:  99%|█████████▉| 977/987 [38:02:48<23:20, 140.03s/it]
+  [hard] n= 3,912  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0582  col=0.0467
+  [hard]:  99%|█████████▉| 978/987 [38:05:08<21:00, 140.02s/it]
+  [hard] n= 3,916  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0582  col=0.0467
+  [hard]:  99%|█████████▉| 979/987 [38:07:28<18:40, 140.01s/it]
+  [hard] n= 3,920  parse_fail=    0 ( 0.0%)  cell=0.2270  board=0.0000  row=0.0581  col=0.0466
+  [hard]:  99%|█████████▉| 980/987 [38:09:48<16:20, 140.01s/it]
+  [hard] n= 3,924  parse_fail=    0 ( 0.0%)  cell=0.2270  board=0.0000  row=0.0581  col=0.0466
+  [hard]:  99%|█████████▉| 981/987 [38:12:08<14:00, 140.02s/it]
+  [hard] n= 3,928  parse_fail=    0 ( 0.0%)  cell=0.2271  board=0.0000  row=0.0581  col=0.0466
+  [hard]:  99%|█████████▉| 982/987 [38:14:28<11:40, 140.04s/it]
+  [hard] n= 3,932  parse_fail=    0 ( 0.0%)  cell=0.2269  board=0.0000  row=0.0580  col=0.0465
+  [hard]: 100%|█████████▉| 983/987 [38:16:48<09:20, 140.04s/it]
+  [hard] n= 3,936  parse_fail=    0 ( 0.0%)  cell=0.2268  board=0.0000  row=0.0580  col=0.0465
+  [hard]: 100%|█████████▉| 984/987 [38:19:09<07:00, 140.08s/it]
+  [hard] n= 3,940  parse_fail=    0 ( 0.0%)  cell=0.2267  board=0.0000  row=0.0580  col=0.0465
+  [hard]: 100%|█████████▉| 985/987 [38:21:29<04:40, 140.10s/it]
+  [hard] n= 3,944  parse_fail=    0 ( 0.0%)  cell=0.2267  board=0.0000  row=0.0580  col=0.0465
+  [hard]: 100%|█████████▉| 986/987 [38:23:49<02:20, 140.08s/it]
+  [hard] n= 3,946  parse_fail=    0 ( 0.0%)  cell=0.2267  board=0.0000  row=0.0580  col=0.0465
+  [hard]: 100%|██████████| 987/987 [38:24:56<00:00, 118.22s/it]  [hard]: 100%|██████████| 987/987 [38:24:56<00:00, 140.12s/it]
+
+  Results -- hard (3shot)
+  Evaluated           :      3,946
+  Parse failures      :          0  (0.0%)
+  Cell accuracy       :     0.2267
+  Board accuracy      :     0.0000
+  Row accuracy        :     0.0580
+  Col accuracy        :     0.0465
+  Wall time           :   138296.4s
+
+  Saving to results_sudoku/0shot_dream/
+    -> results_sudoku/0shot_dream/hard_3shot.summary.json
+    -> results_sudoku/0shot_dream/hard_3shot.per_sample.jsonl
+    -> results_sudoku/0shot_dream/hard_3shot.samples.json
+    -> results_sudoku/0shot_dream/hard_3shot.samples.txt
+
+======================================================================
+  Combined summary -> results_sudoku/0shot_dream/combined_3shot.json
+  Total wall time  : 138302.6s
+======================================================================
+

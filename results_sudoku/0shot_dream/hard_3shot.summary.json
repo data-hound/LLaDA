@@ -1,0 +1,31 @@
+{
+  "config": {
+    "difficulty": [
+      "hard"
+    ],
+    "n_samples": 4000,
+    "no_streaming": false,
+    "seed": 42,
+    "model": "Dream-org/Dream-v0-Instruct-7B",
+    "device": "cuda",
+    "mask_id": 126336,
+    "batch_size": 4,
+    "gen_length": 256,
+    "steps": 128,
+    "block_length": 256,
+    "few_shot": 3,
+    "output_dir": "results_sudoku/0shot_dream",
+    "n_success_samples": 5,
+    "n_failure_samples": 10
+  },
+  "difficulty": "hard",
+  "aggregate": {
+    "n_total": 3946,
+    "n_parse_fail": 0,
+    "pct_parse_fail": 0.0,
+    "cell_acc": 0.2267095726845052,
+    "board_acc": 0.0,
+    "row_acc": 0.05797713577743988,
+    "col_acc": 0.04648870867826773
+  }
+}

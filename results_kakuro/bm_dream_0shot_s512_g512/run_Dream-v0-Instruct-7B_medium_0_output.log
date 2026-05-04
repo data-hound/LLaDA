@@ -1,0 +1,47 @@
+/hpc/group/tdunn/as1296/miniconda3/envs/diffusion_lang/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+[eval_kakuro] Loading model: Dream-org/Dream-v0-Instruct-7B
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:00<00:00, 104.41it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+
+──────────────────────────────────────────────────────────────────────
+  Difficulty : MEDIUM    few-shot : 0
+──────────────────────────────────────────────────────────────────────
+  Loading dataset ...
+  [KakuroGrid] Loading from HuggingFace: Apaxdor/Kakuro_mania (subset=default, split=train, streaming=True)
+  Loaded 120 [medium] problems.
+  Test set (this run): 20 problems
+  Total after completion: 20 / 20
+  [medium]:   0%|          | 0/5 [00:00<?, ?it/s]
+  [medium] n=     4  parse_fail=    3 (75.0%)  cell=0.0063  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  20%|██        | 1/5 [05:46<23:06, 346.51s/it]
+  [medium] n=     8  parse_fail=    6 (75.0%)  cell=0.0214  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  40%|████      | 2/5 [11:32<17:18, 346.15s/it]
+  [medium] n=    12  parse_fail=    8 (66.7%)  cell=0.0200  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  60%|██████    | 3/5 [17:20<11:33, 346.85s/it]
+  [medium] n=    16  parse_fail=   10 (62.5%)  cell=0.0306  board=0.0000  row=0.0063  col=0.0000
+  [medium]:  80%|████████  | 4/5 [23:07<05:46, 346.96s/it]
+  [medium] n=    20  parse_fail=   13 (65.0%)  cell=0.0245  board=0.0000  row=0.0050  col=0.0000
+  [medium]: 100%|██████████| 5/5 [29:08<00:00, 352.06s/it]  [medium]: 100%|██████████| 5/5 [29:08<00:00, 349.66s/it]
+
+  Results -- medium (0shot)
+  Evaluated           :         20
+  Parse failures      :         13  (65.0%)
+  Cell accuracy       :     0.0245
+  Board accuracy      :     0.0000
+  Row accuracy        :     0.0050
+  Col accuracy        :     0.0000
+  Wall time           :     1748.3s
+
+  Saving to results_kakuro/bm_dream_0shot_s512_g512/
+    -> results_kakuro/bm_dream_0shot_s512_g512/medium_0shot.summary.json
+    -> results_kakuro/bm_dream_0shot_s512_g512/medium_0shot.per_sample.jsonl
+    -> results_kakuro/bm_dream_0shot_s512_g512/medium_0shot.samples.json
+    -> results_kakuro/bm_dream_0shot_s512_g512/medium_0shot.samples.txt
+
+======================================================================
+  Combined summary -> results_kakuro/bm_dream_0shot_s512_g512/combined_0shot.json
+  Total wall time  : 1750.9s
+======================================================================
+

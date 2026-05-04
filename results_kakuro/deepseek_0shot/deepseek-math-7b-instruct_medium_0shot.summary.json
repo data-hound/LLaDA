@@ -1,0 +1,28 @@
+{
+  "config": {
+    "difficulty": [
+      "medium"
+    ],
+    "n_samples": 10000,
+    "no_streaming": false,
+    "seed": 42,
+    "model": "deepseek-ai/deepseek-math-7b-instruct",
+    "device": "cuda",
+    "batch_size": 16,
+    "max_new_tokens": 512,
+    "few_shot": 0,
+    "output_dir": "results_kakuro/deepseek_0shot",
+    "n_success_samples": 5,
+    "n_failure_samples": 10
+  },
+  "difficulty": "medium",
+  "aggregate": {
+    "n_total": 10000,
+    "n_parse_fail": 6472,
+    "pct_parse_fail": 64.72,
+    "cell_acc": 0.028500052393168756,
+    "board_acc": 0.0,
+    "row_acc": 0.00109,
+    "col_acc": 0.0009600000000000001
+  }
+}

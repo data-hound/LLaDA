@@ -3,13 +3,13 @@
     "difficulty": [
       "easy"
     ],
-    "n_samples": 1000,
+    "n_samples": 10000,
     "no_streaming": false,
     "seed": 42,
     "model": "Dream-org/Dream-v0-Instruct-7B",
     "device": "cuda",
     "mask_id": 126336,
-    "batch_size": 64,
+    "batch_size": 4,
     "gen_length": 256,
     "steps": 128,
     "block_length": 256,
@@ -20,12 +20,12 @@
   },
   "difficulty": "easy",
   "aggregate": {
-    "n_total": 1000,
-    "n_parse_fail": 1000,
-    "pct_parse_fail": 100.0,
-    "cell_acc": 0.0,
-    "board_acc": 0.0,
-    "row_acc": 0.0,
-    "col_acc": 0.0
+    "n_total": 10000,
+    "n_parse_fail": 1,
+    "pct_parse_fail": 0.01,
+    "cell_acc": 0.42588320969363,
+    "board_acc": 0.0358,
+    "row_acc": 0.3076777777777778,
+    "col_acc": 0.26113333333333333
   }
 }

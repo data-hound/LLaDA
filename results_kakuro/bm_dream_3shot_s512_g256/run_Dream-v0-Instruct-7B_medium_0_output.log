@@ -1,0 +1,8 @@
+/hpc/group/tdunn/as1296/miniconda3/envs/diffusion_lang/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/hpc/group/tdunn/asabath/ece790_diffusion/Project/LLaDA/eval_kakuro.py", line 1099, in <module>
+    main()
+  File "/hpc/group/tdunn/asabath/ece790_diffusion/Project/LLaDA/eval_kakuro.py", line 943, in main
+    assert args.gen_length % args.block_length == 0, (
+AssertionError: gen-length (256) must be divisible by block-length (512).

@@ -1,0 +1,45 @@
+/hpc/group/tdunn/as1296/miniconda3/envs/diffusion_lang/lib/python3.10/site-packages/transformers/utils/hub.py:110: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+[eval_kakuro] Loading model: GSAI-ML/LLaDA-8B-Instruct
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 6/6 [00:00<00:00, 161.21it/s]
+
+──────────────────────────────────────────────────────────────────────
+  Difficulty : MEDIUM    few-shot : 3
+──────────────────────────────────────────────────────────────────────
+  Loading dataset ...
+  [KakuroGrid] Loading from HuggingFace: Apaxdor/Kakuro_mania (subset=default, split=train, streaming=True)
+  Loaded 107 [medium] problems.
+  Reserving 3 few-shot examples (excluded from test set).
+  Test set (this run): 4 problems
+  Total after completion: 4 / 4
+  [medium]:   0%|          | 0/4 [00:00<?, ?it/s]
+  [medium] n=     1  parse_fail=    1 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  25%|██▌       | 1/4 [01:19<03:59, 79.67s/it]
+  [medium] n=     2  parse_fail=    2 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  50%|█████     | 2/4 [02:39<02:39, 79.60s/it]
+  [medium] n=     3  parse_fail=    3 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:  75%|███████▌  | 3/4 [03:58<01:19, 79.63s/it]
+  [medium] n=     4  parse_fail=    4 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]: 100%|██████████| 4/4 [05:18<00:00, 79.63s/it]  [medium]: 100%|██████████| 4/4 [05:18<00:00, 79.63s/it]
+
+  Results -- medium (3shot)
+  Evaluated           :          4
+  Parse failures      :          4  (100.0%)
+  Cell accuracy       :     0.0000
+  Board accuracy      :     0.0000
+  Row accuracy        :     0.0000
+  Col accuracy        :     0.0000
+  Wall time           :      318.5s
+
+  Saving to results_kakuro/llada_3shot/
+    -> results_kakuro/llada_3shot/medium_3shot.summary.json
+    -> results_kakuro/llada_3shot/medium_3shot.per_sample.jsonl
+    -> results_kakuro/llada_3shot/medium_3shot.samples.json
+    -> results_kakuro/llada_3shot/medium_3shot.samples.txt
+
+======================================================================
+  Combined summary -> results_kakuro/llada_3shot/combined_3shot.json
+  Total wall time  : 320.5s
+======================================================================
+

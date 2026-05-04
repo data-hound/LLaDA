@@ -2,40 +2,274 @@
   warnings.warn(
 `torch_dtype` is deprecated! Use `dtype` instead!
 [eval_kakuro] Loading model: GSAI-ML/LLaDA-8B-Instruct
-Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 6/6 [00:00<00:00, 109.40it/s]
+Loading checkpoint shards:   0%|          | 0/6 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 6/6 [00:00<00:00, 120.86it/s]
 
 ──────────────────────────────────────────────────────────────────────
-  Difficulty : EASY    few-shot : 0
+  Difficulty : MEDIUM    few-shot : 0
 ──────────────────────────────────────────────────────────────────────
   Loading dataset ...
   [KakuroGrid] Loading from HuggingFace: Apaxdor/Kakuro_mania (subset=default, split=train, streaming=True)
-  Loaded 110 [easy] problems.
-  Test set   : 10 problems
-  [easy]:   0%|          | 0/3 [00:00<?, ?it/s]
-  [easy] n=     4  parse_fail=    4 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
-  [easy]:  33%|███▎      | 1/3 [03:07<06:14, 187.29s/it]
-  [easy] n=     8  parse_fail=    8 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
-  [easy]:  67%|██████▋   | 2/3 [06:16<03:08, 188.13s/it]
-  [easy] n=    10  parse_fail=   10 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
-  [easy]: 100%|██████████| 3/3 [07:53<00:00, 146.81s/it]  [easy]: 100%|██████████| 3/3 [07:53<00:00, 157.88s/it]
+  Loaded 10,100 [medium] problems.
+  Test set   : 10,000 problems
+  [medium]:   0%|          | 0/2500 [00:00<?, ?it/s]
+  [medium] n=     4  parse_fail=    4 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 1/2500 [02:34<107:32:43, 154.93s/it]
+  [medium] n=     8  parse_fail=    8 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 2/2500 [05:17<110:42:30, 159.55s/it]
+  [medium] n=    12  parse_fail=   12 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 3/2500 [07:45<107:03:05, 154.34s/it]
+  [medium] n=    16  parse_fail=   16 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 4/2500 [10:25<108:29:28, 156.48s/it]
+  [medium] n=    20  parse_fail=   20 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 5/2500 [13:15<111:52:34, 161.42s/it]
+  [medium] n=    24  parse_fail=   24 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 6/2500 [15:57<111:50:18, 161.43s/it]
+  [medium] n=    28  parse_fail=   28 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 7/2500 [18:26<109:06:48, 157.56s/it]
+  [medium] n=    32  parse_fail=   32 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 8/2500 [20:56<107:16:33, 154.97s/it]
+  [medium] n=    36  parse_fail=   36 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 9/2500 [23:22<105:26:46, 152.39s/it]
+  [medium] n=    40  parse_fail=   40 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 10/2500 [25:52<104:43:10, 151.40s/it]
+  [medium] n=    44  parse_fail=   44 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 11/2500 [28:29<105:54:56, 153.19s/it]
+  [medium] n=    48  parse_fail=   48 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   0%|          | 12/2500 [31:20<109:38:37, 158.65s/it]
+  [medium] n=    52  parse_fail=   52 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 13/2500 [33:56<108:56:44, 157.70s/it]
+  [medium] n=    56  parse_fail=   56 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 14/2500 [36:22<106:35:20, 154.35s/it]
+  [medium] n=    60  parse_fail=   60 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 15/2500 [38:48<104:44:17, 151.73s/it]
+  [medium] n=    64  parse_fail=   64 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 16/2500 [41:17<104:05:53, 150.87s/it]
+  [medium] n=    68  parse_fail=   68 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 17/2500 [43:52<105:00:30, 152.25s/it]
+  [medium] n=    72  parse_fail=   72 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 18/2500 [46:20<104:07:06, 151.02s/it]
+  [medium] n=    76  parse_fail=   76 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 19/2500 [48:48<103:29:11, 150.16s/it]
+  [medium] n=    80  parse_fail=   80 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 20/2500 [51:19<103:26:37, 150.16s/it]
+  [medium] n=    84  parse_fail=   84 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 21/2500 [53:44<102:28:00, 148.80s/it]
+  [medium] n=    88  parse_fail=   88 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 22/2500 [56:15<102:50:28, 149.41s/it]
+  [medium] n=    92  parse_fail=   92 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 23/2500 [58:52<104:25:03, 151.76s/it]
+  [medium] n=    96  parse_fail=   96 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 24/2500 [1:01:21<103:44:10, 150.83s/it]Decoding response using json failed for candidate [[4, 4, 4, 4, 7, 7, 7, 7, 5], [2, 2, 2, 2, 2, 2, 2, 2, 2], [9, 6, 6, 6, 6, 6, 6, 6], [5, 3, 3, 7, 3, 3, 3, 2, 3], [3, 8, 7, 1, 4, 6, 3, 3, 3], [9, 1, 7, 7, 1, 4, 2, _], [1, 3, 3, 7, 3, 1, 4, 2], [3, 5, 5, 3, 9, 8, 3, 3], [3, 6, 6, 5, 3, 3, 3, 8], [6, 5, 5, 9, 9, 9, 9, 9, 9]]
 
-  Results -- easy (0shot)
-  Evaluated           :         10
-  Parse failures      :         10  (100.0%)
-  Cell accuracy       :     0.0000
-  Board accuracy      :     0.0000
-  Row accuracy        :     0.0000
-  Col accuracy        :     0.0000
-  Wall time           :      473.7s
+  [medium] n=   100  parse_fail=  100 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 25/2500 [1:03:45<102:12:42, 148.67s/it]
+  [medium] n=   104  parse_fail=  104 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 26/2500 [1:06:11<101:40:42, 147.96s/it]
+  [medium] n=   108  parse_fail=  108 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 27/2500 [1:08:37<101:08:49, 147.24s/it]
+  [medium] n=   112  parse_fail=  112 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 28/2500 [1:11:03<101:00:26, 147.10s/it]Decoding response using json failed for candidate [[1, 6, 1, 1, 1, 2, 1, 8, 1], [9, 1, 1, 5, 2, 6, 9, 1, 1], [1, 2, 1, 8, 1, 8, 9, 1, 8], [1, 1, 9, 9, 1, 3, 1, 1], [1, 9, 8, 3, 2, 5, 6, _], [2, 1, 2, 6, 9, 8, 1], [5, 8, 6, 8, 1, 1, 2, 1], [1, 6, 1, 1, 6, 8, 8, 4, 1], [1, 2, 1, 7, 1, 1, 4, 6, 5], [1, 1, 1, 3, 1, 1, 9, 1, 1]]
 
-  Saving to results_kakuro/llada_0shot/
-    -> results_kakuro/llada_0shot/easy_0shot.summary.json
-    -> results_kakuro/llada_0shot/easy_0shot.per_sample.jsonl
-    -> results_kakuro/llada_0shot/easy_0shot.samples.json
-    -> results_kakuro/llada_0shot/easy_0shot.samples.txt
+  [medium] n=   116  parse_fail=  116 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 29/2500 [1:13:29<100:47:15, 146.84s/it]
+  [medium] n=   120  parse_fail=  120 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 30/2500 [1:15:54<100:17:27, 146.17s/it]
+  [medium] n=   124  parse_fail=  124 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|          | 31/2500 [1:18:19<100:03:46, 145.90s/it]
+  [medium] n=   128  parse_fail=  128 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|▏         | 32/2500 [1:20:46<100:15:09, 146.24s/it]
+  [medium] n=   132  parse_fail=  132 (100.0%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|▏         | 33/2500 [1:23:11<99:55:55, 145.83s/it] 
+  [medium] n=   136  parse_fail=  135 (99.3%)  cell=0.0002  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|▏         | 34/2500 [1:25:36<99:36:40, 145.42s/it]
+  [medium] n=   140  parse_fail=  139 (99.3%)  cell=0.0002  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|▏         | 35/2500 [1:28:02<99:49:35, 145.79s/it]
+  [medium] n=   144  parse_fail=  143 (99.3%)  cell=0.0002  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|▏         | 36/2500 [1:30:27<99:32:57, 145.45s/it]
+  [medium] n=   148  parse_fail=  147 (99.3%)  cell=0.0002  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   1%|▏         | 37/2500 [1:32:51<99:17:29, 145.13s/it]
+  [medium] n=   152  parse_fail=  151 (99.3%)  cell=0.0002  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 38/2500 [1:35:17<99:23:53, 145.34s/it]
+  [medium] n=   156  parse_fail=  155 (99.4%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 39/2500 [1:37:42<99:10:11, 145.07s/it]
+  [medium] n=   160  parse_fail=  159 (99.4%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 40/2500 [1:40:06<99:02:36, 144.94s/it]
+  [medium] n=   164  parse_fail=  163 (99.4%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 41/2500 [1:42:33<99:16:00, 145.33s/it]
+  [medium] n=   168  parse_fail=  167 (99.4%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 42/2500 [1:44:57<99:04:45, 145.11s/it]
+  [medium] n=   172  parse_fail=  171 (99.4%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 43/2500 [1:47:22<98:58:02, 145.01s/it]
+  [medium] n=   176  parse_fail=  175 (99.4%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 44/2500 [1:49:49<99:15:03, 145.48s/it]
+  [medium] n=   180  parse_fail=  179 (99.4%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 45/2500 [1:52:14<99:14:00, 145.52s/it]
+  [medium] n=   184  parse_fail=  183 (99.5%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 46/2500 [1:54:40<99:14:49, 145.59s/it]
+  [medium] n=   188  parse_fail=  187 (99.5%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 47/2500 [1:57:06<99:22:01, 145.83s/it]
+  [medium] n=   192  parse_fail=  191 (99.5%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 48/2500 [1:59:35<99:52:43, 146.64s/it]
+  [medium] n=   196  parse_fail=  195 (99.5%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 49/2500 [2:02:00<99:37:30, 146.33s/it]
+  [medium] n=   200  parse_fail=  199 (99.5%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 50/2500 [2:04:27<99:44:15, 146.55s/it]
+  [medium] n=   204  parse_fail=  203 (99.5%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 51/2500 [2:06:54<99:47:11, 146.68s/it]
+  [medium] n=   208  parse_fail=  207 (99.5%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 52/2500 [2:09:21<99:42:14, 146.62s/it]
+  [medium] n=   212  parse_fail=  211 (99.5%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 53/2500 [2:11:46<99:25:33, 146.27s/it]
+  [medium] n=   216  parse_fail=  215 (99.5%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 54/2500 [2:14:11<99:03:56, 145.80s/it]
+  [medium] n=   220  parse_fail=  219 (99.5%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 55/2500 [2:16:36<98:45:48, 145.42s/it]
+  [medium] n=   224  parse_fail=  223 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 56/2500 [2:19:00<98:33:12, 145.17s/it]
+  [medium] n=   228  parse_fail=  227 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 57/2500 [2:21:27<98:54:26, 145.75s/it]
+  [medium] n=   232  parse_fail=  231 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 58/2500 [2:23:53<98:52:25, 145.76s/it]
+  [medium] n=   236  parse_fail=  235 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 59/2500 [2:26:18<98:41:20, 145.55s/it]
+  [medium] n=   240  parse_fail=  239 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 60/2500 [2:28:43<98:36:07, 145.48s/it]
+  [medium] n=   244  parse_fail=  243 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 61/2500 [2:31:11<99:01:53, 146.17s/it]
+  [medium] n=   248  parse_fail=  247 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   2%|▏         | 62/2500 [2:33:37<98:48:57, 145.91s/it]
+  [medium] n=   252  parse_fail=  251 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 63/2500 [2:36:02<98:45:15, 145.88s/it]
+  [medium] n=   256  parse_fail=  255 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 64/2500 [2:38:27<98:30:14, 145.57s/it]
+  [medium] n=   260  parse_fail=  259 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 65/2500 [2:40:52<98:18:25, 145.34s/it]
+  [medium] n=   264  parse_fail=  263 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 66/2500 [2:43:17<98:05:11, 145.07s/it]
+  [medium] n=   268  parse_fail=  267 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 67/2500 [2:45:41<97:56:17, 144.91s/it]
+  [medium] n=   272  parse_fail=  271 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 68/2500 [2:48:07<98:08:06, 145.27s/it]
+  [medium] n=   276  parse_fail=  275 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 69/2500 [2:50:32<97:56:10, 145.03s/it]
+  [medium] n=   280  parse_fail=  279 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 70/2500 [2:52:56<97:49:00, 144.91s/it]
+  [medium] n=   284  parse_fail=  283 (99.6%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 71/2500 [2:55:22<97:50:41, 145.02s/it]
+  [medium] n=   288  parse_fail=  287 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 72/2500 [2:57:47<97:50:53, 145.08s/it]Decoding response using json failed for candidate [[0, 4, 8, 0, 0, 5, 0, 9, 6, 0], [0, 0, 0, 4, 0, 5, 0, 8, 0, 9], [0, 0, 4, 0, 0, 0, 7, 0, 0, 0], [0, 1, 9, 0, 7, 1, 0, 0, _], [0, 0, 7, 7, 9, 0, 8, 6, 0], [0, 2, 9, 0, 7, 0, 6, 4, 0], [7, 0, 5, 0, 0, 4, 9, 2, 0], [0, 0, 0, 2, 3, 6, 0, 6, 0], [0, 0, 2, 0, 9, 0, 0, 7, 0, 0]]
 
-======================================================================
-  Combined summary -> results_kakuro/llada_0shot/combined_0shot.json
-  Total wall time  : 480.2s
-======================================================================
+  [medium] n=   292  parse_fail=  291 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 73/2500 [3:00:12<97:47:11, 145.05s/it]
+  [medium] n=   296  parse_fail=  295 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 74/2500 [3:02:38<97:55:11, 145.31s/it]
+  [medium] n=   300  parse_fail=  299 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 75/2500 [3:05:04<98:05:16, 145.62s/it]
+  [medium] n=   304  parse_fail=  303 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 76/2500 [3:07:30<98:07:00, 145.72s/it]
+  [medium] n=   308  parse_fail=  307 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 77/2500 [3:09:55<98:01:02, 145.63s/it]
+  [medium] n=   312  parse_fail=  311 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 78/2500 [3:12:20<97:50:44, 145.44s/it]
+  [medium] n=   316  parse_fail=  315 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 79/2500 [3:14:46<97:54:06, 145.58s/it]
+  [medium] n=   320  parse_fail=  319 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 80/2500 [3:17:11<97:41:53, 145.34s/it]
+  [medium] n=   324  parse_fail=  323 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 81/2500 [3:19:36<97:36:10, 145.25s/it]
+  [medium] n=   328  parse_fail=  327 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 82/2500 [3:22:00<97:19:41, 144.91s/it]
+  [medium] n=   332  parse_fail=  331 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 83/2500 [3:24:26<97:25:12, 145.10s/it]
+  [medium] n=   336  parse_fail=  335 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 84/2500 [3:26:51<97:20:15, 145.04s/it]
+  [medium] n=   340  parse_fail=  339 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 85/2500 [3:29:17<97:37:15, 145.52s/it]
+  [medium] n=   344  parse_fail=  343 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 86/2500 [3:31:44<97:45:55, 145.80s/it]
+  [medium] n=   348  parse_fail=  347 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   3%|▎         | 87/2500 [3:34:10<97:48:26, 145.92s/it]
+  [medium] n=   352  parse_fail=  351 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▎         | 88/2500 [3:36:35<97:36:03, 145.67s/it]
+  [medium] n=   356  parse_fail=  355 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▎         | 89/2500 [3:39:00<97:21:05, 145.36s/it]
+  [medium] n=   360  parse_fail=  359 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▎         | 90/2500 [3:41:25<97:22:08, 145.45s/it]
+  [medium] n=   364  parse_fail=  363 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▎         | 91/2500 [3:43:49<97:00:35, 144.97s/it]
+  [medium] n=   368  parse_fail=  367 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▎         | 92/2500 [3:46:14<97:00:04, 145.02s/it]
+  [medium] n=   372  parse_fail=  371 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▎         | 93/2500 [3:48:38<96:43:19, 144.66s/it]
+  [medium] n=   376  parse_fail=  375 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 94/2500 [3:51:03<96:43:40, 144.73s/it]
+  [medium] n=   380  parse_fail=  379 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 95/2500 [3:53:28<96:43:42, 144.79s/it]
+  [medium] n=   384  parse_fail=  383 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 96/2500 [3:55:52<96:27:14, 144.44s/it]
+  [medium] n=   388  parse_fail=  387 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 97/2500 [3:58:17<96:32:40, 144.64s/it]
+  [medium] n=   392  parse_fail=  391 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 98/2500 [4:00:42<96:34:35, 144.74s/it]
+  [medium] n=   396  parse_fail=  395 (99.7%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 99/2500 [4:03:05<96:16:40, 144.36s/it]
+  [medium] n=   400  parse_fail=  399 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 100/2500 [4:05:28<96:00:30, 144.01s/it]
+  [medium] n=   404  parse_fail=  403 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 101/2500 [4:07:52<95:50:29, 143.82s/it]
+  [medium] n=   408  parse_fail=  407 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 102/2500 [4:10:16<95:58:17, 144.08s/it]
+  [medium] n=   412  parse_fail=  411 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 103/2500 [4:12:40<95:56:29, 144.09s/it]
+  [medium] n=   416  parse_fail=  415 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 104/2500 [4:15:06<96:05:50, 144.39s/it]
+  [medium] n=   420  parse_fail=  419 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 105/2500 [4:17:31<96:10:08, 144.55s/it]
+  [medium] n=   424  parse_fail=  423 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 106/2500 [4:19:54<95:57:38, 144.30s/it]
+  [medium] n=   428  parse_fail=  427 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 107/2500 [4:22:18<95:53:50, 144.27s/it]Decoding response using json failed for candidate [[1, 1, 1, 9, 1, 1, 1, 6, 7, 1], [1, 1, 1, 3, 1, 1, 1, 8, 1, 1], [9, 1, 1, 7, 9, 1, 1, 6, 9, _], [1, 6, 1, 1, 3, 1, 4, 5, 1], [3, 8, 1, 1, 2, 5, 1, 4, 6], [8, 1, 1, 7, 2, 7, 7, 9, 1], [1, 1, 8, 4, 1, 9, 7, 3, 1], [1, 6, 1, 3, 5, 2, 9, 4, 1, 1], [7, 1, 1, 8, 4, 1, 1, 1, 1]]
 
+  [medium] n=   432  parse_fail=  431 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 108/2500 [4:24:46<96:29:57, 145.23s/it]
+  [medium] n=   436  parse_fail=  435 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 109/2500 [4:27:11<96:23:08, 145.12s/it]
+  [medium] n=   440  parse_fail=  439 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 110/2500 [4:29:35<96:08:29, 144.82s/it]
+  [medium] n=   444  parse_fail=  443 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 111/2500 [4:32:00<96:08:02, 144.87s/it]
+  [medium] n=   448  parse_fail=  447 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   4%|▍         | 112/2500 [4:34:24<95:59:35, 144.71s/it]
+  [medium] n=   452  parse_fail=  451 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▍         | 113/2500 [4:36:51<96:21:27, 145.32s/it]Decoding response using json failed for candidate [[1, 6, 6, 1, 1, 7, 3, 5, 4], [1, 1, 1, 7, 2, 3, 3, 3, 7], [1, 1, 1, 1, 3, 6, 6, 7, 9], [2, 3, 2, 1, 8, 6, 9, 8, 3], [9, 6, 2, 2, 4, 8, 3, _], [7, 1, 2, 2, 6, 1, 4], [1, 1, 1, 6, 9, 4, 4, 6], [1, 8, 2, 2, 3, 3, 3, 8], [5, 1, 1, 6, 1, 1, 7, 8, 1], [3, 6, 1, 1, 7, 1, 1, 1, 1]]
+
+  [medium] n=   456  parse_fail=  455 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▍         | 114/2500 [4:39:15<96:02:34, 144.91s/it]
+  [medium] n=   460  parse_fail=  459 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▍         | 115/2500 [4:41:39<95:46:28, 144.57s/it]
+  [medium] n=   464  parse_fail=  463 (99.8%)  cell=0.0001  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▍         | 116/2500 [4:44:02<95:34:06, 144.31s/it]
+  [medium] n=   468  parse_fail=  467 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▍         | 117/2500 [4:46:28<95:48:04, 144.73s/it]
+  [medium] n=   472  parse_fail=  471 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▍         | 118/2500 [4:48:52<95:36:40, 144.50s/it]
+  [medium] n=   476  parse_fail=  475 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▍         | 119/2500 [4:51:17<95:38:03, 144.60s/it]
+  [medium] n=   480  parse_fail=  479 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▍         | 120/2500 [4:53:41<95:33:58, 144.55s/it]
+  [medium] n=   484  parse_fail=  483 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▍         | 121/2500 [4:56:06<95:35:15, 144.65s/it]
+  [medium] n=   488  parse_fail=  487 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▍         | 122/2500 [4:58:30<95:25:11, 144.45s/it]
+  [medium] n=   492  parse_fail=  491 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▍         | 123/2500 [5:00:54<95:14:21, 144.24s/it]
+  [medium] n=   496  parse_fail=  495 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▍         | 124/2500 [5:03:21<95:42:05, 145.00s/it]
+  [medium] n=   500  parse_fail=  499 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▌         | 125/2500 [5:05:44<95:22:49, 144.58s/it]
+  [medium] n=   504  parse_fail=  503 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▌         | 126/2500 [5:08:09<95:17:19, 144.50s/it]
+  [medium] n=   508  parse_fail=  507 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▌         | 127/2500 [5:10:34<95:19:43, 144.62s/it]
+  [medium] n=   512  parse_fail=  511 (99.8%)  cell=0.0000  board=0.0000  row=0.0000  col=0.0000
+  [medium]:   5%|▌         | 128/2500 [5:12:58<95:20:40, 144.71s/it]
